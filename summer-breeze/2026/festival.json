@@ -32,7 +32,7 @@
   "artists": [
     {
       "id": "a1",
-      "name": "GHETTO JUSTICE",
+      "name": "Ghetto Justice",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -43,7 +43,7 @@
     },
     {
       "id": "a2",
-      "name": "DIE HABENICHTSE",
+      "name": "Die Habenichtse",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -54,7 +54,7 @@
     },
     {
       "id": "a3",
-      "name": "MOTORJESUS",
+      "name": "Motorjesus",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -65,7 +65,7 @@
     },
     {
       "id": "a4",
-      "name": "HACKNEYED",
+      "name": "Hackneyed",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -76,7 +76,7 @@
     },
     {
       "id": "a5",
-      "name": "EXCREMENTORY GRINDFUCKERS",
+      "name": "Excrementory Grindfuckers",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -87,7 +87,7 @@
     },
     {
       "id": "a6",
-      "name": "BETONTOD",
+      "name": "Betontod",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -98,7 +98,7 @@
     },
     {
       "id": "a7",
-      "name": "AIRBOURNE",
+      "name": "Airbourne",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -109,7 +109,7 @@
     },
     {
       "id": "a8",
-      "name": "IN FLAMES",
+      "name": "In Flames",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -120,7 +120,7 @@
     },
     {
       "id": "a9",
-      "name": "HATEBREED",
+      "name": "Hatebreed",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -131,7 +131,7 @@
     },
     {
       "id": "a10",
-      "name": "ALCEST",
+      "name": "Alcest",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -142,7 +142,7 @@
     },
     {
       "id": "a11",
-      "name": "BLASMUSIK ILLENSCHWANG",
+      "name": "Blasmusik Illenschwang",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -153,7 +153,7 @@
     },
     {
       "id": "a12",
-      "name": "NECKBREAKKER",
+      "name": "Neckbreakker",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -164,7 +164,7 @@
     },
     {
       "id": "a13",
-      "name": "THE NARRATOR",
+      "name": "The Narrator",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -175,7 +175,7 @@
     },
     {
       "id": "a14",
-      "name": "GREEN LUNG",
+      "name": "Green Lung",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -186,7 +186,7 @@
     },
     {
       "id": "a15",
-      "name": "PARADISE LOST",
+      "name": "Paradise Lost",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -197,7 +197,7 @@
     },
     {
       "id": "a16",
-      "name": "EIVØR",
+      "name": "Eivør",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -208,7 +208,7 @@
     },
     {
       "id": "a17",
-      "name": "MIRACLE OF SOUND",
+      "name": "Miracle Of Sound",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -219,7 +219,7 @@
     },
     {
       "id": "a18",
-      "name": "PERSECUTOR",
+      "name": "Persecutor",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -230,7 +230,7 @@
     },
     {
       "id": "a19",
-      "name": "KING NUGGET GANG",
+      "name": "King Nugget Gang",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -241,7 +241,7 @@
     },
     {
       "id": "a20",
-      "name": "INHUMAN NATURE",
+      "name": "Inhuman Nature",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -252,7 +252,7 @@
     },
     {
       "id": "a21",
-      "name": "URNE",
+      "name": "Urne",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -263,7 +263,7 @@
     },
     {
       "id": "a22",
-      "name": "CASTLE RAT",
+      "name": "Castle Rat",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -274,7 +274,7 @@
     },
     {
       "id": "a23",
-      "name": "CÂN BARDD",
+      "name": "Cân Bardd",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -296,7 +296,7 @@
     },
     {
       "id": "a25",
-      "name": "BORN HANGED",
+      "name": "Born Hanged",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -307,7 +307,7 @@
     },
     {
       "id": "a26",
-      "name": "DETHRONED",
+      "name": "Dethroned",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -318,7 +318,7 @@
     },
     {
       "id": "a27",
-      "name": "BACKSTABBED",
+      "name": "Backstabbed",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -329,7 +329,7 @@
     },
     {
       "id": "a28",
-      "name": "OCHMONEKS",
+      "name": "Ochmoneks",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -340,7 +340,7 @@
     },
     {
       "id": "a29",
-      "name": "WAVES LIKE WALLS",
+      "name": "Waves Like Walls",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -351,7 +351,7 @@
     },
     {
       "id": "a30",
-      "name": "THORMESIS",
+      "name": "Thormesis",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -362,7 +362,7 @@
     },
     {
       "id": "a31",
-      "name": "OUR PROMISE",
+      "name": "Our Promise",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -373,7 +373,7 @@
     },
     {
       "id": "a32",
-      "name": "FROM FALL TO SPRING",
+      "name": "From Fall To Spring",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -384,7 +384,7 @@
     },
     {
       "id": "a33",
-      "name": "ALIEN ANT FARM",
+      "name": "Alien Ant Farm",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -395,7 +395,7 @@
     },
     {
       "id": "a34",
-      "name": "NORTHLANE",
+      "name": "Northlane",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -406,7 +406,7 @@
     },
     {
       "id": "a35",
-      "name": "KIM DRACULA",
+      "name": "Kim Dracula",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -417,7 +417,7 @@
     },
     {
       "id": "a36",
-      "name": "IMMINENCE",
+      "name": "Imminence",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -428,7 +428,7 @@
     },
     {
       "id": "a37",
-      "name": "SAXON",
+      "name": "Saxon",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -439,7 +439,7 @@
     },
     {
       "id": "a38",
-      "name": "EISBRECHER",
+      "name": "Eisbrecher",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -450,7 +450,7 @@
     },
     {
       "id": "a39",
-      "name": "AMORPHIS",
+      "name": "Amorphis",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -461,7 +461,7 @@
     },
     {
       "id": "a40",
-      "name": "dARTAGNAN",
+      "name": "Dartagnan",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -472,7 +472,7 @@
     },
     {
       "id": "a41",
-      "name": "FULCI",
+      "name": "Fulci",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -483,7 +483,7 @@
     },
     {
       "id": "a42",
-      "name": "MASSIVE WAGONS",
+      "name": "Massive Wagons",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -494,7 +494,7 @@
     },
     {
       "id": "a43",
-      "name": "GRAND MAGUS",
+      "name": "Grand Magus",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -505,7 +505,7 @@
     },
     {
       "id": "a44",
-      "name": "DESERTED FEAR",
+      "name": "Deserted Fear",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -516,7 +516,7 @@
     },
     {
       "id": "a45",
-      "name": "TROLLFEST",
+      "name": "Trollfest",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -538,7 +538,7 @@
     },
     {
       "id": "a47",
-      "name": "FIT FOR AN AUTOPSY",
+      "name": "Fit For An Autopsy",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -549,7 +549,7 @@
     },
     {
       "id": "a48",
-      "name": "MUSHROOMHEAD",
+      "name": "Mushroomhead",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -560,7 +560,7 @@
     },
     {
       "id": "a49",
-      "name": "BLACKBRAID",
+      "name": "Blackbraid",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -571,7 +571,7 @@
     },
     {
       "id": "a50",
-      "name": "SAOR",
+      "name": "Saor",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -582,7 +582,7 @@
     },
     {
       "id": "a51",
-      "name": "FIREBORN",
+      "name": "Fireborn",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -593,7 +593,7 @@
     },
     {
       "id": "a52",
-      "name": "BROKEN BY THE SCREAM",
+      "name": "Broken By The Scream",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -604,7 +604,7 @@
     },
     {
       "id": "a53",
-      "name": "STAM1NA",
+      "name": "Stam1na",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -615,7 +615,7 @@
     },
     {
       "id": "a54",
-      "name": "RECTAL SMEGMA",
+      "name": "Rectal Smegma",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -626,7 +626,7 @@
     },
     {
       "id": "a55",
-      "name": "FILTH",
+      "name": "Filth",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -637,7 +637,7 @@
     },
     {
       "id": "a56",
-      "name": "MITTEL ALTA",
+      "name": "Mittel Alta",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -648,7 +648,7 @@
     },
     {
       "id": "a57",
-      "name": "CRYPTOPSY",
+      "name": "Cryptopsy",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -659,7 +659,7 @@
     },
     {
       "id": "a58",
-      "name": "GROZA",
+      "name": "Groza",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -670,7 +670,7 @@
     },
     {
       "id": "a59",
-      "name": "NYTT LAND",
+      "name": "Hindarfjäll",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -681,7 +681,7 @@
     },
     {
       "id": "a60",
-      "name": "KLLSIGNL",
+      "name": "Kllsignl",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -692,7 +692,7 @@
     },
     {
       "id": "a61",
-      "name": "SERPENTS",
+      "name": "Serpents",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -703,7 +703,7 @@
     },
     {
       "id": "a62",
-      "name": "I AM YOUR GOD",
+      "name": "I Am Your God",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -714,7 +714,7 @@
     },
     {
       "id": "a63",
-      "name": "AESTHETIC PERFECTION",
+      "name": "Aesthetic Perfection",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -725,7 +725,7 @@
     },
     {
       "id": "a64",
-      "name": "WARFIELD",
+      "name": "Warfield",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -736,7 +736,7 @@
     },
     {
       "id": "a65",
-      "name": "KATERFAHRT",
+      "name": "Katerfahrt",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -747,7 +747,7 @@
     },
     {
       "id": "a66",
-      "name": "NANOWAR OF STEEL",
+      "name": "Nanowar Of Steel",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -758,7 +758,7 @@
     },
     {
       "id": "a67",
-      "name": "DAS LUMPENPACK",
+      "name": "Das Lumpenpack",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -769,7 +769,7 @@
     },
     {
       "id": "a68",
-      "name": "FUTURE PALACE",
+      "name": "Future Palace",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -780,7 +780,7 @@
     },
     {
       "id": "a69",
-      "name": "BROTHERS OF METAL",
+      "name": "Brothers Of Metal",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -791,7 +791,7 @@
     },
     {
       "id": "a70",
-      "name": "THE BUTCHER SISTERS",
+      "name": "The Butcher Sisters",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -802,7 +802,7 @@
     },
     {
       "id": "a71",
-      "name": "THE GHOST INSIDE",
+      "name": "The Ghost Inside",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -813,7 +813,7 @@
     },
     {
       "id": "a72",
-      "name": "LAMB OF GOD",
+      "name": "Lamb Of God",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -824,7 +824,7 @@
     },
     {
       "id": "a73",
-      "name": "ARCH ENEMY",
+      "name": "Arch Enemy",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -835,7 +835,7 @@
     },
     {
       "id": "a74",
-      "name": "VERSENGOLD",
+      "name": "Versengold",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -846,7 +846,7 @@
     },
     {
       "id": "a75",
-      "name": "SKINDRED",
+      "name": "Skindred",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -857,7 +857,7 @@
     },
     {
       "id": "a76",
-      "name": "SETYØURSAILS",
+      "name": "Setyøursails",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -868,7 +868,7 @@
     },
     {
       "id": "a77",
-      "name": "BRAINSTORM",
+      "name": "Brainstorm",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -879,7 +879,7 @@
     },
     {
       "id": "a78",
-      "name": "MISERY INDEX",
+      "name": "Misery Index",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -890,7 +890,7 @@
     },
     {
       "id": "a79",
-      "name": "SPEED",
+      "name": "Speed",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -901,7 +901,7 @@
     },
     {
       "id": "a80",
-      "name": "UNPROCESSED",
+      "name": "Unprocessed",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -912,7 +912,7 @@
     },
     {
       "id": "a81",
-      "name": "DEICIDE",
+      "name": "Deicide",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -923,7 +923,7 @@
     },
     {
       "id": "a82",
-      "name": "TERROR",
+      "name": "Terror",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -934,7 +934,7 @@
     },
     {
       "id": "a83",
-      "name": "DER WEG EINER FREIHEIT",
+      "name": "Der Weg Einer Freiheit",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -945,7 +945,7 @@
     },
     {
       "id": "a84",
-      "name": "DEAFHEAVEN",
+      "name": "Deafheaven",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -956,7 +956,7 @@
     },
     {
       "id": "a85",
-      "name": "WOLVES IN THE THRONE ROOM",
+      "name": "Wolves In The Throne Room",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -967,7 +967,7 @@
     },
     {
       "id": "a86",
-      "name": "ZERRE",
+      "name": "Zerre",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -978,7 +978,7 @@
     },
     {
       "id": "a87",
-      "name": "PRIDIAN",
+      "name": "Pridian",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -989,7 +989,7 @@
     },
     {
       "id": "a88",
-      "name": "LUNA KILLS",
+      "name": "Luna Kills",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1000,7 +1000,7 @@
     },
     {
       "id": "a89",
-      "name": "BRYMIR",
+      "name": "Brymir",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1011,7 +1011,7 @@
     },
     {
       "id": "a90",
-      "name": "ERDLING",
+      "name": "Erdling",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1022,7 +1022,7 @@
     },
     {
       "id": "a91",
-      "name": "BLOOD COMMAND",
+      "name": "Blood Command",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1033,7 +1033,7 @@
     },
     {
       "id": "a92",
-      "name": "ILLDISPOSED",
+      "name": "Illdisposed",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": "a93",
-      "name": "TEN56.",
+      "name": "Ten56.",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1055,7 +1055,7 @@
     },
     {
       "id": "a94",
-      "name": "BIZARREKULT",
+      "name": "Bizarrekult",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "a95",
-      "name": "SUN EATER",
+      "name": "Sun Eater",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1077,7 +1077,7 @@
     },
     {
       "id": "a96",
-      "name": "AVALANCHE EFFECT",
+      "name": "Avalanche Effect",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1088,7 +1088,7 @@
     },
     {
       "id": "a97",
-      "name": "HEAVEN.EXE",
+      "name": "Heaven.exe",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1099,7 +1099,7 @@
     },
     {
       "id": "a98",
-      "name": "MINUS YOUTH",
+      "name": "Minus Youth",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1110,7 +1110,7 @@
     },
     {
       "id": "a99",
-      "name": "PERCHTA",
+      "name": "Perchta",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1121,7 +1121,7 @@
     },
     {
       "id": "a100",
-      "name": "VULVARINE",
+      "name": "Vulvarine",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1132,7 +1132,7 @@
     },
     {
       "id": "a101",
-      "name": "HEAVYSAURUS",
+      "name": "Heavysaurus",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1143,7 +1143,7 @@
     },
     {
       "id": "a102",
-      "name": "PARASITE INC.",
+      "name": "Parasite Inc.",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1154,7 +1154,7 @@
     },
     {
       "id": "a103",
-      "name": "THE SONS OF HUENS",
+      "name": "The Sons Of Huens",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1165,7 +1165,7 @@
     },
     {
       "id": "a104",
-      "name": "KADAVAR",
+      "name": "Kadavar",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "a105",
-      "name": "ORBIT CULTURE",
+      "name": "Orbit Culture",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1187,7 +1187,7 @@
     },
     {
       "id": "a106",
-      "name": "TESTAMENT",
+      "name": "Testament",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "a107",
-      "name": "ALESTORM",
+      "name": "Alestorm",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1209,7 +1209,7 @@
     },
     {
       "id": "a108",
-      "name": "HELLOWEEN",
+      "name": "Helloween",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1220,7 +1220,7 @@
     },
     {
       "id": "a109",
-      "name": "THY ART IS MURDER",
+      "name": "Thy Art Is Murder",
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
@@ -1231,7 +1231,7 @@
     },
     {
       "id": "a110",
-      "name": "SOULBOUND",
+      "name": "Soulbound",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1242,7 +1242,7 @@
     },
     {
       "id": "a111",
-      "name": "SANGUISUGABOGG",
+      "name": "Sanguisugabogg",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1253,7 +1253,7 @@
     },
     {
       "id": "a112",
-      "name": "BLOODRED HOURGLASS",
+      "name": "Bloodred Hourglass",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1264,7 +1264,7 @@
     },
     {
       "id": "a113",
-      "name": "MUNICIPAL WASTE",
+      "name": "Municipal Waste",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1275,7 +1275,7 @@
     },
     {
       "id": "a114",
-      "name": "THUNDERMOTHER",
+      "name": "Thundermother",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1286,7 +1286,7 @@
     },
     {
       "id": "a115",
-      "name": "DECAPITATED",
+      "name": "Decapitated",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1297,7 +1297,7 @@
     },
     {
       "id": "a116",
-      "name": "SOULFLY",
+      "name": "Soulfly",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1308,7 +1308,7 @@
     },
     {
       "id": "a117",
-      "name": "PALEFACE SWISS",
+      "name": "Paleface Swiss",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1319,7 +1319,7 @@
     },
     {
       "id": "a118",
-      "name": "SOEN",
+      "name": "Soen",
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
@@ -1330,7 +1330,7 @@
     },
     {
       "id": "a119",
-      "name": "INNER SPACE",
+      "name": "Inner Space",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1341,7 +1341,7 @@
     },
     {
       "id": "a120",
-      "name": "SKELETON PIT",
+      "name": "Skeleton Pit",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1352,7 +1352,7 @@
     },
     {
       "id": "a121",
-      "name": "WUCAN",
+      "name": "Wucan",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1363,7 +1363,7 @@
     },
     {
       "id": "a122",
-      "name": "HAGGEFUGG",
+      "name": "Haggefugg",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "a123",
-      "name": "CABAL",
+      "name": "Cabal",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1385,7 +1385,7 @@
     },
     {
       "id": "a124",
-      "name": "MANNTRA",
+      "name": "Manntra",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1396,7 +1396,7 @@
     },
     {
       "id": "a125",
-      "name": "200 STAB WOUNDS",
+      "name": "200 Stab Wounds",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "a126",
-      "name": "SLOMOSA",
+      "name": "Slomosa",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1418,7 +1418,7 @@
     },
     {
       "id": "a127",
-      "name": "MØL",
+      "name": "Møl",
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
@@ -1429,7 +1429,7 @@
     },
     {
       "id": "a128",
-      "name": "RODSCHA A. KAMBODSCHA U. TOM PALME",
+      "name": "Rodscha A. Kambodscha U. Tom Palme",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1440,7 +1440,7 @@
     },
     {
       "id": "a129",
-      "name": "RANDALE",
+      "name": "Randale",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1451,7 +1451,7 @@
     },
     {
       "id": "a130",
-      "name": "PLUME",
+      "name": "Plume",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1462,7 +1462,7 @@
     },
     {
       "id": "a131",
-      "name": "BLACKTOOTHED",
+      "name": "Blacktoothed",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1473,7 +1473,7 @@
     },
     {
       "id": "a132",
-      "name": "HOPSYDIAN",
+      "name": "Hopsydian",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1484,7 +1484,7 @@
     },
     {
       "id": "a133",
-      "name": "LOST IN HOLLYWOOD",
+      "name": "Lost In Hollywood",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1495,7 +1495,7 @@
     },
     {
       "id": "a134",
-      "name": "PHANTOM CORPORATION",
+      "name": "Phantom Corporation",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
@@ -1506,7 +1506,7 @@
     },
     {
       "id": "a135",
-      "name": "HÆRESIS",
+      "name": "Hæresis",
       "imageUrl": "",
       "description": "",
       "stageId": "s4",
