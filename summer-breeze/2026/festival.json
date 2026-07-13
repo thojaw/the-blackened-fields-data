@@ -26,7 +26,7 @@
     },
     {
       "id": "s4",
-      "name": "Campsite / Circus Stage"
+      "name": "Campsite Circus Stage"
     }
   ],
   "artists": [
@@ -135,7 +135,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
-      "dayDate": "2026-08-12",
+      "dayDate": "2026-08-13",
       "startTime": "01:00",
       "endTime": "02:00",
       "annotation": null
@@ -212,7 +212,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
-      "dayDate": "2026-08-12",
+      "dayDate": "2026-08-13",
       "startTime": "01:15",
       "endTime": "02:15",
       "annotation": null
@@ -278,7 +278,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
-      "dayDate": "2026-08-12",
+      "dayDate": "2026-08-13",
       "startTime": "00:30",
       "endTime": "01:10",
       "annotation": null
@@ -289,7 +289,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
-      "dayDate": "2026-08-12",
+      "dayDate": "2026-08-13",
       "startTime": "02:20",
       "endTime": "03:00",
       "annotation": null
@@ -465,7 +465,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
-      "dayDate": "2026-08-13",
+      "dayDate": "2026-08-14",
       "startTime": "01:00",
       "endTime": "02:00",
       "annotation": null
@@ -564,7 +564,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
-      "dayDate": "2026-08-13",
+      "dayDate": "2026-08-14",
       "startTime": "00:20",
       "endTime": "01:20",
       "annotation": null
@@ -575,7 +575,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
-      "dayDate": "2026-08-13",
+      "dayDate": "2026-08-14",
       "startTime": "02:15",
       "endTime": "03:00",
       "annotation": null
@@ -674,7 +674,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
-      "dayDate": "2026-08-13",
+      "dayDate": "2026-08-14",
       "startTime": "01:25",
       "endTime": "02:10",
       "annotation": null
@@ -850,7 +850,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s1",
-      "dayDate": "2026-08-14",
+      "dayDate": "2026-08-15",
       "startTime": "01:00",
       "endTime": "02:00",
       "annotation": null
@@ -949,7 +949,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
-      "dayDate": "2026-08-14",
+      "dayDate": "2026-08-15",
       "startTime": "00:20",
       "endTime": "01:20",
       "annotation": null
@@ -960,7 +960,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
-      "dayDate": "2026-08-14",
+      "dayDate": "2026-08-15",
       "startTime": "02:15",
       "endTime": "03:00",
       "annotation": null
@@ -1059,7 +1059,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
-      "dayDate": "2026-08-14",
+      "dayDate": "2026-08-15",
       "startTime": "01:25",
       "endTime": "02:10",
       "annotation": null
@@ -1323,7 +1323,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s2",
-      "dayDate": "2026-08-15",
+      "dayDate": "2026-08-16",
       "startTime": "00:20",
       "endTime": "01:20",
       "annotation": null
@@ -1422,7 +1422,7 @@
       "imageUrl": "",
       "description": "",
       "stageId": "s3",
-      "dayDate": "2026-08-15",
+      "dayDate": "2026-08-16",
       "startTime": "01:25",
       "endTime": "02:10",
       "annotation": null
@@ -1531,7 +1531,7 @@
       "id": "e2",
       "title": "Partyschnaps Disco",
       "stageId": "s4",
-      "dayDate": "2026-08-12",
+      "dayDate": "2026-08-13",
       "startTime": "01:00",
       "endTime": "02:00"
     },
