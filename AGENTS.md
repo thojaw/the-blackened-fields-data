@@ -69,6 +69,8 @@ Stage {
 }
 
 FestivalData {
+  id,     -- globally unique slug across all festivals/years, e.g. "summer-breeze-2026"
+          --   used to namespace client-side data (e.g. favorites) per festival
   version, year, defaultLang, runningOrderExists, utcOffsetHours,
   festivalDays[],  -- ISO dates covered by the festival
   artists[], news[], links[],
@@ -91,6 +93,7 @@ Example data (illustrative — trimmed to a few entries per array; a real `festi
 
 ```json
 {
+  "id": "berserkr-fest-2026",
   "version": 2,
   "year": 2026,
   "defaultLang": "en",
