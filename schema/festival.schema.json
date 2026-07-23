@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/thojaw/the-blackened-fields-data/schema/festival.schema.json",
+  "title": "FestivalData",
+  "description": "Canonical schema for a festival/year's festival.json, matching AGENTS.md exactly.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "name", "version", "year", "defaultLang", "runningOrderExists",
+    "utcOffsetHours", "festivalDays", "artists", "news", "links"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Globally unique slug across all festivals/years, e.g. 'summer-breeze-2026'."
+    },
+    "name": { "type": "string", "description": "Display name, e.g. 'Summer Breeze'." },
+    "version": { "type": "integer" },
+    "year": { "type": "integer" },
+    "defaultLang": { "type": "string", "description": "BCP 47 language tag, e.g. 'en'." },
+    "runningOrderExists": { "type": "boolean" },
+    "utcOffsetHours": { "type": "number" },
+    "festivalDays": {
+      "type": "array",
+      "items": { "type": "string", "format": "date" },
+      "description": "ISO dates covered by the festival, in order."
+    },
+    "stages": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Stage" },
+      "description": "Absent or length <= 1 means single-stage (isMultiStage = false)."
+    },
+    "artists": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Artist" }
+    },
+    "news": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/News" }
+    },
+    "links": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ExternalLink" }
+    },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Event" },
+      "description": "Non-artist programming: ceremonies, workshops, tastings, aftershows."
+    },
+    "translations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Translation" }
+    }
+  },
+  "$defs": {
+    "Stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "Artist": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "imageUrl", "description"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "description": { "type": "string" },
+        "dayDate": { "type": ["string", "null"], "format": "date" },
+        "startTime": { "type": ["string", "null"], "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+        "endTime": { "type": ["string", "null"], "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+        "annotation": { "type": ["string", "null"] },
+        "stageId": {
+          "type": "string",
+          "description": "References Stage.id; absent = implicit single stage."
+        }
+      }
+    },
+    "Event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "dayDate", "startTime", "endTime"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "dayDate": { "type": "string", "format": "date" },
+        "startTime": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+        "endTime": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+        "stageId": { "type": "string" }
+      }
+    },
+    "News": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "body", "date"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "body": { "type": "string" },
+        "date": { "type": "string", "format": "date" }
+      }
+    },
+    "ExternalLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "url"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": {
+          "type": "string",
+          "description": "Required when type is absent (text link); optional when type is present (a11y/tooltip only)."
+        },
+        "url": { "type": "string", "format": "uri-reference" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "web", "facebook", "x", "youtube", "instagram", "spotify",
+            "deezer", "bandcamp", "applemusic", "soundcloud", "tiktok",
+            "patreon", "discord"
+          ],
+          "description": "Absent = text link. Present = icon-only rendering."
+        },
+        "artistId": {
+          "type": "string",
+          "description": "References Artist.id. Absent = global link (Home screen); present = shown on that artist's detail page."
+        }
+      }
+    },
+    "Translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lang"],
+      "properties": {
+        "lang": { "type": "string", "description": "BCP 47 language tag, e.g. 'de'." },
+        "artists": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ArtistTranslation" }
+        },
+        "news": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/NewsTranslation" }
+        },
+        "links": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/LinkTranslation" }
+        },
+        "events": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EventTranslation" }
+        }
+      }
+    },
+    "ArtistTranslation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" },
+        "description": { "type": "string" },
+        "annotation": { "type": ["string", "null"] }
+      }
+    },
+    "NewsTranslation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "body": { "type": "string" }
+      }
+    },
+    "LinkTranslation": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 2,
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "url": { "type": "string", "format": "uri-reference" }
+      },
+      "description": "At least one of label/url must be present besides id."
+    },
+    "EventTranslation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,5 +1,16 @@
 In this repository, the only relevant files are festival schema files and images/media files. When asked to create or edit festival data, populate `festival.json` to match the schema below exactly — do not invent fields or top-level keys that aren't defined here.
 
+## Machine-readable schema and querying
+
+- `schema/festival.schema.json` is a formal JSON Schema (draft 2020-12) of the
+  `FestivalData` shape described below — use it to validate a `festival.json`
+  file, or as an unambiguous reference instead of the prose/example below.
+- For *answering questions* about festival data (lineup lookups, schedules,
+  time-window overlaps, cross-festival search, etc.), see
+  `.claude/skills/festival-guide/SKILL.md` and its companion script
+  `.claude/skills/festival-guide/scripts/query_festivals.py` (stdlib-only
+  Python, runnable by any agent, not just Claude).
+
 ## Structure
 
 `festival name/year`
