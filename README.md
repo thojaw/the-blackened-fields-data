@@ -18,10 +18,10 @@ Each festival/year lives in its own folder:
 Example: `summer-breeze/2026/festival.json`.
 
 `festival.json` holds the festival's identity (name, dates, UTC offset),
-its stages, artists (with their set times), non-artist programming
-(`events`: ceremonies, workshops, aftershows...), news, external links
-(website/socials, either festival-wide or per-artist), and optional
-per-language translations.
+its stages, artists (with their set times, genre labels, and country of
+origin), non-artist programming (`events`: ceremonies, workshops,
+aftershows...), news, external links (website/socials, either festival-wide
+or per-artist), and optional per-language translations.
 
 The exact shape is documented two ways:
 

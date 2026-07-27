@@ -34,6 +34,8 @@ Artist {
   id, name, imageUrl, description,
   dayDate?, startTime?, endTime?, annotation?,
   stageId?  -- references Stage.id; absent = implicit single stage
+  genres?   -- string[], free-text genre labels, e.g. ["Heavy Metal", "Beatdown"]; not translated
+  country?  -- ISO 3166-1 alpha-2 code, lowercase, e.g. "us", "de"; resolved to a display name client-side
 }
 
 Event {
@@ -96,6 +98,7 @@ FestivalData {
 - Base data is always written in the language indicated by `defaultLang` (currently `"en"`).
 - A `translations` entry for a language does not need to cover every item — any untranslated item falls back to the base data value.
 - Artist `name` and `imageUrl` are never translated (proper nouns; language-neutral).
+- Artist `genres` and `country` are never translated (genre labels are language-neutral tags; `country` is a code resolved to a display name client-side).
 - Link `url` may be overridden to point to a language-specific page; `label` may be overridden independently.
 - Link `type` and `artistId` are never translated.
 
@@ -148,7 +151,9 @@ Example data (illustrative — trimmed to a few entries per array; a real `festi
       "dayDate": "2026-07-12",
       "startTime": "17:00",
       "endTime": "18:00",
-      "annotation": null
+      "annotation": null,
+      "genres": ["Folk Metal"],
+      "country": "no"
     },
     {
       "id": "a2",
@@ -159,7 +164,9 @@ Example data (illustrative — trimmed to a few entries per array; a real `festi
       "dayDate": "2026-07-10",
       "startTime": "21:00",
       "endTime": "23:00",
-      "annotation": "Ear protection strongly advised for front-row positions."
+      "annotation": "Ear protection strongly advised for front-row positions.",
+      "genres": ["Pagan Folk", "World Music"],
+      "country": "se"
     }
   ],
   "events": [
