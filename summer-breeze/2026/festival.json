@@ -41,7 +41,13 @@
       "dayDate": "2026-08-11",
       "startTime": "17:00",
       "endTime": "17:45",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Punk",
+        "Metal",
+        "Hardcore Punk"
+      ],
+      "country": "de"
     },
     {
       "id": "a2",
@@ -52,7 +58,8 @@
       "dayDate": "2026-08-11",
       "startTime": "18:15",
       "endTime": "19:00",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a3",
@@ -63,7 +70,13 @@
       "dayDate": "2026-08-11",
       "startTime": "19:30",
       "endTime": "20:15",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Hard Rock",
+        "Heavy Metal",
+        "Stoner Metal"
+      ],
+      "country": "de"
     },
     {
       "id": "a4",
@@ -74,7 +87,11 @@
       "dayDate": "2026-08-11",
       "startTime": "20:45",
       "endTime": "21:45",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "de"
     },
     {
       "id": "a5",
@@ -85,7 +102,12 @@
       "dayDate": "2026-08-12",
       "startTime": "16:10",
       "endTime": "17:10",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "grindcore",
+        "parody"
+      ]
     },
     {
       "id": "a6",
@@ -96,7 +118,12 @@
       "dayDate": "2026-08-12",
       "startTime": "17:40",
       "endTime": "18:40",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "punk rock",
+        "german"
+      ]
     },
     {
       "id": "a7",
@@ -107,7 +134,13 @@
       "dayDate": "2026-08-12",
       "startTime": "19:10",
       "endTime": "20:30",
-      "annotation": null
+      "annotation": null,
+      "country": "au",
+      "genres": [
+        "hard rock",
+        "rock",
+        "heavy metal"
+      ]
     },
     {
       "id": "a8",
@@ -118,7 +151,13 @@
       "dayDate": "2026-08-12",
       "startTime": "21:15",
       "endTime": "22:45",
-      "annotation": null
+      "annotation": null,
+      "country": "se",
+      "genres": [
+        "melodic death metal",
+        "swedish",
+        "metal"
+      ]
     },
     {
       "id": "a9",
@@ -129,7 +168,13 @@
       "dayDate": "2026-08-12",
       "startTime": "23:25",
       "endTime": "00:35",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "hardcore",
+        "metalcore",
+        "beatdown hardcore"
+      ]
     },
     {
       "id": "a10",
@@ -140,7 +185,13 @@
       "dayDate": "2026-08-13",
       "startTime": "01:00",
       "endTime": "02:00",
-      "annotation": null
+      "annotation": null,
+      "country": "fr",
+      "genres": [
+        "blackgaze",
+        "shoegaze",
+        "post-metal"
+      ]
     },
     {
       "id": "a11",
@@ -151,7 +202,8 @@
       "dayDate": "2026-08-12",
       "startTime": "15:00",
       "endTime": "16:00",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a12",
@@ -162,7 +214,8 @@
       "dayDate": "2026-08-12",
       "startTime": "16:50",
       "endTime": "17:35",
-      "annotation": null
+      "annotation": null,
+      "country": "dk"
     },
     {
       "id": "a13",
@@ -173,7 +226,11 @@
       "dayDate": "2026-08-12",
       "startTime": "18:25",
       "endTime": "19:10",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "indie rock"
+      ]
     },
     {
       "id": "a14",
@@ -184,7 +241,13 @@
       "dayDate": "2026-08-12",
       "startTime": "20:00",
       "endTime": "20:45",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "doom metal",
+        "psychedelic rock",
+        "occult rock"
+      ]
     },
     {
       "id": "a15",
@@ -195,7 +258,13 @@
       "dayDate": "2026-08-12",
       "startTime": "21:35",
       "endTime": "22:35",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "gothic metal",
+        "doom metal",
+        "metal"
+      ]
     },
     {
       "id": "a16",
@@ -206,7 +275,13 @@
       "dayDate": "2026-08-12",
       "startTime": "23:25",
       "endTime": "00:25",
-      "annotation": null
+      "annotation": null,
+      "country": "fo",
+      "genres": [
+        "singer-songwriter",
+        "faroese",
+        "jazz"
+      ]
     },
     {
       "id": "a17",
@@ -217,7 +292,8 @@
       "dayDate": "2026-08-13",
       "startTime": "01:15",
       "endTime": "02:15",
-      "annotation": null
+      "annotation": null,
+      "country": "ie"
     },
     {
       "id": "a18",
@@ -228,7 +304,8 @@
       "dayDate": "2026-08-12",
       "startTime": "16:05",
       "endTime": "16:45",
-      "annotation": null
+      "annotation": null,
+      "country": "au"
     },
     {
       "id": "a19",
@@ -239,7 +316,8 @@
       "dayDate": "2026-08-12",
       "startTime": "17:40",
       "endTime": "18:20",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a20",
@@ -250,7 +328,12 @@
       "dayDate": "2026-08-12",
       "startTime": "19:15",
       "endTime": "19:55",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Thrash Metal",
+        "Crossover Thrash"
+      ],
+      "country": "gb"
     },
     {
       "id": "a21",
@@ -261,7 +344,13 @@
       "dayDate": "2026-08-12",
       "startTime": "20:50",
       "endTime": "21:30",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "progressive metal",
+        "metalcore",
+        "sludge metal"
+      ]
     },
     {
       "id": "a22",
@@ -272,7 +361,13 @@
       "dayDate": "2026-08-12",
       "startTime": "22:40",
       "endTime": "23:20",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "doom metal",
+        "metal",
+        "heavy metal"
+      ]
     },
     {
       "id": "a23",
@@ -283,7 +378,13 @@
       "dayDate": "2026-08-13",
       "startTime": "00:30",
       "endTime": "01:10",
-      "annotation": null
+      "annotation": null,
+      "country": "ch",
+      "genres": [
+        "atmospheric black metal",
+        "black metal",
+        "folk metal"
+      ]
     },
     {
       "id": "a24",
@@ -294,7 +395,8 @@
       "dayDate": "2026-08-13",
       "startTime": "02:20",
       "endTime": "03:00",
-      "annotation": null
+      "annotation": null,
+      "country": "dk"
     },
     {
       "id": "a25",
@@ -305,7 +407,8 @@
       "dayDate": "2026-08-12",
       "startTime": "18:15",
       "endTime": "18:45",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a26",
@@ -316,7 +419,13 @@
       "dayDate": "2026-08-12",
       "startTime": "19:10",
       "endTime": "19:50",
-      "annotation": null
+      "annotation": null,
+      "country": "nl",
+      "genres": [
+        "death metal",
+        "melodic death metal",
+        "blackened death metal"
+      ]
     },
     {
       "id": "a27",
@@ -327,7 +436,11 @@
       "dayDate": "2026-08-12",
       "startTime": "20:20",
       "endTime": "21:00",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Hardcore Punk"
+      ],
+      "country": "de"
     },
     {
       "id": "a28",
@@ -338,7 +451,8 @@
       "dayDate": "2026-08-12",
       "startTime": "21:30",
       "endTime": "22:10",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a29",
@@ -349,7 +463,8 @@
       "dayDate": "2026-08-12",
       "startTime": "22:40",
       "endTime": "23:20",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a30",
@@ -360,7 +475,13 @@
       "dayDate": "2026-08-12",
       "startTime": "23:50",
       "endTime": "00:30",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "black metal",
+        "rock and roll",
+        "metal"
+      ]
     },
     {
       "id": "a31",
@@ -371,7 +492,8 @@
       "dayDate": "2026-08-13",
       "startTime": "12:00",
       "endTime": "12:40",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a32",
@@ -382,7 +504,13 @@
       "dayDate": "2026-08-13",
       "startTime": "12:55",
       "endTime": "13:35",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Post-Hardcore",
+        "Metalcore",
+        "Nu Metal"
+      ],
+      "country": "de"
     },
     {
       "id": "a33",
@@ -393,7 +521,13 @@
       "dayDate": "2026-08-13",
       "startTime": "13:50",
       "endTime": "14:35",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "alternative rock",
+        "rock",
+        "nu metal"
+      ]
     },
     {
       "id": "a34",
@@ -404,7 +538,13 @@
       "dayDate": "2026-08-13",
       "startTime": "15:00",
       "endTime": "15:45",
-      "annotation": null
+      "annotation": null,
+      "country": "au",
+      "genres": [
+        "metalcore",
+        "industrial metal",
+        "djent"
+      ]
     },
     {
       "id": "a35",
@@ -415,7 +555,13 @@
       "dayDate": "2026-08-13",
       "startTime": "16:10",
       "endTime": "17:10",
-      "annotation": null
+      "annotation": null,
+      "country": "au",
+      "genres": [
+        "trap metal",
+        "metal",
+        "screamo"
+      ]
     },
     {
       "id": "a36",
@@ -426,7 +572,13 @@
       "dayDate": "2026-08-13",
       "startTime": "17:40",
       "endTime": "18:40",
-      "annotation": null
+      "annotation": null,
+      "country": "se",
+      "genres": [
+        "metalcore",
+        "post-hardcore",
+        "progressive metalcore"
+      ]
     },
     {
       "id": "a37",
@@ -437,7 +589,13 @@
       "dayDate": "2026-08-13",
       "startTime": "19:10",
       "endTime": "20:30",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "heavy metal",
+        "nwobhm",
+        "british"
+      ]
     },
     {
       "id": "a38",
@@ -448,7 +606,13 @@
       "dayDate": "2026-08-13",
       "startTime": "21:15",
       "endTime": "22:45",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "neue deutsche härte",
+        "industrial metal",
+        "german"
+      ]
     },
     {
       "id": "a39",
@@ -459,7 +623,13 @@
       "dayDate": "2026-08-13",
       "startTime": "23:25",
       "endTime": "00:35",
-      "annotation": null
+      "annotation": null,
+      "country": "fi",
+      "genres": [
+        "progressive metal",
+        "melodic death metal",
+        "death metal"
+      ]
     },
     {
       "id": "a40",
@@ -470,7 +640,11 @@
       "dayDate": "2026-08-14",
       "startTime": "01:00",
       "endTime": "02:00",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "folk rock"
+      ]
     },
     {
       "id": "a41",
@@ -481,7 +655,12 @@
       "dayDate": "2026-08-13",
       "startTime": "11:30",
       "endTime": "12:15",
-      "annotation": null
+      "annotation": null,
+      "country": "it",
+      "genres": [
+        "death metal",
+        "brutal death metal"
+      ]
     },
     {
       "id": "a42",
@@ -492,7 +671,8 @@
       "dayDate": "2026-08-13",
       "startTime": "12:55",
       "endTime": "13:40",
-      "annotation": null
+      "annotation": null,
+      "country": "gb"
     },
     {
       "id": "a43",
@@ -503,7 +683,13 @@
       "dayDate": "2026-08-13",
       "startTime": "14:20",
       "endTime": "15:05",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Heavy Metal",
+        "Doom Metal",
+        "Stoner Metal"
+      ],
+      "country": "se"
     },
     {
       "id": "a44",
@@ -514,7 +700,11 @@
       "dayDate": "2026-08-13",
       "startTime": "15:45",
       "endTime": "16:30",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "death metal"
+      ]
     },
     {
       "id": "a45",
@@ -525,7 +715,11 @@
       "dayDate": "2026-08-13",
       "startTime": "17:10",
       "endTime": "17:55",
-      "annotation": null
+      "annotation": null,
+      "country": "no",
+      "genres": [
+        "folk metal"
+      ]
     },
     {
       "id": "a46",
@@ -547,7 +741,13 @@
       "dayDate": "2026-08-13",
       "startTime": "20:30",
       "endTime": "21:30",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Deathcore",
+        "Deathgrind",
+        "Brutal Death Metal"
+      ],
+      "country": "us"
     },
     {
       "id": "a48",
@@ -558,7 +758,13 @@
       "dayDate": "2026-08-13",
       "startTime": "22:25",
       "endTime": "23:25",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "nu metal",
+        "industrial metal",
+        "industrial"
+      ]
     },
     {
       "id": "a49",
@@ -569,7 +775,13 @@
       "dayDate": "2026-08-14",
       "startTime": "00:20",
       "endTime": "01:20",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "atmospheric black metal",
+        "black metal",
+        "melodic black metal"
+      ]
     },
     {
       "id": "a50",
@@ -580,7 +792,13 @@
       "dayDate": "2026-08-14",
       "startTime": "02:15",
       "endTime": "03:00",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Folk Metal"
+      ],
+      "country": "gb"
     },
     {
       "id": "a51",
@@ -591,7 +809,8 @@
       "dayDate": "2026-08-13",
       "startTime": "12:20",
       "endTime": "12:50",
-      "annotation": null
+      "annotation": null,
+      "country": "us"
     },
     {
       "id": "a52",
@@ -602,7 +821,13 @@
       "dayDate": "2026-08-13",
       "startTime": "13:45",
       "endTime": "14:15",
-      "annotation": null
+      "annotation": null,
+      "country": "jp",
+      "genres": [
+        "metal",
+        "metalcore",
+        "j-pop"
+      ]
     },
     {
       "id": "a53",
@@ -613,7 +838,13 @@
       "dayDate": "2026-08-13",
       "startTime": "15:10",
       "endTime": "15:40",
-      "annotation": null
+      "annotation": null,
+      "country": "fi",
+      "genres": [
+        "heavy metal",
+        "progressive metal",
+        "technical thrash metal"
+      ]
     },
     {
       "id": "a54",
@@ -624,7 +855,11 @@
       "dayDate": "2026-08-13",
       "startTime": "16:35",
       "endTime": "17:05",
-      "annotation": null
+      "annotation": null,
+      "country": "nl",
+      "genres": [
+        "goregrind"
+      ]
     },
     {
       "id": "a55",
@@ -635,7 +870,13 @@
       "dayDate": "2026-08-13",
       "startTime": "18:00",
       "endTime": "18:30",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "symphonic black metal",
+        "black metal",
+        "gothic metal"
+      ]
     },
     {
       "id": "a56",
@@ -646,7 +887,13 @@
       "dayDate": "2026-08-13",
       "startTime": "19:40",
       "endTime": "20:25",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "folk",
+        "hip hop",
+        "comedy"
+      ]
     },
     {
       "id": "a57",
@@ -657,7 +904,13 @@
       "dayDate": "2026-08-13",
       "startTime": "21:35",
       "endTime": "22:20",
-      "annotation": null
+      "annotation": null,
+      "country": "ca",
+      "genres": [
+        "technical death metal",
+        "brutal death metal",
+        "death metal"
+      ]
     },
     {
       "id": "a58",
@@ -668,7 +921,12 @@
       "dayDate": "2026-08-13",
       "startTime": "23:30",
       "endTime": "00:15",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "black metal",
+        "melodic black metal"
+      ]
     },
     {
       "id": "a59",
@@ -679,7 +937,8 @@
       "dayDate": "2026-08-14",
       "startTime": "01:25",
       "endTime": "02:10",
-      "annotation": null
+      "annotation": null,
+      "country": "se"
     },
     {
       "id": "a60",
@@ -690,7 +949,8 @@
       "dayDate": "2026-08-13",
       "startTime": "15:30",
       "endTime": "16:15",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a61",
@@ -701,7 +961,8 @@
       "dayDate": "2026-08-13",
       "startTime": "16:45",
       "endTime": "17:30",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a62",
@@ -712,7 +973,11 @@
       "dayDate": "2026-08-13",
       "startTime": "18:00",
       "endTime": "18:45",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "country": "fi"
     },
     {
       "id": "a63",
@@ -723,7 +988,13 @@
       "dayDate": "2026-08-13",
       "startTime": "19:15",
       "endTime": "20:00",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "electronic",
+        "ebm",
+        "industrial/electro"
+      ]
     },
     {
       "id": "a64",
@@ -734,7 +1005,8 @@
       "dayDate": "2026-08-13",
       "startTime": "20:30",
       "endTime": "21:15",
-      "annotation": null
+      "annotation": null,
+      "country": "ie"
     },
     {
       "id": "a65",
@@ -745,7 +1017,8 @@
       "dayDate": "2026-08-13",
       "startTime": "21:45",
       "endTime": "22:45",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a66",
@@ -756,7 +1029,13 @@
       "dayDate": "2026-08-14",
       "startTime": "12:00",
       "endTime": "12:40",
-      "annotation": null
+      "annotation": null,
+      "country": "it",
+      "genres": [
+        "heavy metal",
+        "metal",
+        "power metal"
+      ]
     },
     {
       "id": "a67",
@@ -767,7 +1046,11 @@
       "dayDate": "2026-08-14",
       "startTime": "12:55",
       "endTime": "13:35",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "rock"
+      ]
     },
     {
       "id": "a68",
@@ -778,7 +1061,13 @@
       "dayDate": "2026-08-14",
       "startTime": "13:50",
       "endTime": "14:35",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "metalcore",
+        "alternative rock",
+        "post-hardcore"
+      ]
     },
     {
       "id": "a69",
@@ -789,7 +1078,11 @@
       "dayDate": "2026-08-14",
       "startTime": "15:00",
       "endTime": "15:45",
-      "annotation": null
+      "annotation": null,
+      "country": "se",
+      "genres": [
+        "power metal"
+      ]
     },
     {
       "id": "a70",
@@ -800,7 +1093,13 @@
       "dayDate": "2026-08-14",
       "startTime": "16:10",
       "endTime": "17:10",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Rap Metal",
+        "Hip Hop",
+        "Party Core"
+      ],
+      "country": "de"
     },
     {
       "id": "a71",
@@ -811,7 +1110,13 @@
       "dayDate": "2026-08-14",
       "startTime": "17:40",
       "endTime": "18:40",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "melodic metalcore",
+        "metalcore",
+        "melodic hardcore"
+      ]
     },
     {
       "id": "a72",
@@ -822,7 +1127,13 @@
       "dayDate": "2026-08-14",
       "startTime": "19:10",
       "endTime": "20:30",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "metalcore",
+        "groove metal",
+        "metal"
+      ]
     },
     {
       "id": "a73",
@@ -833,7 +1144,13 @@
       "dayDate": "2026-08-14",
       "startTime": "21:15",
       "endTime": "22:45",
-      "annotation": null
+      "annotation": null,
+      "country": "se",
+      "genres": [
+        "melodic death metal",
+        "death metal",
+        "metal"
+      ]
     },
     {
       "id": "a74",
@@ -844,7 +1161,13 @@
       "dayDate": "2026-08-14",
       "startTime": "23:25",
       "endTime": "00:35",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "medieval rock",
+        "folk rock",
+        "folk"
+      ]
     },
     {
       "id": "a75",
@@ -855,7 +1178,13 @@
       "dayDate": "2026-08-15",
       "startTime": "01:00",
       "endTime": "02:00",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "reggae rock",
+        "rap rock",
+        "rapcore"
+      ]
     },
     {
       "id": "a76",
@@ -866,7 +1195,13 @@
       "dayDate": "2026-08-14",
       "startTime": "11:30",
       "endTime": "12:15",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "metal",
+        "metalcore",
+        "melodic hardcore"
+      ]
     },
     {
       "id": "a77",
@@ -877,7 +1212,11 @@
       "dayDate": "2026-08-14",
       "startTime": "12:55",
       "endTime": "13:40",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "power metal"
+      ]
     },
     {
       "id": "a78",
@@ -888,7 +1227,13 @@
       "dayDate": "2026-08-14",
       "startTime": "14:20",
       "endTime": "15:05",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "death metal",
+        "metal",
+        "grindcore"
+      ]
     },
     {
       "id": "a79",
@@ -899,7 +1244,13 @@
       "dayDate": "2026-08-14",
       "startTime": "15:45",
       "endTime": "16:30",
-      "annotation": null
+      "annotation": null,
+      "country": "jp",
+      "genres": [
+        "j-pop",
+        "girl group",
+        "dance-pop"
+      ]
     },
     {
       "id": "a80",
@@ -910,7 +1261,13 @@
       "dayDate": "2026-08-14",
       "startTime": "17:10",
       "endTime": "17:55",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "progressive metal",
+        "metal",
+        "djent"
+      ]
     },
     {
       "id": "a81",
@@ -921,7 +1278,11 @@
       "dayDate": "2026-08-14",
       "startTime": "18:35",
       "endTime": "19:35",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "death metal"
+      ]
     },
     {
       "id": "a82",
@@ -932,7 +1293,13 @@
       "dayDate": "2026-08-14",
       "startTime": "20:30",
       "endTime": "21:30",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "hardcore punk",
+        "hardcore",
+        "beatdown hardcore"
+      ]
     },
     {
       "id": "a83",
@@ -943,7 +1310,13 @@
       "dayDate": "2026-08-14",
       "startTime": "22:25",
       "endTime": "23:25",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "black metal",
+        "atmospheric black metal",
+        "progressive black metal"
+      ]
     },
     {
       "id": "a84",
@@ -954,7 +1327,13 @@
       "dayDate": "2026-08-15",
       "startTime": "00:20",
       "endTime": "01:20",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "blackgaze",
+        "shoegaze",
+        "post-metal"
+      ]
     },
     {
       "id": "a85",
@@ -965,7 +1344,13 @@
       "dayDate": "2026-08-15",
       "startTime": "02:15",
       "endTime": "03:00",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "atmospheric black metal",
+        "black metal",
+        "metal"
+      ]
     },
     {
       "id": "a86",
@@ -976,7 +1361,11 @@
       "dayDate": "2026-08-14",
       "startTime": "12:20",
       "endTime": "12:50",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "thrash metal"
+      ]
     },
     {
       "id": "a87",
@@ -998,7 +1387,8 @@
       "dayDate": "2026-08-14",
       "startTime": "15:10",
       "endTime": "15:40",
-      "annotation": null
+      "annotation": null,
+      "country": "fi"
     },
     {
       "id": "a89",
@@ -1009,7 +1399,13 @@
       "dayDate": "2026-08-14",
       "startTime": "16:35",
       "endTime": "17:05",
-      "annotation": null
+      "annotation": null,
+      "country": "fi",
+      "genres": [
+        "symphonic metal",
+        "folk metal",
+        "melodic death metal"
+      ]
     },
     {
       "id": "a90",
@@ -1020,7 +1416,12 @@
       "dayDate": "2026-08-14",
       "startTime": "18:00",
       "endTime": "18:30",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "neue deutsche härte",
+        "german"
+      ]
     },
     {
       "id": "a91",
@@ -1031,7 +1432,13 @@
       "dayDate": "2026-08-14",
       "startTime": "19:40",
       "endTime": "20:25",
-      "annotation": null
+      "annotation": null,
+      "country": "no",
+      "genres": [
+        "rock",
+        "punk",
+        "punk rock"
+      ]
     },
     {
       "id": "a92",
@@ -1042,7 +1449,13 @@
       "dayDate": "2026-08-14",
       "startTime": "21:35",
       "endTime": "22:20",
-      "annotation": null
+      "annotation": null,
+      "country": "dk",
+      "genres": [
+        "death metal",
+        "melodic death metal",
+        "groove metal"
+      ]
     },
     {
       "id": "a93",
@@ -1053,7 +1466,13 @@
       "dayDate": "2026-08-14",
       "startTime": "23:30",
       "endTime": "00:15",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Nu Metal",
+        "Deathcore",
+        "Metalcore"
+      ],
+      "country": "fr"
     },
     {
       "id": "a94",
@@ -1064,7 +1483,11 @@
       "dayDate": "2026-08-15",
       "startTime": "01:25",
       "endTime": "02:10",
-      "annotation": null
+      "annotation": null,
+      "country": "ru",
+      "genres": [
+        "black metal"
+      ]
     },
     {
       "id": "a95",
@@ -1075,7 +1498,12 @@
       "dayDate": "2026-08-14",
       "startTime": "15:30",
       "endTime": "16:15",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "stoner rock",
+        "psychedelic rock"
+      ]
     },
     {
       "id": "a96",
@@ -1086,7 +1514,8 @@
       "dayDate": "2026-08-14",
       "startTime": "16:45",
       "endTime": "17:30",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a97",
@@ -1097,7 +1526,8 @@
       "dayDate": "2026-08-14",
       "startTime": "18:00",
       "endTime": "18:45",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a98",
@@ -1108,7 +1538,8 @@
       "dayDate": "2026-08-14",
       "startTime": "19:15",
       "endTime": "20:00",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a99",
@@ -1119,7 +1550,13 @@
       "dayDate": "2026-08-14",
       "startTime": "20:30",
       "endTime": "21:15",
-      "annotation": null
+      "annotation": null,
+      "country": "at",
+      "genres": [
+        "folk metal",
+        "black metal",
+        "pagan black metal"
+      ]
     },
     {
       "id": "a100",
@@ -1130,7 +1567,13 @@
       "dayDate": "2026-08-14",
       "startTime": "21:45",
       "endTime": "22:45",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Rock",
+        "Heavy Metal",
+        "Punk Rock"
+      ],
+      "country": "at"
     },
     {
       "id": "a101",
@@ -1141,7 +1584,11 @@
       "dayDate": "2026-08-15",
       "startTime": "12:00",
       "endTime": "12:40",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "children"
+      ]
     },
     {
       "id": "a102",
@@ -1152,7 +1599,13 @@
       "dayDate": "2026-08-15",
       "startTime": "12:55",
       "endTime": "13:35",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "melodic death metal",
+        "metal",
+        "melodic/death-metal"
+      ]
     },
     {
       "id": "a103",
@@ -1163,7 +1616,8 @@
       "dayDate": "2026-08-15",
       "startTime": "13:50",
       "endTime": "14:35",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a104",
@@ -1174,7 +1628,13 @@
       "dayDate": "2026-08-15",
       "startTime": "15:00",
       "endTime": "15:45",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "psychedelic rock",
+        "stoner rock",
+        "heavy psych"
+      ]
     },
     {
       "id": "a105",
@@ -1185,7 +1645,13 @@
       "dayDate": "2026-08-15",
       "startTime": "16:10",
       "endTime": "17:10",
-      "annotation": null
+      "annotation": null,
+      "country": "se",
+      "genres": [
+        "melodic death metal",
+        "groove metal",
+        "death metal"
+      ]
     },
     {
       "id": "a106",
@@ -1196,7 +1662,13 @@
       "dayDate": "2026-08-15",
       "startTime": "17:40",
       "endTime": "18:40",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "thrash metal",
+        "metal",
+        "heavy metal"
+      ]
     },
     {
       "id": "a107",
@@ -1207,7 +1679,13 @@
       "dayDate": "2026-08-15",
       "startTime": "19:10",
       "endTime": "20:30",
-      "annotation": null
+      "annotation": null,
+      "country": "gb",
+      "genres": [
+        "folk metal",
+        "power metal",
+        "pirate metal"
+      ]
     },
     {
       "id": "a108",
@@ -1218,7 +1696,13 @@
       "dayDate": "2026-08-15",
       "startTime": "21:15",
       "endTime": "23:15",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "power metal",
+        "heavy metal",
+        "speed metal"
+      ]
     },
     {
       "id": "a109",
@@ -1229,7 +1713,13 @@
       "dayDate": "2026-08-15",
       "startTime": "23:55",
       "endTime": "01:15",
-      "annotation": null
+      "annotation": null,
+      "country": "au",
+      "genres": [
+        "deathcore",
+        "technical deathcore",
+        "hardcore"
+      ]
     },
     {
       "id": "a110",
@@ -1240,7 +1730,11 @@
       "dayDate": "2026-08-15",
       "startTime": "11:30",
       "endTime": "12:15",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "we don't give a fuck metal"
+      ]
     },
     {
       "id": "a111",
@@ -1251,7 +1745,13 @@
       "dayDate": "2026-08-15",
       "startTime": "12:55",
       "endTime": "13:40",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "death metal",
+        "metal",
+        "brutal death metal"
+      ]
     },
     {
       "id": "a112",
@@ -1262,7 +1762,13 @@
       "dayDate": "2026-08-15",
       "startTime": "14:20",
       "endTime": "15:05",
-      "annotation": null
+      "annotation": null,
+      "country": "fi",
+      "genres": [
+        "melodic death metal",
+        "thrash metal",
+        "metal"
+      ]
     },
     {
       "id": "a113",
@@ -1273,7 +1779,13 @@
       "dayDate": "2026-08-15",
       "startTime": "15:45",
       "endTime": "16:30",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "thrash metal",
+        "crossover thrash",
+        "metal"
+      ]
     },
     {
       "id": "a114",
@@ -1284,7 +1796,13 @@
       "dayDate": "2026-08-15",
       "startTime": "17:10",
       "endTime": "17:55",
-      "annotation": null
+      "annotation": null,
+      "country": "se",
+      "genres": [
+        "hard rock",
+        "heavy metal",
+        "sweden"
+      ]
     },
     {
       "id": "a115",
@@ -1295,7 +1813,13 @@
       "dayDate": "2026-08-15",
       "startTime": "18:35",
       "endTime": "19:35",
-      "annotation": null
+      "annotation": null,
+      "country": "pl",
+      "genres": [
+        "death metal",
+        "technical death metal",
+        "metal"
+      ]
     },
     {
       "id": "a116",
@@ -1306,7 +1830,13 @@
       "dayDate": "2026-08-15",
       "startTime": "20:30",
       "endTime": "21:30",
-      "annotation": null
+      "annotation": null,
+      "country": "us",
+      "genres": [
+        "groove metal",
+        "nu metal",
+        "thrash metal"
+      ]
     },
     {
       "id": "a117",
@@ -1317,7 +1847,13 @@
       "dayDate": "2026-08-15",
       "startTime": "22:25",
       "endTime": "23:25",
-      "annotation": null
+      "annotation": null,
+      "country": "ch",
+      "genres": [
+        "beatdown hardcore",
+        "hardcore",
+        "deathcore"
+      ]
     },
     {
       "id": "a118",
@@ -1328,7 +1864,13 @@
       "dayDate": "2026-08-16",
       "startTime": "00:20",
       "endTime": "01:20",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Progressive Metal",
+        "Progressive Rock",
+        "Metal"
+      ],
+      "country": "se"
     },
     {
       "id": "a119",
@@ -1339,7 +1881,8 @@
       "dayDate": "2026-08-15",
       "startTime": "12:20",
       "endTime": "12:50",
-      "annotation": null
+      "annotation": null,
+      "country": "gb"
     },
     {
       "id": "a120",
@@ -1350,7 +1893,11 @@
       "dayDate": "2026-08-15",
       "startTime": "13:45",
       "endTime": "14:15",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de"
     },
     {
       "id": "a121",
@@ -1361,7 +1908,13 @@
       "dayDate": "2026-08-15",
       "startTime": "15:10",
       "endTime": "15:40",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Blues Rock",
+        "Stoner Rock",
+        "Psychedelic Rock"
+      ],
+      "country": "de"
     },
     {
       "id": "a122",
@@ -1372,7 +1925,11 @@
       "dayDate": "2026-08-15",
       "startTime": "16:35",
       "endTime": "17:05",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "folk rock"
+      ]
     },
     {
       "id": "a123",
@@ -1383,7 +1940,13 @@
       "dayDate": "2026-08-15",
       "startTime": "18:00",
       "endTime": "18:30",
-      "annotation": null
+      "annotation": null,
+      "country": "dk",
+      "genres": [
+        "metalcore",
+        "deathcore",
+        "ambient"
+      ]
     },
     {
       "id": "a124",
@@ -1394,7 +1957,13 @@
       "dayDate": "2026-08-15",
       "startTime": "19:40",
       "endTime": "20:25",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Industrial Metal",
+        "Folk Metal",
+        "Rock"
+      ],
+      "country": "hr"
     },
     {
       "id": "a125",
@@ -1405,7 +1974,11 @@
       "dayDate": "2026-08-15",
       "startTime": "21:35",
       "endTime": "22:20",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "us"
     },
     {
       "id": "a126",
@@ -1416,7 +1989,13 @@
       "dayDate": "2026-08-15",
       "startTime": "23:30",
       "endTime": "00:15",
-      "annotation": null
+      "annotation": null,
+      "genres": [
+        "Stoner Rock",
+        "Rock",
+        "Metal"
+      ],
+      "country": "no"
     },
     {
       "id": "a127",
@@ -1427,7 +2006,13 @@
       "dayDate": "2026-08-16",
       "startTime": "01:25",
       "endTime": "02:10",
-      "annotation": null
+      "annotation": null,
+      "country": "dk",
+      "genres": [
+        "atmospheric black metal",
+        "post-metal",
+        "shoegaze"
+      ]
     },
     {
       "id": "a128",
@@ -1449,7 +2034,11 @@
       "dayDate": "2026-08-15",
       "startTime": "14:00",
       "endTime": "15:00",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "rock"
+      ]
     },
     {
       "id": "a130",
@@ -1471,7 +2060,12 @@
       "dayDate": "2026-08-15",
       "startTime": "16:45",
       "endTime": "17:30",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "rock",
+        "hard rock"
+      ]
     },
     {
       "id": "a132",
@@ -1482,7 +2076,8 @@
       "dayDate": "2026-08-15",
       "startTime": "18:00",
       "endTime": "18:45",
-      "annotation": null
+      "annotation": null,
+      "country": "it"
     },
     {
       "id": "a133",
@@ -1493,7 +2088,8 @@
       "dayDate": "2026-08-15",
       "startTime": "19:15",
       "endTime": "20:00",
-      "annotation": null
+      "annotation": null,
+      "country": "de"
     },
     {
       "id": "a134",
@@ -1504,7 +2100,12 @@
       "dayDate": "2026-08-15",
       "startTime": "20:30",
       "endTime": "21:15",
-      "annotation": null
+      "annotation": null,
+      "country": "de",
+      "genres": [
+        "death metal",
+        "crust punk"
+      ]
     },
     {
       "id": "a135",
