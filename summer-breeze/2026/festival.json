@@ -105,8 +105,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "grindcore",
-        "parody"
+        "Grindcore",
+        "Parody"
       ]
     },
     {
@@ -121,8 +121,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "punk rock",
-        "german"
+        "Punk Rock",
+        "German"
       ]
     },
     {
@@ -137,9 +137,9 @@
       "annotation": null,
       "country": "au",
       "genres": [
-        "hard rock",
-        "rock",
-        "heavy metal"
+        "Hard Rock",
+        "Rock",
+        "Heavy Metal"
       ]
     },
     {
@@ -154,9 +154,9 @@
       "annotation": null,
       "country": "se",
       "genres": [
-        "melodic death metal",
-        "swedish",
-        "metal"
+        "Melodic Death Metal",
+        "Swedish",
+        "Metal"
       ]
     },
     {
@@ -171,9 +171,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "hardcore",
-        "metalcore",
-        "beatdown hardcore"
+        "Hardcore",
+        "Metalcore",
+        "Beatdown Hardcore"
       ]
     },
     {
@@ -188,9 +188,9 @@
       "annotation": null,
       "country": "fr",
       "genres": [
-        "blackgaze",
-        "shoegaze",
-        "post-metal"
+        "Blackgaze",
+        "Shoegaze",
+        "Post-Metal"
       ]
     },
     {
@@ -229,7 +229,7 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "indie rock"
+        "Indie Rock"
       ]
     },
     {
@@ -244,9 +244,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "doom metal",
-        "psychedelic rock",
-        "occult rock"
+        "Doom Metal",
+        "Psychedelic Rock",
+        "Occult Rock"
       ]
     },
     {
@@ -261,9 +261,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "gothic metal",
-        "doom metal",
-        "metal"
+        "Gothic Metal",
+        "Doom Metal",
+        "Metal"
       ]
     },
     {
@@ -278,9 +278,9 @@
       "annotation": null,
       "country": "fo",
       "genres": [
-        "singer-songwriter",
-        "faroese",
-        "jazz"
+        "Singer-Songwriter",
+        "Faroese",
+        "Jazz"
       ]
     },
     {
@@ -347,9 +347,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "progressive metal",
-        "metalcore",
-        "sludge metal"
+        "Progressive Metal",
+        "Metalcore",
+        "Sludge Metal"
       ]
     },
     {
@@ -364,9 +364,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "doom metal",
-        "metal",
-        "heavy metal"
+        "Doom Metal",
+        "Metal",
+        "Heavy Metal"
       ]
     },
     {
@@ -381,9 +381,9 @@
       "annotation": null,
       "country": "ch",
       "genres": [
-        "atmospheric black metal",
-        "black metal",
-        "folk metal"
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Folk Metal"
       ]
     },
     {
@@ -422,9 +422,9 @@
       "annotation": null,
       "country": "nl",
       "genres": [
-        "death metal",
-        "melodic death metal",
-        "blackened death metal"
+        "Death Metal",
+        "Melodic Death Metal",
+        "Blackened Death Metal"
       ]
     },
     {
@@ -478,9 +478,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "black metal",
-        "rock and roll",
-        "metal"
+        "Black Metal",
+        "Rock And Roll",
+        "Metal"
       ]
     },
     {
@@ -524,9 +524,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "alternative rock",
-        "rock",
-        "nu metal"
+        "Alternative Rock",
+        "Rock",
+        "Nu Metal"
       ]
     },
     {
@@ -541,9 +541,9 @@
       "annotation": null,
       "country": "au",
       "genres": [
-        "metalcore",
-        "industrial metal",
-        "djent"
+        "Metalcore",
+        "Industrial Metal",
+        "Djent"
       ]
     },
     {
@@ -558,9 +558,9 @@
       "annotation": null,
       "country": "au",
       "genres": [
-        "trap metal",
-        "metal",
-        "screamo"
+        "Trap Metal",
+        "Metal",
+        "Screamo"
       ]
     },
     {
@@ -575,9 +575,9 @@
       "annotation": null,
       "country": "se",
       "genres": [
-        "metalcore",
-        "post-hardcore",
-        "progressive metalcore"
+        "Metalcore",
+        "Post-Hardcore",
+        "Progressive Metalcore"
       ]
     },
     {
@@ -592,9 +592,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "heavy metal",
-        "nwobhm",
-        "british"
+        "Heavy Metal",
+        "Nwobhm",
+        "British"
       ]
     },
     {
@@ -609,9 +609,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "neue deutsche härte",
-        "industrial metal",
-        "german"
+        "Neue Deutsche HäRte",
+        "Industrial Metal",
+        "German"
       ]
     },
     {
@@ -626,9 +626,9 @@
       "annotation": null,
       "country": "fi",
       "genres": [
-        "progressive metal",
-        "melodic death metal",
-        "death metal"
+        "Progressive Metal",
+        "Melodic Death Metal",
+        "Death Metal"
       ]
     },
     {
@@ -643,7 +643,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "folk rock"
+        "Folk Rock"
       ]
     },
     {
@@ -658,8 +658,8 @@
       "annotation": null,
       "country": "it",
       "genres": [
-        "death metal",
-        "brutal death metal"
+        "Death Metal",
+        "Brutal Death Metal"
       ]
     },
     {
@@ -703,7 +703,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "death metal"
+        "Death Metal"
       ]
     },
     {
@@ -718,7 +718,7 @@
       "annotation": null,
       "country": "no",
       "genres": [
-        "folk metal"
+        "Folk Metal"
       ]
     },
     {
@@ -761,9 +761,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "nu metal",
-        "industrial metal",
-        "industrial"
+        "Nu Metal",
+        "Industrial Metal",
+        "Industrial"
       ]
     },
     {
@@ -778,9 +778,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "atmospheric black metal",
-        "black metal",
-        "melodic black metal"
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Melodic Black Metal"
       ]
     },
     {
@@ -824,9 +824,9 @@
       "annotation": null,
       "country": "jp",
       "genres": [
-        "metal",
-        "metalcore",
-        "j-pop"
+        "Metal",
+        "Metalcore",
+        "J-Pop"
       ]
     },
     {
@@ -841,9 +841,9 @@
       "annotation": null,
       "country": "fi",
       "genres": [
-        "heavy metal",
-        "progressive metal",
-        "technical thrash metal"
+        "Heavy Metal",
+        "Progressive Metal",
+        "Technical Thrash Metal"
       ]
     },
     {
@@ -858,7 +858,7 @@
       "annotation": null,
       "country": "nl",
       "genres": [
-        "goregrind"
+        "Goregrind"
       ]
     },
     {
@@ -873,9 +873,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "symphonic black metal",
-        "black metal",
-        "gothic metal"
+        "Symphonic Black Metal",
+        "Black Metal",
+        "Gothic Metal"
       ]
     },
     {
@@ -890,9 +890,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "folk",
-        "hip hop",
-        "comedy"
+        "Folk",
+        "Hip Hop",
+        "Comedy"
       ]
     },
     {
@@ -907,9 +907,9 @@
       "annotation": null,
       "country": "ca",
       "genres": [
-        "technical death metal",
-        "brutal death metal",
-        "death metal"
+        "Technical Death Metal",
+        "Brutal Death Metal",
+        "Death Metal"
       ]
     },
     {
@@ -924,8 +924,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "black metal",
-        "melodic black metal"
+        "Black Metal",
+        "Melodic Black Metal"
       ]
     },
     {
@@ -991,9 +991,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "electronic",
-        "ebm",
-        "industrial/electro"
+        "Electronic",
+        "Ebm",
+        "Industrial/Electro"
       ]
     },
     {
@@ -1032,9 +1032,9 @@
       "annotation": null,
       "country": "it",
       "genres": [
-        "heavy metal",
-        "metal",
-        "power metal"
+        "Heavy Metal",
+        "Metal",
+        "Power Metal"
       ]
     },
     {
@@ -1049,7 +1049,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "rock"
+        "Rock"
       ]
     },
     {
@@ -1064,9 +1064,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "metalcore",
-        "alternative rock",
-        "post-hardcore"
+        "Metalcore",
+        "Alternative Rock",
+        "Post-Hardcore"
       ]
     },
     {
@@ -1081,7 +1081,7 @@
       "annotation": null,
       "country": "se",
       "genres": [
-        "power metal"
+        "Power Metal"
       ]
     },
     {
@@ -1113,9 +1113,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "melodic metalcore",
-        "metalcore",
-        "melodic hardcore"
+        "Melodic Metalcore",
+        "Metalcore",
+        "Melodic Hardcore"
       ]
     },
     {
@@ -1130,9 +1130,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "metalcore",
-        "groove metal",
-        "metal"
+        "Metalcore",
+        "Groove Metal",
+        "Metal"
       ]
     },
     {
@@ -1147,9 +1147,9 @@
       "annotation": null,
       "country": "se",
       "genres": [
-        "melodic death metal",
-        "death metal",
-        "metal"
+        "Melodic Death Metal",
+        "Death Metal",
+        "Metal"
       ]
     },
     {
@@ -1164,9 +1164,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "medieval rock",
-        "folk rock",
-        "folk"
+        "Medieval Rock",
+        "Folk Rock",
+        "Folk"
       ]
     },
     {
@@ -1181,9 +1181,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "reggae rock",
-        "rap rock",
-        "rapcore"
+        "Reggae Rock",
+        "Rap Rock",
+        "Rapcore"
       ]
     },
     {
@@ -1198,9 +1198,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "metal",
-        "metalcore",
-        "melodic hardcore"
+        "Metal",
+        "Metalcore",
+        "Melodic Hardcore"
       ]
     },
     {
@@ -1215,7 +1215,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "power metal"
+        "Power Metal"
       ]
     },
     {
@@ -1230,9 +1230,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "death metal",
-        "metal",
-        "grindcore"
+        "Death Metal",
+        "Metal",
+        "Grindcore"
       ]
     },
     {
@@ -1247,9 +1247,9 @@
       "annotation": null,
       "country": "jp",
       "genres": [
-        "j-pop",
-        "girl group",
-        "dance-pop"
+        "J-Pop",
+        "Girl Group",
+        "Dance-Pop"
       ]
     },
     {
@@ -1264,9 +1264,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "progressive metal",
-        "metal",
-        "djent"
+        "Progressive Metal",
+        "Metal",
+        "Djent"
       ]
     },
     {
@@ -1281,7 +1281,7 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "death metal"
+        "Death Metal"
       ]
     },
     {
@@ -1296,9 +1296,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "hardcore punk",
-        "hardcore",
-        "beatdown hardcore"
+        "Hardcore Punk",
+        "Hardcore",
+        "Beatdown Hardcore"
       ]
     },
     {
@@ -1313,9 +1313,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "black metal",
-        "atmospheric black metal",
-        "progressive black metal"
+        "Black Metal",
+        "Atmospheric Black Metal",
+        "Progressive Black Metal"
       ]
     },
     {
@@ -1330,9 +1330,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "blackgaze",
-        "shoegaze",
-        "post-metal"
+        "Blackgaze",
+        "Shoegaze",
+        "Post-Metal"
       ]
     },
     {
@@ -1347,9 +1347,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "atmospheric black metal",
-        "black metal",
-        "metal"
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Metal"
       ]
     },
     {
@@ -1364,7 +1364,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "thrash metal"
+        "Thrash Metal"
       ]
     },
     {
@@ -1402,9 +1402,9 @@
       "annotation": null,
       "country": "fi",
       "genres": [
-        "symphonic metal",
-        "folk metal",
-        "melodic death metal"
+        "Symphonic Metal",
+        "Folk Metal",
+        "Melodic Death Metal"
       ]
     },
     {
@@ -1419,8 +1419,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "neue deutsche härte",
-        "german"
+        "Neue Deutsche HäRte",
+        "German"
       ]
     },
     {
@@ -1435,9 +1435,9 @@
       "annotation": null,
       "country": "no",
       "genres": [
-        "rock",
-        "punk",
-        "punk rock"
+        "Rock",
+        "Punk",
+        "Punk Rock"
       ]
     },
     {
@@ -1452,9 +1452,9 @@
       "annotation": null,
       "country": "dk",
       "genres": [
-        "death metal",
-        "melodic death metal",
-        "groove metal"
+        "Death Metal",
+        "Melodic Death Metal",
+        "Groove Metal"
       ]
     },
     {
@@ -1486,7 +1486,7 @@
       "annotation": null,
       "country": "ru",
       "genres": [
-        "black metal"
+        "Black Metal"
       ]
     },
     {
@@ -1501,8 +1501,8 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "stoner rock",
-        "psychedelic rock"
+        "Stoner Rock",
+        "Psychedelic Rock"
       ]
     },
     {
@@ -1553,9 +1553,9 @@
       "annotation": null,
       "country": "at",
       "genres": [
-        "folk metal",
-        "black metal",
-        "pagan black metal"
+        "Folk Metal",
+        "Black Metal",
+        "Pagan Black Metal"
       ]
     },
     {
@@ -1587,7 +1587,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "children"
+        "Children"
       ]
     },
     {
@@ -1602,9 +1602,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "melodic death metal",
-        "metal",
-        "melodic/death-metal"
+        "Melodic Death Metal",
+        "Metal",
+        "Melodic/Death-Metal"
       ]
     },
     {
@@ -1631,9 +1631,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "psychedelic rock",
-        "stoner rock",
-        "heavy psych"
+        "Psychedelic Rock",
+        "Stoner Rock",
+        "Heavy Psych"
       ]
     },
     {
@@ -1648,9 +1648,9 @@
       "annotation": null,
       "country": "se",
       "genres": [
-        "melodic death metal",
-        "groove metal",
-        "death metal"
+        "Melodic Death Metal",
+        "Groove Metal",
+        "Death Metal"
       ]
     },
     {
@@ -1665,9 +1665,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "thrash metal",
-        "metal",
-        "heavy metal"
+        "Thrash Metal",
+        "Metal",
+        "Heavy Metal"
       ]
     },
     {
@@ -1682,9 +1682,9 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "folk metal",
-        "power metal",
-        "pirate metal"
+        "Folk Metal",
+        "Power Metal",
+        "Pirate Metal"
       ]
     },
     {
@@ -1699,9 +1699,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "power metal",
-        "heavy metal",
-        "speed metal"
+        "Power Metal",
+        "Heavy Metal",
+        "Speed Metal"
       ]
     },
     {
@@ -1716,9 +1716,9 @@
       "annotation": null,
       "country": "au",
       "genres": [
-        "deathcore",
-        "technical deathcore",
-        "hardcore"
+        "Deathcore",
+        "Technical Deathcore",
+        "Hardcore"
       ]
     },
     {
@@ -1733,7 +1733,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "we don't give a fuck metal"
+        "We Don'T Give A Fuck Metal"
       ]
     },
     {
@@ -1748,9 +1748,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "death metal",
-        "metal",
-        "brutal death metal"
+        "Death Metal",
+        "Metal",
+        "Brutal Death Metal"
       ]
     },
     {
@@ -1765,9 +1765,9 @@
       "annotation": null,
       "country": "fi",
       "genres": [
-        "melodic death metal",
-        "thrash metal",
-        "metal"
+        "Melodic Death Metal",
+        "Thrash Metal",
+        "Metal"
       ]
     },
     {
@@ -1782,9 +1782,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "thrash metal",
-        "crossover thrash",
-        "metal"
+        "Thrash Metal",
+        "Crossover Thrash",
+        "Metal"
       ]
     },
     {
@@ -1799,9 +1799,9 @@
       "annotation": null,
       "country": "se",
       "genres": [
-        "hard rock",
-        "heavy metal",
-        "sweden"
+        "Hard Rock",
+        "Heavy Metal",
+        "Sweden"
       ]
     },
     {
@@ -1816,9 +1816,9 @@
       "annotation": null,
       "country": "pl",
       "genres": [
-        "death metal",
-        "technical death metal",
-        "metal"
+        "Death Metal",
+        "Technical Death Metal",
+        "Metal"
       ]
     },
     {
@@ -1833,9 +1833,9 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "groove metal",
-        "nu metal",
-        "thrash metal"
+        "Groove Metal",
+        "Nu Metal",
+        "Thrash Metal"
       ]
     },
     {
@@ -1850,9 +1850,9 @@
       "annotation": null,
       "country": "ch",
       "genres": [
-        "beatdown hardcore",
-        "hardcore",
-        "deathcore"
+        "Beatdown Hardcore",
+        "Hardcore",
+        "Deathcore"
       ]
     },
     {
@@ -1928,7 +1928,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "folk rock"
+        "Folk Rock"
       ]
     },
     {
@@ -1943,9 +1943,9 @@
       "annotation": null,
       "country": "dk",
       "genres": [
-        "metalcore",
-        "deathcore",
-        "ambient"
+        "Metalcore",
+        "Deathcore",
+        "Ambient"
       ]
     },
     {
@@ -2009,9 +2009,9 @@
       "annotation": null,
       "country": "dk",
       "genres": [
-        "atmospheric black metal",
-        "post-metal",
-        "shoegaze"
+        "Atmospheric Black Metal",
+        "Post-Metal",
+        "Shoegaze"
       ]
     },
     {
@@ -2037,7 +2037,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "rock"
+        "Rock"
       ]
     },
     {
@@ -2063,8 +2063,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "rock",
-        "hard rock"
+        "Rock",
+        "Hard Rock"
       ]
     },
     {
@@ -2103,8 +2103,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "death metal",
-        "crust punk"
+        "Death Metal",
+        "Crust Punk"
       ]
     },
     {
