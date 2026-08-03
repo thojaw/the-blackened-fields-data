@@ -2119,7 +2119,14 @@
       "annotation": null
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Welcome to the Moshpit Buddies beta!",
+      "body": "Thanks for jumping into the beta of Moshpit Buddies. Poke around, break things, and let us know what you find. Happy testing, and see you in the pit!",
+      "date": "2026-08-03"
+    }
+  ],
   "links": [
     {
       "id": "la1_0",
@@ -6198,6 +6205,13 @@
         {
           "id": "a135",
           "description": "Wir freuen uns sehr, die Berliner Black metaller HÆRESIS im August bei uns begrüßen zu dürfen. Black Metal-Fans dürfen frohlocken, schließlich eilt der Band der Ruf einer erstklassigen Livefromation vorraus. Wir sind gespannt, doch auf Tonträger überzeugen HÆRESIS auf ganzer Linie. Mit ihrem harten, abwechslungsreichen, teils episch-melodischen Black Metal sollten sie genau euren nerv treffen. Also schreibt euch diese Band unbedingt auf die To Do-Liste!"
+        }
+      ],
+      "news": [
+        {
+          "id": "n1",
+          "title": "Willkommen zur Moshpit Buddies Beta!",
+          "body": "Danke, dass ihr bei der Beta von Moshpit Buddies dabei seid. Stöbert rum, testet fleißig und lasst uns wissen, was ihr findet. Happy Testing und wir sehen uns im Pit!"
         }
       ]
     }
