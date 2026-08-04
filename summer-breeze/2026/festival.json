@@ -6453,6 +6453,13 @@
       "url": "https://open.spotify.com/artist/7FTO3muxoharaaL1YhRt8H",
       "type": "spotify",
       "artistId": "a135"
+    },
+    {
+      "id": "la127_3",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/10AROE3jG5grMdhlNyZiWo",
+      "type": "spotify",
+      "artistId": "a127"
     }
   ],
   "events": [
