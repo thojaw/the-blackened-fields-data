@@ -121,8 +121,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "Punk Rock",
-        "German"
+        "Punk Rock"
       ]
     },
     {
@@ -155,7 +154,6 @@
       "country": "se",
       "genres": [
         "Melodic Death Metal",
-        "Swedish",
         "Metal"
       ]
     },
@@ -279,7 +277,6 @@
       "country": "fo",
       "genres": [
         "Singer-Songwriter",
-        "Faroese",
         "Jazz"
       ]
     },
@@ -423,8 +420,7 @@
       "country": "de",
       "genres": [
         "Death Metal",
-        "Melodic Death Metal",
-        "Blackened Death Metal"
+        "Melodic Death Metal"
       ]
     },
     {
@@ -479,7 +475,7 @@
       "country": "de",
       "genres": [
         "Black Metal",
-        "Rock And Roll",
+        "Rock",
         "Metal"
       ]
     },
@@ -576,8 +572,7 @@
       "country": "se",
       "genres": [
         "Metalcore",
-        "Post-Hardcore",
-        "Progressive Metalcore"
+        "Post-Hardcore"
       ]
     },
     {
@@ -593,8 +588,7 @@
       "country": "gb",
       "genres": [
         "Heavy Metal",
-        "Nwobhm",
-        "British"
+        "NWOBHM"
       ]
     },
     {
@@ -609,9 +603,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "Neue Deutsche HäRte",
-        "Industrial Metal",
-        "German"
+        "Neue Deutsche Härte",
+        "Industrial Metal"
       ]
     },
     {
@@ -843,7 +836,7 @@
       "genres": [
         "Heavy Metal",
         "Progressive Metal",
-        "Technical Thrash Metal"
+        "Thrash Metal"
       ]
     },
     {
@@ -873,7 +866,6 @@
       "annotation": null,
       "country": "gb",
       "genres": [
-        "Symphonic Black Metal",
         "Black Metal",
         "Gothic Metal"
       ]
@@ -992,8 +984,8 @@
       "country": "us",
       "genres": [
         "Electronic",
-        "Ebm",
-        "Industrial/Electro"
+        "EBM",
+        "Industrial"
       ]
     },
     {
@@ -1096,8 +1088,7 @@
       "annotation": null,
       "genres": [
         "Rap Metal",
-        "Hip Hop",
-        "Party Core"
+        "Hip Hop"
       ],
       "country": "de"
     },
@@ -1113,7 +1104,6 @@
       "annotation": null,
       "country": "us",
       "genres": [
-        "Melodic Metalcore",
         "Metalcore",
         "Melodic Hardcore"
       ]
@@ -1314,8 +1304,7 @@
       "country": "de",
       "genres": [
         "Black Metal",
-        "Atmospheric Black Metal",
-        "Progressive Black Metal"
+        "Atmospheric Black Metal"
       ]
     },
     {
@@ -1419,8 +1408,7 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "Neue Deutsche HäRte",
-        "German"
+        "Neue Deutsche Härte"
       ]
     },
     {
@@ -1554,8 +1542,7 @@
       "country": "at",
       "genres": [
         "Folk Metal",
-        "Black Metal",
-        "Pagan Black Metal"
+        "Black Metal"
       ]
     },
     {
@@ -1587,7 +1574,8 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "Children"
+        "Children",
+        "Heavy Metal"
       ]
     },
     {
@@ -1603,8 +1591,7 @@
       "country": "de",
       "genres": [
         "Melodic Death Metal",
-        "Metal",
-        "Melodic/Death-Metal"
+        "Metal"
       ]
     },
     {
@@ -1717,7 +1704,6 @@
       "country": "au",
       "genres": [
         "Deathcore",
-        "Technical Deathcore",
         "Hardcore"
       ]
     },
@@ -1733,7 +1719,9 @@
       "annotation": null,
       "country": "de",
       "genres": [
-        "We Don'T Give A Fuck Metal"
+        "Industrial Metal",
+        "Gothic Metal",
+        "Metalcore"
       ]
     },
     {
@@ -1800,8 +1788,7 @@
       "country": "se",
       "genres": [
         "Hard Rock",
-        "Heavy Metal",
-        "Sweden"
+        "Heavy Metal"
       ]
     },
     {
