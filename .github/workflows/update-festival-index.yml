@@ -1,0 +1,41 @@
+name: Update festival index
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "**/festival.json"
+  workflow_dispatch: {}
+
+concurrency:
+  group: update-festival-index-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  regenerate:
+    # GITHUB_TOKEN can't push to a fork's branch, so skip PRs from forks --
+    # index.json will just get regenerated again once/if the PR lands.
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+
+      - name: Regenerate index.json
+        run: python3 scripts/generate-index.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- index.json; then
+            echo "index.json already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "Regenerate festival index.json"
+          git push origin HEAD:${{ github.event.pull_request.head.ref || github.ref_name }}
