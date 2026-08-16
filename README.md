@@ -1,9 +1,11 @@
 # the-blackened-fields-data
 
-This repo has two parts:
+This repo has three parts:
 
 1. **Raw festival data** — the actual lineup/schedule information.
-2. **A Claude Skill** (`festival-guide`) that knows how to read and query it.
+2. **A generated multi-festival index** (`index.json`) — summary/header
+   info and counts for every festival, for picker-style UIs.
+3. **A Claude Skill** (`festival-guide`) that knows how to read and query it.
 
 ## 1. The data
 
@@ -32,7 +34,27 @@ The exact shape is documented two ways:
   any JSON Schema validator at a `festival.json` file with this to check it's
   well-formed — this part has nothing Claude-specific about it.
 
-## 2. The `festival-guide` Skill
+## 2. The multi-festival index (`index.json`)
+
+As the number of festivals grows, `index.json` (repo root) gives any
+consumer — an app's festival picker, a script, an agent — a single small
+file to read instead of every `festival.json`. It's generated, one entry
+per festival/year, duplicating each festival's identity/header fields
+(name, date range, language, ...) plus cheap aggregate counts (artist
+count, stage count, ...).
+
+- Shape: `schema/festival-index.schema.json` (JSON Schema), documented
+  alongside a full example in `AGENTS.md`.
+- Generator: `scripts/generate-index.py` (stdlib-only Python):
+  ```
+  python3 scripts/generate-index.py
+  ```
+- **Never hand-edit `index.json`.** `.github/workflows/update-festival-index.yml`
+  regenerates and commits it automatically on any pull request against
+  `main` that touches a `festival.json`. Run the script yourself after
+  local edits to keep it in sync in the meantime.
+
+## 3. The `festival-guide` Skill
 
 `.claude/skills/festival-guide/` packages up how to *answer questions* about
 this data — lineup lookups, schedules, clashes, artist info — rather than
