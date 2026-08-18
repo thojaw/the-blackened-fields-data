@@ -1,0 +1,604 @@
+{
+  "id": "breakout-2026",
+  "name": "Breakout",
+  "version": 1,
+  "year": 2026,
+  "defaultLang": "de",
+  "runningOrderExists": true,
+  "utcOffsetHours": 2,
+  "festivalDays": [
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05"
+  ],
+  "artists": [
+    {
+      "id": "a1",
+      "name": "Hangatyr",
+      "imageUrl": "a1.webp",
+      "description": "Heidnisch geprägter Black Metal aus Thüringen. Seit 2006 verarbeitet die Band um Frontmann Kadesh Motive der nordischen Mythologie – ihr Name bezieht sich auf einen Beinamen Odins, des \"Gehängten Gottes\".",
+      "dayDate": "2026-09-03",
+      "startTime": "18:00",
+      "endTime": "18:45",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a2",
+      "name": "Fleshless",
+      "imageUrl": "a2.webp",
+      "description": "Death-Grind-Urgestein aus Děčín, Tschechien. Seit den frühen 1990ern zählt Fleshless zu den prägendsten Bands der tschechischen Death-Metal-Szene und hat mit Alben wie \"Grindgod\" Genrestandards gesetzt.",
+      "dayDate": "2026-09-03",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "annotation": null,
+      "genres": [
+        "Death Grind"
+      ],
+      "country": "cz"
+    },
+    {
+      "id": "a3",
+      "name": "Cytotoxin",
+      "imageUrl": "a3.jpg",
+      "description": "Technischer Brutal Death Metal aus Chemnitz. Seit 2007 kombiniert Cytotoxin hohes Songwriting-Niveau mit roher Brutalität und hat sich europaweit einen Namen auf einschlägigen Festivalbühnen gemacht.",
+      "dayDate": "2026-09-03",
+      "startTime": "20:35",
+      "endTime": "21:30",
+      "annotation": null,
+      "genres": [
+        "Technical Death Metal",
+        "Brutal Death Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a4",
+      "name": "Candlemass",
+      "imageUrl": "a4.webp",
+      "description": "Schwedische Doom-Metal-Legende und Mitbegründer des Epic-Doom-Genres. Seit ihrer Gründung 1984 und Klassikern wie \"Epicus Doomicus Metallicus\" prägt Candlemass den düster-getragenen Sound des Genres bis heute.",
+      "dayDate": "2026-09-03",
+      "startTime": "22:05",
+      "endTime": "23:15",
+      "annotation": null,
+      "genres": [
+        "Epic Doom Metal"
+      ],
+      "country": "se"
+    },
+    {
+      "id": "a5",
+      "name": "Thronecult",
+      "imageUrl": "a5.jpg",
+      "description": "Roher, okkulter Black Metal aus Mylau in Sachsen. Ursprünglich 2013 als Cold Palace gegründet, tritt die Band seit 2019 unter dem Namen Thronecult im Stil der frühen 1990er-Jahre-Szene auf.",
+      "dayDate": "2026-09-04",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a6",
+      "name": "Seconddeath",
+      "imageUrl": "a6.jpg",
+      "description": "Old-School Death Metal aus Sachsen (Lohsa/Hoyerswerda). Seconddeath steht für unverfälschten, geradlinigen Death Metal made in Germany.",
+      "dayDate": "2026-09-04",
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a7",
+      "name": "Brachlant",
+      "imageUrl": "a7.webp",
+      "description": "Black Metal aus Delitzsch, Sachsen. Die 2003 als Menan Trackland gegründete Band firmiert seit 2024 unter dem Namen Brachlant und hat sich seither dem Black Metal verschrieben.",
+      "dayDate": "2026-09-04",
+      "startTime": "16:30",
+      "endTime": "17:15",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a8",
+      "name": "Victim",
+      "imageUrl": "a8.webp",
+      "description": "Old-School Thrash Metal aus Weimar, Thüringen. Seit 2007 spielt Victim geradlinigen, traditionsbewussten Thrash im Stil der 80er.",
+      "dayDate": "2026-09-04",
+      "startTime": "17:45",
+      "endTime": "18:35",
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a9",
+      "name": "Horresque",
+      "imageUrl": "a9.webp",
+      "description": "Blackened Death Metal aus Mainz. Seit 2015 verarbeitet Horresque in ihren Texten reale menschliche Abgründe; Bandmitglieder sind auch bei Nocte Obducta und Discreation aktiv.",
+      "dayDate": "2026-09-04",
+      "startTime": "19:05",
+      "endTime": "19:55",
+      "annotation": null,
+      "genres": [
+        "Blackened Death Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a10",
+      "name": "Graceless",
+      "imageUrl": "a10.webp",
+      "description": "Death/Doom Metal aus Leiden, Niederlande. Gegründet 2016 von Remco Kreft, steht Graceless für schwerfälligen, morbiden Old-School-Death-Doom.",
+      "dayDate": "2026-09-04",
+      "startTime": "20:25",
+      "endTime": "21:20",
+      "annotation": null,
+      "genres": [
+        "Death Metal",
+        "Doom Metal"
+      ],
+      "country": "nl"
+    },
+    {
+      "id": "a11",
+      "name": "Bodyfarm",
+      "imageUrl": "a11.webp",
+      "description": "Death Metal aus Amersfoort, Niederlande. Seit der Gründung 2009 durch Quint Meerbeek und Thomas Wouters liefert Bodyfarm kompromisslosen, brutalen Death Metal.",
+      "dayDate": "2026-09-04",
+      "startTime": "21:50",
+      "endTime": "22:45",
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "nl"
+    },
+    {
+      "id": "a12",
+      "name": "Borknagar",
+      "imageUrl": "a12.webp",
+      "description": "Norwegische Black-Metal-Institution seit 1995. Bekannt für progressive Songstrukturen und naturbezogene Texte, zählt Borknagar zu den einflussreichsten Bands der norwegischen Szene.",
+      "dayDate": "2026-09-04",
+      "startTime": "23:15",
+      "endTime": "00:15",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no"
+    },
+    {
+      "id": "a13",
+      "name": "Maerer",
+      "imageUrl": "a13.webp",
+      "description": "Experimenteller Black/Doom/Post-Metal aus Bernburg (Saale), Sachsen-Anhalt. Seit 2021 verarbeitet Mærer Themen wie Sagen, Verzweiflung und Vergänglichkeit; die Band ist bei War Anthem Records unter Vertrag.",
+      "dayDate": "2026-09-05",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "annotation": null,
+      "genres": [
+        "Experimental",
+        "Black Metal",
+        "Doom Metal",
+        "Post-Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a14",
+      "name": "Soul Grinder",
+      "imageUrl": "a14.webp",
+      "description": "Death Metal aus Deutschland. Soul Grinder steht für druckvollen, kompromisslosen Death-Metal-Sound.",
+      "dayDate": "2026-09-05",
+      "startTime": "15:15",
+      "endTime": "16:00",
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a15",
+      "name": "Senntus",
+      "imageUrl": "a15.webp",
+      "description": "Dark Metal aus der Region Leoben, Österreich. Senntus verbindet atmosphärische, düstere Klangflächen mit gewichtigem Metal-Fundament.",
+      "dayDate": "2026-09-05",
+      "startTime": "16:30",
+      "endTime": "17:15",
+      "annotation": null,
+      "genres": [
+        "Dark Metal"
+      ],
+      "country": "at"
+    },
+    {
+      "id": "a16",
+      "name": "Imperium Dekadenz",
+      "imageUrl": "a16.webp",
+      "description": "Atmosphärischer Black Metal aus dem bayerischen Fichtelgebirge. Das Duo ist seit 2003 aktiv und gilt als eine der prägenden Formationen des deutschen atmosphärischen Black Metal.",
+      "dayDate": "2026-09-05",
+      "startTime": "17:45",
+      "endTime": "18:35",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a17",
+      "name": "Servant",
+      "imageUrl": "a17.webp",
+      "description": "Melodischer, okkult geprägter Black Metal (\"Black Metal Magick\") aus Deutschland. Seit 2021 veröffentlicht Servant über AOP Records und tourte bereits durch West- und Osteuropa.",
+      "dayDate": "2026-09-05",
+      "startTime": "19:05",
+      "endTime": "19:55",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a18",
+      "name": "Agathodaimon",
+      "imageUrl": "a18.jpg",
+      "description": "Dark/Symphonic Black Metal aus Mainz. Seit der Gründung 1995 und dem Debütalbum \"Blacken the Angel\" (1998) verschmilzt Agathodaimon brachiale Black-Metal-Parts mit sinfonisch-atmosphärischen Keyboard-Melodien. Springt kurzfristig für die abgesagten The Committee ein.",
+      "dayDate": "2026-09-05",
+      "startTime": "20:25",
+      "endTime": "21:15",
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Dark Metal",
+        "Symphonic Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a19",
+      "name": "Psychonaut 4",
+      "imageUrl": "a19.webp",
+      "description": "Depressive Suicidal Black Metal aus Tiflis, Georgien. Seit 2010 vertont Psychonaut 4 existenzielle Verzweiflung in atmosphärisch dichten, melancholischen Kompositionen.",
+      "dayDate": "2026-09-05",
+      "startTime": "21:45",
+      "endTime": "22:40",
+      "annotation": null,
+      "genres": [
+        "Depressive Suicidal Black Metal"
+      ],
+      "country": "ge"
+    },
+    {
+      "id": "a20",
+      "name": "Melechesh",
+      "imageUrl": "a20.webp",
+      "description": "1993 in Jerusalem gegründete, heute in Amsterdam ansässige Black-Metal-Band. Melechesh verbindet mesopotamisch-assyrische Mythologie mit nahöstlich gefärbten Klangelementen und gilt als Pionier dieser Stilrichtung.",
+      "dayDate": "2026-09-05",
+      "startTime": "23:15",
+      "endTime": "00:20",
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "il"
+    }
+  ],
+  "news": [],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://planbar-breakout.de/",
+      "type": "web"
+    },
+    {
+      "id": "l2",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100054281389737&sk=upcoming_hosted_events&locale=de_DE",
+      "type": "facebook"
+    },
+    {
+      "id": "l3",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/explore/locations/1016781922/break-out-events/",
+      "type": "instagram"
+    },
+    {
+      "id": "lf_a1",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/derGehangene/",
+      "type": "facebook",
+      "artistId": "a1"
+    },
+    {
+      "id": "lf_a2",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/fleshlessofficial/",
+      "type": "facebook",
+      "artistId": "a2"
+    },
+    {
+      "id": "lw_a3",
+      "label": "Website",
+      "url": "https://www.cytotoxin.de/",
+      "type": "web",
+      "artistId": "a3"
+    },
+    {
+      "id": "lw_a4",
+      "label": "Website",
+      "url": "https://candlemass.se/",
+      "type": "web",
+      "artistId": "a4"
+    },
+    {
+      "id": "lf_a5",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/THRONECULT",
+      "type": "facebook",
+      "artistId": "a5"
+    },
+    {
+      "id": "lf_a6",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/secondeathband",
+      "type": "facebook",
+      "artistId": "a6"
+    },
+    {
+      "id": "lf_a7",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/brachlant",
+      "type": "facebook",
+      "artistId": "a7"
+    },
+    {
+      "id": "lf_a8",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Victim.Metal",
+      "type": "facebook",
+      "artistId": "a8"
+    },
+    {
+      "id": "lf_a9",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Horresque",
+      "type": "facebook",
+      "artistId": "a9"
+    },
+    {
+      "id": "lf_a10",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Graceless.osdm/",
+      "type": "facebook",
+      "artistId": "a10"
+    },
+    {
+      "id": "lf_a11",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/Bodyfarmdeathmetal/",
+      "type": "facebook",
+      "artistId": "a11"
+    },
+    {
+      "id": "lf_a12",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/borknagarofficial/",
+      "type": "facebook",
+      "artistId": "a12"
+    },
+    {
+      "id": "lf_a13",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/maererofficial/",
+      "type": "facebook",
+      "artistId": "a13"
+    },
+    {
+      "id": "lf_a14",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/soulgrindermetal/",
+      "type": "facebook",
+      "artistId": "a14"
+    },
+    {
+      "id": "lw_a15",
+      "label": "Website",
+      "url": "https://www.senntus.at/",
+      "type": "web",
+      "artistId": "a15"
+    },
+    {
+      "id": "lf_a16",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ImperiumDekadenz",
+      "type": "facebook",
+      "artistId": "a16"
+    },
+    {
+      "id": "lf_a17",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ServantMagick/",
+      "type": "facebook",
+      "artistId": "a17"
+    },
+    {
+      "id": "lw_a18",
+      "label": "Website",
+      "url": "https://www.agathodaimon.de/",
+      "type": "web",
+      "artistId": "a18"
+    },
+    {
+      "id": "lf_a18",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/agathodaimon",
+      "type": "facebook",
+      "artistId": "a18"
+    },
+    {
+      "id": "lf_a19",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/psychonaut4.official/",
+      "type": "facebook",
+      "artistId": "a19"
+    },
+    {
+      "id": "lw_a20",
+      "label": "Website",
+      "url": "https://www.melechesh.com",
+      "type": "web",
+      "artistId": "a20"
+    },
+    {
+      "id": "ls_a1",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4BDm8XiBqhTa3HDcyQ5iZT",
+      "type": "spotify",
+      "artistId": "a1"
+    },
+    {
+      "id": "ls_a2",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1Kc1kuZtgijkBpP9mt2lZo",
+      "type": "spotify",
+      "artistId": "a2"
+    },
+    {
+      "id": "ls_a3",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4CIwd3LXEtN3xLe7PwWMNF",
+      "type": "spotify",
+      "artistId": "a3"
+    },
+    {
+      "id": "ls_a4",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7zDtfSB0AOZWhpuAHZIOw5",
+      "type": "spotify",
+      "artistId": "a4"
+    },
+    {
+      "id": "ls_a5",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1E32puLyesfyYMHXBMeE0U",
+      "type": "spotify",
+      "artistId": "a5"
+    },
+    {
+      "id": "ls_a7",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4HL4MJOPKvb9H9MzuO7raO",
+      "type": "spotify",
+      "artistId": "a7"
+    },
+    {
+      "id": "ls_a8",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3TCy4RbSyx7wcQxPHREPnr",
+      "type": "spotify",
+      "artistId": "a8"
+    },
+    {
+      "id": "ls_a9",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4LMoZOcpRKdXwFD1ENBjiu",
+      "type": "spotify",
+      "artistId": "a9"
+    },
+    {
+      "id": "ls_a10",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1uevFXuxN8JN4HDnBfcTTh",
+      "type": "spotify",
+      "artistId": "a10"
+    },
+    {
+      "id": "ls_a11",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2OFRvZ32VVIW3UxVl36A0h",
+      "type": "spotify",
+      "artistId": "a11"
+    },
+    {
+      "id": "ls_a12",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0vxxsjcDy61x5zvrOqwHIL",
+      "type": "spotify",
+      "artistId": "a12"
+    },
+    {
+      "id": "ls_a13",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3szdIfmqF00nUW5lcCRSF7",
+      "type": "spotify",
+      "artistId": "a13"
+    },
+    {
+      "id": "ls_a14",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3vlBN48wnCAjH9YxOYJtdf",
+      "type": "spotify",
+      "artistId": "a14"
+    },
+    {
+      "id": "ls_a15",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/15i9PNYXtHe6FetmuVb03c",
+      "type": "spotify",
+      "artistId": "a15"
+    },
+    {
+      "id": "ls_a16",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4ykmWeGRRY1OmPgMY4K2rw",
+      "type": "spotify",
+      "artistId": "a16"
+    },
+    {
+      "id": "ls_a17",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/49t1kAPqYOFmSz1gc5ZKjL",
+      "type": "spotify",
+      "artistId": "a17"
+    },
+    {
+      "id": "ls_a18",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4wGWp9UJ9wHLNYddWbB0sF",
+      "type": "spotify",
+      "artistId": "a18"
+    },
+    {
+      "id": "ls_a19",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7oBiHmzfoAYKAFU5uO65Jc",
+      "type": "spotify",
+      "artistId": "a19"
+    },
+    {
+      "id": "ls_a20",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1bjUcmZxY4zJO1V5LaKzUY",
+      "type": "spotify",
+      "artistId": "a20"
+    }
+  ]
+}
