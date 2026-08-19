@@ -30,7 +30,7 @@
       "required": [
         "id", "slug", "year", "name", "path", "defaultLang", "utcOffsetHours",
         "runningOrderExists", "version", "festivalDays", "isMultiStage",
-        "translationLangs", "counts"
+        "translationLangs", "counts", "topGenres"
       ],
       "properties": {
         "id": {
@@ -91,6 +91,11 @@
             "links": { "type": "integer", "minimum": 0, "description": "Total links[] entries, global and per-artist combined." },
             "globalLinks": { "type": "integer", "minimum": 0, "description": "Subset of links[] with no artistId (shown on the Home screen)." }
           }
+        },
+        "topGenres": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 1 },
+          "description": "Up to 10 most common artist genre tags, mapping genre name to number of artists with that genre. Ordered by count descending, then genre name ascending. Empty object if the festival has no artists with genres."
         }
       }
     }

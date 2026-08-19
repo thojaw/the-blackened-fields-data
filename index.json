@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T15:52:03Z",
+  "generatedAt": "2026-08-19T12:17:46Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -23,6 +23,18 @@
       "translationLangs": [
         "de"
       ],
+      "topGenres": {
+        "Metal": 22,
+        "Death Metal": 15,
+        "Metalcore": 13,
+        "Heavy Metal": 12,
+        "Black Metal": 10,
+        "Melodic Death Metal": 10,
+        "Rock": 10,
+        "Thrash Metal": 8,
+        "Folk Metal": 7,
+        "Atmospheric Black Metal": 6
+      },
       "counts": {
         "artists": 135,
         "stages": 4,
@@ -49,6 +61,18 @@
       ],
       "isMultiStage": false,
       "translationLangs": [],
+      "topGenres": {
+        "Black Metal": 9,
+        "Death Metal": 4,
+        "Dark Metal": 2,
+        "Doom Metal": 2,
+        "Blackened Death Metal": 1,
+        "Brutal Death Metal": 1,
+        "Death Grind": 1,
+        "Depressive Suicidal Black Metal": 1,
+        "Epic Doom Metal": 1,
+        "Experimental": 1
+      },
       "counts": {
         "artists": 20,
         "stages": 0,

@@ -243,6 +243,8 @@ FestivalIndexEntry {
   festivalDays[],   -- full copy of the source festivalDays; first/last = date range
   isMultiStage,     -- true if stages.length > 1
   translationLangs[],  -- BCP 47 langs with a translations[] entry, e.g. ["de"]
+  topGenres,        -- up to 10 most common artist genres, { genre: artistCount },
+                     -- ordered by count descending then genre name
   counts: { artists, stages, news, events, links, globalLinks }
 }
 
@@ -275,6 +277,10 @@ FestivalIndex {
       ],
       "isMultiStage": true,
       "translationLangs": ["de"],
+      "topGenres": {
+        "Melodic Death Metal": 14,
+        "Black Metal": 11
+      },
       "counts": {
         "artists": 135,
         "stages": 4,
