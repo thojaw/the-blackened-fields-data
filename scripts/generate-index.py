@@ -19,6 +19,7 @@ too few festivals for incremental updates to be worth the complexity) --
 this script is what CI runs whenever a festival.json changes.
 """
 import argparse
+import collections
 import datetime as dt
 import glob
 import json
@@ -26,6 +27,7 @@ import os
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 SCHEMA_VERSION = 1
+TOP_GENRES_LIMIT = 10
 
 
 def find_festival_files():
@@ -44,6 +46,15 @@ def build_entry(path, slug):
     links = data.get("links", []) or []
     stages = data.get("stages", []) or []
     translations = data.get("translations", []) or []
+    artists = data.get("artists", []) or []
+
+    genre_counts = collections.Counter()
+    for artist in artists:
+        for genre in artist.get("genres", []) or []:
+            genre_counts[genre] += 1
+    top_genres = dict(
+        sorted(genre_counts.items(), key=lambda item: (-item[1], item[0]))[:TOP_GENRES_LIMIT]
+    )
 
     return {
         "id": data["id"],
@@ -58,8 +69,9 @@ def build_entry(path, slug):
         "festivalDays": data.get("festivalDays", []),
         "isMultiStage": len(stages) > 1,
         "translationLangs": [t["lang"] for t in translations],
+        "topGenres": top_genres,
         "counts": {
-            "artists": len(data.get("artists", []) or []),
+            "artists": len(artists),
             "stages": len(stages),
             "news": len(data.get("news", []) or []),
             "events": len(data.get("events", []) or []),
