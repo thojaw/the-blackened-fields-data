@@ -300,7 +300,20 @@
       "country": "il"
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Auf einen ganz besonderen Geburtstag!",
+      "body": "Heute wird kräftig mitgefeiert: Alles Gute zum Geburtstag, Michael! Wir hoffen, dein Tag wird genauso unvergesslich wie ein Moshpit in der ersten Reihe. 🤘",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "n2",
+      "title": "Sonne satt fürs Breakout",
+      "body": "Gute Nachrichten für alle Headbanger: Schönes Wetter ist bestellt! Wir sind zuversichtlich, dass die Sonne mitfeiert – Sonnencreme trotzdem nicht vergessen.",
+      "date": "2026-08-27"
+    }
+  ],
   "links": [
     {
       "id": "l1",
