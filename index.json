@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T12:17:46Z",
+  "generatedAt": "2026-08-28T09:42:12Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -12,6 +12,7 @@
       "utcOffsetHours": 2,
       "runningOrderExists": true,
       "version": 2,
+      "visible": true,
       "festivalDays": [
         "2026-08-11",
         "2026-08-12",
@@ -45,6 +46,47 @@
       }
     },
     {
+      "id": "valhalla-fest-2026",
+      "slug": "valhalla-fest",
+      "year": 2026,
+      "name": "Valhalla Fest",
+      "path": "valhalla-fest/2026/festival.json",
+      "defaultLang": "en",
+      "utcOffsetHours": 2,
+      "runningOrderExists": true,
+      "version": 1,
+      "visible": false,
+      "festivalDays": [
+        "2026-08-28",
+        "2026-08-29",
+        "2026-08-30"
+      ],
+      "isMultiStage": true,
+      "translationLangs": [
+        "de"
+      ],
+      "topGenres": {
+        "Doom Metal": 3,
+        "Folk": 2,
+        "Folk Metal": 2,
+        "Stoner Rock": 2,
+        "Symphonic Metal": 2,
+        "Viking Metal": 2,
+        "Atmospheric Black Metal": 1,
+        "Black Metal": 1,
+        "Crossover Thrash": 1,
+        "Crust Punk": 1
+      },
+      "counts": {
+        "artists": 30,
+        "stages": 2,
+        "news": 3,
+        "events": 0,
+        "links": 29,
+        "globalLinks": 6
+      }
+    },
+    {
       "id": "breakout-2026",
       "slug": "breakout",
       "year": 2026,
@@ -54,6 +96,7 @@
       "utcOffsetHours": 2,
       "runningOrderExists": true,
       "version": 1,
+      "visible": true,
       "festivalDays": [
         "2026-09-03",
         "2026-09-04",
@@ -76,7 +119,7 @@
       "counts": {
         "artists": 20,
         "stages": 0,
-        "news": 0,
+        "news": 2,
         "events": 0,
         "links": 43,
         "globalLinks": 3
