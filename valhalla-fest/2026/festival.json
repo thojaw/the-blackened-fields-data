@@ -1,0 +1,798 @@
+{
+  "id": "valhalla-fest-2026",
+  "name": "Valhalla Fest",
+  "version": 1,
+  "year": 2026,
+  "visible": false,
+  "defaultLang": "en",
+  "runningOrderExists": true,
+  "utcOffsetHours": 2,
+  "festivalDays": [
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30"
+  ],
+  "stages": [
+    {
+      "id": "s1",
+      "name": "Valhalla Stage"
+    },
+    {
+      "id": "s2",
+      "name": "Bifröst Stage"
+    }
+  ],
+  "artists": [
+    {
+      "id": "a1",
+      "name": "Berserkr",
+      "imageUrl": "a1.png",
+      "description": "Thunderous Norwegian folk-metal quartet drawing on saga poetry and battle-march drum patterns. Their live shows close with a wall of horn calls.",
+      "stageId": "s2",
+      "dayDate": "2026-08-28",
+      "startTime": "17:20",
+      "endTime": "18:00",
+      "annotation": null,
+      "genres": ["Folk Metal"],
+      "country": "no"
+    },
+    {
+      "id": "a2",
+      "name": "Bjornholm",
+      "imageUrl": "a2.png",
+      "description": "Atmospheric black-metal duo from the Faroe Islands. Glacial guitars and clean baritone vocals over slow, deliberate rhythms.",
+      "stageId": "s2",
+      "dayDate": "2026-08-30",
+      "startTime": "21:05",
+      "endTime": "22:50",
+      "annotation": "Closing set of the Bifröst Stage.",
+      "genres": ["Atmospheric Black Metal"],
+      "country": "fo"
+    },
+    {
+      "id": "a3",
+      "name": "Drekka Sjór",
+      "imageUrl": "a3.png",
+      "description": "Icelandic post-rock with rune-based song titles and an obsession for nine-minute crescendos.",
+      "stageId": "s2",
+      "dayDate": "2026-08-30",
+      "startTime": "14:10",
+      "endTime": "14:50",
+      "annotation": null,
+      "genres": ["Post-Rock"],
+      "country": "is"
+    },
+    {
+      "id": "a4",
+      "name": "Frost Giants",
+      "imageUrl": "a4.png",
+      "description": "Six-piece pagan-folk ensemble. Nyckelharpa, frame drums, throat-singing and a stage built around a forge anvil.",
+      "stageId": "s1",
+      "dayDate": "2026-08-30",
+      "startTime": "20:55",
+      "endTime": "22:40",
+      "annotation": "Festival-closing set. Ear protection strongly advised for front-row positions.",
+      "genres": ["Pagan Folk"],
+      "country": "no"
+    },
+    {
+      "id": "a5",
+      "name": "Mjölnir Mark",
+      "imageUrl": "a5.png",
+      "description": "Power-trio playing thunder-soaked stoner rock. Riffs broad enough to drag a longship across a dry beach.",
+      "stageId": "s1",
+      "dayDate": "2026-08-29",
+      "startTime": "19:05",
+      "endTime": "20:20",
+      "annotation": null,
+      "genres": ["Stoner Rock"],
+      "country": "se"
+    },
+    {
+      "id": "a6",
+      "name": "Ragnar's Wrath",
+      "imageUrl": "a6.png",
+      "description": "Crossover thrash from Gothenburg with hardcore breakdowns and a frontman who circles the pit barefoot.",
+      "stageId": "s1",
+      "dayDate": "2026-08-28",
+      "startTime": "18:10",
+      "endTime": "19:00",
+      "annotation": null,
+      "genres": ["Crossover Thrash"],
+      "country": "se"
+    },
+    {
+      "id": "a7",
+      "name": "Skalds of Asgard",
+      "imageUrl": "a7.png",
+      "description": "Acoustic story-singers performing skaldic verse. Two voices, lyre, bone flute, no amplification beyond a single ribbon mic.",
+      "stageId": "s1",
+      "dayDate": "2026-08-29",
+      "startTime": "14:00",
+      "endTime": "14:40",
+      "annotation": "Opening blessing performed before the first note.",
+      "genres": ["Folk"],
+      "country": "is"
+    },
+    {
+      "id": "a8",
+      "name": "Valkyrjar",
+      "imageUrl": "a8.png",
+      "description": "All-female symphonic metal sextet. Choral vocals, twin guitars, harp, and a stage show punctuated by spear-dancing.",
+      "stageId": "s1",
+      "dayDate": "2026-08-29",
+      "startTime": "20:55",
+      "endTime": "22:40",
+      "annotation": null,
+      "genres": ["Symphonic Metal"],
+      "country": "no"
+    },
+    {
+      "id": "a9",
+      "name": "Yggdrasil's Roots",
+      "imageUrl": "a9.png",
+      "description": "Earth-toned doom from the Black Forest. Glacially slow, organ-driven, and best heard at sunset.",
+      "stageId": "s2",
+      "dayDate": "2026-08-29",
+      "startTime": "18:50",
+      "endTime": "20:05",
+      "annotation": null,
+      "genres": ["Doom Metal"],
+      "country": "de"
+    },
+    {
+      "id": "a10",
+      "name": "Black Sails",
+      "imageUrl": "a10.png",
+      "description": "Sea-shanty hardcore with mandolin and trumpet. The headliner everyone leaves the merch tent for.",
+      "stageId": "s1",
+      "dayDate": "2026-08-28",
+      "startTime": "19:35",
+      "endTime": "21:20",
+      "annotation": "Opening night headline set.",
+      "genres": ["Hardcore Punk", "Folk"],
+      "country": "dk"
+    },
+    {
+      "id": "a11",
+      "name": "Ironveil",
+      "imageUrl": "a11.png",
+      "description": "Dark atmospheric post-black metal from the Norwegian highlands. Cascading tremolo riffs dissolve into drone passages that feel carved from glacier ice.",
+      "stageId": "s2",
+      "dayDate": "2026-08-29",
+      "startTime": "20:40",
+      "endTime": "22:25",
+      "annotation": null,
+      "genres": ["Post-Black Metal"],
+      "country": "no"
+    },
+    {
+      "id": "a12",
+      "name": "Shieldwall",
+      "imageUrl": "a12.png",
+      "description": "Battle-hardened crust-punk from Copenhagen. Four-chord ferocity meets marching-drum thunder — the kind of band that starts a wall of death with a single glare.",
+      "stageId": "s1",
+      "dayDate": "2026-08-29",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "annotation": null,
+      "genres": ["Crust Punk"],
+      "country": "dk"
+    },
+    {
+      "id": "a13",
+      "name": "Runecaster",
+      "imageUrl": "a13.png",
+      "description": "Swedish folk-metal trio weaving elder runic verse into their lyrics. A hurdy-gurdy player doubles on lap steel for extended interlude pieces.",
+      "stageId": "s1",
+      "dayDate": "2026-08-28",
+      "startTime": "17:00",
+      "endTime": "17:40",
+      "annotation": null,
+      "genres": ["Folk Metal"],
+      "country": "se"
+    },
+    {
+      "id": "a14",
+      "name": "Tidecaller",
+      "imageUrl": "a14.png",
+      "description": "Dark-wave duo from the Shetland Islands. Synth bass and reverb-drenched vocals summon storms from behind a wall of fog machines.",
+      "stageId": "s2",
+      "dayDate": "2026-08-29",
+      "startTime": "17:20",
+      "endTime": "18:20",
+      "annotation": null,
+      "genres": ["Dark Wave"],
+      "country": "gb"
+    },
+    {
+      "id": "a15",
+      "name": "Skullberg",
+      "imageUrl": "a15.png",
+      "description": "Finnish Viking death metal with pinch harmonics you feel three rows back. Epic song structures last well past the ten-minute mark.",
+      "stageId": "s2",
+      "dayDate": "2026-08-30",
+      "startTime": "15:15",
+      "endTime": "15:55",
+      "annotation": null,
+      "genres": ["Viking Metal", "Death Metal"],
+      "country": "fi"
+    },
+    {
+      "id": "a16",
+      "name": "Nordheim",
+      "imageUrl": "a16.png",
+      "description": "Symphonic Viking metal flagship from Oslo. A thirty-piece touring string section, operatic baritone, and a stage lit entirely by fire baskets.",
+      "stageId": "s2",
+      "dayDate": "2026-08-28",
+      "startTime": "19:55",
+      "endTime": "21:40",
+      "annotation": "Fire baskets ignited at 20:45 sharp. No standing within 2 m of the stage edge.",
+      "genres": ["Symphonic Metal", "Viking Metal"],
+      "country": "no"
+    },
+    {
+      "id": "a17",
+      "name": "Eitr's Venom",
+      "imageUrl": "a17.png",
+      "description": "Sludge-doom quartet from Hamburg. Feedback-drenched walls of sound played at the tempo of a dying tide.",
+      "stageId": "s2",
+      "dayDate": "2026-08-28",
+      "startTime": "18:30",
+      "endTime": "19:20",
+      "annotation": null,
+      "genres": ["Sludge Metal", "Doom Metal"],
+      "country": "de"
+    },
+    {
+      "id": "a18",
+      "name": "Galdrastafr",
+      "imageUrl": "a18.png",
+      "description": "One-man ritual dark ambient project. Live sets involve handmade stave instruments, bone percussion, and field recordings from Icelandic lava fields.",
+      "stageId": "s2",
+      "dayDate": "2026-08-30",
+      "startTime": "16:25",
+      "endTime": "17:15",
+      "annotation": "Stave instruments ritually burned at set close.",
+      "genres": ["Dark Ambient"],
+      "country": "is"
+    },
+    {
+      "id": "a19",
+      "name": "Stormwulf",
+      "imageUrl": "a19.png",
+      "description": "Raw black metal from northern Finland. No stage lighting, no banter — just blast beats erupting from the darkness.",
+      "stageId": "s2",
+      "dayDate": "2026-08-30",
+      "startTime": "19:15",
+      "endTime": "20:30",
+      "annotation": null,
+      "genres": ["Black Metal"],
+      "country": "fi"
+    },
+    {
+      "id": "a20",
+      "name": "Ashen Völva",
+      "imageUrl": "a20.png",
+      "description": "Ethereal goth duo from Stockholm. Cello-driven soundscapes weave through whispered prophecy poetry and cinematic percussion.",
+      "stageId": "s2",
+      "dayDate": "2026-08-29",
+      "startTime": "14:50",
+      "endTime": "15:30",
+      "annotation": null,
+      "genres": ["Gothic"],
+      "country": "se"
+    },
+    {
+      "id": "a21",
+      "name": "Grimnir's Pyre",
+      "imageUrl": "a21.png",
+      "description": "Melodic death metal from Aarhus. Soaring guitar harmonies contrast with guttural vocals recounting tales of the hanged god.",
+      "stageId": "s1",
+      "dayDate": "2026-08-29",
+      "startTime": "17:35",
+      "endTime": "18:35",
+      "annotation": null,
+      "genres": ["Melodic Death Metal"],
+      "country": "dk"
+    },
+    {
+      "id": "a22",
+      "name": "Serpent's Wake",
+      "imageUrl": "a22.png",
+      "description": "Post-metal five-piece from Rotterdam. Songs build patiently for twelve minutes before collapsing into thunderous release.",
+      "stageId": "s2",
+      "dayDate": "2026-08-29",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "annotation": null,
+      "genres": ["Post-Metal"],
+      "country": "nl"
+    },
+    {
+      "id": "a23",
+      "name": "Wyrdweavers",
+      "imageUrl": "a23.png",
+      "description": "Medieval folk ensemble from Canterbury. Bagpipes, rebec, and tabor drum wrapped in haunting three-part harmony.",
+      "stageId": "s1",
+      "dayDate": "2026-08-29",
+      "startTime": "15:05",
+      "endTime": "15:45",
+      "annotation": null,
+      "genres": ["Medieval Folk"],
+      "country": "gb"
+    },
+    {
+      "id": "a24",
+      "name": "Helbound",
+      "imageUrl": "a24.png",
+      "description": "Traditional doom metal from Birmingham. Slow, crushing riffs and reverb-soaked vocals in the grand tradition of the genre's birthplace.",
+      "stageId": "s2",
+      "dayDate": "2026-08-30",
+      "startTime": "17:45",
+      "endTime": "18:45",
+      "annotation": null,
+      "genres": ["Doom Metal"],
+      "country": "gb"
+    },
+    {
+      "id": "a25",
+      "name": "Blóðörn",
+      "imageUrl": "a25.png",
+      "description": "Extreme metal project from Reykjavik. Intense, technical, and lyrically rooted in blood-eagle mythology. Not for the faint-hearted.",
+      "stageId": "s1",
+      "dayDate": "2026-08-30",
+      "startTime": "15:05",
+      "endTime": "15:45",
+      "annotation": null,
+      "genres": ["Extreme Metal"],
+      "country": "is"
+    },
+    {
+      "id": "a26",
+      "name": "Embla's Kin",
+      "imageUrl": "a26.png",
+      "description": "Neo-folk duo from the Black Forest. Acoustic guitar, mountain dulcimer, and two voices that sound like they were born from the same root.",
+      "stageId": "s1",
+      "dayDate": "2026-08-30",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "annotation": null,
+      "genres": ["Neofolk"],
+      "country": "de"
+    },
+    {
+      "id": "a27",
+      "name": "Óðinn's Eye",
+      "imageUrl": "a27.png",
+      "description": "Progressive metal quintet from Helsinki. Time-signature games, extended improvisations, and a fifteen-minute centrepiece suite in every set.",
+      "stageId": "s1",
+      "dayDate": "2026-08-30",
+      "startTime": "19:05",
+      "endTime": "20:20",
+      "annotation": null,
+      "genres": ["Progressive Metal"],
+      "country": "fi"
+    },
+    {
+      "id": "a28",
+      "name": "Skaldenfang",
+      "imageUrl": "a28.png",
+      "description": "Folk-punk band from Malmö. Rowdy crowd participation, accordion breakdowns, and enough mead-hall energy to empty a keg in a single set.",
+      "stageId": "s2",
+      "dayDate": "2026-08-29",
+      "startTime": "13:45",
+      "endTime": "14:25",
+      "annotation": "Bring your singing voice — the encore is audience-only.",
+      "genres": ["Folk Punk"],
+      "country": "se"
+    },
+    {
+      "id": "a29",
+      "name": "Draugar",
+      "imageUrl": "a29.png",
+      "description": "Funeral doom from Bergen. Playing tempo measured in decades, the band summons a grief so dense it has its own gravity.",
+      "stageId": "s1",
+      "dayDate": "2026-08-30",
+      "startTime": "17:35",
+      "endTime": "18:35",
+      "annotation": "No applause requested. Sit in silence.",
+      "genres": ["Funeral Doom"],
+      "country": "no"
+    },
+    {
+      "id": "a30",
+      "name": "Thunderhide",
+      "imageUrl": "a30.png",
+      "description": "Heavy-rock power trio from Cologne. Stoner grooves, fuzz-drenched bass, and a drummer with a kick-drum pattern that rattles loose fillings.",
+      "stageId": "s1",
+      "dayDate": "2026-08-30",
+      "startTime": "14:00",
+      "endTime": "14:40",
+      "annotation": null,
+      "genres": ["Stoner Rock"],
+      "country": "de"
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Tickets on sale",
+      "body": "Three-day passes and single-day tickets are available now. Early-bird pricing ended 2026-06-01.",
+      "date": "2026-05-01"
+    },
+    {
+      "id": "n2",
+      "title": "Camping spots opened",
+      "body": "Limited camping spots adjacent to the long-hall are now bookable. First-come, first-served.",
+      "date": "2026-06-15"
+    },
+    {
+      "id": "n3",
+      "title": "Valhalla Fest opens today!",
+      "body": "Gates are open and the first bands hit the Valhalla Stage and the Bifröst Stage tonight from 17:00. See you at the mead hall.",
+      "date": "2026-08-28"
+    }
+  ],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://valhalla-fest.example/",
+      "type": "web"
+    },
+    {
+      "id": "l2",
+      "label": "Tickets",
+      "url": "https://valhalla-fest.example/tickets",
+      "type": "web"
+    },
+    {
+      "id": "l3",
+      "label": "Travel & Camping",
+      "url": "https://valhalla-fest.example/travel",
+      "type": "web"
+    },
+    {
+      "id": "l4",
+      "label": "Instagram",
+      "url": "https://instagram.com/valhalla_fest_example",
+      "type": "instagram"
+    },
+    {
+      "id": "l5",
+      "label": "YouTube",
+      "url": "https://youtube.com/@valhalla_fest_example",
+      "type": "youtube"
+    },
+    {
+      "id": "l6",
+      "label": "Facebook",
+      "url": "https://facebook.com/valhalla.fest.example",
+      "type": "facebook"
+    },
+    {
+      "id": "la1",
+      "label": "Official Site",
+      "url": "https://berserkr.example.com",
+      "type": "web",
+      "artistId": "a1"
+    },
+    {
+      "id": "la2",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/berserkr-example",
+      "type": "spotify",
+      "artistId": "a1"
+    },
+    {
+      "id": "la3",
+      "label": "Bandcamp",
+      "url": "https://berserkr.bandcamp.com",
+      "type": "bandcamp",
+      "artistId": "a1"
+    },
+    {
+      "id": "la4",
+      "label": "Instagram",
+      "url": "https://instagram.com/bjornholm_example",
+      "type": "instagram",
+      "artistId": "a2"
+    },
+    {
+      "id": "la5",
+      "label": "Bandcamp",
+      "url": "https://bjornholm.bandcamp.com",
+      "type": "bandcamp",
+      "artistId": "a2"
+    },
+    {
+      "id": "la6",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/drekka-sjor-example",
+      "type": "spotify",
+      "artistId": "a3"
+    },
+    {
+      "id": "la7",
+      "label": "YouTube",
+      "url": "https://youtube.com/@drekkasjor_example",
+      "type": "youtube",
+      "artistId": "a3"
+    },
+    {
+      "id": "la8",
+      "label": "Facebook",
+      "url": "https://facebook.com/frostgiants.example",
+      "type": "facebook",
+      "artistId": "a4"
+    },
+    {
+      "id": "la9",
+      "label": "SoundCloud",
+      "url": "https://soundcloud.com/frost-giants-example",
+      "type": "soundcloud",
+      "artistId": "a4"
+    },
+    {
+      "id": "la10",
+      "label": "Instagram",
+      "url": "https://instagram.com/mjolnir_mark_example",
+      "type": "instagram",
+      "artistId": "a5"
+    },
+    {
+      "id": "la11",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/mjolnir-mark-example",
+      "type": "spotify",
+      "artistId": "a5"
+    },
+    {
+      "id": "la12",
+      "label": "YouTube",
+      "url": "https://youtube.com/@ragnarswrath_example",
+      "type": "youtube",
+      "artistId": "a6"
+    },
+    {
+      "id": "la13",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/ragnars-wrath-example",
+      "type": "spotify",
+      "artistId": "a6"
+    },
+    {
+      "id": "la14",
+      "label": "Bandcamp",
+      "url": "https://skaldsofasgard.bandcamp.com",
+      "type": "bandcamp",
+      "artistId": "a7"
+    },
+    {
+      "id": "la15",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/valkyrjar-example",
+      "type": "spotify",
+      "artistId": "a8"
+    },
+    {
+      "id": "la16",
+      "label": "YouTube",
+      "url": "https://youtube.com/@valkyrjar_example",
+      "type": "youtube",
+      "artistId": "a8"
+    },
+    {
+      "id": "la17",
+      "label": "Instagram",
+      "url": "https://instagram.com/valkyrjar_example",
+      "type": "instagram",
+      "artistId": "a8"
+    },
+    {
+      "id": "la18",
+      "label": "SoundCloud",
+      "url": "https://soundcloud.com/yggdrasils-roots-example",
+      "type": "soundcloud",
+      "artistId": "a9"
+    },
+    {
+      "id": "la19",
+      "label": "Bandcamp",
+      "url": "https://yggdrasilsroots.bandcamp.com",
+      "type": "bandcamp",
+      "artistId": "a9"
+    },
+    {
+      "id": "la20",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/black-sails-example",
+      "type": "spotify",
+      "artistId": "a10"
+    },
+    {
+      "id": "la21",
+      "label": "YouTube",
+      "url": "https://youtube.com/@blacksails_example",
+      "type": "youtube",
+      "artistId": "a10"
+    },
+    {
+      "id": "la22",
+      "label": "Instagram",
+      "url": "https://instagram.com/blacksails_example",
+      "type": "instagram",
+      "artistId": "a10"
+    },
+    {
+      "id": "la23",
+      "label": "Discord",
+      "url": "https://discord.gg/blacksails-example",
+      "type": "discord",
+      "artistId": "a10"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "artists": [
+        {
+          "id": "a1",
+          "description": "Donnerndes norwegisches Folk-Metal-Quartett, das Sagenpoesie und Schlachtzug-Trommelrhythmen vereint. Ihre Live-Shows enden mit einem Chor aus Hornrufen."
+        },
+        {
+          "id": "a2",
+          "description": "Atmosphärisches Black-Metal-Duo von den Färöer-Inseln. Eisige Gitarren und klarer Baritongesang über langsamen, bedächtigen Rhythmen.",
+          "annotation": "Abschlusskonzert der Bifröst-Bühne."
+        },
+        {
+          "id": "a3",
+          "description": "Isländischer Post-Rock mit runenbasierten Songtiteln und einer Vorliebe für neunminütige Crescendos."
+        },
+        {
+          "id": "a4",
+          "description": "Sechsköpfiges Pagan-Folk-Ensemble. Nyckelharpa, Rahmentrommeln, Obertongesang und eine Bühne rund um einen Schmiedeamboss.",
+          "annotation": "Festival-Abschlusskonzert. Gehörschutz für Frontrow-Positionen dringend empfohlen."
+        },
+        {
+          "id": "a5",
+          "description": "Power-Trio mit donnerschwangerem Stoner Rock. Riffs, breit genug, um ein Langschiff über einen trockenen Strand zu ziehen."
+        },
+        {
+          "id": "a6",
+          "description": "Crossover-Thrash aus Göteborg mit Hardcore-Breakdowns und einem Frontmann, der den Pit barfuß umkreist."
+        },
+        {
+          "id": "a7",
+          "description": "Akustische Geschichtenerzähler mit skaldischen Versen. Zwei Stimmen, Lyra, Knochenflöte – keine Verstärkung außer einem einzelnen Bändchenmikrofon.",
+          "annotation": "Eröffnungssegen wird vor dem ersten Ton dargeboten."
+        },
+        {
+          "id": "a8",
+          "description": "Rein weibliches symphonisches Metal-Sextett. Chorgesang, zwei Gitarren, Harfe und eine Bühnenshow mit Speertanz."
+        },
+        {
+          "id": "a9",
+          "description": "Erdtöniger Doom aus dem Schwarzwald. Gletscherlangsam, orgelbetrieben und am besten bei Sonnenuntergang zu hören."
+        },
+        {
+          "id": "a10",
+          "description": "Sea-Shanty-Hardcore mit Mandoline und Trompete. Der Headliner, für den alle den Merchandise-Stand verlassen.",
+          "annotation": "Headliner-Set des Eröffnungsabends."
+        },
+        {
+          "id": "a11",
+          "description": "Atmosphärischer Post-Black-Metal aus den norwegischen Hochlagen. Kaskadierendes Tremolo-Picking löst sich in Drone-Passagen auf, die wie aus Gletschereis gehauen wirken."
+        },
+        {
+          "id": "a12",
+          "description": "Hartgesottener Crust-Punk aus Kopenhagen. Vier-Akkord-Furor trifft Marschdonnertrommel – die Band, die mit einem einzigen Blick eine Wall of Death auslöst."
+        },
+        {
+          "id": "a13",
+          "description": "Schwedisches Folk-Metal-Trio, das altnordische Runenverse in seine Texte einwebt. Der Drehleierspieler wechselt für ausgedehnte Zwischenspiele zur Lap-Steel-Gitarre."
+        },
+        {
+          "id": "a14",
+          "description": "Darkwave-Duo von den Shetlandinseln. Synth-Bass und hallgetränkte Vocals beschwören Stürme hinter einer Wand aus Nebelmaschinen."
+        },
+        {
+          "id": "a15",
+          "description": "Finnischer Viking-Death-Metal mit Pinch-Harmonics, die man noch drei Reihen weiter hinten spürt. Epische Songstrukturen, die locker die Zehnminutenmarke übersteigen."
+        },
+        {
+          "id": "a16",
+          "description": "Symphonisches Viking-Metal-Flaggschiff aus Oslo. Dreißigköpfiges Streichorchester auf Tournee, dramatischer Opernbariton und eine ausschließlich durch Feuerkörbe beleuchtete Bühne.",
+          "annotation": "Feuerkörbe entzünden sich um 20:45 Uhr. Kein Aufenthalt innerhalb von 2 m vom Bühnenrand."
+        },
+        {
+          "id": "a17",
+          "description": "Sludge-Doom-Quartett aus Hamburg. Feedback-getränkte Klangtürme im Tempo einer sterbenden Flut."
+        },
+        {
+          "id": "a18",
+          "description": "Einmann-Projekt für rituellen Dark Ambient. Live-Sets bestehen aus handgefertigten Stabinstrumenten, Knochendrums und Feldaufnahmen von isländischen Lavafeldern.",
+          "annotation": "Stabinstrumente werden am Ende des Sets rituell verbrannt."
+        },
+        {
+          "id": "a19",
+          "description": "Roher Black Metal aus Nordfinnland. Kein Bühnenlicht, kein Smalltalk – nur Blastbeats, die aus der Dunkelheit hervorbrechen."
+        },
+        {
+          "id": "a20",
+          "description": "Ätherisches Gothic-Duo aus Stockholm. Cello-getragene Klanglandschaften verweben sich mit geflüsterten Prophezeiungsgedichten und kinematischen Percussions."
+        },
+        {
+          "id": "a21",
+          "description": "Melodic Death Metal aus Aarhus. Schwebende Gitarrenharmonien kontrastieren mit tiefem Grunzgesang über die Geschichten des Gehängten Gottes."
+        },
+        {
+          "id": "a22",
+          "description": "Post-Metal-Fünfer aus Rotterdam. Songs bauen sich geduldig über zwölf Minuten auf, bevor sie in donnernder Entladung zusammenbrechen."
+        },
+        {
+          "id": "a23",
+          "description": "Mittelalterliches Folk-Ensemble aus Canterbury. Dudelsack, Rebec und Rahmenwerbetrommel umhüllt von betörender dreistimmiger Harmonie."
+        },
+        {
+          "id": "a24",
+          "description": "Traditioneller Doom Metal aus Birmingham. Langsame, erdrückende Riffs und hallgetränkte Vocals in der Hochtradition des Geburtsorts des Genres."
+        },
+        {
+          "id": "a25",
+          "description": "Extremmetal-Projekt aus Reykjavik. Intensiv, technisch und lyrisch in der Blutaar-Mythologie verwurzelt. Nichts für schwache Nerven."
+        },
+        {
+          "id": "a26",
+          "description": "Neo-Folk-Duo aus dem Schwarzwald. Akustikgitarre, Bergzither und zwei Stimmen, die klingen, als wären sie aus derselben Wurzel gewachsen."
+        },
+        {
+          "id": "a27",
+          "description": "Progressive Metal-Quintett aus Helsinki. Taktartenspiele, ausgedehnte Improvisationen und eine fünfzehnminütige Suite als Herzstück jedes Sets."
+        },
+        {
+          "id": "a28",
+          "description": "Folk-Punk-Band aus Malmö. Ausgelassene Mitsing-Momente, Akkordeon-Breaks und genug Methalle-Energie, um ein ganzes Fass in einem Set zu leeren.",
+          "annotation": "Bring deine Singstimme – die Zugabe gehört dem Publikum."
+        },
+        {
+          "id": "a29",
+          "description": "Funeral Doom aus Bergen. Im Tempo von Jahrzehnten gemessen, beschwört die Band eine Trauer, die so dicht ist, dass sie ihre eigene Schwerkraft hat.",
+          "annotation": "Kein Applaus erwünscht. Bitte in Stille verweilen."
+        },
+        {
+          "id": "a30",
+          "description": "Heavy-Rock-Power-Trio aus Köln. Stoner-Grooves, fuzzgesättigter Bass und ein Schlagzeuger mit einem Bassdrum-Muster, das Zahnfüllungen lockert."
+        }
+      ],
+      "news": [
+        {
+          "id": "n1",
+          "title": "Tickets im Verkauf",
+          "body": "Drei-Tages-Pässe und Einzeltageskarten sind jetzt erhältlich. Frühbucherpreise endeten am 01.06.2026."
+        },
+        {
+          "id": "n2",
+          "title": "Campingplätze geöffnet",
+          "body": "Begrenzte Campingplätze neben der Langhalle sind jetzt buchbar. Wer zuerst kommt, mahlt zuerst."
+        },
+        {
+          "id": "n3",
+          "title": "Valhalla Fest öffnet heute!",
+          "body": "Die Tore sind offen, und die ersten Bands betreten heute Abend ab 17:00 Uhr die Valhalla Stage und die Bifröst Stage. Wir sehen uns in der Met-Halle."
+        }
+      ],
+      "links": [
+        {
+          "id": "l3",
+          "label": "Anreise & Camping"
+        },
+        {
+          "id": "la1",
+          "label": "Offizielle Website"
+        }
+      ]
+    }
+  ]
+}

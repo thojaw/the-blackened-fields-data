@@ -66,6 +66,7 @@ def build_entry(path, slug):
         "utcOffsetHours": data["utcOffsetHours"],
         "runningOrderExists": data["runningOrderExists"],
         "version": data["version"],
+        "visible": data.get("visible", True),
         "festivalDays": data.get("festivalDays", []),
         "isMultiStage": len(stages) > 1,
         "translationLangs": [t["lang"] for t in translations],

@@ -29,7 +29,7 @@
       "additionalProperties": false,
       "required": [
         "id", "slug", "year", "name", "path", "defaultLang", "utcOffsetHours",
-        "runningOrderExists", "version", "festivalDays", "isMultiStage",
+        "runningOrderExists", "version", "visible", "festivalDays", "isMultiStage",
         "translationLangs", "counts", "topGenres"
       ],
       "properties": {
@@ -62,6 +62,10 @@
         "version": {
           "type": "integer",
           "description": "The source festival.json's own 'version' field, so consumers can detect the source data changed independently of this index."
+        },
+        "visible": {
+          "type": "boolean",
+          "description": "The source festival.json's own 'visible' field (defaults to true when absent there). Carried through rather than filtered out so a consumer can choose to show hidden/test festivals behind a developer or tester mode; normal-mode UIs should filter these out client-side."
         },
         "festivalDays": {
           "type": "array",
