@@ -17,6 +17,11 @@
     "name": { "type": "string", "description": "Display name, e.g. 'Summer Breeze'." },
     "version": { "type": "integer" },
     "year": { "type": "integer" },
+    "visible": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this festival should be included in index.json / shown in pickers. Defaults to true when absent; set false to hide a festival (e.g. draft or fictional data) without deleting it."
+    },
     "defaultLang": { "type": "string", "description": "BCP 47 language tag, e.g. 'en'." },
     "runningOrderExists": { "type": "boolean" },
     "utcOffsetHours": { "type": "number" },
