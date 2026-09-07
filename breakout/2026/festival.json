@@ -228,7 +228,7 @@
       "country": "at"
     },
     {
-      "id": "a16",
+      "id": "a21",
       "name": "Irem",
       "imageUrl": "",
       "description": "Ostdeutscher Black Metal aus Altranstädt bei Leipzig, Sachsen. Seit 2003 aktiv, veröffentlichte die Band u.a. \"Prophecy of Doom\" (2006), \"Bearer of Cosmic Blasphemy\" (2008), \"Blood Red Horizons\" (2011) und \"Obscuritas Aeterna\" (2013) und zählt zu den langjährigen Formationen der mitteldeutschen Black-Metal-Szene.",
@@ -439,11 +439,11 @@
       "artistId": "a15"
     },
     {
-      "id": "lf_a16",
+      "id": "lf_a21",
       "label": "Facebook",
       "url": "https://www.facebook.com/Iremmetal/",
       "type": "facebook",
-      "artistId": "a16"
+      "artistId": "a21"
     },
     {
       "id": "lf_a17",
@@ -579,11 +579,11 @@
       "artistId": "a15"
     },
     {
-      "id": "lb_a16",
+      "id": "lb_a21",
       "label": "Bandcamp",
       "url": "https://irem.bandcamp.com/",
       "type": "bandcamp",
-      "artistId": "a16"
+      "artistId": "a21"
     },
     {
       "id": "ls_a17",

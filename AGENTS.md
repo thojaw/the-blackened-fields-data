@@ -39,6 +39,9 @@ Artist {
   genres?   -- string[], free-text genre labels, e.g. ["Heavy Metal", "Beatdown"]; not translated
   country?  -- ISO 3166-1 alpha-2 code, lowercase, e.g. "us", "de"; resolved to a display name client-side
 }
+-- id is stable and may be referenced by client-side data keyed per artist
+-- (e.g. favorites/"likes"). Never reuse an existing artist's id for a
+-- different artist -- see "Cancellations and replacements" below.
 
 Event {
   id, title, dayDate (ISO date), startTime, endTime,
@@ -97,6 +100,29 @@ FestivalData {
   translations?[]
 }
 ```
+
+**Cancellations and replacements:**
+- When a booked artist cancels and another act takes their slot (e.g. a
+  short-notice replacement), give the replacement a **new** `artist.id` —
+  do not reuse the cancelled artist's id, even though it's tempting since
+  the slot (`dayDate`/`startTime`/`endTime`/`stageId`) carries over
+  unchanged.
+- Reason: `artist.id` is stable and referenced by client-side data keyed
+  per artist (e.g. favorites/"likes"). Reusing an id silently hands the
+  new artist any per-artist state a user had attached to the old one —
+  e.g. someone who had liked the cancelled band would now show as having
+  liked the replacement, which they never chose.
+- Update every `links[]` entry with the old `artistId` (Facebook, Spotify,
+  etc.) to either point at the new artist's id or be replaced with the
+  new artist's own links — don't leave links attributed to an id that no
+  longer names that artist.
+- Note the swap in the new artist's `annotation` field (e.g. "Kurzfristiger
+  Ersatz für die abgesagten X." / "Short-notice replacement for the
+  cancelled X."), not folded into `description`.
+- If no reliable photo is available for the replacement, set `imageUrl` to
+  `""` rather than leaving/reusing the previous artist's image file — a
+  wrong photo under the new name is worse than none. Remove the old image
+  file if nothing else references it.
 
 **Translation rules:**
 - Base data is always written in the language indicated by `defaultLang` (currently `"en"`).
