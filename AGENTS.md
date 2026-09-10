@@ -293,17 +293,22 @@ full `festival.json`.
   schema-aware diffing to get right, and shipping a false negative (silently
   hiding a real update) is worse than the app doing one cheap, unnecessary
   delta computation.
-- Enforced by `scripts/check-version-bump.py` (stdlib-only Python): it
-  compares every `festival.json` changed in a PR against its content on
-  `main` and fails if a file's text changed but `version` did not strictly
-  increase. Newly added `festival.json` files are exempt (no prior version
-  to compare against). Multiple changed files in one PR/commit are each
-  checked independently.
+- Automated by `scripts/bump-festival-version.py` (stdlib-only Python), run
+  by the `.github/workflows/bump-festival-version.yml` CI workflow on every
+  PR against `main` that touches a `festival.json`: it compares each changed
+  file against its content on `main` and, if the text changed but `version`
+  wasn't already bumped, increments `version` by 1 and pushes the commit
+  back to the PR branch. Newly added `festival.json` files are exempt (no
+  prior version to compare against). Multiple changed files in one PR are
+  each handled independently. This is automatic specifically because relying
+  on whoever/whatever edits the file to remember the bump manually proved
+  unreliable in practice — you don't need to bump `version` yourself; CI
+  does it for you. You can still run it locally if useful:
   ```
-  python3 scripts/check-version-bump.py --base origin/main
+  python3 scripts/bump-festival-version.py --base origin/main
   ```
-- If a CI workflow wired to this script rejects your PR, bump `version`
-  (simplest: `+1`) in every listed file and push again.
+- Exception: CI can't push to PRs from forks (no write access), so those
+  need `version` bumped by hand before merging.
 
 ### `FestivalIndexEntry` shape (conceptual)
 
