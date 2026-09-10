@@ -281,6 +281,30 @@ full `festival.json`.
   `festival.json`. If you edit a `festival.json` locally, re-run the script
   yourself to keep `index.json` in sync (CI will also catch it on the PR).
 
+## Version field
+
+- `version` (integer) must strictly increase whenever a `festival.json`
+  changes, no matter how small the change (typo fix, image swap, whatever)
+  — the client app only computes/surfaces delta information (what changed
+  since a user last opened a festival) when `version` differs from its
+  locally cached value, so a change that doesn't bump `version` is
+  invisible to it. This is deliberately "any change bumps it" rather than
+  a judgment call about which fields are meaningful: the latter needs
+  schema-aware diffing to get right, and shipping a false negative (silently
+  hiding a real update) is worse than the app doing one cheap, unnecessary
+  delta computation.
+- Enforced by `scripts/check-version-bump.py` (stdlib-only Python): it
+  compares every `festival.json` changed in a PR against its content on
+  `main` and fails if a file's text changed but `version` did not strictly
+  increase. Newly added `festival.json` files are exempt (no prior version
+  to compare against). Multiple changed files in one PR/commit are each
+  checked independently.
+  ```
+  python3 scripts/check-version-bump.py --base origin/main
+  ```
+- If a CI workflow wired to this script rejects your PR, bump `version`
+  (simplest: `+1`) in every listed file and push again.
+
 ### `FestivalIndexEntry` shape (conceptual)
 
 ```
