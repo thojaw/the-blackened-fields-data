@@ -1,0 +1,44 @@
+name: Bump festival version
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "**/festival.json"
+
+concurrency:
+  group: bump-festival-version-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  bump:
+    # GITHUB_TOKEN can't push to a fork's branch, so skip PRs from forks --
+    # a human will need to bump version by hand before merging those.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout PR branch with full history
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Fetch main
+        run: git fetch origin main
+
+      - name: Bump version on changed festival.json files
+        run: python3 scripts/bump-festival-version.py --base origin/main
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then
+            echo "No version bumps needed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git commit -m "Bump festival version(s)"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}

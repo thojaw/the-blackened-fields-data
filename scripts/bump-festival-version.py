@@ -1,33 +1,41 @@
 #!/usr/bin/env python3
 """
-Fails if any festival.json changed vs. a base ref without also bumping its
-top-level "version" field.
+Auto-increments the top-level "version" field of any festival.json that
+changed vs. a base ref but didn't already bump it.
 
 Rationale: the app only computes/surfaces delta information (what changed
 since a user last opened a festival) when "version" changes. Any edit to a
 festival.json -- however small -- should therefore increment "version" at
 least once per merged change, so client apps that cached the old version
-detect the update. This is deliberately "any change counts", not a
-schema-aware check of which fields are "meaningful": that's much simpler to
-reason about and enforce than trying to special-case cosmetic edits.
+detect the update. Relying on whoever/whatever edits the file (human or an
+agent) to remember this manually turned out not to be reliable in practice,
+so CI does it automatically instead of just failing the check.
+
+The bump is a surgical text substitution of the "version" line (the field
+appears exactly once, at the top level, in every festival.json) rather than
+a JSON round-trip, so it doesn't reformat/reorder the rest of the file.
 
 No third-party dependencies (stdlib only), same conventions as
 scripts/generate-index.py.
 
 Usage:
-  python3 scripts/check-version-bump.py [--base REF]
+  python3 scripts/bump-festival-version.py [--base REF]
 
 Options:
-  --base REF   Git ref to diff against (default: origin/main). The check
-               compares each changed festival.json against its content at
-               the merge-base of REF and HEAD.
+  --base REF   Git ref to diff against (default: origin/main). Each changed
+               festival.json is compared against its content at the
+               merge-base of REF and HEAD.
 
-Exit status is non-zero if any changed festival.json did not bump version.
+Prints the path of every file it bumped (one per line) and exits 0. Exits
+non-zero only on unexpected errors (e.g. malformed JSON).
 """
 import argparse
 import json
+import re
 import subprocess
 import sys
+
+VERSION_LINE_RE = re.compile(r'^(\s*"version"\s*:\s*)(\d+)(\s*,?\s*)$', re.MULTILINE)
 
 
 def run(*args):
@@ -55,13 +63,17 @@ def show(sha, path):
     return result.stdout
 
 
+def bump_version_text(text, new_version):
+    return VERSION_LINE_RE.sub(rf"\g<1>{new_version}\g<3>", text, count=1)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--base", default="origin/main", help="Base ref to diff against (default: origin/main)")
     args = parser.parse_args()
 
     base_sha = merge_base(args.base)
-    failures = []
+    bumped = []
 
     for path in changed_festival_files(base_sha):
         old_text = show(base_sha, path)
@@ -69,7 +81,8 @@ def main():
             continue  # newly added festival.json -- no prior version to compare
 
         try:
-            new_text = open(path, "r", encoding="utf-8").read()
+            with open(path, "r", encoding="utf-8") as f:
+                new_text = f.read()
         except FileNotFoundError:
             continue  # deleted festival.json
 
@@ -79,17 +92,20 @@ def main():
         old_version = json.loads(old_text).get("version")
         new_version = json.loads(new_text).get("version")
 
-        if not isinstance(new_version, int) or not isinstance(old_version, int) or new_version <= old_version:
-            failures.append((path, old_version, new_version))
+        if not isinstance(old_version, int):
+            continue  # nothing sane to bump from; leave for a human to sort out
 
-    if failures:
-        print("The following festival.json files changed but did not bump \"version\":\n")
-        for path, old_version, new_version in failures:
-            print(f"  {path}: version {old_version!r} -> {new_version!r} (must strictly increase)")
-        print("\nBump \"version\" (integer, +1 is simplest) in each file above so client apps detect the update.")
-        return 1
+        if isinstance(new_version, int) and new_version > old_version:
+            continue  # already bumped (e.g. by hand, or a previous run of this script)
 
-    print("OK: every changed festival.json bumped its version.")
+        bumped_text = bump_version_text(new_text, old_version + 1)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(bumped_text)
+        bumped.append(path)
+
+    for path in bumped:
+        print(path)
+
     return 0
 
 
