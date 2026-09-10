@@ -175,9 +175,10 @@
       "dayDate": "2026-08-29",
       "startTime": "16:15",
       "endTime": "17:05",
-      "annotation": null,
+      "annotation": "Short-notice replacement for the cancelled Fimbulwolf.",
       "genres": ["Crust Punk"],
-      "country": "dk"
+      "country": "dk",
+      "replacedArtistId": "a99"
     },
     {
       "id": "a13",
@@ -412,6 +413,18 @@
       "annotation": null,
       "genres": ["Stoner Rock"],
       "country": "de"
+    },
+    {
+      "id": "a99",
+      "name": "Fimbulwolf",
+      "imageUrl": "",
+      "description": "Blackened war-metal trio from Trondheim built around wolf-howl vocal samples, blast-beat sieges, and a live rig assembled from repurposed shipping containers.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Cancelled.",
+      "genres": ["Blackened Death Metal"],
+      "country": "no"
     }
   ],
   "news": [
@@ -687,7 +700,8 @@
         },
         {
           "id": "a12",
-          "description": "Hartgesottener Crust-Punk aus Kopenhagen. Vier-Akkord-Furor trifft Marschdonnertrommel – die Band, die mit einem einzigen Blick eine Wall of Death auslöst."
+          "description": "Hartgesottener Crust-Punk aus Kopenhagen. Vier-Akkord-Furor trifft Marschdonnertrommel – die Band, die mit einem einzigen Blick eine Wall of Death auslöst.",
+          "annotation": "Kurzfristiger Ersatz für die abgesagten Fimbulwolf."
         },
         {
           "id": "a13",
@@ -764,6 +778,11 @@
         {
           "id": "a30",
           "description": "Heavy-Rock-Power-Trio aus Köln. Stoner-Grooves, fuzzgesättigter Bass und ein Schlagzeuger mit einem Bassdrum-Muster, das Zahnfüllungen lockert."
+        },
+        {
+          "id": "a99",
+          "description": "Blackened-War-Metal-Trio aus Trondheim, bekannt für Blastbeat-Angriffe, Wolfsgeheul-Vocal-Samples und ein Live-Rig aus umgebauten Schiffscontainern.",
+          "annotation": "Abgesagt."
         }
       ],
       "news": [

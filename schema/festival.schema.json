@@ -93,6 +93,10 @@
           "type": "string",
           "pattern": "^[a-z]{2}$",
           "description": "ISO 3166-1 alpha-2 country code, lowercase, e.g. 'us', 'de'. Resolved to a display name client-side."
+        },
+        "replacedArtistId": {
+          "type": "string",
+          "description": "References Artist.id of a cancelled artist whose slot this artist has taken over. Cross-referential existence (that the id resolves to another entry in the same artists[] array) is not validated by this schema; see AGENTS.md 'Cancellations and replacements'."
         }
       }
     },

@@ -38,6 +38,7 @@ Artist {
   stageId?  -- references Stage.id; absent = implicit single stage
   genres?   -- string[], free-text genre labels, e.g. ["Heavy Metal", "Beatdown"]; not translated
   country?  -- ISO 3166-1 alpha-2 code, lowercase, e.g. "us", "de"; resolved to a display name client-side
+  replacedArtistId?  -- Artist.id of a cancelled artist whose slot this artist has taken over
 }
 
 Event {
@@ -63,6 +64,45 @@ ExternalLink {
 - Both global links (no `artistId`) and artist links (with `artistId`) follow the same rendering rule
 - Home screen: text links in a card list, then a separate icon-only row for all typed global links
 - Artist Detail: text links in a card list, then icon-only row for all typed artist links
+
+**Cancellations and replacements:**
+- When a booked artist cancels, keep their entry in `artists[]` rather than
+  deleting it. Clear their schedule by setting `dayDate`, `startTime`, and
+  `endTime` to `null`, and use `annotation` to say so in plain text (e.g.
+  `"Cancelled."`) — this repo has no separate boolean cancellation flag, and
+  nulled schedule fields alone are ambiguous with an artist that simply
+  isn't scheduled yet (e.g. a "Surprise Show" placeholder), so the
+  `annotation` text is what actually communicates the cancellation to users.
+- Never reuse a cancelled artist's `id` for the act that replaces them in
+  that slot — always give the replacement a new `id`. Ids anchor
+  client-side per-artist state (e.g. favorites/"likes"); reusing an id
+  would silently hand the replacement any state a user had attached to the
+  cancelled act.
+- If a new artist has taken over a cancelled artist's slot, set
+  `replacedArtistId` on the *replacement* artist to the cancelled artist's
+  `id`. This gives consuming apps a structured, language-independent way to
+  detect and render the relationship (e.g. show "replaces X", grey out the
+  cancelled artist) instead of relying on `annotation` text alone.
+- `replacedArtistId` must reference another `Artist.id` present in the same
+  `artists[]` array. This is not enforced by the JSON Schema, which cannot
+  express cross-field id references — the same caveat already applies to
+  `stageId`/`artistId` references elsewhere in this document.
+
+  ```json
+  {
+    "id": "a16",
+    "name": "Imperium Dekadenz",
+    "dayDate": null, "startTime": null, "endTime": null,
+    "annotation": "Cancelled."
+  },
+  {
+    "id": "a21",
+    "name": "Irem",
+    "dayDate": "2026-09-05", "startTime": "17:45", "endTime": "18:35",
+    "annotation": "Short-notice replacement for the cancelled Imperium Dekadenz.",
+    "replacedArtistId": "a16"
+  }
+  ```
 
 ```
 ArtistTranslation   { id, description }
