@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T15:29:45Z",
+  "generatedAt": "2026-09-10T16:08:34Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -46,47 +46,6 @@
       }
     },
     {
-      "id": "valhalla-fest-2026",
-      "slug": "valhalla-fest",
-      "year": 2026,
-      "name": "Valhalla Fest",
-      "path": "valhalla-fest/2026/festival.json",
-      "defaultLang": "en",
-      "utcOffsetHours": 2,
-      "runningOrderExists": true,
-      "version": 1,
-      "visible": false,
-      "festivalDays": [
-        "2026-08-28",
-        "2026-08-29",
-        "2026-08-30"
-      ],
-      "isMultiStage": true,
-      "translationLangs": [
-        "de"
-      ],
-      "topGenres": {
-        "Doom Metal": 3,
-        "Folk": 2,
-        "Folk Metal": 2,
-        "Stoner Rock": 2,
-        "Symphonic Metal": 2,
-        "Viking Metal": 2,
-        "Atmospheric Black Metal": 1,
-        "Black Metal": 1,
-        "Blackened Death Metal": 1,
-        "Crossover Thrash": 1
-      },
-      "counts": {
-        "artists": 31,
-        "stages": 2,
-        "news": 3,
-        "events": 0,
-        "links": 29,
-        "globalLinks": 6
-      }
-    },
-    {
       "id": "breakout-2026",
       "slug": "breakout",
       "year": 2026,
@@ -123,6 +82,47 @@
         "events": 0,
         "links": 43,
         "globalLinks": 3
+      }
+    },
+    {
+      "id": "valhalla-fest-2026",
+      "slug": "valhalla-fest",
+      "year": 2026,
+      "name": "Valhalla Fest",
+      "path": "valhalla-fest/2026/festival.json",
+      "defaultLang": "en",
+      "utcOffsetHours": 2,
+      "runningOrderExists": true,
+      "version": 2,
+      "visible": false,
+      "festivalDays": [
+        "2026-09-11",
+        "2026-09-12",
+        "2026-09-13"
+      ],
+      "isMultiStage": true,
+      "translationLangs": [
+        "de"
+      ],
+      "topGenres": {
+        "Doom Metal": 3,
+        "Folk": 2,
+        "Folk Metal": 2,
+        "Stoner Rock": 2,
+        "Symphonic Metal": 2,
+        "Viking Metal": 2,
+        "Atmospheric Black Metal": 1,
+        "Black Metal": 1,
+        "Blackened Death Metal": 1,
+        "Crossover Thrash": 1
+      },
+      "counts": {
+        "artists": 31,
+        "stages": 2,
+        "news": 3,
+        "events": 0,
+        "links": 29,
+        "globalLinks": 6
       }
     }
   ]
