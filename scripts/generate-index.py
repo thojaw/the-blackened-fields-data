@@ -98,6 +98,21 @@ def main():
     args = parser.parse_args()
 
     index = build_index()
+
+    # Keep the file byte-identical (including generatedAt) when nothing about
+    # the festivals actually changed, so a re-run doesn't produce a spurious
+    # commit -- generatedAt would otherwise differ on every run even when
+    # rebuilt from unchanged festival.json files, and CI's "commit if
+    # changed" check would then never see a genuinely empty diff.
+    if os.path.exists(args.out):
+        with open(args.out, "r", encoding="utf-8") as f:
+            try:
+                previous = json.load(f)
+            except json.JSONDecodeError:
+                previous = None
+        if previous and previous.get("festivals") == index["festivals"] and previous.get("schemaVersion") == index["schemaVersion"]:
+            index["generatedAt"] = previous["generatedAt"]
+
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2, ensure_ascii=False)
         f.write("\n")
