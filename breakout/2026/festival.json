@@ -1,7 +1,7 @@
 {
   "id": "breakout-2026",
   "name": "Breakout",
-  "version": 1,
+  "version": 2,
   "year": 2026,
   "defaultLang": "de",
   "runningOrderExists": true,
@@ -24,7 +24,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "hangatyr"
     },
     {
       "id": "a2",
@@ -38,7 +39,8 @@
       "genres": [
         "Death Grind"
       ],
-      "country": "cz"
+      "country": "cz",
+      "globalId": "fleshless"
     },
     {
       "id": "a3",
@@ -53,7 +55,8 @@
         "Technical Death Metal",
         "Brutal Death Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "cytotoxin"
     },
     {
       "id": "a4",
@@ -67,7 +70,8 @@
       "genres": [
         "Epic Doom Metal"
       ],
-      "country": "se"
+      "country": "se",
+      "globalId": "candlemass"
     },
     {
       "id": "a5",
@@ -81,7 +85,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "thronecult"
     },
     {
       "id": "a6",
@@ -95,7 +100,8 @@
       "genres": [
         "Death Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "seconddeath"
     },
     {
       "id": "a7",
@@ -109,7 +115,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "brachlant"
     },
     {
       "id": "a8",
@@ -123,7 +130,8 @@
       "genres": [
         "Thrash Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "victim"
     },
     {
       "id": "a9",
@@ -137,7 +145,8 @@
       "genres": [
         "Blackened Death Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "horresque"
     },
     {
       "id": "a10",
@@ -152,7 +161,8 @@
         "Death Metal",
         "Doom Metal"
       ],
-      "country": "nl"
+      "country": "nl",
+      "globalId": "graceless"
     },
     {
       "id": "a11",
@@ -166,7 +176,8 @@
       "genres": [
         "Death Metal"
       ],
-      "country": "nl"
+      "country": "nl",
+      "globalId": "bodyfarm"
     },
     {
       "id": "a12",
@@ -180,7 +191,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "no"
+      "country": "no",
+      "globalId": "borknagar"
     },
     {
       "id": "a13",
@@ -197,7 +209,8 @@
         "Doom Metal",
         "Post-Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "maerer"
     },
     {
       "id": "a14",
@@ -211,7 +224,8 @@
       "genres": [
         "Death Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "soul-grinder"
     },
     {
       "id": "a15",
@@ -225,7 +239,8 @@
       "genres": [
         "Dark Metal"
       ],
-      "country": "at"
+      "country": "at",
+      "globalId": "senntus"
     },
     {
       "id": "a16",
@@ -239,7 +254,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "irem"
     },
     {
       "id": "a17",
@@ -253,7 +269,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "servant"
     },
     {
       "id": "a18",
@@ -269,7 +286,8 @@
         "Dark Metal",
         "Symphonic Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "agathodaimon"
     },
     {
       "id": "a19",
@@ -283,7 +301,8 @@
       "genres": [
         "Depressive Suicidal Black Metal"
       ],
-      "country": "ge"
+      "country": "ge",
+      "globalId": "psychonaut-4"
     },
     {
       "id": "a20",
@@ -297,7 +316,8 @@
       "genres": [
         "Black Metal"
       ],
-      "country": "il"
+      "country": "il",
+      "globalId": "melechesh"
     }
   ],
   "news": [

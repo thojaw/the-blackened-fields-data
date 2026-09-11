@@ -12,6 +12,10 @@ In this repository, the only relevant files are festival schema files and images
   Python, runnable by any agent, not just Claude).
 - `index.json` (repo root) is a generated summary of every `festival.json`
   in the repo — see "Multi-festival index" below. It is **not** hand-edited.
+- `artists.json` (repo root) is a global, cross-festival artist registry —
+  see "Artist registry" below. Unlike `index.json` it **is** meant to be
+  edited directly (or via `scripts/sync-artist-registry.py`) as artists are
+  added.
 
 ## Structure
 
@@ -39,6 +43,7 @@ Artist {
   genres?   -- string[], free-text genre labels, e.g. ["Heavy Metal", "Beatdown"]; not translated
   country?  -- ISO 3166-1 alpha-2 code, lowercase, e.g. "us", "de"; resolved to a display name client-side
   replacedArtistId?  -- Artist.id of a cancelled artist whose slot this artist has taken over
+  globalId?  -- artists.json id giving this show a cross-festival identity; see "Artist registry" below
 }
 
 Event {
@@ -252,6 +257,93 @@ Example data (illustrative — trimmed to a few entries per array; a real `festi
 ```
 
 ---
+
+## Artist registry (`artists.json`)
+
+`artists.json` at the repo root is a flat, de-duplicated registry of artists
+across every festival, keyed by a permanent slug id — separate from, and
+never overwriting, each festival's own local `Artist.id` values.
+
+- Formal shape: `schema/artists.schema.json` (JSON Schema, draft 2020-12).
+- One entry per unique artist:
+  ```json
+  {
+    "id": "drekka-sjor",
+    "name": "Drekka Sjór",
+    "description": "Icelandic post-rock with rune-based song titles and an obsession for nine-minute crescendos.",
+    "genres": ["Post-Rock"],
+    "country": "is"
+  }
+  ```
+  `id` is a permanent kebab-case slug derived from `name` (diacritics
+  stripped, lowercased, e.g. `"Drekka Sjór"` → `"drekka-sjor"`) — it never
+  changes once assigned. `description`/`genres`/`country` follow the exact
+  same conventions as their `festival.json` `Artist` counterparts.
+  `imageUrl` is deliberately not part of this registry — images stay
+  festival-local since per-event photos can differ.
+- **Slug collisions** (rare — this dataset stays within genre boundaries
+  where duplicate act names are practically nonexistent): if a computed slug
+  already belongs to a different artist, disambiguate by appending a short
+  suffix — prefer the country code (`"novelists"` vs `"novelists-fr"`),
+  falling back to `-2`, `-3`, ... otherwise.
+
+### `id` vs `globalId`
+
+`festival.json`'s `Artist` gained one new optional field, `globalId`, that
+links a festival-local artist entry to its `artists.json` registry entry:
+
+- `id` keeps meaning exactly what it always has: local to that
+  `festival.json`, anchors client-side per-artist state (favorites), and is
+  **never** reused or changed once published.
+- `globalId` (optional) is the cross-festival identity. When present, it
+  must match an `artists.json` id.
+- **Resolution rule:** an artist's global identity is `globalId` if present,
+  otherwise `id` itself if `id` already looks like a registry slug;
+  otherwise it has no established global identity yet.
+- For a **brand-new** festival, if an artist plays exactly one show, you can
+  just use the registry slug directly as its `id` and skip `globalId`
+  entirely — one field, no duplication.
+- For an **existing, already-published** festival, or **any artist with more
+  than one show in the same festival**, keep the local `aN`-style id(s) and
+  set `globalId` on each to link them — this is required, not optional, in
+  those two cases, since changing a live `id` would break locally- and
+  Firebase-stored user state.
+
+**Multiple shows, one artist:** an act can appear as more than one
+`artists[]` entry in the same festival — a regular set, an acoustic set, a
+surprise extra show — each with its own `id`, schedule, description, and
+image, but the same `globalId`:
+
+```json
+{ "id": "a13", "name": "Firewolf", "globalId": "firewolf", ... },
+{ "id": "a47", "name": "Firewolf - Acoustic Set", "globalId": "firewolf", ... },
+{ "id": "a94", "name": "Firewolf - Extra Show", "globalId": "firewolf", ... }
+```
+
+Cross-festival tooling should treat entries sharing a `globalId` as the same
+underlying artist rather than three unrelated hits.
+
+### Workflow: adding artists to a festival
+
+1. For each new artist, look it up in `artists.json` by normalized name
+   (case/diacritic-insensitive). `scripts/sync-artist-registry.py
+   <festival.json>` automates this — run it dry (no `--apply`) first to see
+   matched / needs-confirmation / new buckets.
+2. **High-confidence match** → reuse the registry entry: copy its
+   `description`/`genres`/`country` into the festival artist object and set
+   `globalId` to the registry id (`--apply` does this).
+3. **Fuzzy/ambiguous match** → don't guess; ask for confirmation before
+   linking (or add as new if you can confirm by other means, as this
+   dataset's genre-scoped act names make real collisions very unlikely).
+4. **No match** → create the artist first: look up genres/country (e.g. via
+   `scripts/enrich-artists.mjs` against the festival file, or manually),
+   write a short `description`, then let `sync-artist-registry.py --apply`
+   slugify the name and append a new `artists.json` entry, setting
+   `globalId` on the festival artist accordingly.
+5. `scripts/validate-artists.py --check-festivals` checks `artists.json` for
+   structural errors (duplicate/malformed ids) and that every `globalId`
+   referenced from any `festival.json` actually resolves to a registry
+   entry.
 
 ## Multi-festival index (`index.json`)
 

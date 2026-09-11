@@ -35,6 +35,7 @@ Commands (all print JSON to stdout):
 | `schedule FILE [--day D] [--stage-id S]` | Full sorted lineup, optionally filtered |
 | `overlaps FILE --day D --start T --end T [--exclude-id ID]` | What else is on during a time window |
 | `search-artist-everywhere NAME` | Find an artist across ALL festivals/years |
+| `resolve-artist-global NAME` | Cross-festival lookup via `artists.json` (falls back to `search-artist-everywhere` if not yet registered) |
 | `day-part TIME` | Classify HH:MM into morning/afternoon/evening/night/late night |
 | `links FILE [--artist-id ID\|global]` | Socials/links for the festival or one artist |
 
@@ -104,8 +105,12 @@ Mirror the interaction style the schema is meant to support:
 ## Things worth doing well beyond the obvious lookups
 
 - Cross-festival questions ("which of my festivals has X playing", "is
-  anyone I like at multiple festivals this year") — use
-  `search-artist-everywhere` and/or iterate `list-festivals`.
+  anyone I like at multiple festivals this year") — prefer
+  `resolve-artist-global` (uses the `artists.json` registry for exact
+  cross-festival identity, including grouping an artist's multiple shows —
+  e.g. a regular set and an acoustic set — under one result); fall back to
+  `search-artist-everywhere` and/or iterate `list-festivals` for artists not
+  yet in the registry.
 - Clash/planning questions ("if I watch X, what am I giving up") — use
   `overlaps`.
 - "Is there a break in the schedule" / "what's the last thing tonight" /
