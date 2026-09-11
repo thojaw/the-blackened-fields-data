@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/thojaw/the-blackened-fields-data/schema/artists.schema.json",
+  "title": "ArtistRegistry",
+  "description": "Canonical schema for the repo-root artists.json global artist registry, matching AGENTS.md exactly.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "description": "Permanent kebab-case slug, derived from name (diacritics stripped, lowercased). Never changes once assigned. Referenced by festival.json's Artist.globalId (or directly as Artist.id for a new single-show artist)."
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name, may include diacritics, e.g. 'Drekka Sjór'."
+      },
+      "description": {
+        "type": "string",
+        "description": "Free-text bio, same style as festival.json's Artist.description."
+      },
+      "genres": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Free-text genre labels, same convention as festival.json's Artist.genres."
+      },
+      "country": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$",
+        "description": "ISO 3166-1 alpha-2 country code, lowercase, e.g. 'us', 'de'. Omitted rather than guessed when unresolved."
+      }
+    }
+  }
+}

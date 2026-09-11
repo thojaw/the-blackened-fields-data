@@ -47,7 +47,8 @@
         "Metal",
         "Hardcore Punk"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "ghetto-justice"
     },
     {
       "id": "a2",
@@ -59,7 +60,8 @@
       "startTime": "18:15",
       "endTime": "19:00",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "die-habenichtse"
     },
     {
       "id": "a3",
@@ -76,7 +78,8 @@
         "Heavy Metal",
         "Stoner Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "motorjesus"
     },
     {
       "id": "a4",
@@ -91,7 +94,8 @@
       "genres": [
         "Death Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "hackneyed"
     },
     {
       "id": "a5",
@@ -107,7 +111,8 @@
       "genres": [
         "Grindcore",
         "Parody"
-      ]
+      ],
+      "globalId": "excrementory-grindfuckers"
     },
     {
       "id": "a6",
@@ -122,7 +127,8 @@
       "country": "de",
       "genres": [
         "Punk Rock"
-      ]
+      ],
+      "globalId": "betontod"
     },
     {
       "id": "a7",
@@ -139,7 +145,8 @@
         "Hard Rock",
         "Rock",
         "Heavy Metal"
-      ]
+      ],
+      "globalId": "airbourne"
     },
     {
       "id": "a8",
@@ -155,7 +162,8 @@
       "genres": [
         "Melodic Death Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "in-flames"
     },
     {
       "id": "a9",
@@ -172,7 +180,8 @@
         "Hardcore",
         "Metalcore",
         "Beatdown Hardcore"
-      ]
+      ],
+      "globalId": "hatebreed"
     },
     {
       "id": "a10",
@@ -189,7 +198,8 @@
         "Blackgaze",
         "Shoegaze",
         "Post-Metal"
-      ]
+      ],
+      "globalId": "alcest"
     },
     {
       "id": "a11",
@@ -201,7 +211,8 @@
       "startTime": "15:00",
       "endTime": "16:00",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "blasmusik-illenschwang"
     },
     {
       "id": "a12",
@@ -213,7 +224,8 @@
       "startTime": "16:50",
       "endTime": "17:35",
       "annotation": null,
-      "country": "dk"
+      "country": "dk",
+      "globalId": "neckbreakker"
     },
     {
       "id": "a13",
@@ -228,7 +240,8 @@
       "country": "us",
       "genres": [
         "Indie Rock"
-      ]
+      ],
+      "globalId": "the-narrator"
     },
     {
       "id": "a14",
@@ -245,7 +258,8 @@
         "Doom Metal",
         "Psychedelic Rock",
         "Occult Rock"
-      ]
+      ],
+      "globalId": "green-lung"
     },
     {
       "id": "a15",
@@ -262,7 +276,8 @@
         "Gothic Metal",
         "Doom Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "paradise-lost"
     },
     {
       "id": "a16",
@@ -278,7 +293,8 @@
       "genres": [
         "Singer-Songwriter",
         "Jazz"
-      ]
+      ],
+      "globalId": "eivor"
     },
     {
       "id": "a17",
@@ -290,7 +306,8 @@
       "startTime": "01:15",
       "endTime": "02:15",
       "annotation": null,
-      "country": "ie"
+      "country": "ie",
+      "globalId": "miracle-of-sound"
     },
     {
       "id": "a18",
@@ -302,7 +319,8 @@
       "startTime": "16:05",
       "endTime": "16:45",
       "annotation": null,
-      "country": "dk"
+      "country": "dk",
+      "globalId": "persecutor"
     },
     {
       "id": "a19",
@@ -314,7 +332,8 @@
       "startTime": "17:40",
       "endTime": "18:20",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "king-nugget-gang"
     },
     {
       "id": "a20",
@@ -330,7 +349,8 @@
         "Thrash Metal",
         "Crossover Thrash"
       ],
-      "country": "gb"
+      "country": "gb",
+      "globalId": "inhuman-nature"
     },
     {
       "id": "a21",
@@ -347,7 +367,8 @@
         "Progressive Metal",
         "Metalcore",
         "Sludge Metal"
-      ]
+      ],
+      "globalId": "urne"
     },
     {
       "id": "a22",
@@ -364,7 +385,8 @@
         "Doom Metal",
         "Metal",
         "Heavy Metal"
-      ]
+      ],
+      "globalId": "castle-rat"
     },
     {
       "id": "a23",
@@ -381,7 +403,8 @@
         "Atmospheric Black Metal",
         "Black Metal",
         "Folk Metal"
-      ]
+      ],
+      "globalId": "can-bardd"
     },
     {
       "id": "a24",
@@ -393,7 +416,8 @@
       "startTime": "02:20",
       "endTime": "03:00",
       "annotation": null,
-      "country": "dk"
+      "country": "dk",
+      "globalId": "802"
     },
     {
       "id": "a25",
@@ -405,7 +429,8 @@
       "startTime": "18:15",
       "endTime": "18:45",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "born-hanged"
     },
     {
       "id": "a26",
@@ -421,7 +446,8 @@
       "genres": [
         "Death Metal",
         "Melodic Death Metal"
-      ]
+      ],
+      "globalId": "dethroned"
     },
     {
       "id": "a27",
@@ -436,7 +462,8 @@
       "genres": [
         "Hardcore Punk"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "backstabbed"
     },
     {
       "id": "a28",
@@ -448,7 +475,8 @@
       "startTime": "21:30",
       "endTime": "22:10",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "ochmoneks"
     },
     {
       "id": "a29",
@@ -460,7 +488,8 @@
       "startTime": "22:40",
       "endTime": "23:20",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "waves-like-walls"
     },
     {
       "id": "a30",
@@ -477,7 +506,8 @@
         "Black Metal",
         "Rock",
         "Metal"
-      ]
+      ],
+      "globalId": "thormesis"
     },
     {
       "id": "a31",
@@ -489,7 +519,8 @@
       "startTime": "12:00",
       "endTime": "12:40",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "our-promise"
     },
     {
       "id": "a32",
@@ -506,7 +537,8 @@
         "Metalcore",
         "Nu Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "from-fall-to-spring"
     },
     {
       "id": "a33",
@@ -523,7 +555,8 @@
         "Alternative Rock",
         "Rock",
         "Nu Metal"
-      ]
+      ],
+      "globalId": "alien-ant-farm"
     },
     {
       "id": "a34",
@@ -540,7 +573,8 @@
         "Metalcore",
         "Industrial Metal",
         "Djent"
-      ]
+      ],
+      "globalId": "northlane"
     },
     {
       "id": "a35",
@@ -557,7 +591,8 @@
         "Trap Metal",
         "Metal",
         "Screamo"
-      ]
+      ],
+      "globalId": "kim-dracula"
     },
     {
       "id": "a36",
@@ -573,7 +608,8 @@
       "genres": [
         "Metalcore",
         "Post-Hardcore"
-      ]
+      ],
+      "globalId": "imminence"
     },
     {
       "id": "a37",
@@ -589,7 +625,8 @@
       "genres": [
         "Heavy Metal",
         "NWOBHM"
-      ]
+      ],
+      "globalId": "saxon"
     },
     {
       "id": "a38",
@@ -605,7 +642,8 @@
       "genres": [
         "Neue Deutsche Härte",
         "Industrial Metal"
-      ]
+      ],
+      "globalId": "eisbrecher"
     },
     {
       "id": "a39",
@@ -622,7 +660,8 @@
         "Progressive Metal",
         "Melodic Death Metal",
         "Death Metal"
-      ]
+      ],
+      "globalId": "amorphis"
     },
     {
       "id": "a40",
@@ -637,7 +676,8 @@
       "country": "de",
       "genres": [
         "Folk Rock"
-      ]
+      ],
+      "globalId": "dartagnan"
     },
     {
       "id": "a41",
@@ -653,7 +693,8 @@
       "genres": [
         "Death Metal",
         "Brutal Death Metal"
-      ]
+      ],
+      "globalId": "fulci"
     },
     {
       "id": "a42",
@@ -665,7 +706,8 @@
       "startTime": "12:55",
       "endTime": "13:40",
       "annotation": null,
-      "country": "gb"
+      "country": "gb",
+      "globalId": "massive-wagons"
     },
     {
       "id": "a43",
@@ -682,7 +724,8 @@
         "Doom Metal",
         "Stoner Metal"
       ],
-      "country": "se"
+      "country": "se",
+      "globalId": "grand-magus"
     },
     {
       "id": "a44",
@@ -697,7 +740,8 @@
       "country": "de",
       "genres": [
         "Death Metal"
-      ]
+      ],
+      "globalId": "deserted-fear"
     },
     {
       "id": "a45",
@@ -712,7 +756,8 @@
       "country": "no",
       "genres": [
         "Folk Metal"
-      ]
+      ],
+      "globalId": "trollfest"
     },
     {
       "id": "a46",
@@ -723,7 +768,8 @@
       "dayDate": "2026-08-13",
       "startTime": "18:35",
       "endTime": "19:35",
-      "annotation": null
+      "annotation": null,
+      "globalId": "surprise-show"
     },
     {
       "id": "a47",
@@ -740,7 +786,8 @@
         "Deathgrind",
         "Brutal Death Metal"
       ],
-      "country": "us"
+      "country": "us",
+      "globalId": "fit-for-an-autopsy"
     },
     {
       "id": "a48",
@@ -757,7 +804,8 @@
         "Nu Metal",
         "Industrial Metal",
         "Industrial"
-      ]
+      ],
+      "globalId": "mushroomhead"
     },
     {
       "id": "a49",
@@ -774,7 +822,8 @@
         "Atmospheric Black Metal",
         "Black Metal",
         "Melodic Black Metal"
-      ]
+      ],
+      "globalId": "blackbraid"
     },
     {
       "id": "a50",
@@ -791,7 +840,8 @@
         "Black Metal",
         "Folk Metal"
       ],
-      "country": "gb"
+      "country": "gb",
+      "globalId": "saor"
     },
     {
       "id": "a51",
@@ -803,7 +853,8 @@
       "startTime": "12:20",
       "endTime": "12:50",
       "annotation": null,
-      "country": "us"
+      "country": "us",
+      "globalId": "fireborn"
     },
     {
       "id": "a52",
@@ -820,7 +871,8 @@
         "Metal",
         "Metalcore",
         "J-Pop"
-      ]
+      ],
+      "globalId": "broken-by-the-scream"
     },
     {
       "id": "a53",
@@ -837,7 +889,8 @@
         "Heavy Metal",
         "Progressive Metal",
         "Thrash Metal"
-      ]
+      ],
+      "globalId": "stam1na"
     },
     {
       "id": "a54",
@@ -852,7 +905,8 @@
       "country": "nl",
       "genres": [
         "Goregrind"
-      ]
+      ],
+      "globalId": "rectal-smegma"
     },
     {
       "id": "a55",
@@ -868,7 +922,8 @@
       "genres": [
         "Black Metal",
         "Gothic Metal"
-      ]
+      ],
+      "globalId": "filth"
     },
     {
       "id": "a56",
@@ -885,7 +940,8 @@
         "Folk",
         "Hip Hop",
         "Comedy"
-      ]
+      ],
+      "globalId": "mittel-alta"
     },
     {
       "id": "a57",
@@ -902,7 +958,8 @@
         "Technical Death Metal",
         "Brutal Death Metal",
         "Death Metal"
-      ]
+      ],
+      "globalId": "cryptopsy"
     },
     {
       "id": "a58",
@@ -918,7 +975,8 @@
       "genres": [
         "Black Metal",
         "Melodic Black Metal"
-      ]
+      ],
+      "globalId": "groza"
     },
     {
       "id": "a59",
@@ -930,7 +988,8 @@
       "startTime": "01:25",
       "endTime": "02:10",
       "annotation": null,
-      "country": "se"
+      "country": "se",
+      "globalId": "hindarfjall"
     },
     {
       "id": "a60",
@@ -942,7 +1001,8 @@
       "startTime": "15:30",
       "endTime": "16:15",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "kllsignl"
     },
     {
       "id": "a61",
@@ -954,7 +1014,8 @@
       "startTime": "16:45",
       "endTime": "17:30",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "serpents"
     },
     {
       "id": "a62",
@@ -969,7 +1030,8 @@
       "genres": [
         "Melodic Death Metal"
       ],
-      "country": "fi"
+      "country": "fi",
+      "globalId": "i-am-your-god"
     },
     {
       "id": "a63",
@@ -986,7 +1048,8 @@
         "Electronic",
         "EBM",
         "Industrial"
-      ]
+      ],
+      "globalId": "aesthetic-perfection"
     },
     {
       "id": "a64",
@@ -998,7 +1061,8 @@
       "startTime": "20:30",
       "endTime": "21:15",
       "annotation": null,
-      "country": "ie"
+      "country": "ie",
+      "globalId": "warfield"
     },
     {
       "id": "a65",
@@ -1010,7 +1074,8 @@
       "startTime": "21:45",
       "endTime": "22:45",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "katerfahrt"
     },
     {
       "id": "a66",
@@ -1027,7 +1092,8 @@
         "Heavy Metal",
         "Metal",
         "Power Metal"
-      ]
+      ],
+      "globalId": "nanowar-of-steel"
     },
     {
       "id": "a67",
@@ -1042,7 +1108,8 @@
       "country": "de",
       "genres": [
         "Rock"
-      ]
+      ],
+      "globalId": "das-lumpenpack"
     },
     {
       "id": "a68",
@@ -1059,7 +1126,8 @@
         "Metalcore",
         "Alternative Rock",
         "Post-Hardcore"
-      ]
+      ],
+      "globalId": "future-palace"
     },
     {
       "id": "a69",
@@ -1074,7 +1142,8 @@
       "country": "se",
       "genres": [
         "Power Metal"
-      ]
+      ],
+      "globalId": "brothers-of-metal"
     },
     {
       "id": "a70",
@@ -1090,7 +1159,8 @@
         "Rap Metal",
         "Hip Hop"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "the-butcher-sisters"
     },
     {
       "id": "a71",
@@ -1106,7 +1176,8 @@
       "genres": [
         "Metalcore",
         "Melodic Hardcore"
-      ]
+      ],
+      "globalId": "the-ghost-inside"
     },
     {
       "id": "a72",
@@ -1123,7 +1194,8 @@
         "Metalcore",
         "Groove Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "lamb-of-god"
     },
     {
       "id": "a73",
@@ -1140,7 +1212,8 @@
         "Melodic Death Metal",
         "Death Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "arch-enemy"
     },
     {
       "id": "a74",
@@ -1157,7 +1230,8 @@
         "Medieval Rock",
         "Folk Rock",
         "Folk"
-      ]
+      ],
+      "globalId": "versengold"
     },
     {
       "id": "a75",
@@ -1174,7 +1248,8 @@
         "Reggae Rock",
         "Rap Rock",
         "Rapcore"
-      ]
+      ],
+      "globalId": "skindred"
     },
     {
       "id": "a76",
@@ -1191,7 +1266,8 @@
         "Metal",
         "Metalcore",
         "Melodic Hardcore"
-      ]
+      ],
+      "globalId": "setyoursails"
     },
     {
       "id": "a77",
@@ -1206,7 +1282,8 @@
       "country": "de",
       "genres": [
         "Power Metal"
-      ]
+      ],
+      "globalId": "brainstorm"
     },
     {
       "id": "a78",
@@ -1223,7 +1300,8 @@
         "Death Metal",
         "Metal",
         "Grindcore"
-      ]
+      ],
+      "globalId": "misery-index"
     },
     {
       "id": "a79",
@@ -1240,7 +1318,8 @@
         "J-Pop",
         "Girl Group",
         "Dance-Pop"
-      ]
+      ],
+      "globalId": "speed"
     },
     {
       "id": "a80",
@@ -1257,7 +1336,8 @@
         "Progressive Metal",
         "Metal",
         "Djent"
-      ]
+      ],
+      "globalId": "unprocessed"
     },
     {
       "id": "a81",
@@ -1272,7 +1352,8 @@
       "country": "us",
       "genres": [
         "Death Metal"
-      ]
+      ],
+      "globalId": "deicide"
     },
     {
       "id": "a82",
@@ -1289,7 +1370,8 @@
         "Hardcore Punk",
         "Hardcore",
         "Beatdown Hardcore"
-      ]
+      ],
+      "globalId": "terror"
     },
     {
       "id": "a83",
@@ -1305,7 +1387,8 @@
       "genres": [
         "Black Metal",
         "Atmospheric Black Metal"
-      ]
+      ],
+      "globalId": "der-weg-einer-freiheit"
     },
     {
       "id": "a84",
@@ -1322,7 +1405,8 @@
         "Blackgaze",
         "Shoegaze",
         "Post-Metal"
-      ]
+      ],
+      "globalId": "deafheaven"
     },
     {
       "id": "a85",
@@ -1339,7 +1423,8 @@
         "Atmospheric Black Metal",
         "Black Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "wolves-in-the-throne-room"
     },
     {
       "id": "a86",
@@ -1354,7 +1439,8 @@
       "country": "de",
       "genres": [
         "Thrash Metal"
-      ]
+      ],
+      "globalId": "zerre"
     },
     {
       "id": "a87",
@@ -1365,7 +1451,8 @@
       "dayDate": "2026-08-14",
       "startTime": "13:45",
       "endTime": "14:15",
-      "annotation": null
+      "annotation": null,
+      "globalId": "pridian"
     },
     {
       "id": "a88",
@@ -1377,7 +1464,8 @@
       "startTime": "15:10",
       "endTime": "15:40",
       "annotation": null,
-      "country": "fi"
+      "country": "fi",
+      "globalId": "luna-kills"
     },
     {
       "id": "a89",
@@ -1394,7 +1482,8 @@
         "Symphonic Metal",
         "Folk Metal",
         "Melodic Death Metal"
-      ]
+      ],
+      "globalId": "brymir"
     },
     {
       "id": "a90",
@@ -1409,7 +1498,8 @@
       "country": "de",
       "genres": [
         "Neue Deutsche Härte"
-      ]
+      ],
+      "globalId": "erdling"
     },
     {
       "id": "a91",
@@ -1426,7 +1516,8 @@
         "Rock",
         "Punk",
         "Punk Rock"
-      ]
+      ],
+      "globalId": "blood-command"
     },
     {
       "id": "a92",
@@ -1443,7 +1534,8 @@
         "Death Metal",
         "Melodic Death Metal",
         "Groove Metal"
-      ]
+      ],
+      "globalId": "illdisposed"
     },
     {
       "id": "a93",
@@ -1460,7 +1552,8 @@
         "Deathcore",
         "Metalcore"
       ],
-      "country": "fr"
+      "country": "fr",
+      "globalId": "ten56"
     },
     {
       "id": "a94",
@@ -1475,7 +1568,8 @@
       "country": "ru",
       "genres": [
         "Black Metal"
-      ]
+      ],
+      "globalId": "bizarrekult"
     },
     {
       "id": "a95",
@@ -1491,7 +1585,8 @@
       "genres": [
         "Stoner Rock",
         "Psychedelic Rock"
-      ]
+      ],
+      "globalId": "sun-eater"
     },
     {
       "id": "a96",
@@ -1503,7 +1598,8 @@
       "startTime": "16:45",
       "endTime": "17:30",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "avalanche-effect"
     },
     {
       "id": "a97",
@@ -1515,7 +1611,8 @@
       "startTime": "18:00",
       "endTime": "18:45",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "heaven-exe"
     },
     {
       "id": "a98",
@@ -1527,7 +1624,8 @@
       "startTime": "19:15",
       "endTime": "20:00",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "minus-youth"
     },
     {
       "id": "a99",
@@ -1543,7 +1641,8 @@
       "genres": [
         "Folk Metal",
         "Black Metal"
-      ]
+      ],
+      "globalId": "perchta"
     },
     {
       "id": "a100",
@@ -1560,7 +1659,8 @@
         "Heavy Metal",
         "Punk Rock"
       ],
-      "country": "at"
+      "country": "at",
+      "globalId": "vulvarine"
     },
     {
       "id": "a101",
@@ -1576,7 +1676,8 @@
       "genres": [
         "Children",
         "Heavy Metal"
-      ]
+      ],
+      "globalId": "heavysaurus"
     },
     {
       "id": "a102",
@@ -1592,7 +1693,8 @@
       "genres": [
         "Melodic Death Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "parasite-inc"
     },
     {
       "id": "a103",
@@ -1604,7 +1706,8 @@
       "startTime": "13:50",
       "endTime": "14:35",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "the-sons-of-huens"
     },
     {
       "id": "a104",
@@ -1621,7 +1724,8 @@
         "Psychedelic Rock",
         "Stoner Rock",
         "Heavy Psych"
-      ]
+      ],
+      "globalId": "kadavar"
     },
     {
       "id": "a105",
@@ -1638,7 +1742,8 @@
         "Melodic Death Metal",
         "Groove Metal",
         "Death Metal"
-      ]
+      ],
+      "globalId": "orbit-culture"
     },
     {
       "id": "a106",
@@ -1655,7 +1760,8 @@
         "Thrash Metal",
         "Metal",
         "Heavy Metal"
-      ]
+      ],
+      "globalId": "testament"
     },
     {
       "id": "a107",
@@ -1672,7 +1778,8 @@
         "Folk Metal",
         "Power Metal",
         "Pirate Metal"
-      ]
+      ],
+      "globalId": "alestorm"
     },
     {
       "id": "a108",
@@ -1689,7 +1796,8 @@
         "Power Metal",
         "Heavy Metal",
         "Speed Metal"
-      ]
+      ],
+      "globalId": "helloween"
     },
     {
       "id": "a109",
@@ -1705,7 +1813,8 @@
       "genres": [
         "Deathcore",
         "Hardcore"
-      ]
+      ],
+      "globalId": "thy-art-is-murder"
     },
     {
       "id": "a110",
@@ -1722,7 +1831,8 @@
         "Industrial Metal",
         "Gothic Metal",
         "Metalcore"
-      ]
+      ],
+      "globalId": "soulbound"
     },
     {
       "id": "a111",
@@ -1739,7 +1849,8 @@
         "Death Metal",
         "Metal",
         "Brutal Death Metal"
-      ]
+      ],
+      "globalId": "sanguisugabogg"
     },
     {
       "id": "a112",
@@ -1756,7 +1867,8 @@
         "Melodic Death Metal",
         "Thrash Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "bloodred-hourglass"
     },
     {
       "id": "a113",
@@ -1773,7 +1885,8 @@
         "Thrash Metal",
         "Crossover Thrash",
         "Metal"
-      ]
+      ],
+      "globalId": "municipal-waste"
     },
     {
       "id": "a114",
@@ -1789,7 +1902,8 @@
       "genres": [
         "Hard Rock",
         "Heavy Metal"
-      ]
+      ],
+      "globalId": "thundermother"
     },
     {
       "id": "a115",
@@ -1806,7 +1920,8 @@
         "Death Metal",
         "Technical Death Metal",
         "Metal"
-      ]
+      ],
+      "globalId": "decapitated"
     },
     {
       "id": "a116",
@@ -1823,7 +1938,8 @@
         "Groove Metal",
         "Nu Metal",
         "Thrash Metal"
-      ]
+      ],
+      "globalId": "soulfly"
     },
     {
       "id": "a117",
@@ -1840,7 +1956,8 @@
         "Beatdown Hardcore",
         "Hardcore",
         "Deathcore"
-      ]
+      ],
+      "globalId": "paleface-swiss"
     },
     {
       "id": "a118",
@@ -1857,7 +1974,8 @@
         "Progressive Rock",
         "Metal"
       ],
-      "country": "se"
+      "country": "se",
+      "globalId": "soen"
     },
     {
       "id": "a119",
@@ -1869,7 +1987,8 @@
       "startTime": "12:20",
       "endTime": "12:50",
       "annotation": null,
-      "country": "gb"
+      "country": "gb",
+      "globalId": "inner-space"
     },
     {
       "id": "a120",
@@ -1884,7 +2003,8 @@
       "genres": [
         "Thrash Metal"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "skeleton-pit"
     },
     {
       "id": "a121",
@@ -1901,7 +2021,8 @@
         "Stoner Rock",
         "Psychedelic Rock"
       ],
-      "country": "de"
+      "country": "de",
+      "globalId": "wucan"
     },
     {
       "id": "a122",
@@ -1916,7 +2037,8 @@
       "country": "de",
       "genres": [
         "Folk Rock"
-      ]
+      ],
+      "globalId": "haggefugg"
     },
     {
       "id": "a123",
@@ -1933,7 +2055,8 @@
         "Metalcore",
         "Deathcore",
         "Ambient"
-      ]
+      ],
+      "globalId": "cabal"
     },
     {
       "id": "a124",
@@ -1950,7 +2073,8 @@
         "Folk Metal",
         "Rock"
       ],
-      "country": "hr"
+      "country": "hr",
+      "globalId": "manntra"
     },
     {
       "id": "a125",
@@ -1965,7 +2089,8 @@
       "genres": [
         "Death Metal"
       ],
-      "country": "us"
+      "country": "us",
+      "globalId": "200-stab-wounds"
     },
     {
       "id": "a126",
@@ -1982,7 +2107,8 @@
         "Rock",
         "Metal"
       ],
-      "country": "no"
+      "country": "no",
+      "globalId": "slomosa"
     },
     {
       "id": "a127",
@@ -1999,7 +2125,8 @@
         "Atmospheric Black Metal",
         "Post-Metal",
         "Shoegaze"
-      ]
+      ],
+      "globalId": "mol"
     },
     {
       "id": "a128",
@@ -2010,7 +2137,8 @@
       "dayDate": "2026-08-15",
       "startTime": "12:45",
       "endTime": "13:30",
-      "annotation": null
+      "annotation": null,
+      "globalId": "rodscha-a-kambodscha-u-tom-palme"
     },
     {
       "id": "a129",
@@ -2025,7 +2153,8 @@
       "country": "de",
       "genres": [
         "Rock"
-      ]
+      ],
+      "globalId": "randale"
     },
     {
       "id": "a130",
@@ -2036,7 +2165,8 @@
       "dayDate": "2026-08-15",
       "startTime": "15:30",
       "endTime": "16:15",
-      "annotation": null
+      "annotation": null,
+      "globalId": "plume"
     },
     {
       "id": "a131",
@@ -2052,7 +2182,8 @@
       "genres": [
         "Rock",
         "Hard Rock"
-      ]
+      ],
+      "globalId": "blacktoothed"
     },
     {
       "id": "a132",
@@ -2064,7 +2195,8 @@
       "startTime": "18:00",
       "endTime": "18:45",
       "annotation": null,
-      "country": "it"
+      "country": "it",
+      "globalId": "hopsydian"
     },
     {
       "id": "a133",
@@ -2076,7 +2208,8 @@
       "startTime": "19:15",
       "endTime": "20:00",
       "annotation": null,
-      "country": "de"
+      "country": "de",
+      "globalId": "lost-in-hollywood"
     },
     {
       "id": "a134",
@@ -2092,7 +2225,8 @@
       "genres": [
         "Death Metal",
         "Crust Punk"
-      ]
+      ],
+      "globalId": "phantom-corporation"
     },
     {
       "id": "a135",
@@ -2103,7 +2237,8 @@
       "dayDate": "2026-08-15",
       "startTime": "21:45",
       "endTime": "22:45",
-      "annotation": null
+      "annotation": null,
+      "globalId": "haeresis"
     }
   ],
   "news": [

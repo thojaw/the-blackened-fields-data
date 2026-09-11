@@ -97,6 +97,11 @@
         "replacedArtistId": {
           "type": "string",
           "description": "References Artist.id of a cancelled artist whose slot this artist has taken over. Cross-referential existence (that the id resolves to another entry in the same artists[] array) is not validated by this schema; see AGENTS.md 'Cancellations and replacements'."
+        },
+        "globalId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "References an artists.json id, giving this show a cross-festival identity distinct from its local, per-show id. Multiple artists[] entries in the same festival.json (e.g. a regular set and an acoustic set by the same act) may share one globalId. When absent, this artist's global identity is its own id if that already looks like a registry slug; otherwise it has none yet. See AGENTS.md 'Artist registry'."
         }
       }
     },

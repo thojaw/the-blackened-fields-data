@@ -33,8 +33,11 @@
       "startTime": "17:20",
       "endTime": "18:00",
       "annotation": null,
-      "genres": ["Folk Metal"],
-      "country": "no"
+      "genres": [
+        "Folk Metal"
+      ],
+      "country": "no",
+      "globalId": "berserkr"
     },
     {
       "id": "a2",
@@ -46,8 +49,11 @@
       "startTime": "21:05",
       "endTime": "22:50",
       "annotation": "Closing set of the Bifröst Stage.",
-      "genres": ["Atmospheric Black Metal"],
-      "country": "fo"
+      "genres": [
+        "Atmospheric Black Metal"
+      ],
+      "country": "fo",
+      "globalId": "bjornholm"
     },
     {
       "id": "a3",
@@ -59,8 +65,11 @@
       "startTime": "14:10",
       "endTime": "14:50",
       "annotation": null,
-      "genres": ["Post-Rock"],
-      "country": "is"
+      "genres": [
+        "Post-Rock"
+      ],
+      "country": "is",
+      "globalId": "drekka-sjor"
     },
     {
       "id": "a4",
@@ -72,8 +81,11 @@
       "startTime": "20:55",
       "endTime": "22:40",
       "annotation": "Festival-closing set. Ear protection strongly advised for front-row positions.",
-      "genres": ["Pagan Folk"],
-      "country": "no"
+      "genres": [
+        "Pagan Folk"
+      ],
+      "country": "no",
+      "globalId": "frost-giants"
     },
     {
       "id": "a5",
@@ -85,8 +97,11 @@
       "startTime": "19:05",
       "endTime": "20:20",
       "annotation": null,
-      "genres": ["Stoner Rock"],
-      "country": "se"
+      "genres": [
+        "Stoner Rock"
+      ],
+      "country": "se",
+      "globalId": "mjolnir-mark"
     },
     {
       "id": "a6",
@@ -98,8 +113,11 @@
       "startTime": "18:10",
       "endTime": "19:00",
       "annotation": null,
-      "genres": ["Crossover Thrash"],
-      "country": "se"
+      "genres": [
+        "Crossover Thrash"
+      ],
+      "country": "se",
+      "globalId": "ragnar-s-wrath"
     },
     {
       "id": "a7",
@@ -111,8 +129,11 @@
       "startTime": "14:00",
       "endTime": "14:40",
       "annotation": "Opening blessing performed before the first note.",
-      "genres": ["Folk"],
-      "country": "is"
+      "genres": [
+        "Folk"
+      ],
+      "country": "is",
+      "globalId": "skalds-of-asgard"
     },
     {
       "id": "a8",
@@ -124,8 +145,11 @@
       "startTime": "20:55",
       "endTime": "22:40",
       "annotation": null,
-      "genres": ["Symphonic Metal"],
-      "country": "no"
+      "genres": [
+        "Symphonic Metal"
+      ],
+      "country": "no",
+      "globalId": "valkyrjar"
     },
     {
       "id": "a9",
@@ -137,8 +161,11 @@
       "startTime": "18:50",
       "endTime": "20:05",
       "annotation": null,
-      "genres": ["Doom Metal"],
-      "country": "de"
+      "genres": [
+        "Doom Metal"
+      ],
+      "country": "de",
+      "globalId": "yggdrasil-s-roots"
     },
     {
       "id": "a10",
@@ -150,8 +177,12 @@
       "startTime": "19:35",
       "endTime": "21:20",
       "annotation": "Opening night headline set.",
-      "genres": ["Hardcore Punk", "Folk"],
-      "country": "dk"
+      "genres": [
+        "Hardcore Punk",
+        "Folk"
+      ],
+      "country": "dk",
+      "globalId": "black-sails"
     },
     {
       "id": "a11",
@@ -163,8 +194,11 @@
       "startTime": "20:40",
       "endTime": "22:25",
       "annotation": null,
-      "genres": ["Post-Black Metal"],
-      "country": "no"
+      "genres": [
+        "Post-Black Metal"
+      ],
+      "country": "no",
+      "globalId": "ironveil"
     },
     {
       "id": "a12",
@@ -176,9 +210,12 @@
       "startTime": "16:15",
       "endTime": "17:05",
       "annotation": "Short-notice replacement for the cancelled Fimbulwolf.",
-      "genres": ["Crust Punk"],
+      "genres": [
+        "Crust Punk"
+      ],
       "country": "dk",
-      "replacedArtistId": "a99"
+      "replacedArtistId": "a99",
+      "globalId": "shieldwall"
     },
     {
       "id": "a13",
@@ -190,8 +227,11 @@
       "startTime": "17:00",
       "endTime": "17:40",
       "annotation": null,
-      "genres": ["Folk Metal"],
-      "country": "se"
+      "genres": [
+        "Folk Metal"
+      ],
+      "country": "se",
+      "globalId": "runecaster"
     },
     {
       "id": "a14",
@@ -203,8 +243,11 @@
       "startTime": "17:20",
       "endTime": "18:20",
       "annotation": null,
-      "genres": ["Dark Wave"],
-      "country": "gb"
+      "genres": [
+        "Dark Wave"
+      ],
+      "country": "gb",
+      "globalId": "tidecaller"
     },
     {
       "id": "a15",
@@ -216,8 +259,12 @@
       "startTime": "15:15",
       "endTime": "15:55",
       "annotation": null,
-      "genres": ["Viking Metal", "Death Metal"],
-      "country": "fi"
+      "genres": [
+        "Viking Metal",
+        "Death Metal"
+      ],
+      "country": "fi",
+      "globalId": "skullberg"
     },
     {
       "id": "a16",
@@ -229,8 +276,12 @@
       "startTime": "19:55",
       "endTime": "21:40",
       "annotation": "Fire baskets ignited at 20:45 sharp. No standing within 2 m of the stage edge.",
-      "genres": ["Symphonic Metal", "Viking Metal"],
-      "country": "no"
+      "genres": [
+        "Symphonic Metal",
+        "Viking Metal"
+      ],
+      "country": "no",
+      "globalId": "nordheim"
     },
     {
       "id": "a17",
@@ -242,8 +293,12 @@
       "startTime": "18:30",
       "endTime": "19:20",
       "annotation": null,
-      "genres": ["Sludge Metal", "Doom Metal"],
-      "country": "de"
+      "genres": [
+        "Sludge Metal",
+        "Doom Metal"
+      ],
+      "country": "de",
+      "globalId": "eitr-s-venom"
     },
     {
       "id": "a18",
@@ -255,8 +310,11 @@
       "startTime": "16:25",
       "endTime": "17:15",
       "annotation": "Stave instruments ritually burned at set close.",
-      "genres": ["Dark Ambient"],
-      "country": "is"
+      "genres": [
+        "Dark Ambient"
+      ],
+      "country": "is",
+      "globalId": "galdrastafr"
     },
     {
       "id": "a19",
@@ -268,8 +326,11 @@
       "startTime": "19:15",
       "endTime": "20:30",
       "annotation": null,
-      "genres": ["Black Metal"],
-      "country": "fi"
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "fi",
+      "globalId": "stormwulf"
     },
     {
       "id": "a20",
@@ -281,8 +342,11 @@
       "startTime": "14:50",
       "endTime": "15:30",
       "annotation": null,
-      "genres": ["Gothic"],
-      "country": "se"
+      "genres": [
+        "Gothic"
+      ],
+      "country": "se",
+      "globalId": "ashen-volva"
     },
     {
       "id": "a21",
@@ -294,8 +358,11 @@
       "startTime": "17:35",
       "endTime": "18:35",
       "annotation": null,
-      "genres": ["Melodic Death Metal"],
-      "country": "dk"
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "country": "dk",
+      "globalId": "grimnir-s-pyre"
     },
     {
       "id": "a22",
@@ -307,8 +374,11 @@
       "startTime": "16:00",
       "endTime": "16:50",
       "annotation": null,
-      "genres": ["Post-Metal"],
-      "country": "nl"
+      "genres": [
+        "Post-Metal"
+      ],
+      "country": "nl",
+      "globalId": "serpent-s-wake"
     },
     {
       "id": "a23",
@@ -320,8 +390,11 @@
       "startTime": "15:05",
       "endTime": "15:45",
       "annotation": null,
-      "genres": ["Medieval Folk"],
-      "country": "gb"
+      "genres": [
+        "Medieval Folk"
+      ],
+      "country": "gb",
+      "globalId": "wyrdweavers"
     },
     {
       "id": "a24",
@@ -333,8 +406,11 @@
       "startTime": "17:45",
       "endTime": "18:45",
       "annotation": null,
-      "genres": ["Doom Metal"],
-      "country": "gb"
+      "genres": [
+        "Doom Metal"
+      ],
+      "country": "gb",
+      "globalId": "helbound"
     },
     {
       "id": "a25",
@@ -346,8 +422,11 @@
       "startTime": "15:05",
       "endTime": "15:45",
       "annotation": null,
-      "genres": ["Extreme Metal"],
-      "country": "is"
+      "genres": [
+        "Extreme Metal"
+      ],
+      "country": "is",
+      "globalId": "blodorn"
     },
     {
       "id": "a26",
@@ -359,8 +438,11 @@
       "startTime": "16:15",
       "endTime": "17:05",
       "annotation": null,
-      "genres": ["Neofolk"],
-      "country": "de"
+      "genres": [
+        "Neofolk"
+      ],
+      "country": "de",
+      "globalId": "embla-s-kin"
     },
     {
       "id": "a27",
@@ -372,8 +454,11 @@
       "startTime": "19:05",
       "endTime": "20:20",
       "annotation": null,
-      "genres": ["Progressive Metal"],
-      "country": "fi"
+      "genres": [
+        "Progressive Metal"
+      ],
+      "country": "fi",
+      "globalId": "odinn-s-eye"
     },
     {
       "id": "a28",
@@ -385,8 +470,11 @@
       "startTime": "13:45",
       "endTime": "14:25",
       "annotation": "Bring your singing voice — the encore is audience-only.",
-      "genres": ["Folk Punk"],
-      "country": "se"
+      "genres": [
+        "Folk Punk"
+      ],
+      "country": "se",
+      "globalId": "skaldenfang"
     },
     {
       "id": "a29",
@@ -398,8 +486,11 @@
       "startTime": "17:35",
       "endTime": "18:35",
       "annotation": "No applause requested. Sit in silence.",
-      "genres": ["Funeral Doom"],
-      "country": "no"
+      "genres": [
+        "Funeral Doom"
+      ],
+      "country": "no",
+      "globalId": "draugar"
     },
     {
       "id": "a30",
@@ -411,8 +502,11 @@
       "startTime": "14:00",
       "endTime": "14:40",
       "annotation": null,
-      "genres": ["Stoner Rock"],
-      "country": "de"
+      "genres": [
+        "Stoner Rock"
+      ],
+      "country": "de",
+      "globalId": "thunderhide"
     },
     {
       "id": "a99",
@@ -423,8 +517,11 @@
       "startTime": null,
       "endTime": null,
       "annotation": "Cancelled.",
-      "genres": ["Blackened Death Metal"],
-      "country": "no"
+      "genres": [
+        "Blackened Death Metal"
+      ],
+      "country": "no",
+      "globalId": "fimbulwolf"
     }
   ],
   "news": [

@@ -20,6 +20,7 @@ import sys
 from difflib import SequenceMatcher
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
+ARTISTS_JSON = os.path.join(REPO_ROOT, "artists.json")
 
 
 def find_festival_files():
@@ -34,6 +35,13 @@ def find_festival_files():
 def load(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_artist_registry():
+    """Load artists.json, or [] if it doesn't exist yet."""
+    if not os.path.exists(ARTISTS_JSON):
+        return []
+    return load(ARTISTS_JSON)
 
 
 def similarity(a, b):
@@ -196,6 +204,10 @@ def cmd_search_artist_everywhere(args):
     """
     Search an artist name across ALL festivals/years in the repo. Useful for
     'which festivals is X playing this year' or cross-festival lookups.
+    Each hit includes globalId when the artist entry has one (or resolves to
+    one via the registry) -- entries sharing a globalId are the same
+    underlying artist (e.g. a regular set + an acoustic set), not unrelated
+    matches.
     """
     query = args.name.lower()
     results = []
@@ -212,6 +224,7 @@ def cmd_search_artist_everywhere(args):
                     "festivalName": data.get("name"),
                     "festivalYear": data.get("year"),
                     "artist": a["name"],
+                    "globalId": a.get("globalId"),
                     "dayDate": a.get("dayDate"),
                     "startTime": a.get("startTime"),
                     "endTime": a.get("endTime"),
@@ -219,6 +232,60 @@ def cmd_search_artist_everywhere(args):
                 })
     results.sort(key=lambda r: -r["score"])
     print(json.dumps(results, indent=2, ensure_ascii=False))
+
+
+def cmd_resolve_artist_global(args):
+    """
+    Resolve an artist name against the artists.json global registry first
+    (fast, exact cross-festival identity via globalId), then fall back to a
+    full fuzzy scan across every festival.json (like search-artist-everywhere)
+    for artists not yet in the registry. Use this for "which festivals is X
+    playing" / "have I seen X before" questions once artists.json exists.
+    """
+    query = args.name.lower()
+    registry = load_artist_registry()
+
+    best_entry, best_score = None, 0.0
+    for entry in registry:
+        score = similarity(query, entry["name"].lower())
+        if query in entry["name"].lower():
+            score = max(score, 0.9)
+        if score > best_score:
+            best_entry, best_score = entry, score
+
+    if best_entry is None or best_score < args.min_score:
+        print(json.dumps({
+            "matchedVia": "name-scan",
+            "registryEntry": None,
+            "appearances": [],
+            "note": "No confident registry match; falling back to name search across festivals.",
+        }, indent=2, ensure_ascii=False))
+        cmd_search_artist_everywhere(argparse.Namespace(name=args.name, min_score=args.min_score))
+        return
+
+    global_id = best_entry["id"]
+    appearances = []
+    for path, slug, year in find_festival_files():
+        data = load(path)
+        for a in data.get("artists", []):
+            if a.get("globalId") == global_id or (not a.get("globalId") and a["id"] == global_id):
+                appearances.append({
+                    "festivalSlug": slug,
+                    "festivalName": data.get("name"),
+                    "festivalYear": data.get("year"),
+                    "artist": a["name"],
+                    "id": a["id"],
+                    "dayDate": a.get("dayDate"),
+                    "startTime": a.get("startTime"),
+                    "endTime": a.get("endTime"),
+                    "stageName": stage_name(data, a.get("stageId")),
+                })
+    print(json.dumps({
+        "matchedVia": "registry",
+        "registryEntry": best_entry,
+        "score": round(best_score, 3),
+        "appearances": appearances,
+    }, indent=2, ensure_ascii=False))
 
 
 def cmd_day_part(args):
@@ -291,6 +358,11 @@ def build_parser():
     sp.add_argument("name")
     sp.add_argument("--min-score", type=float, default=0.5)
     sp.set_defaults(func=cmd_search_artist_everywhere)
+
+    sp = sub.add_parser("resolve-artist-global", help=cmd_resolve_artist_global.__doc__)
+    sp.add_argument("name")
+    sp.add_argument("--min-score", type=float, default=0.75)
+    sp.set_defaults(func=cmd_resolve_artist_global)
 
     sp = sub.add_parser("day-part", help=cmd_day_part.__doc__)
     sp.add_argument("time", help="HH:MM")

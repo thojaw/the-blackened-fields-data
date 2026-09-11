@@ -1,11 +1,13 @@
 # the-blackened-fields-data
 
-This repo has three parts:
+This repo has four parts:
 
 1. **Raw festival data** — the actual lineup/schedule information.
 2. **A generated multi-festival index** (`index.json`) — summary/header
    info and counts for every festival, for picker-style UIs.
-3. **A Claude Skill** (`festival-guide`) that knows how to read and query it.
+3. **A global artist registry** (`artists.json`) — de-duplicated artist
+   records shared across festivals.
+4. **A Claude Skill** (`festival-guide`) that knows how to read and query it.
 
 ## 1. The data
 
@@ -54,7 +56,28 @@ count, stage count, ...).
   `main` that touches a `festival.json`. Run the script yourself after
   local edits to keep it in sync in the meantime.
 
-## 3. The `festival-guide` Skill
+## 3. The artist registry (`artists.json`)
+
+A flat, de-duplicated list of artists across every festival, each with a
+permanent slug id (e.g. `"drekka-sjor"`), name, description, genres, and
+country. `festival.json`'s per-show `Artist.id` stays local and untouched;
+an optional `Artist.globalId` links a festival-local artist entry to its
+registry record, enabling cross-festival identity (the same act favorited
+once, seen everywhere) without disturbing existing client-side state.
+
+- Shape: `schema/artists.schema.json` (JSON Schema), documented alongside
+  the full `id`/`globalId` rule and a multi-show example in `AGENTS.md`.
+- Sync tool: `scripts/sync-artist-registry.py` (stdlib-only Python) matches
+  a festival's artists against the registry and, with `--apply`, links
+  matches and registers genuinely new artists:
+  ```
+  python3 scripts/sync-artist-registry.py <festival.json> [--apply]
+  ```
+- Validator: `scripts/validate-artists.py` checks `artists.json` structure,
+  id uniqueness, and (with `--check-festivals`) that every `globalId`
+  referenced from a `festival.json` resolves to a registry entry.
+
+## 4. The `festival-guide` Skill
 
 `.claude/skills/festival-guide/` packages up how to *answer questions* about
 this data — lineup lookups, schedules, clashes, artist info — rather than

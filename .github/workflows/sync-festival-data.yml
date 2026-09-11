@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "**/festival.json"
+      - "artists.json"
   workflow_dispatch: {}
 
 concurrency:
@@ -28,6 +29,9 @@ jobs:
 
       - name: Fetch main
         run: git fetch origin main
+
+      - name: Validate artists.json
+        run: python3 scripts/validate-artists.py --check-festivals
 
       - name: Bump version on changed festival.json files
         run: python3 scripts/bump-festival-version.py --base origin/main
