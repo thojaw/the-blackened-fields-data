@@ -1,15 +1,20 @@
 #!/usr/bin/env node
-// Backfills Artist.genres / Artist.country in a festival.json by looking
-// artists up against MusicBrainz (primary) and Last.fm (genre fallback).
+// Backfills Artist.genres / Artist.country in a festival.json, or
+// genres/country/links in the repo-root artists.json global registry, by
+// looking artists up against MusicBrainz (primary) and Last.fm (genre
+// fallback). Which mode runs is auto-detected from the file's shape: a
+// festival.json (an object with an `artists` array) vs. artists.json (a
+// bare array of registry entries).
 //
 // Usage:
-//   node scripts/enrich-artists.mjs <path/to/festival.json> [options]
+//   node scripts/enrich-artists.mjs <path/to/festival.json|artists.json> [options]
 //
 // Options:
 //   --write            Actually write changes back to the file (default: dry run, prints a report)
-//   --force            Re-lookup and overwrite artists that already have genres+country
+//   --force            Re-lookup and overwrite artists that already have genres+country(+links)
 //   --min-score=N      MusicBrainz search score (0-100) required to auto-accept a match (default 90)
 //   --max-genres=N     Max number of genre tags to keep per artist (default 3)
+//   --max-links=N      Max number of links to keep per artist, registry mode only (default 6)
 //   --preview=N        Only look up the first N artists that need it (handy for a quick test run)
 //
 // Env:
@@ -19,6 +24,9 @@
 // Notes:
 //   - MusicBrainz requires a descriptive User-Agent and a max of ~1 req/sec unauthenticated.
 //   - Ambiguous/low-confidence matches are never auto-applied; they're printed for manual review.
+//   - Links are only ever written in registry mode: festival.json's Artist has no `links`
+//     field of its own (a festival's links live in its top-level `links[]`, keyed by
+//     artistId) -- see AGENTS.md 'Artist registry'.
 
 import { readFile, writeFile } from "node:fs/promises";
 
@@ -30,12 +38,13 @@ const REQUEST_DELAY_MS = 1100;
 const MAX_AREA_HOPS = 4;
 
 function parseArgs(argv) {
-  const args = { write: false, force: false, minScore: 90, maxGenres: 3, preview: undefined, files: [] };
+  const args = { write: false, force: false, minScore: 90, maxGenres: 3, maxLinks: 6, preview: undefined, files: [] };
   for (const arg of argv) {
     if (arg === "--write") args.write = true;
     else if (arg === "--force") args.force = true;
     else if (arg.startsWith("--min-score=")) args.minScore = Number(arg.split("=")[1]);
     else if (arg.startsWith("--max-genres=")) args.maxGenres = Number(arg.split("=")[1]);
+    else if (arg.startsWith("--max-links=")) args.maxLinks = Number(arg.split("=")[1]);
     else if (arg.startsWith("--preview=")) args.preview = Number(arg.split("=")[1]);
     else args.files.push(arg);
   }
@@ -88,6 +97,76 @@ async function musicbrainzLookup(name) {
 
   const data = await mbFetchJson(url, { label: name });
   return data.artists ?? [];
+}
+
+async function musicbrainzUrlRelations(mbid) {
+  const url = new URL(`${MB_SEARCH_URL}${mbid}`);
+  url.searchParams.set("fmt", "json");
+  url.searchParams.set("inc", "url-rels");
+
+  const data = await mbFetchJson(url, { label: `relations:${mbid}` });
+  return data.relations ?? [];
+}
+
+// Same type enum as festival.json's ExternalLink / artists.schema.json's
+// RegistryLink. Classified by URL host rather than MusicBrainz's own
+// relationship-type names, which don't map cleanly onto it (e.g. Spotify,
+// Deezer, and Apple Music are all just "streaming music").
+const DOMAIN_LINK_TYPES = [
+  [/(^|\.)facebook\.com$/, "facebook"],
+  [/(^|\.)(twitter|x)\.com$/, "x"],
+  [/(^|\.)youtube\.com$/, "youtube"],
+  [/(^|\.)instagram\.com$/, "instagram"],
+  [/(^|\.)open\.spotify\.com$/, "spotify"],
+  [/(^|\.)deezer\.com$/, "deezer"],
+  [/\.bandcamp\.com$/, "bandcamp"],
+  [/(^|\.)music\.apple\.com$/, "applemusic"],
+  [/(^|\.)soundcloud\.com$/, "soundcloud"],
+  [/(^|\.)tiktok\.com$/, "tiktok"],
+  [/(^|\.)patreon\.com$/, "patreon"],
+  [/(^|\.)discord\.(gg|com)$/, "discord"],
+];
+
+function classifyLinkUrl(urlStr) {
+  let host;
+  try {
+    host = new URL(urlStr).hostname.replace(/^www\./, "");
+  } catch {
+    return undefined;
+  }
+  for (const [pattern, type] of DOMAIN_LINK_TYPES) {
+    if (pattern.test(host)) return type;
+  }
+  return undefined;
+}
+
+// Only keeps relations that resolve to one of our known link types, plus
+// MusicBrainz's own "official homepage" relation (mapped to "web") -- other
+// relation types (wikipedia, discogs, allmusic, songkick, lyrics sites, ...)
+// aren't part of the RegistryLink type enum and are dropped rather than
+// guessed at.
+function pickLinks(relations, maxLinks) {
+  const seen = new Set();
+  const links = [];
+  for (const rel of relations) {
+    const resource = rel.url?.resource;
+    if (!resource || seen.has(resource)) continue;
+
+    const domainType = classifyLinkUrl(resource);
+    let entry;
+    if (domainType) {
+      entry = { url: resource, type: domainType };
+    } else if (rel.type === "official homepage") {
+      entry = { url: resource, type: "web", label: "Website" };
+    } else {
+      continue;
+    }
+
+    seen.add(resource);
+    links.push(entry);
+    if (links.length >= maxLinks) break;
+  }
+  return links;
 }
 
 // MusicBrainz only sets Artist.country when `area` IS a Country entity.
@@ -148,7 +227,7 @@ function pickGenres(mbArtist, maxGenres) {
     .map((t) => toTitleCase(t.name));
 }
 
-async function enrichArtist(artist, { minScore, maxGenres, lastfmKey }) {
+async function enrichArtist(artist, { minScore, maxGenres, maxLinks, lastfmKey, withLinks }) {
   const candidates = await musicbrainzLookup(artist.name);
   if (candidates.length === 0) {
     return { status: "not_found" };
@@ -176,19 +255,26 @@ async function enrichArtist(artist, { minScore, maxGenres, lastfmKey }) {
     genres = (await lastfmTopTags(artist.name, lastfmKey)).slice(0, maxGenres);
   }
 
+  let links;
+  if (withLinks) {
+    const relations = await musicbrainzUrlRelations(best.id);
+    links = pickLinks(relations, maxLinks);
+  }
+
   return {
     status: "matched",
     mbName: best.name,
     score,
     country,
     genres,
+    links,
   };
 }
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   if (args.files.length === 0) {
-    console.error("Usage: node scripts/enrich-artists.mjs <festival.json> [--write] [--force] [--min-score=90] [--max-genres=3]");
+    console.error("Usage: node scripts/enrich-artists.mjs <festival.json|artists.json> [--write] [--force] [--min-score=90] [--max-genres=3] [--max-links=6]");
     process.exit(1);
   }
   const lastfmKey = process.env.LASTFM_API_KEY;
@@ -198,11 +284,22 @@ async function main() {
     const raw = await readFile(file, "utf8");
     const data = JSON.parse(raw);
 
-    let toProcess = data.artists.filter(
-      (a) => args.force || !a.country || !a.genres || a.genres.length === 0
+    // artists.json (the global registry) is a bare array; festival.json is
+    // an object with an `artists` array. Only the registry has a `links`
+    // field to backfill -- see AGENTS.md 'Artist registry'.
+    const isRegistry = Array.isArray(data);
+    const artists = isRegistry ? data : data.artists;
+
+    let toProcess = artists.filter(
+      (a) =>
+        args.force ||
+        !a.country ||
+        !a.genres ||
+        a.genres.length === 0 ||
+        (isRegistry && (!a.links || a.links.length === 0))
     );
 
-    console.log(`${toProcess.length}/${data.artists.length} artist(s) need lookup.`);
+    console.log(`${toProcess.length}/${artists.length} artist(s) need lookup.`);
 
     if (args.preview !== undefined) {
       toProcess = toProcess.slice(0, args.preview);
@@ -213,7 +310,13 @@ async function main() {
     for (const artist of toProcess) {
       let result;
       try {
-        result = await enrichArtist(artist, { minScore: args.minScore, maxGenres: args.maxGenres, lastfmKey });
+        result = await enrichArtist(artist, {
+          minScore: args.minScore,
+          maxGenres: args.maxGenres,
+          maxLinks: args.maxLinks,
+          lastfmKey,
+          withLinks: isRegistry,
+        });
       } catch (err) {
         console.log(`  [error]     ${artist.name}: ${err.message}`);
         continue;
@@ -226,11 +329,13 @@ async function main() {
       } else {
         const countryStr = result.country ?? "-";
         const genresStr = result.genres.length ? result.genres.join(", ") : "-";
-        console.log(`  [matched]   ${artist.name} -> "${result.mbName}" (score ${result.score}) country=${countryStr} genres=[${genresStr}]`);
+        const linksStr = isRegistry ? ` links=[${(result.links ?? []).map((l) => l.type).join(", ")}]` : "";
+        console.log(`  [matched]   ${artist.name} -> "${result.mbName}" (score ${result.score}) country=${countryStr} genres=[${genresStr}]${linksStr}`);
 
         if (args.write) {
           if (result.country) artist.country = result.country;
           if (result.genres.length) artist.genres = result.genres;
+          if (isRegistry && result.links?.length) artist.links = result.links;
           changed++;
         }
       }

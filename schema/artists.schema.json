@@ -31,6 +31,40 @@
         "type": "string",
         "pattern": "^[a-z]{2}$",
         "description": "ISO 3166-1 alpha-2 country code, lowercase, e.g. 'us', 'de'. Omitted rather than guessed when unresolved."
+      },
+      "links": {
+        "type": "array",
+        "items": { "$ref": "#/$defs/RegistryLink" },
+        "description": "Artist's own persistent links (official site, socials, streaming), independent of any single festival's links[]. Same rendering rules as festival.json's ExternalLink, minus the id/artistId fields which have no meaning outside a festival's links array."
+      }
+    }
+  },
+  "$defs": {
+    "RegistryLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "description": "Required when type is absent (text link); optional when type is present (a11y/tooltip only)."
+        },
+        "url": { "type": "string", "format": "uri-reference" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "web", "facebook", "x", "youtube", "instagram", "spotify",
+            "deezer", "bandcamp", "applemusic", "soundcloud", "tiktok",
+            "patreon", "discord"
+          ],
+          "description": "Absent = text link. Present = icon-only rendering."
+        }
+      },
+      "if": {
+        "not": { "required": ["type"] }
+      },
+      "then": {
+        "required": ["label"]
       }
     }
   }
