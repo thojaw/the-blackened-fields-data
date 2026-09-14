@@ -4,6 +4,7 @@
   "version": 1,
   "year": 2027,
   "defaultLang": "en",
+  "visible": false,
   "runningOrderExists": false,
   "utcOffsetHours": 1,
   "festivalDays": [
