@@ -106,23 +106,46 @@ Foo Fest 2028 lineup just dropped, add it."
    is exactly how a real MusicBrainz false-match was caught and fixed in
    development), then add the registry entry / link directly.
 
-9. **Get a Spotify link for every artist — mandatory, not best-effort.**
-   Spotify links drive the in-app embedded preview player, so a missing one
-   is a missing feature, not just missing metadata. Step 8's chained
-   `enrich-artists.mjs artists.json --write` auto-adds one via MusicBrainz
-   when it finds a high-confidence match (score ≥ 90 by default). Check
-   `artists.json` afterward for every artist added or touched this run: for
-   any without a `spotify`-typed link — whether reported as low-confidence
-   in the enrichment output or simply skipped — search Spotify directly,
-   verify the candidate artist page (bio/genre/discography) actually matches
-   the act you researched in step 2 (this is exactly how a real
-   same-name-artist false match was caught in development), and add the
-   link by hand to that artist's `artists.json` registry entry:
-   `{ "url": "https://open.spotify.com/artist/...", "type": "spotify" }`.
-   Only treat "no Spotify presence" as acceptable after a real search failed
-   to find one, and call it out explicitly in your summary — most acts worth
-   booking have a Spotify presence, so a silent gap here is more likely a
-   missed search than a genuine absence.
+9. **Get a Spotify link for every artist — mandatory, not best-effort — and
+   put it where the app actually reads it.** Spotify links drive the in-app
+   embedded preview player, so a missing one is a missing feature, not just
+   missing metadata. **The registry (`artists.json`) is not what the app
+   renders per-artist.** AGENTS.md says this outright: registry `links` are
+   "never copied to or from a festival's own `Artist`/`links[]` entries" —
+   there is nothing that syncs them into a festival file. Every other
+   festival in this repo with real Spotify data (`summer-breeze`,
+   `breakout`, `valhalla-fest`) stores it as an entry in *that festival's
+   own* top-level `links[]` array: `{ "id", "label": "Spotify", "url",
+   "type": "spotify", "artistId": "<that artist's local id>" }` — one entry
+   per artist, same array the festival's other typed social links live in.
+   That is the entry the app's per-artist detail page actually consumes.
+   Do both, they serve different purposes: keep the registry entry too (it's
+   the cross-festival, reusable source of truth this step's research
+   verifies), but **the festival.json `links[]` entry is the one that makes
+   the preview player actually appear — never skip it, even when the
+   registry link already exists.**
+
+   Step 8's chained `enrich-artists.mjs artists.json --write` auto-adds a
+   *registry* Spotify link via MusicBrainz when it finds a high-confidence
+   match (score ≥ 90 by default) — it never touches festival.json. For
+   every artist in this festival, after the registry has a Spotify link
+   (auto-added or hand-added below), mirror that URL into a new
+   `{ type: "spotify", artistId: ... }` entry in festival.json's own
+   `links[]`, resolving the artist's registry identity via `globalId` if
+   present, else its local `id` (AGENTS.md "id vs globalId" resolution
+   rule) — don't assume the festival-local `id` always equals the registry
+   key.
+
+   For any artist still without a registry Spotify link — reported as
+   low-confidence in the enrichment output, or simply skipped — search
+   Spotify directly, verify the candidate artist page (bio/genre/
+   discography) actually matches the act you researched in step 2 (this is
+   exactly how a real same-name-artist false match was caught in
+   development), add it to the registry entry, then add the matching
+   `links[]` entry as above. Only treat "no Spotify presence" as acceptable
+   after a real search failed to find one, and call it out explicitly in
+   your summary — most acts worth booking have a Spotify presence, so a
+   silent gap here is more likely a missed search than a genuine absence.
 
 10. **Branch, commit, push, open a PR** (`gh pr create`) summarizing what was
     added — artist list, translation coverage, Spotify link coverage (and
