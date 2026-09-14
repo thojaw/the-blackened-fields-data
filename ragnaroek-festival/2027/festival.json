@@ -6,6 +6,7 @@
   "defaultLang": "en",
   "runningOrderExists": false,
   "utcOffsetHours": 2,
+  "visible": false,
   "festivalDays": [
     "2027-04-01",
     "2027-04-02",
