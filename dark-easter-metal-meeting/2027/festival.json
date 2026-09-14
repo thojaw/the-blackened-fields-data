@@ -1,10 +1,10 @@
 {
   "id": "dark-easter-metal-meeting-2027",
   "name": "Dark Easter Metal Meeting",
-  "version": 1,
+  "version": 3,
   "year": 2027,
   "defaultLang": "en",
-  "visible": false,
+  "visible": true,
   "runningOrderExists": false,
   "utcOffsetHours": 1,
   "festivalDays": [
@@ -25,7 +25,14 @@
       "name": "Backstage Club"
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Lineup still being finalized",
+      "body": "This festival's data may not be up to date and will only be updated sporadically until the organizer has completed the lineup. Please check the official festival channels for the latest information.",
+      "date": "2026-09-14"
+    }
+  ],
   "links": [
     {
       "id": "l1",
@@ -190,6 +197,13 @@
   "translations": [
     {
       "lang": "de",
+      "news": [
+        {
+          "id": "n1",
+          "title": "Lineup noch nicht vollständig",
+          "body": "Die Daten zu diesem Festival sind möglicherweise nicht aktuell und werden nur sporadisch aktualisiert, bis der Veranstalter das Lineup komplettiert hat. Bitte prüft die offiziellen Festival-Kanäle für die aktuellsten Informationen."
+        }
+      ],
       "artists": [
         {
           "id": "emperor",

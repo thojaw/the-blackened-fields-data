@@ -1,18 +1,25 @@
 {
   "id": "ragnaroek-festival-2027",
   "name": "Ragnarök Festival",
-  "version": 3,
+  "version": 5,
   "year": 2027,
   "defaultLang": "en",
   "runningOrderExists": false,
   "utcOffsetHours": 2,
-  "visible": false,
+  "visible": true,
   "festivalDays": [
     "2027-04-01",
     "2027-04-02",
     "2027-04-03"
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Lineup still being finalized",
+      "body": "This festival's data may not be up to date and will only be updated sporadically until the organizer has completed the lineup. Please check the official festival channels for the latest information.",
+      "date": "2026-09-14"
+    }
+  ],
   "links": [
     {
       "id": "l1",
@@ -526,6 +533,13 @@
   "translations": [
     {
       "lang": "de",
+      "news": [
+        {
+          "id": "n1",
+          "title": "Lineup noch nicht vollständig",
+          "body": "Die Daten zu diesem Festival sind möglicherweise nicht aktuell und werden nur sporadisch aktualisiert, bis der Veranstalter das Lineup komplettiert hat. Bitte prüft die offiziellen Festival-Kanäle für die aktuellsten Informationen."
+        }
+      ],
       "artists": [
         {
           "id": "wind-rose",
