@@ -1,7 +1,7 @@
 {
   "id": "ragnaroek-festival-2027",
   "name": "Ragnarök Festival",
-  "version": 2,
+  "version": 3,
   "year": 2027,
   "defaultLang": "en",
   "runningOrderExists": false,
@@ -46,6 +46,153 @@
       "label": "Twitter",
       "url": "https://twitter.com/ragnaroek_fest",
       "type": "x"
+    },
+    {
+      "id": "la_wind-rose",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/67ps5pbKVO7V9Fcb4lTIXz",
+      "type": "spotify",
+      "artistId": "wind-rose"
+    },
+    {
+      "id": "la_vintersorg",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6LfdGx71ZHRWgP4tBRmQf6",
+      "type": "spotify",
+      "artistId": "vintersorg"
+    },
+    {
+      "id": "la_unviar",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5xf8dgl8phc3yqBo2Xkrni",
+      "type": "spotify",
+      "artistId": "unviar"
+    },
+    {
+      "id": "la_thron",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7hcvhYMlNsn2gTTVbECj6e",
+      "type": "spotify",
+      "artistId": "thron"
+    },
+    {
+      "id": "la_tabernis",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3Ob0nuOnI9FBBU2qOpAWkz",
+      "type": "spotify",
+      "artistId": "tabernis"
+    },
+    {
+      "id": "la_svarttjern",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/34HkAxbpa90Btjkv8RA0wh",
+      "type": "spotify",
+      "artistId": "svarttjern"
+    },
+    {
+      "id": "la_nytt-land",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6NQ701XGEJodDZ5lqVtrBp",
+      "type": "spotify",
+      "artistId": "nytt-land"
+    },
+    {
+      "id": "la_nordjevel",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3Pfim1uupYVYG87GDtdw8r",
+      "type": "spotify",
+      "artistId": "nordjevel"
+    },
+    {
+      "id": "la_nocte-obducta",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2d58mhKUvYuXsZND2vWu5v",
+      "type": "spotify",
+      "artistId": "nocte-obducta"
+    },
+    {
+      "id": "la_mol",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/10AROE3jG5grMdhlNyZiWo",
+      "type": "spotify",
+      "artistId": "mol"
+    },
+    {
+      "id": "la_miserere-luminis",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7fxVlkmfbp6OkSfBRnyMW3",
+      "type": "spotify",
+      "artistId": "miserere-luminis"
+    },
+    {
+      "id": "la_malphas-ch",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4Kgo9Vm7t4xymn5zplHuoU",
+      "type": "spotify",
+      "artistId": "malphas-ch"
+    },
+    {
+      "id": "la_kalmah",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2YPVtFn6SsYNntkmrdDpGF",
+      "type": "spotify",
+      "artistId": "kalmah"
+    },
+    {
+      "id": "la_graveworm",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4XJZ7zUJzQuayqyAVJowKX",
+      "type": "spotify",
+      "artistId": "graveworm"
+    },
+    {
+      "id": "la_fimbul-winter",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3EnoFDhhfqaRU2usjJXJEu",
+      "type": "spotify",
+      "artistId": "fimbul-winter"
+    },
+    {
+      "id": "la_eldamar",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0mZRMbP7xU91E1FGvKbxhF",
+      "type": "spotify",
+      "artistId": "eldamar"
+    },
+    {
+      "id": "la_bloodbark",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6aBAWuuUtHtZUtH1OSl4wD",
+      "type": "spotify",
+      "artistId": "bloodbark"
+    },
+    {
+      "id": "la_battlelore",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6vDPwpGZIflBoW6Gy3FWFw",
+      "type": "spotify",
+      "artistId": "battlelore"
+    },
+    {
+      "id": "la_asenblut",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1iuwMlGW6i8UojhyL0rQZi",
+      "type": "spotify",
+      "artistId": "asenblut"
+    },
+    {
+      "id": "la_anomalie",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5VlDD7dvbVLLvOXp1e99cn",
+      "type": "spotify",
+      "artistId": "anomalie"
+    },
+    {
+      "id": "la_all-for-metal",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7pwIx2j4SX0cLAgPrIkv27",
+      "type": "spotify",
+      "artistId": "all-for-metal"
     }
   ],
   "artists": [
