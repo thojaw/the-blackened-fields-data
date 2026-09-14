@@ -1,7 +1,7 @@
 {
   "id": "ragnaroek-festival-2027",
   "name": "Ragnarök Festival",
-  "version": 5,
+  "version": 6,
   "year": 2027,
   "defaultLang": "en",
   "runningOrderExists": false,
@@ -239,6 +239,7 @@
       "id": "unviar",
       "name": "Unviâr",
       "imageUrl": "a3.jpg",
+      "imageFocus": "center",
       "description": "Atmospheric black metal act from Italy's Friuli-Venezia Giulia region, whose name means \"winter\" in the Friulian language. Their music draws on the region's overlapping Celtic, Germanic, Slavic and Latin heritage, most recently on the 2025 debut full-length Disglaç.",
       "dayDate": null,
       "startTime": null,
