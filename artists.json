@@ -1840,7 +1840,21 @@
     "genres": [
       "Oneiric Black Metal"
     ],
-    "country": "it"
+    "country": "it",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/6dtw4fpRSBDtleKCbzBjvx",
+        "type": "spotify"
+      },
+      {
+        "url": "https://biancaofficial.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://www.instagram.com/bianca_officialmusic/",
+        "type": "instagram"
+      }
+    ]
   },
   {
     "id": "emperor",
