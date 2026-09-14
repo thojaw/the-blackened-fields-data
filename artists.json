@@ -1737,5 +1737,79 @@
       "Stoner Rock"
     ],
     "country": "de"
+  },
+  {
+    "id": "towards-the-sinister",
+    "name": "Towards the Sinister",
+    "description": "Towards the Sinister is a project formed in 2026 by founding My Dying Bride members Aaron Stainthorpe (vocals), Calvin Robertshaw (guitar), Ade Jackson (bass) and Rick Miah (drums), joined by additional musicians. The band performs material from My Dying Bride's earliest releases, including As the Flower Withers and Turn Loose the Swans.",
+    "genres": [
+      "Death Metal",
+      "Doom Metal"
+    ],
+    "country": "gb"
+  },
+  {
+    "id": "dodsrit",
+    "name": "Dödsrit",
+    "description": "Dödsrit are a black metal and crust band formed in 2017 by Christoffer Öster, based between Borlänge, Sweden and Amsterdam, Netherlands. The band blends atmospheric black metal with the rawness of d-beat crust punk, with lyrics addressing social and political themes.",
+    "genres": [
+      "Black Crust"
+    ],
+    "country": "se"
+  },
+  {
+    "id": "asphagor",
+    "name": "Asphagor",
+    "description": "Asphagor are an Austrian extreme metal band from Angerberg, Tyrol, formed in 2007. The band blends black, death and progressive metal elements across albums including Havoc, Anti, The Cleansing and Pyrogenesis.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "at"
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "description": "Bianca are an Italian black metal band from Rome, formed in 2024 and featuring members of Hideous Divinity and Nocturnal Depression. Self-described as \"oneiric black metal,\" the band explores themes of dreams and the unconscious, and released their self-titled debut album via Avantgarde Music.",
+    "genres": [
+      "Oneiric Black Metal"
+    ],
+    "country": "it"
+  },
+  {
+    "id": "emperor",
+    "name": "Emperor",
+    "description": "Emperor are a Norwegian black metal band formed in 1991 in Notodden by Ihsahn and Samoth. Pioneers of a symphonic, orchestral approach to black metal, they became one of the genre's most influential acts with albums such as In the Nightside Eclipse and Anthems to the Welkin at Dusk.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no"
+  },
+  {
+    "id": "primordial",
+    "name": "Primordial",
+    "description": "Primordial are an Irish extreme metal band from County Dublin, fronted by vocalist Alan \"Nemtheanga\" Averill since the early 1990s. Their sound fuses black and doom metal with Celtic folk influences, exploring themes of Irish history and mythology across albums such as Imrama and The Gathering Wilderness.",
+    "genres": [
+      "Pagan Black Metal",
+      "Doom Metal"
+    ],
+    "country": "ie"
+  },
+  {
+    "id": "ellende",
+    "name": "Ellende",
+    "description": "Ellende is an Austrian atmospheric black metal project founded in Graz in 2011 by multi-instrumentalist L.G. as a solo studio project, later expanded into a live act. The project's melancholic, introspective sound incorporates classical instrumentation such as strings and piano alongside its post-black metal atmosphere.",
+    "genres": [
+      "Atmospheric Post Black Metal"
+    ],
+    "country": "at"
+  },
+  {
+    "id": "naglfar",
+    "name": "Naglfar",
+    "description": "Naglfar are a Swedish black metal band from Umeå, formed in 1992 by Jens Rydén and Kristoffer Olivius. The band combines aggressive black metal with melodic and symphonic elements and takes its name from the ship of the dead in Norse mythology.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "se"
   }
 ]

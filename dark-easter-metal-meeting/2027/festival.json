@@ -1,0 +1,189 @@
+{
+  "id": "dark-easter-metal-meeting-2027",
+  "name": "Dark Easter Metal Meeting",
+  "version": 1,
+  "year": 2027,
+  "defaultLang": "en",
+  "runningOrderExists": false,
+  "utcOffsetHours": 1,
+  "festivalDays": [
+    "2027-03-27",
+    "2027-03-28"
+  ],
+  "stages": [
+    {
+      "id": "s1",
+      "name": "Backstage Werk"
+    },
+    {
+      "id": "s2",
+      "name": "Backstage Halle"
+    },
+    {
+      "id": "s3",
+      "name": "Backstage Club"
+    }
+  ],
+  "news": [],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://mrw-concerts.de/darkeastermetalmeeting/"
+    },
+    {
+      "id": "l2",
+      "label": "Tickets – Backstage",
+      "url": "https://www.backstage.eu/event/8502e11f-0fca-4fe6-a239-3b88bfbd78ab"
+    },
+    {
+      "id": "l3",
+      "label": "Tickets – Eventim",
+      "url": "https://www.eventim.de/artist/dark-easter-metal-meeting/"
+    },
+    {
+      "id": "l4",
+      "label": "Tickets – München Ticket",
+      "url": "https://www.muenchenticket.de"
+    },
+    {
+      "id": "l5",
+      "label": "Facebook Event",
+      "url": "https://www.facebook.com/events/1906583350615096"
+    },
+    {
+      "id": "l6",
+      "url": "https://www.facebook.com/darkeastermetalmeetingmunich",
+      "type": "facebook"
+    },
+    {
+      "id": "l7",
+      "url": "https://www.instagram.com/darkeastermetalmeetingmunich/",
+      "type": "instagram"
+    }
+  ],
+  "artists": [
+    {
+      "id": "emperor",
+      "name": "Emperor",
+      "imageUrl": "a1.jpg",
+      "description": "Emperor are a Norwegian black metal band formed in 1991 in Notodden by Ihsahn and Samoth. Pioneers of a symphonic, orchestral approach to black metal, they became one of the genre's most influential acts with albums such as In the Nightside Eclipse and Anthems to the Welkin at Dusk.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Germany-exclusive club show in 2027.",
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "emperor"
+    },
+    {
+      "id": "primordial",
+      "name": "Primordial",
+      "imageUrl": "a2.jpg",
+      "description": "Primordial are an Irish extreme metal band from County Dublin, fronted by vocalist Alan \"Nemtheanga\" Averill since the early 1990s. Their sound fuses black and doom metal with Celtic folk influences, exploring themes of Irish history and mythology across albums such as Imrama and The Gathering Wilderness.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Best-of set and a Germany-exclusive special set featuring deep cuts from their '90s catalogue.",
+      "genres": [
+        "Pagan Black Metal",
+        "Doom Metal"
+      ],
+      "country": "ie",
+      "globalId": "primordial"
+    },
+    {
+      "id": "towards-the-sinister",
+      "name": "Towards the Sinister",
+      "imageUrl": "a3.jpg",
+      "description": "Towards the Sinister is a project formed in 2026 by founding My Dying Bride members Aaron Stainthorpe (vocals), Calvin Robertshaw (guitar), Ade Jackson (bass) and Rick Miah (drums), joined by additional musicians. The band performs material from My Dying Bride's earliest releases, including As the Flower Withers and Turn Loose the Swans.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Former original My Dying Bride members celebrating the band's 1990–1996 era.",
+      "genres": [
+        "Death Metal",
+        "Doom Metal"
+      ],
+      "country": "gb",
+      "globalId": "towards-the-sinister"
+    },
+    {
+      "id": "ellende",
+      "name": "Ellende",
+      "imageUrl": "a4.jpg",
+      "description": "Ellende is an Austrian atmospheric black metal project founded in Graz in 2011 by multi-instrumentalist L.G. as a solo studio project, later expanded into a live act. The project's melancholic, introspective sound incorporates classical instrumentation such as strings and piano alongside its post-black metal atmosphere.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Post Black Metal"
+      ],
+      "country": "at",
+      "globalId": "ellende"
+    },
+    {
+      "id": "naglfar",
+      "name": "Naglfar",
+      "imageUrl": "a5.jpg",
+      "description": "Naglfar are a Swedish black metal band from Umeå, formed in 1992 by Jens Rydén and Kristoffer Olivius. The band combines aggressive black metal with melodic and symphonic elements and takes its name from the ship of the dead in Norse mythology.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "se",
+      "globalId": "naglfar"
+    },
+    {
+      "id": "dodsrit",
+      "name": "Dödsrit",
+      "imageUrl": "a6.jpeg",
+      "description": "Dödsrit are a black metal and crust band formed in 2017 by Christoffer Öster, based between Borlänge, Sweden and Amsterdam, Netherlands. The band blends atmospheric black metal with the rawness of d-beat crust punk, with lyrics addressing social and political themes.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Crust"
+      ],
+      "country": "se",
+      "globalId": "dodsrit"
+    },
+    {
+      "id": "asphagor",
+      "name": "Asphagor",
+      "imageUrl": "a7.jpg",
+      "description": "Asphagor are an Austrian extreme metal band from Angerberg, Tyrol, formed in 2007. The band blends black, death and progressive metal elements across albums including Havoc, Anti, The Cleansing and Pyrogenesis.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "20th anniversary show.",
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "at",
+      "globalId": "asphagor"
+    },
+    {
+      "id": "bianca",
+      "name": "Bianca",
+      "imageUrl": "a8.jpg",
+      "description": "Bianca are an Italian black metal band from Rome, formed in 2024 and featuring members of Hideous Divinity and Nocturnal Depression. Self-described as \"oneiric black metal,\" the band explores themes of dreams and the unconscious, and released their self-titled debut album via Avantgarde Music.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "First show in Germany.",
+      "genres": [
+        "Oneiric Black Metal"
+      ],
+      "country": "it",
+      "globalId": "bianca"
+    }
+  ]
+}
