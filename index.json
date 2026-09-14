@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T14:37:37Z",
+  "generatedAt": "2026-09-14T14:45:43Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -141,7 +141,9 @@
         "2027-03-28"
       ],
       "isMultiStage": true,
-      "translationLangs": [],
+      "translationLangs": [
+        "de"
+      ],
       "topGenres": {
         "Black Metal": 3,
         "Doom Metal": 2,
