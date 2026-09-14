@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T16:27:19Z",
+  "generatedAt": "2026-09-14T16:41:39Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -171,7 +171,7 @@
       "defaultLang": "en",
       "utcOffsetHours": 2,
       "runningOrderExists": false,
-      "version": 1,
+      "version": 2,
       "visible": false,
       "festivalDays": [
         "2027-04-01",
@@ -179,7 +179,9 @@
         "2027-04-03"
       ],
       "isMultiStage": false,
-      "translationLangs": [],
+      "translationLangs": [
+        "de"
+      ],
       "topGenres": {
         "Atmospheric Black Metal": 6,
         "Power Metal": 4,

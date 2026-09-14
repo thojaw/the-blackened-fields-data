@@ -1,7 +1,7 @@
 {
   "id": "ragnaroek-festival-2027",
   "name": "Ragnarök Festival",
-  "version": 1,
+  "version": 2,
   "year": 2027,
   "defaultLang": "en",
   "runningOrderExists": false,
@@ -374,6 +374,97 @@
       ],
       "country": "de",
       "globalId": "all-for-metal"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "artists": [
+        {
+          "id": "wind-rose",
+          "description": "Italienische Folk-/Power-Metal-Band aus Pisa in der Toskana, gegründet 2009 und bekannt für ihren von Tolkien inspirierten „Zwergen-Metal“-Sound sowie den viralen Hit „Diggy Diggy Hole“. Ihr sechstes Album, Trollslayer, erschien im Oktober 2024."
+        },
+        {
+          "id": "vintersorg",
+          "description": "Schwedisches Ein-Mann-Projekt von Andreas Hedlund, seit 1994 aktiv und im Black Metal verwurzelt, bevor es sich zu Viking-, Folk- und Progressive Metal weiterentwickelte. Textlich dreht sich das Projekt über eine lange, stilistisch wandelbare Diskografie hinweg um Heidentum, Natur, Astronomie und Philosophie."
+        },
+        {
+          "id": "unviar",
+          "description": "Atmospheric-Black-Metal-Act aus der italienischen Region Friaul-Julisch Venetien, dessen Name im Friaulischen „Winter“ bedeutet. Die Musik schöpft aus dem keltischen, germanischen, slawischen und lateinischen Erbe der Region, zuletzt auf dem 2025 erschienenen Debütalbum Disglaç."
+        },
+        {
+          "id": "thron",
+          "description": "Deutsche Melodic-Black-Metal-Band aus Baden-Württemberg, gegründet 2015 und bei Listenable Records unter Vertrag. Ihr schneller, atmosphärischer Sound orientiert sich an Wegbereitern der zweiten Welle wie Dissection und Dimmu Borgir, textlich geht es um Mythologie und Religion."
+        },
+        {
+          "id": "tabernis",
+          "description": "Rätselhaftes Dark-Medieval-Folk-Duo, bestehend aus Noxifer und Umbrae, die maskiert als Imker auftreten und dabei Davul und Dudelsack spielen. Bei Napalm Records unter Vertrag, veröffentlichten sie 2026 ihr Debütalbum Seasons of the Dark Hive und spielten bereits auf großen Festivals wie Wacken und Summer Breeze."
+        },
+        {
+          "id": "svarttjern",
+          "description": "Norwegische Black-Metal-Band aus Oslo, 2003 von Musikern gegründet, die auch mit Carpathian Forest und Ragnarok in Verbindung stehen. Ihr Name, „schwarzer Bergsee“, stammt von einem norwegischen Gemälde aus dem 19. Jahrhundert; die Band veröffentlicht bei Soulseller Records."
+        },
+        {
+          "id": "nytt-land",
+          "description": "Russisches Ritual-Dark-Folk-Duo aus Kalatschinsk in Sibirien, 2013 vom Ehepaar Anatoly und Natalya Pakhalenko gegründet. Ihre Musik verbindet Kehlkopfgesang und handgefertigte Instrumente wie Talharpa und Kantele mit Texten aus der Lieder-Edda."
+        },
+        {
+          "id": "nordjevel",
+          "description": "Norwegische Black-Metal-Band, 2015 von Doedsadmiral gegründet, dessen Mitglieder auch durch Ragnarok, Myrkskog und Dark Funeral bekannt sind. Bei Season of Mist unter Vertrag, veröffentlichte die Band bislang drei Alben, zuletzt 2022 Gnavhòl."
+        },
+        {
+          "id": "nocte-obducta",
+          "description": "Deutsche Avantgarde-Black-Metal-Band, 1993 in Mainz gegründet und bekannt für technisch anspruchsvolles Songwriting gepaart mit melancholischen, hochpoetischen deutschsprachigen Texten. Nach einer Pause Mitte der 2000er nahm die Band 2010 ihre Aktivität wieder auf und bleibt ein prägender Einfluss auf die deutsche Black-Metal-Szene."
+        },
+        {
+          "id": "mol",
+          "description": "Møl ist eine dänische Atmospheric-Black-Metal-Band aus Aalborg, gegründet 2013. Mit einer Mischung aus Blastbeat-Intensität, Shoegaze-Texturen und Post-Metal-Dynamik erlangte das Quintett mit dem 2018er-Debüt Jord und dem Nachfolger Diorama internationale Anerkennung und zählt heute zu den führenden Acts der europäischen Blackgaze-Szene."
+        },
+        {
+          "id": "miserere-luminis",
+          "description": "Kanadische Atmospheric-Black-Metal-Band aus Montreal, 2008 von Musikern gegründet, die auch bei Gris und Sombres Forêts aktiv sind, zwei Schlüsselbands der quebecischen Underground-Black-Metal-Szene. Ihr jüngstes Album, Sidera, erschien im März 2026."
+        },
+        {
+          "id": "malphas-ch",
+          "description": "Schweizer Occult-Black-Metal-Band aus Lausanne, gegründet 2014. 2027 tourte die Band im Rahmen von Nordjevels Incantation Tour gemeinsam mit Nordjevel, Svarttjern und Unviâr durch Europa."
+        },
+        {
+          "id": "kalmah",
+          "description": "Finnische Melodic-Death-Metal-Band aus Oulu, 1998 gegründet und bald darauf bei Spinefarm Records unter Vertrag. Bekannt für aggressives, zugleich melodisches Riffing mit Folk- und „Swamp-Metal“-Einflüssen; der Bandname bedeutet auf Karelisch „ins Grab“."
+        },
+        {
+          "id": "graveworm",
+          "description": "Italienische Symphonic-/Gothic-Black-Metal-Band aus Bruneck in Südtirol, gegründet 1992 und bei AFM Records unter Vertrag. Ihr Sound verbindet orchestrale, keyboardgetriebene Arrangements mit der Aggression von Black und Death Metal über eine langjährige Diskografie hinweg."
+        },
+        {
+          "id": "fimbul-winter",
+          "description": "Schwedische Melodic-Death-Metal-Band, deren Mitglieder umfangreiche Erfahrung aus Bands im Umfeld von Amon Amarth mitbringen. Die junge Formation debütierte im September 2025 mit der EP What Once Was."
+        },
+        {
+          "id": "eldamar",
+          "description": "Norwegisches Atmospheric-Black-Metal-Projekt aus Askim, 2015 als Solo-Projekt gestartet und inspiriert von J.R.R. Tolkien, Heidentum und der Natur. Aus dem Projekt ist inzwischen eine tourende Liveband geworden."
+        },
+        {
+          "id": "bloodbark",
+          "description": "Anonymes Atmospheric-Black-Metal-Projekt unbekannter Herkunft, bei Northern Silence Productions unter Vertrag. Veröffentlichungen wie Bonebranches und das 2025er Sacred Sound of Solitude setzen auf trauriges Songwriting in Moll, das Black Metal, Blackgaze und Post-Rock miteinander verbindet."
+        },
+        {
+          "id": "battlelore",
+          "description": "Finnische Epic-Fantasy-Metal-Band aus Lappeenranta, gegründet 1999 und bekannt für Texte und Bühnenshows rund um J.R.R. Tolkiens Mittelerde. Nach einer langen Pause kehrte die Band 2022 mit dem Album The Return of the Shadow zurück."
+        },
+        {
+          "id": "asenblut",
+          "description": "Deutsche Pagan-Black-/Thrash-Metal-Band aus Göttingen, gegründet 2006 und als frühe treibende Kraft der deutschen Folk-/Pagan-Metal-Szene angesehen. Ihr Name verbindet „Asen“ und „Blut“ und spiegelt die nordisch-mythologischen Themen wider, die sich durch ihr gesamtes Werk ziehen."
+        },
+        {
+          "id": "anomalie",
+          "description": "Österreichische Atmospheric-Post-Black-Metal-Band aus Leobendorf, Niederösterreich, gegründet 2011. Ihr Sound verbindet melancholische Atmosphäre mit roher Black-Metal-Aggression."
+        },
+        {
+          "id": "all-for-metal",
+          "description": "Deutsch-italienische Power-/True-Metal-Band, 2022 von Tetzel (auch bei Asenblut) und Antonio „Amerigo“ Calanna gegründet. Bekannt für epische Hymnen rund um nordische Mythologie und Krieg, erschien ihr Debütalbum Legends 2023 über AFM Records."
+        }
+      ]
     }
   ]
 }
