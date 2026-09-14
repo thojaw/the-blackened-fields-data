@@ -1746,7 +1746,22 @@
       "Death Metal",
       "Doom Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "links": [
+      {
+        "url": "https://towardsthesinister.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/towardsthesinister",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/towardsthesinister/",
+        "type": "instagram"
+      }
+    ]
   },
   {
     "id": "dodsrit",
@@ -1755,7 +1770,33 @@
     "genres": [
       "Black Crust"
     ],
-    "country": "se"
+    "country": "se",
+    "links": [
+      {
+        "url": "https://dodsrit.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/1ZR1y4fCztcaoliwAIbEAb",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/13521175",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/DODSRIT",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/dodsrit_official/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/dodsrit",
+        "type": "soundcloud"
+      }
+    ]
   },
   {
     "id": "asphagor",
@@ -1764,7 +1805,33 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "at"
+    "country": "at",
+    "links": [
+      {
+        "url": "https://asphagor.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/1tgOXyYJvy1oyY3TTMszfO",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/991999",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/Asphagor",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/asphagorofficial/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/asphagor-music",
+        "type": "soundcloud"
+      }
+    ]
   },
   {
     "id": "bianca",
@@ -1782,7 +1849,30 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/6jPWrSmxOd9mj7Xaj4EP2Y",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/5175",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.emperorhorde.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/emperorofficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/78923932",
+        "type": "applemusic"
+      }
+    ]
   },
   {
     "id": "primordial",
@@ -1792,7 +1882,34 @@
       "Pagan Black Metal",
       "Doom Metal"
     ],
-    "country": "ie"
+    "country": "ie",
+    "links": [
+      {
+        "url": "https://primordialofficial.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/0BZr6WHaejNA63uhZZZZek",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/7643",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.primordialofficial.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://twitter.com/PrimordialEire",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/primordialofficial",
+        "type": "facebook"
+      }
+    ]
   },
   {
     "id": "ellende",
@@ -1801,7 +1918,34 @@
     "genres": [
       "Atmospheric Post Black Metal"
     ],
-    "country": "at"
+    "country": "at",
+    "links": [
+      {
+        "url": "https://ellende.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/1iLdVM2KFAHUbpaC5wpMbO",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/1345095",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.ellende.at/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/ellende.official",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/ellende.official/",
+        "type": "instagram"
+      }
+    ]
   },
   {
     "id": "naglfar",
@@ -1810,6 +1954,33 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/1WV0pMUfO5UZ3MXfZrTohr",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/3795",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.naglfar.net/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://twitter.com/officialnaglfar",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/naglfarofficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/naglfarofficial/",
+        "type": "instagram"
+      }
+    ]
   }
 ]
