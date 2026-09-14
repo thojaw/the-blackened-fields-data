@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T14:45:43Z",
+  "generatedAt": "2026-09-14T16:27:19Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -160,6 +160,45 @@
         "events": 0,
         "links": 7,
         "globalLinks": 7
+      }
+    },
+    {
+      "id": "ragnaroek-festival-2027",
+      "slug": "ragnaroek-festival",
+      "year": 2027,
+      "name": "Ragnarök Festival",
+      "path": "ragnaroek-festival/2027/festival.json",
+      "defaultLang": "en",
+      "utcOffsetHours": 2,
+      "runningOrderExists": false,
+      "version": 1,
+      "visible": false,
+      "festivalDays": [
+        "2027-04-01",
+        "2027-04-02",
+        "2027-04-03"
+      ],
+      "isMultiStage": false,
+      "translationLangs": [],
+      "topGenres": {
+        "Atmospheric Black Metal": 6,
+        "Power Metal": 4,
+        "Black Metal": 2,
+        "Folk Metal": 2,
+        "Melodic Death Metal": 2,
+        "Ambient": 1,
+        "Avant-garde Black Metal": 1,
+        "Black/Thrash Metal": 1,
+        "Blackgaze": 1,
+        "Dark Folk": 1
+      },
+      "counts": {
+        "artists": 21,
+        "stages": 0,
+        "news": 0,
+        "events": 0,
+        "links": 6,
+        "globalLinks": 6
       }
     }
   ]

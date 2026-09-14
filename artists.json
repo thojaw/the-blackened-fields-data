@@ -1209,7 +1209,33 @@
       "Post-Metal",
       "Shoegaze"
     ],
-    "country": "dk"
+    "country": "dk",
+    "links": [
+      {
+        "url": "https://moeldk.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/10AROE3jG5grMdhlNyZiWo",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/9097720",
+        "type": "deezer"
+      },
+      {
+        "url": "https://music.apple.com/dk/artist/975294671",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://twitter.com/moeldk",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/moeldk",
+        "type": "facebook"
+      }
+    ]
   },
   {
     "id": "rodscha-a-kambodscha-u-tom-palme",
@@ -1996,5 +2022,580 @@
         "type": "instagram"
       }
     ]
+  },
+  {
+    "id": "wind-rose",
+    "name": "Wind Rose",
+    "description": "Italian folk/power metal band from Pisa, Tuscany, formed in 2009, celebrated for their Tolkien-inspired \"dwarven metal\" sound and the viral hit \"Diggy Diggy Hole.\" Their sixth album, Trollslayer, arrived in October 2024.",
+    "genres": [
+      "Folk Metal",
+      "Power Metal"
+    ],
+    "country": "it",
+    "links": [
+      {
+        "url": "https://wind-rose.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/67ps5pbKVO7V9Fcb4lTIXz",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/3902981",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.windroseofficial.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://twitter.com/windroseband",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/windroseofficial",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "unviar",
+    "name": "Unviâr",
+    "description": "Atmospheric black metal act from Italy's Friuli-Venezia Giulia region, whose name means \"winter\" in the Friulian language. Their music draws on the region's overlapping Celtic, Germanic, Slavic and Latin heritage, most recently on the 2025 debut full-length Disglaç.",
+    "genres": [
+      "Atmospheric Black Metal"
+    ],
+    "country": "it",
+    "links": [
+      {
+        "url": "https://unviar.bandcamp.com/",
+        "type": "bandcamp"
+      }
+    ]
+  },
+  {
+    "id": "svarttjern",
+    "name": "Svarttjern",
+    "description": "Norwegian black metal band from Oslo, formed in 2003 by musicians also tied to Carpathian Forest and Ragnarok. Their name, meaning \"black tarn,\" is taken from a 19th-century Norwegian painting, and the band records for Soulseller Records.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no",
+    "links": [
+      {
+        "url": "https://svarttjern.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/34HkAxbpa90Btjkv8RA0wh",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/1417082",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/svarttjern",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/svarttjernofficial/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/svarttjern-1",
+        "type": "soundcloud"
+      }
+    ]
+  },
+  {
+    "id": "nytt-land",
+    "name": "Nytt Land",
+    "description": "Russian ritual dark-folk duo from Kalachinsk, Siberia, founded by husband and wife Anatoly and Natalya Pakhalenko in 2013. Their music combines throat singing and handmade instruments like the talharpa and kantele with texts drawn from the Poetic Edda.",
+    "genres": [
+      "Pagan Folk",
+      "Dark Folk"
+    ],
+    "country": "ru",
+    "links": [
+      {
+        "url": "https://nyttland.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/6NQ701XGEJodDZ5lqVtrBp",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/9638926",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/nyttland",
+        "type": "facebook"
+      },
+      {
+        "url": "https://music.apple.com/us/artist/1072343376",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC8YO4IYDxXZYIgTlg9MJgiQ",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "nordjevel",
+    "name": "Nordjevel",
+    "description": "Norwegian black metal band founded in 2015 by Doedsadmiral, whose members are also known from Ragnarok, Myrkskog and Dark Funeral. Signed to Season of Mist, the band has released three full-length albums, most recently Gnavhòl in 2022.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no",
+    "links": [
+      {
+        "url": "https://nordjevel.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://www.deezer.com/artist/9600420",
+        "type": "deezer"
+      },
+      {
+        "url": "https://twitter.com/nordjevel",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/nordjevelofficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/nordjevel/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/Nordjevelofficial",
+        "type": "soundcloud"
+      }
+    ]
+  },
+  {
+    "id": "nocte-obducta",
+    "name": "Nocte Obducta",
+    "description": "German avant-garde black metal band formed in Mainz in 1993, known for technically ambitious songwriting paired with melancholic, highly poetic German-language lyrics. After a mid-2000s hiatus the band resumed activity in 2010 and remains a major influence on the German black metal scene.",
+    "genres": [
+      "Avant-garde Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://scr-nocte-obducta.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/2d58mhKUvYuXsZND2vWu5v",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/97908",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.nocte-obducta.de/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/NocteObductaOfficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/nocteobductaofficial/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "miserere-luminis",
+    "name": "Miserere Luminis",
+    "description": "Canadian atmospheric black metal band from Montreal, formed in 2008 by musicians also active in Gris and Sombres Forêts, key groups of the Québécois underground black metal scene. Their most recent full-length, Sidera, was released in March 2026.",
+    "genres": [
+      "Atmospheric Black Metal"
+    ],
+    "country": "ca",
+    "links": [
+      {
+        "url": "https://miserereluminis.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/7fxVlkmfbp6OkSfBRnyMW3",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/214363265",
+        "type": "deezer"
+      },
+      {
+        "url": "https://miserereluminis.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/ca/artist/1688591179",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://www.facebook.com/luminis",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "malphas",
+    "name": "Malphas",
+    "description": "Swiss occult black metal band from Lausanne, formed in 2014. In 2027 the band toured Europe alongside Nordjevel, Svarttjern and Unviâr as part of Nordjevel's Incantation Tour.",
+    "genres": [
+      "Occult Black Metal"
+    ],
+    "country": "ch",
+    "links": [
+      {
+        "url": "https://malphas-ch.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4Kgo9Vm7t4xymn5zplHuoU",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.facebook.com/Malphasoccult",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/malphasoccult/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCyZg8qsNBZO24IEJC2LqvbA",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "kalmah",
+    "name": "Kalmah",
+    "description": "Finnish melodic death metal band from Oulu, formed in 1998 and quickly signed to Spinefarm Records. Known for aggressive yet melodic riffing with folk and \"swamp metal\" touches, the band's name is Karelian for \"to the grave.\"",
+    "genres": [
+      "Melodic Death Metal",
+      "Power Metal"
+    ],
+    "country": "fi",
+    "links": [
+      {
+        "url": "https://kalmah.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/2YPVtFn6SsYNntkmrdDpGF",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/13110",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.kalmah.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://twitter.com/kalmahofficial",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/kalmahofficial",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "graveworm",
+    "name": "Graveworm",
+    "description": "Italian symphonic/gothic black metal band from Brunico, South Tyrol, formed in 1992 and signed to AFM Records. Their sound blends orchestral, keyboard-driven arrangements with black and death metal aggression across a long-running discography.",
+    "genres": [
+      "Melodic Black/Death Metal",
+      "Gothic Metal"
+    ],
+    "country": "it",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/4XJZ7zUJzQuayqyAVJowKX",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/15760",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.gravewormofficial.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "http://www.graveworm.de/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/gravewormofficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/gravewormofficial/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "eldamar",
+    "name": "Eldamar",
+    "description": "Norwegian atmospheric black metal project from Askim, started as a solo endeavor in 2015 and inspired by J.R.R. Tolkien, heathenism and nature. The project has since grown into a touring live band.",
+    "genres": [
+      "Atmospheric Black Metal",
+      "Ambient"
+    ],
+    "country": "no",
+    "links": [
+      {
+        "url": "https://eldamar.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/0mZRMbP7xU91E1FGvKbxhF",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/11605973",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/eldamarnorway",
+        "type": "facebook"
+      },
+      {
+        "url": "https://soundcloud.com/mathias-hemmingby",
+        "type": "soundcloud"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/1080870365",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "battlelore",
+    "name": "Battlelore",
+    "description": "Finnish epic fantasy metal band from Lappeenranta formed in 1999, known for lyrics and stage shows built around J.R.R. Tolkien's Middle-earth. After a long hiatus the band returned with the album The Return of the Shadow in 2022.",
+    "genres": [
+      "Symphonic Metal",
+      "Folk Metal",
+      "Power Metal"
+    ],
+    "country": "fi",
+    "links": [
+      {
+        "url": "https://battlelore.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/6vDPwpGZIflBoW6Gy3FWFw",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/10860",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.battlelore.net/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/fi/artist/54673976",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://www.facebook.com/BattleloreOfficial",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "asenblut",
+    "name": "Asenblut",
+    "description": "German pagan black/thrash metal band from Göttingen, formed in 2006 and regarded as an early force in the German folk/pagan metal scene. Their name combines \"Asen\" (Aesir) and \"Blut\" (blood), reflecting the Norse-mythology themes that run through their work.",
+    "genres": [
+      "Black/Thrash Metal",
+      "Pagan Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/1iuwMlGW6i8UojhyL0rQZi",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/4962225",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.asenblut.de/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/asenblutband",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/asenblutofficial/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://www.tiktok.com/@asenblutofficial",
+        "type": "tiktok"
+      }
+    ]
+  },
+  {
+    "id": "all-for-metal",
+    "name": "All for Metal",
+    "description": "German-Italian power/true metal band founded in 2022 by Tetzel (also of Asenblut) and Antonio \"Amerigo\" Calanna. Known for epic anthems built around Norse mythology and war, their debut album Legends arrived in 2023 via AFM Records.",
+    "genres": [
+      "Power Metal",
+      "True Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "vintersorg",
+    "name": "Vintersorg",
+    "description": "Swedish one-man project of Andreas Hedlund, active since 1994 and rooted in black metal before expanding into Viking, folk and progressive metal. Lyrically the project explores heathenism, nature, astronomy and philosophy across a long, genre-shifting discography.",
+    "genres": [
+      "Viking/Folk Metal",
+      "Progressive Metal"
+    ],
+    "country": "se",
+    "links": [
+      {
+        "url": "https://vintersorg.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/6LfdGx71ZHRWgP4tBRmQf6",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/6476",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/vintersorganic",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/vintersorgofficial/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/vintersorg-official",
+        "type": "soundcloud"
+      }
+    ]
+  },
+  {
+    "id": "thron",
+    "name": "Thron",
+    "description": "German melodic black metal band from Baden-Württemberg, formed in 2015 and signed to Listenable Records. Their fast, atmospheric sound draws on second-wave forerunners such as Dissection and Dimmu Borgir, with lyrics centered on mythology and religion.",
+    "genres": [
+      "Melodic Black Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "tabernis",
+    "name": "Tabernis",
+    "description": "Enigmatic dark medieval folk duo, Noxifer and Umbrae, who perform masked as beekeepers playing davul and bagpipe. Signed to Napalm Records, they released their debut album Seasons of the Dark Hive in 2026 and have already played major festivals including Wacken and Summer Breeze.",
+    "genres": [
+      "Dark Medieval Folk"
+    ],
+    "links": [
+      {
+        "url": "https://tabernis.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/3Ob0nuOnI9FBBU2qOpAWkz",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/274702451",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.tabernis.be/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/us/artist/1758605124",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://www.facebook.com/people/Tabernis/61559926239521",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "fimbul-winter",
+    "name": "Fimbul Winter",
+    "description": "Swedish melodic death metal band whose members carry extensive experience from acts connected to Amon Amarth. A recent formation, they debuted with the EP What Once Was in September 2025.",
+    "genres": [
+      "Melodic Death Metal"
+    ],
+    "country": "se"
+  },
+  {
+    "id": "bloodbark",
+    "name": "Bloodbark",
+    "description": "Anonymous atmospheric black metal project of undisclosed origin, signed to Northern Silence Productions. Releases including Bonebranches and 2025's Sacred Sound of Solitude favor mournful, minor-key songwriting blending black metal, blackgaze and post-rock.",
+    "genres": [
+      "Atmospheric Black Metal",
+      "Blackgaze"
+    ],
+    "links": [
+      {
+        "url": "https://bloodbark.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/6aBAWuuUtHtZUtH1OSl4wD",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "anomalie",
+    "name": "Anomalie",
+    "description": "Austrian atmospheric post-black metal band from Leobendorf, Lower Austria, formed in 2011. Their sound blends melancholic atmosphere with raw black metal aggression.",
+    "genres": [
+      "Post-Black Metal",
+      "Atmospheric Black Metal"
+    ],
+    "country": "at"
   }
 ]
