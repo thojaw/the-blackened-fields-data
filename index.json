@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T17:45:41Z",
+  "generatedAt": "2026-09-14T17:46:24Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -134,8 +134,8 @@
       "defaultLang": "en",
       "utcOffsetHours": 1,
       "runningOrderExists": false,
-      "version": 2,
-      "visible": false,
+      "version": 3,
+      "visible": true,
       "festivalDays": [
         "2027-03-27",
         "2027-03-28"
@@ -171,8 +171,8 @@
       "defaultLang": "en",
       "utcOffsetHours": 2,
       "runningOrderExists": false,
-      "version": 4,
-      "visible": false,
+      "version": 5,
+      "visible": true,
       "festivalDays": [
         "2027-04-01",
         "2027-04-02",

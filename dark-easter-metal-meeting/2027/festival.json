@@ -1,10 +1,10 @@
 {
   "id": "dark-easter-metal-meeting-2027",
   "name": "Dark Easter Metal Meeting",
-  "version": 2,
+  "version": 3,
   "year": 2027,
   "defaultLang": "en",
-  "visible": false,
+  "visible": true,
   "runningOrderExists": false,
   "utcOffsetHours": 1,
   "festivalDays": [

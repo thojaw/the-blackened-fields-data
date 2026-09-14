@@ -1,12 +1,12 @@
 {
   "id": "ragnaroek-festival-2027",
   "name": "Ragnarök Festival",
-  "version": 4,
+  "version": 5,
   "year": 2027,
   "defaultLang": "en",
   "runningOrderExists": false,
   "utcOffsetHours": 2,
-  "visible": false,
+  "visible": true,
   "festivalDays": [
     "2027-04-01",
     "2027-04-02",
