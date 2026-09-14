@@ -21,6 +21,12 @@ touches `globalId` (added when a confident match or a new registry entry is
 found) and, for artists it matches, `description`/`genres`/`country` (copied
 from the registry). See AGENTS.md 'Artist registry' for the id vs globalId
 rule and the multi-show-per-artist case this preserves.
+
+A registry entry's `links` are never populated or copied here -- festival.json
+Artist entries have no `links` field of their own (a festival's links live in
+its top-level `links[]` array, keyed by `artistId`), so there is nothing to
+sync in either direction. Add/edit `links` on a registry entry directly, or
+via `scripts/enrich-artists.mjs` run against `artists.json`.
 """
 import argparse
 import json

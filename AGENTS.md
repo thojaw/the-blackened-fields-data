@@ -272,7 +272,11 @@ never overwriting, each festival's own local `Artist.id` values.
     "name": "Drekka Sjór",
     "description": "Icelandic post-rock with rune-based song titles and an obsession for nine-minute crescendos.",
     "genres": ["Post-Rock"],
-    "country": "is"
+    "country": "is",
+    "links": [
+      { "label": "Website", "url": "https://drekkasjor.example/", "type": "web" },
+      { "url": "https://open.spotify.com/artist/example", "type": "spotify" }
+    ]
   }
   ```
   `id` is a permanent kebab-case slug derived from `name` (diacritics
@@ -281,6 +285,16 @@ never overwriting, each festival's own local `Artist.id` values.
   same conventions as their `festival.json` `Artist` counterparts.
   `imageUrl` is deliberately not part of this registry — images stay
   festival-local since per-event photos can differ.
+- `links?` — the artist's own persistent links (official site, socials,
+  streaming), independent of any single festival's `links[]`. Each entry is
+  `{ label?, url, type? }`, following the exact same rendering rules as
+  `festival.json`'s `ExternalLink` (see "Link rendering rules" above) minus
+  `id`/`artistId`, which have no meaning outside a festival's `links` array.
+  Never copied to or from a festival's own `Artist`/`links[]` entries by
+  `scripts/sync-artist-registry.py` — a festival's `Artist` object has no
+  `links` field of its own, so there's nothing to sync. Populate/refresh it
+  by running `scripts/enrich-artists.mjs artists.json --write` (auto-detects
+  registry mode from the bare-array shape) or by editing it by hand.
 - **Slug collisions** (rare — this dataset stays within genre boundaries
   where duplicate act names are practically nonexistent): if a computed slug
   already belongs to a different artist, disambiguate by appending a short

@@ -28,7 +28,13 @@ ARTISTS_JSON = os.path.join(REPO_ROOT, "artists.json")
 
 ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 COUNTRY_PATTERN = re.compile(r"^[a-z]{2}$")
-ALLOWED_FIELDS = {"id", "name", "description", "genres", "country"}
+ALLOWED_FIELDS = {"id", "name", "description", "genres", "country", "links"}
+LINK_TYPES = {
+    "web", "facebook", "x", "youtube", "instagram", "spotify",
+    "deezer", "bandcamp", "applemusic", "soundcloud", "tiktok",
+    "patreon", "discord",
+}
+ALLOWED_LINK_FIELDS = {"label", "url", "type"}
 
 
 def validate_registry():
@@ -85,6 +91,35 @@ def validate_registry():
         description = entry.get("description")
         if description is not None and not isinstance(description, str):
             errors.append(f"{where}: description must be a string")
+
+        links = entry.get("links")
+        if links is not None:
+            if not isinstance(links, list):
+                errors.append(f"{where}: links must be an array")
+            else:
+                for j, link in enumerate(links):
+                    link_where = f"{where}.links[{j}]"
+                    if not isinstance(link, dict):
+                        errors.append(f"{link_where}: entry is not an object")
+                        continue
+
+                    extra_link = set(link.keys()) - ALLOWED_LINK_FIELDS
+                    if extra_link:
+                        errors.append(f"{link_where}: unknown field(s) {sorted(extra_link)}")
+
+                    url = link.get("url")
+                    if not isinstance(url, str) or not url:
+                        errors.append(f"{link_where}: missing/invalid required field 'url'")
+
+                    link_type = link.get("type")
+                    if link_type is not None and link_type not in LINK_TYPES:
+                        errors.append(f"{link_where}: type '{link_type}' not in {sorted(LINK_TYPES)}")
+
+                    label = link.get("label")
+                    if label is not None and not isinstance(label, str):
+                        errors.append(f"{link_where}: label must be a string")
+                    elif link_type is None and not label:
+                        errors.append(f"{link_where}: label is required when type is absent")
 
     return errors, registry
 
