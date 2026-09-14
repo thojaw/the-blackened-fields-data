@@ -463,8 +463,8 @@
   {
     "id": "fireborn",
     "name": "Fireborn",
-    "description": "Fireborn are an American metal band whose name evokes fire, intensity, and resilience. While detailed biographical information is limited, the group operates within the modern heavy metal scene, delivering an energetic sound built on aggressive riffing and powerful vocal delivery typical of contemporary metal acts.",
-    "country": "us"
+    "description": "Fireborn is a German hard rock band fronted by vocalist Jenny, blending the energy of modern American hard rock with the soul of classic rock. Formerly known as Dislike Silence, the group released its debut album Reflections in 2023, followed by Dreamcatcher in 2026.",
+    "country": "de"
   },
   {
     "id": "broken-by-the-scream",
@@ -500,12 +500,11 @@
   {
     "id": "filth",
     "name": "Filth",
-    "description": "Filth are a British extreme metal act drawing on black metal's raw aggression and gothic metal's darker atmospheres, blending harsh vocals with brooding, melodic undercurrents. Rooted in the United Kingdom's underground heavy music scene, the band channels horror and darkness into an intense, uncompromising sound.",
+    "description": "Filth is an American deathcore band from North Carolina known for a hip-hop-influenced take on the genre, pairing thick, downtuned riffs with brutal, intense breakdowns. The act channels aggressive, groove-laden extremity into a sound built for chaotic, high-energy live performances.",
     "genres": [
-      "Black Metal",
-      "Gothic Metal"
+      "Deathcore"
     ],
-    "country": "gb"
+    "country": "us"
   },
   {
     "id": "mittel-alta",
@@ -554,8 +553,8 @@
   {
     "id": "serpents",
     "name": "Serpents",
-    "description": "Serpents are a German rock act whose name evokes danger and mystique, fitting a sound built on heavy, riff-driven rock energy. With limited widely available biographical detail, the band represents Germany's active underground rock and metal scene, delivering an intense, guitar-forward live approach.",
-    "country": "de"
+    "description": "Serpents is a Polish act specializing in electronically refined, modern metal, pairing programmed textures and synth elements with hard-hitting, danceable riffs. The project blends heavy guitar work with electronic production for an energetic, contemporary sound suited to both headbanging and dance-floor movement.",
+    "country": "pl"
   },
   {
     "id": "i-am-your-god",
@@ -580,8 +579,8 @@
   {
     "id": "warfield",
     "name": "Warfield",
-    "description": "Warfield is a metal act from Ireland. Drawing on the country's small but dedicated heavy music scene, the band builds its sound around driving riffs and forceful rhythms, channeling classic metal influences into energetic original material and developing a reputation through consistent live performances.",
-    "country": "ie"
+    "description": "Warfield is a German thrash metal band from Kaiserslautern, founded in 2012. The group plays fast-paced, catchy old-school thrash metal, channeling the genre's classic 1980s energy into tight, aggressive songwriting and an uncompromising, riff-driven live approach.",
+    "country": "de"
   },
   {
     "id": "katerfahrt",
@@ -874,7 +873,7 @@
   {
     "id": "bizarrekult",
     "name": "Bizarrekult",
-    "description": "Bizarrekult is a Norwegian black metal duo formed in Kongsberg in 2019, featuring musicians with roots in bands like Obliteration and Beheaded. Their raw, atmospheric sound draws on classic Norwegian black metal traditions while incorporating post-punk textures, as heard on their acclaimed debut album 'Vi Overlever'.",
+    "description": "Bizarrekult is the black metal project of Roman V., who began the music in his native Siberia, Russia before relocating to Norway, where the project found its momentum from 2019 onward. Blending raw, classic black metal with post-punk textures, the project released its acclaimed debut album 'Vi Overlever' in 2021.",
     "genres": [
       "Black Metal"
     ],
@@ -893,19 +892,22 @@
   {
     "id": "avalanche-effect",
     "name": "Avalanche Effect",
-    "description": "Avalanche Effect is a German rock act known for a heavy, riff-driven sound that blends elements of modern metal with melodic songwriting. Emerging from Germany's active underground scene, the band has built a reputation for energetic live performances and a hard-hitting, contemporary take on guitar-driven heavy music.",
+    "description": "Avalanche Effect is a German metalcore band from Münster, known for exciting, modern metalcore that balances sing-along hooks with mosh-ready heaviness. The band's material, including the album Letters To My Future Self, showcases a contemporary, melodic take on the genre.",
     "country": "de"
   },
   {
     "id": "heaven-exe",
     "name": "Heaven.exe",
-    "description": "Heaven.exe is a German heavy music act whose name hints at a fusion of organic instrumentation with digital, electronic-tinged production. The band represents the newer wave of German metal and metalcore acts blending aggressive riffing with modern, tech-influenced soundscapes and dynamic, emotionally charged songwriting.",
+    "description": "Heaven.exe is a Berlin-based act fusing raw, modern metal aggression with the cold, mechanical pulse of the city's techno and industrial electro underground. Drawing on Berlin's club culture, the project blends heaviness with hypnotic, machine-driven electronic textures.",
     "country": "de"
   },
   {
     "id": "minus-youth",
     "name": "Minus Youth",
-    "description": "Minus Youth is a German band rooted in punk and hardcore traditions, known for raw energy and direct, no-frills songwriting. Emerging from Germany's grassroots underground music scene, the act channels the rebellious spirit and fast, aggressive delivery characteristic of classic youth-driven punk and hardcore acts.",
+    "description": "Minus Youth is a hardcore band from Stuttgart, Germany, known for brutal, groove-heavy hardcore delivered with high energy and technical precision. Equally capable of maximum groove or upbeat intensity, the band has built a reputation as a formidable force in Germany's hardcore scene.",
+    "genres": [
+      "Hardcore"
+    ],
     "country": "de"
   },
   {
@@ -952,7 +954,7 @@
   {
     "id": "the-sons-of-huens",
     "name": "The Sons Of Huens",
-    "description": "The Sons Of Huens is a German band drawing on heavy rock and metal influences, representing the country's diverse underground scene. The act is known for a driving, guitar-centered sound and a commitment to energetic live performance rooted in Germany's long tradition of hard-hitting rock music.",
+    "description": "The Sons Of Huens are a German rock band from Mehnersmoos, known for a chaotic, irreverent approach that throws genre conventions aside in favor of irony and good-humored energy. The young act brings a circus-like unpredictability to its guitar-driven rock sound.",
     "country": "de"
   },
   {
@@ -1121,8 +1123,11 @@
   {
     "id": "inner-space",
     "name": "Inner Space",
-    "description": "Inner Space is a British band whose name evokes exploratory, expansive musical territory. Emerging from the UK's diverse rock and alternative underground, the act blends atmospheric songwriting with dynamic instrumentation, reflecting the country's long tradition of boundary-pushing guitar-based music.",
-    "country": "gb"
+    "description": "Inner Space is a hardcore band from Leipzig, Germany, known for hateful, hard-hitting hardcore built around brutality and heavy breakdowns, balanced with catchy, driving songwriting. The act channels raw aggression into an intense, high-energy live sound rooted in Germany's hardcore underground.",
+    "genres": [
+      "Hardcore"
+    ],
+    "country": "de"
   },
   {
     "id": "skeleton-pit",
@@ -1223,7 +1228,8 @@
   {
     "id": "plume",
     "name": "Plume",
-    "description": "Plume is a project fusing electronic production with modern metal songwriting, resulting in music that is both catchy and heavy. Blending programmed textures with distorted riffs and dynamic vocal delivery, the act represents a contemporary crossover between electronic music and metal aesthetics."
+    "description": "Plume is a German electronic rock quartet from Munich, formed in 2020 and fronted by vocalist Pascal Pashaee. Fusing pop songwriting with electronic textures, distorted riffs and fractured rhythms, the band released its debut album SAFEROOMS & HEALING FREQUENCIES in 2026.",
+    "country": "de"
   },
   {
     "id": "blacktoothed",
