@@ -1737,5 +1737,264 @@
       "Stoner Rock"
     ],
     "country": "de"
+  },
+  {
+    "id": "towards-the-sinister",
+    "name": "Towards the Sinister",
+    "description": "Towards the Sinister is a project formed in 2026 by founding My Dying Bride members Aaron Stainthorpe (vocals), Calvin Robertshaw (guitar), Ade Jackson (bass) and Rick Miah (drums), joined by additional musicians. The band performs material from My Dying Bride's earliest releases, including As the Flower Withers and Turn Loose the Swans.",
+    "genres": [
+      "Death Metal",
+      "Doom Metal"
+    ],
+    "country": "gb",
+    "links": [
+      {
+        "url": "https://towardsthesinister.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/towardsthesinister",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/towardsthesinister/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "dodsrit",
+    "name": "Dödsrit",
+    "description": "Dödsrit are a black metal and crust band formed in 2017 by Christoffer Öster, based between Borlänge, Sweden and Amsterdam, Netherlands. The band blends atmospheric black metal with the rawness of d-beat crust punk, with lyrics addressing social and political themes.",
+    "genres": [
+      "Black Crust"
+    ],
+    "country": "se",
+    "links": [
+      {
+        "url": "https://dodsrit.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/1ZR1y4fCztcaoliwAIbEAb",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/13521175",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/DODSRIT",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/dodsrit_official/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/dodsrit",
+        "type": "soundcloud"
+      }
+    ]
+  },
+  {
+    "id": "asphagor",
+    "name": "Asphagor",
+    "description": "Asphagor are an Austrian extreme metal band from Angerberg, Tyrol, formed in 2007. The band blends black, death and progressive metal elements across albums including Havoc, Anti, The Cleansing and Pyrogenesis.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "at",
+    "links": [
+      {
+        "url": "https://asphagor.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/1tgOXyYJvy1oyY3TTMszfO",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/991999",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/Asphagor",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/asphagorofficial/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/asphagor-music",
+        "type": "soundcloud"
+      }
+    ]
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "description": "Bianca are an Italian black metal band from Rome, formed in 2024 and featuring members of Hideous Divinity and Nocturnal Depression. Self-described as \"oneiric black metal,\" the band explores themes of dreams and the unconscious, and released their self-titled debut album via Avantgarde Music.",
+    "genres": [
+      "Oneiric Black Metal"
+    ],
+    "country": "it",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/6dtw4fpRSBDtleKCbzBjvx",
+        "type": "spotify"
+      },
+      {
+        "url": "https://biancaofficial.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://www.instagram.com/bianca_officialmusic/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "emperor",
+    "name": "Emperor",
+    "description": "Emperor are a Norwegian black metal band formed in 1991 in Notodden by Ihsahn and Samoth. Pioneers of a symphonic, orchestral approach to black metal, they became one of the genre's most influential acts with albums such as In the Nightside Eclipse and Anthems to the Welkin at Dusk.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/6jPWrSmxOd9mj7Xaj4EP2Y",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/5175",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.emperorhorde.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/emperorofficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/78923932",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "primordial",
+    "name": "Primordial",
+    "description": "Primordial are an Irish extreme metal band from County Dublin, fronted by vocalist Alan \"Nemtheanga\" Averill since the early 1990s. Their sound fuses black and doom metal with Celtic folk influences, exploring themes of Irish history and mythology across albums such as Imrama and The Gathering Wilderness.",
+    "genres": [
+      "Pagan Black Metal",
+      "Doom Metal"
+    ],
+    "country": "ie",
+    "links": [
+      {
+        "url": "https://primordialofficial.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/0BZr6WHaejNA63uhZZZZek",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/7643",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.primordialofficial.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://twitter.com/PrimordialEire",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/primordialofficial",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "ellende",
+    "name": "Ellende",
+    "description": "Ellende is an Austrian atmospheric black metal project founded in Graz in 2011 by multi-instrumentalist L.G. as a solo studio project, later expanded into a live act. The project's melancholic, introspective sound incorporates classical instrumentation such as strings and piano alongside its post-black metal atmosphere.",
+    "genres": [
+      "Atmospheric Post Black Metal"
+    ],
+    "country": "at",
+    "links": [
+      {
+        "url": "https://ellende.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/1iLdVM2KFAHUbpaC5wpMbO",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/1345095",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.ellende.at/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/ellende.official",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/ellende.official/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "naglfar",
+    "name": "Naglfar",
+    "description": "Naglfar are a Swedish black metal band from Umeå, formed in 1992 by Jens Rydén and Kristoffer Olivius. The band combines aggressive black metal with melodic and symphonic elements and takes its name from the ship of the dead in Norse mythology.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "se",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/1WV0pMUfO5UZ3MXfZrTohr",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/3795",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.naglfar.net/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://twitter.com/officialnaglfar",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/naglfarofficial",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/naglfarofficial/",
+        "type": "instagram"
+      }
+    ]
   }
 ]
