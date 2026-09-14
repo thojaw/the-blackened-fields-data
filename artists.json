@@ -2072,6 +2072,10 @@
       {
         "url": "https://unviar.bandcamp.com/",
         "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/5xf8dgl8phc3yqBo2Xkrni",
+        "type": "spotify"
       }
     ]
   },
@@ -2155,6 +2159,10 @@
     ],
     "country": "no",
     "links": [
+      {
+        "url": "https://open.spotify.com/artist/3Pfim1uupYVYG87GDtdw8r",
+        "type": "spotify"
+      },
       {
         "url": "https://nordjevel.bandcamp.com/",
         "type": "bandcamp"
@@ -2478,7 +2486,13 @@
       "Power Metal",
       "True Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/7pwIx2j4SX0cLAgPrIkv27",
+        "type": "spotify"
+      }
+    ]
   },
   {
     "id": "vintersorg",
@@ -2523,7 +2537,13 @@
     "genres": [
       "Melodic Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/7hcvhYMlNsn2gTTVbECj6e",
+        "type": "spotify"
+      }
+    ]
   },
   {
     "id": "tabernis",
@@ -2567,7 +2587,13 @@
     "genres": [
       "Melodic Death Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/3EnoFDhhfqaRU2usjJXJEu",
+        "type": "spotify"
+      }
+    ]
   },
   {
     "id": "bloodbark",
@@ -2596,6 +2622,12 @@
       "Post-Black Metal",
       "Atmospheric Black Metal"
     ],
-    "country": "at"
+    "country": "at",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/5VlDD7dvbVLLvOXp1e99cn",
+        "type": "spotify"
+      }
+    ]
   }
 ]

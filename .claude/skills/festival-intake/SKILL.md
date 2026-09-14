@@ -26,7 +26,11 @@ script's output), or the festival's own identity being ambiguous (multiple
 editions/years live on the same URL). Things you should NOT ask about:
 whether to download images (always — see below), whether to run the
 registry sync, whether to open a PR vs. push directly (always a PR, unless
-told otherwise), or which Python/Node binary to use.
+told otherwise), which Python/Node binary to use, whether to write German
+translations (always, dual-language is the default), whether to hunt down
+a Spotify link for an artist the enrichment step skipped (always — it's not
+optional), or whether a new festival should start `visible: false` (always
+— see step 6).
 
 ## Mode 1: Add a new festival
 
@@ -67,16 +71,19 @@ Foo Fest 2028 lineup just dropped, add it."
 
 5. **Write a short factual bio per artist** (2–3 sentences: genre, origin,
    one or two notable career facts), in the style already in `artists.json`
-   — neutral, standalone, not tied to this festival's stages/dates. Only
-   write a German (or other) `translations` block if the user asked for
-   dual-language, or the festival's own site already has other-language
-   pages you're basing the intake on. Otherwise skip it — don't add
-   translations nobody asked for.
+   — neutral, standalone, not tied to this festival's stages/dates. **Always
+   also write a German `translations` block** covering every artist bio (plus
+   festival `news`/`links`/`events` text where applicable) — dual-language
+   (`en`/`de`) is the default output of this skill, not an opt-in; only skip
+   it if the user explicitly says English-only.
 
-6. **Decide `visible`.** Default `true`. Set `visible: false` only when the
-   festival is clearly not lineup-complete yet (most artists still TBA, no
-   running order) — matches the convention already used for exactly this
-   case in this repo. Don't ask; just note the choice in your summary.
+6. **Always set `visible: false`** when creating a new festival, regardless
+   of how complete the lineup looks. This is deliberate, not a fallback for
+   incomplete lineups: it lets developers review the intake in-app before it
+   goes live to real users. Flipping it to `true` is a separate, explicit
+   step the user (or a follow-up request) takes later — never do it as part
+   of the initial intake. Note in your summary that it's hidden pending
+   review.
 
 7. **Assemble a spec file** (scratch dir, not committed) matching
    `scripts/scaffold-festival.mjs`'s documented `create` shape — read the
@@ -99,11 +106,30 @@ Foo Fest 2028 lineup just dropped, add it."
    is exactly how a real MusicBrainz false-match was caught and fixed in
    development), then add the registry entry / link directly.
 
-9. **Branch, commit, push, open a PR** (`gh pr create`) summarizing what was
-   added — artist list, what's still pending (e.g. unresolved images), any
-   `needsManualReview` items you handled or left open. Don't ask permission
-   for the PR itself; opening a PR (not merging) is the expected end state
-   of this workflow.
+9. **Get a Spotify link for every artist — mandatory, not best-effort.**
+   Spotify links drive the in-app embedded preview player, so a missing one
+   is a missing feature, not just missing metadata. Step 8's chained
+   `enrich-artists.mjs artists.json --write` auto-adds one via MusicBrainz
+   when it finds a high-confidence match (score ≥ 90 by default). Check
+   `artists.json` afterward for every artist added or touched this run: for
+   any without a `spotify`-typed link — whether reported as low-confidence
+   in the enrichment output or simply skipped — search Spotify directly,
+   verify the candidate artist page (bio/genre/discography) actually matches
+   the act you researched in step 2 (this is exactly how a real
+   same-name-artist false match was caught in development), and add the
+   link by hand to that artist's `artists.json` registry entry:
+   `{ "url": "https://open.spotify.com/artist/...", "type": "spotify" }`.
+   Only treat "no Spotify presence" as acceptable after a real search failed
+   to find one, and call it out explicitly in your summary — most acts worth
+   booking have a Spotify presence, so a silent gap here is more likely a
+   missed search than a genuine absence.
+
+10. **Branch, commit, push, open a PR** (`gh pr create`) summarizing what was
+    added — artist list, translation coverage, Spotify link coverage (and
+    any artist left without one), the `visible: false` review-pending state,
+    what's still pending (e.g. unresolved images), any `needsManualReview`
+    items you handled or left open. Don't ask permission for the PR itself;
+    opening a PR (not merging) is the expected end state of this workflow.
 
 ## Mode 2: Update an already-added festival
 
@@ -119,7 +145,12 @@ pull in new artists."
    name (fuzzy-tolerant — a site sometimes changes casing/spacing). Anything
    not already present is new.
 
-3. Run steps 2–5 of Mode 1 for the new artists only.
+3. Run steps 2–5 of Mode 1 for the new artists only (fact verification,
+   images, bios, **and their German translations** — new artists get the
+   same dual-language treatment as a fresh intake). Do not touch the
+   existing festival's `visible` flag here — Mode 2 assumes the festival was
+   already reviewed and published; flipping visibility is a separate,
+   explicit request, same as in Mode 1.
 
 4. If the site now shows a running order (day/stage/time) where it
    previously said TBA — for *any* artist, old or new — collect that too;
@@ -133,7 +164,8 @@ pull in new artists."
    node scripts/scaffold-festival.mjs add-artists <festival.json> <spec.json>
    ```
 
-6. Same `needsManualReview` handling, branch/commit/push/PR as Mode 1. Title
+6. Same `needsManualReview` handling and Spotify-link-coverage check
+   (step 9 of Mode 1) as a fresh intake, then branch/commit/push/PR. Title
    the PR/commit around what actually changed (e.g. "Add 6 newly-announced
    artists to Foo Fest 2028") rather than reusing the original add-festival
    title.
