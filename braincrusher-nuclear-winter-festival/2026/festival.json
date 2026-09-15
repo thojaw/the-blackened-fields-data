@@ -1,7 +1,7 @@
 {
   "id": "braincrusher-nuclear-winter-festival-2026",
   "name": "Braincrusher Nuclear Winter Festival",
-  "version": 1,
+  "version": 2,
   "year": 2026,
   "defaultLang": "en",
   "runningOrderExists": false,
@@ -200,7 +200,7 @@
     {
       "id": "a6",
       "name": "Mortem",
-      "imageUrl": "a6.jpg",
+      "imageUrl": "a6-c.jpg",
       "description": "Mortem are a Norwegian extreme metal band from Oslo, formed in 1987 by Marius Vold and Steinar Sverd Johnsen as one of the earliest black metal acts to emerge in Norway. Their influential Slow Death demo was produced by Mayhem's Euronymous, and after members went on to found Arcturus and Thorns, the band reactivated in 2018 and released the Peaceville Records album Ravnsvart in 2019, featuring Mayhem's Hellhammer on drums.",
       "dayDate": null,
       "startTime": null,
@@ -210,12 +210,13 @@
         "Black Metal"
       ],
       "country": "no",
-      "globalId": "mortem"
+      "globalId": "mortem",
+      "imageFocus": "center"
     },
     {
       "id": "a7",
       "name": "Warhammer",
-      "imageUrl": "a7.jpg",
+      "imageUrl": "a7-c.jpg",
       "description": "Warhammer are a black/death metal band from Athens, Greece, formed in 2012 by George Tsavdaridis and Hercules Giotis. The band began as a thrash metal act before shifting toward a heavier black/death metal sound starting with 2021's Ashes and Cinders, an album that also introduced saxophone into their live and studio sound.",
       "dayDate": null,
       "startTime": null,
@@ -226,7 +227,8 @@
         "Death Metal"
       ],
       "country": "gr",
-      "globalId": "warhammer"
+      "globalId": "warhammer",
+      "imageFocus": "center"
     },
     {
       "id": "a8",
@@ -353,7 +355,7 @@
     {
       "id": "a16",
       "name": "Sirens",
-      "imageUrl": "a16.jpg",
+      "imageUrl": "a16-b.jpg",
       "description": "Sirens are a two-piece heavy/speed/power metal band from Ansbach, Bavaria, Germany, active since 1995. Independent and self-releasing, their lyrics span fantasy and social themes, with their most recent full-length, In Goat We Trust, released in April 2025.",
       "dayDate": null,
       "startTime": null,
@@ -365,7 +367,8 @@
         "Power Metal"
       ],
       "country": "de",
-      "globalId": "sirens"
+      "globalId": "sirens",
+      "imageFocus": "bottom"
     },
     {
       "id": "a17",

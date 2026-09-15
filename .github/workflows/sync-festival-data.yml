@@ -6,6 +6,10 @@ on:
     paths:
       - "**/festival.json"
       - "artists.json"
+      - "**/*.jpg"
+      - "**/*.jpeg"
+      - "**/*.png"
+      - "**/*.webp"
   workflow_dispatch: {}
 
 concurrency:
@@ -32,6 +36,9 @@ jobs:
 
       - name: Validate artists.json
         run: python3 scripts/validate-artists.py --check-festivals
+
+      - name: Resolve imageUrl/imageFocus from image filenames
+        run: python3 scripts/resolve-image-focus.py --write
 
       - name: Bump version on changed festival.json files
         run: python3 scripts/bump-festival-version.py --base origin/main

@@ -102,6 +102,11 @@
           "type": "string",
           "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
           "description": "References an artists.json id, giving this show a cross-festival identity distinct from its local, per-show id. Multiple artists[] entries in the same festival.json (e.g. a regular set and an acoustic set by the same act) may share one globalId. When absent, this artist's global identity is its own id if that already looks like a registry slug; otherwise it has none yet. See AGENTS.md 'Artist registry'."
+        },
+        "imageFocus": {
+          "type": "string",
+          "enum": ["top", "center", "bottom"],
+          "description": "Vertical anchor client apps use when cropping imageUrl into a wider box; default 'top' if absent. For a locally-hosted image, set via the <id>/<id>-c/<id>-b filename convention and scripts/resolve-image-focus.py rather than by hand -- see AGENTS.md 'Optional: media files'."
         }
       }
     },
