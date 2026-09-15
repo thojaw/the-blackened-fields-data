@@ -4,16 +4,19 @@ Resolves Artist.imageUrl / Artist.imageFocus in festival.json from a
 filename convention on locally-hosted image files, instead of hand-editing
 the JSON every time an image is cropped differently.
 
-Convention (see AGENTS.md 'Optional: media files'):
-  <id>.<ext>     -- default, top-anchored crop (imageFocus absent)
-  <id>-c.<ext>   -- center-anchored crop (imageFocus: "center")
-  <id>-b.<ext>   -- bottom-anchored crop (imageFocus: "bottom")
+Convention (see AGENTS.md 'Optional: media files'), based on the image
+filename itself -- NOT the artist id, which need not match it:
+  <base>.<ext>     -- default, top-anchored crop (imageFocus absent)
+  <base>-c.<ext>   -- center-anchored crop (imageFocus: "center")
+  <base>-b.<ext>   -- bottom-anchored crop (imageFocus: "bottom")
 
 For every artist whose imageUrl is a local relative filename (not an
-external http(s) URL), this looks in the same folder as festival.json for
-a file matching that convention and, if found, sets imageUrl/imageFocus to
-match -- so renaming e.g. a12.jpg -> a12-c.jpg on disk is all that's
-needed; nothing to change in festival.json by hand.
+external http(s) URL), <base> is that filename with its extension and any
+existing -c/-b suffix stripped (so this is idempotent across repeated
+renames/runs). This looks in the same folder as festival.json for a file
+matching that convention and, if found, sets imageUrl/imageFocus to match
+-- so renaming e.g. a12.jpg -> a12-c.jpg on disk is all that's needed;
+nothing to change in festival.json by hand.
 
 No third-party dependencies (stdlib only), same conventions as
 scripts/generate-index.py.
@@ -49,13 +52,27 @@ def find_festival_files():
     return sorted(glob.glob(pattern))
 
 
-def find_variants(folder, artist_id):
+SUFFIXED_STEM_RE = re.compile(r"^(?P<base>.+)-(?P<suffix>[cb])$")
+
+
+def canonical_base(filename):
+    """Strip the extension and any existing -c/-b suffix from a filename to
+    recover the stable base the convention's variants share -- e.g. both
+    'a3.jpg' and 'a3-c.jpg' (already resolved on a previous run) map to
+    'a3'. This is the current imageUrl's own filename, which is NOT always
+    the artist id (e.g. id "unviar" with imageUrl "a3.jpg")."""
+    stem = os.path.splitext(os.path.basename(filename))[0]
+    m = SUFFIXED_STEM_RE.match(stem)
+    return m.group("base") if m else stem
+
+
+def find_variants(folder, base):
     """Return {suffix_or_None: filename} for every convention-matching file
-    present on disk for this artist id (usually zero or one match)."""
+    present on disk for this base name (usually zero or one match)."""
     variants = {}
     for ext in IMAGE_EXTS:
         for suffix in (None, "c", "b"):
-            name = f"{artist_id}-{suffix}.{ext}" if suffix else f"{artist_id}.{ext}"
+            name = f"{base}-{suffix}.{ext}" if suffix else f"{base}.{ext}"
             if os.path.isfile(os.path.join(folder, name)):
                 variants[suffix] = name
     return variants
@@ -75,7 +92,7 @@ def resolve_festival(path, write):
         if not url or EXTERNAL_URL_RE.match(url):
             continue
 
-        variants = find_variants(folder, artist["id"])
+        variants = find_variants(folder, canonical_base(url))
 
         if len(variants) > 1:
             names = sorted(variants.values())

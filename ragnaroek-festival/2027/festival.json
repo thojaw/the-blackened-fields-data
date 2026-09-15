@@ -238,7 +238,7 @@
     {
       "id": "unviar",
       "name": "Unviâr",
-      "imageUrl": "a3.jpg",
+      "imageUrl": "a3-c.jpg",
       "imageFocus": "center",
       "description": "Atmospheric black metal act from Italy's Friuli-Venezia Giulia region, whose name means \"winter\" in the Friulian language. Their music draws on the region's overlapping Celtic, Germanic, Slavic and Latin heritage, most recently on the 2025 debut full-length Disglaç.",
       "dayDate": null,
@@ -344,7 +344,7 @@
     {
       "id": "mol",
       "name": "Møl",
-      "imageUrl": "a10.jpg",
+      "imageUrl": "a10-c.jpg",
       "description": "Møl is a Danish atmospheric black metal band from Aalborg, formed in 2013. Merging blast-beat intensity with shoegaze textures and post-metal dynamics, the quintet drew international acclaim with their 2018 debut Jord and follow-up Diorama, establishing themselves among Europe's leading acts in the blackgaze scene.",
       "dayDate": null,
       "startTime": null,
@@ -355,7 +355,8 @@
         "Post-Metal",
         "Shoegaze"
       ],
-      "country": "dk"
+      "country": "dk",
+      "imageFocus": "center"
     },
     {
       "id": "miserere-luminis",
@@ -390,7 +391,7 @@
     {
       "id": "kalmah",
       "name": "Kalmah",
-      "imageUrl": "a13.jpg",
+      "imageUrl": "a13-b.jpg",
       "description": "Finnish melodic death metal band from Oulu, formed in 1998 and quickly signed to Spinefarm Records. Known for aggressive yet melodic riffing with folk and \"swamp metal\" touches, the band's name is Karelian for \"to the grave.\"",
       "dayDate": null,
       "startTime": null,
@@ -401,7 +402,8 @@
         "Power Metal"
       ],
       "country": "fi",
-      "globalId": "kalmah"
+      "globalId": "kalmah",
+      "imageFocus": "bottom"
     },
     {
       "id": "graveworm",
@@ -437,7 +439,7 @@
     {
       "id": "eldamar",
       "name": "Eldamar",
-      "imageUrl": "a16.jpg",
+      "imageUrl": "a16-c.jpg",
       "description": "Norwegian atmospheric black metal project from Askim, started as a solo endeavor in 2015 and inspired by J.R.R. Tolkien, heathenism and nature. The project has since grown into a touring live band.",
       "dayDate": null,
       "startTime": null,
@@ -448,12 +450,13 @@
         "Ambient"
       ],
       "country": "no",
-      "globalId": "eldamar"
+      "globalId": "eldamar",
+      "imageFocus": "center"
     },
     {
       "id": "bloodbark",
       "name": "Bloodbark",
-      "imageUrl": "a17.jpg",
+      "imageUrl": "a17-b.jpg",
       "description": "Anonymous atmospheric black metal project of undisclosed origin, signed to Northern Silence Productions. Releases including Bonebranches and 2025's Sacred Sound of Solitude favor mournful, minor-key songwriting blending black metal, blackgaze and post-rock.",
       "dayDate": null,
       "startTime": null,
@@ -463,7 +466,8 @@
         "Atmospheric Black Metal",
         "Blackgaze"
       ],
-      "globalId": "bloodbark"
+      "globalId": "bloodbark",
+      "imageFocus": "bottom"
     },
     {
       "id": "battlelore",
