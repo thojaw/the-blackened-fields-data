@@ -4,14 +4,20 @@
   "version": 1,
   "year": 2026,
   "defaultLang": "en",
-  "visible": false,
   "runningOrderExists": false,
   "utcOffsetHours": 2,
   "festivalDays": [
     "2026-10-23",
     "2026-10-24"
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Lineup still being finalized",
+      "body": "This festival's data may not be up to date and will only be updated sporadically until the organizer has completed the lineup. Please check the official festival channels for the latest information.",
+      "date": "2026-09-15"
+    }
+  ],
   "links": [
     {
       "id": "l1",
@@ -381,6 +387,13 @@
   "translations": [
     {
       "lang": "de",
+      "news": [
+        {
+          "id": "n1",
+          "title": "Lineup noch nicht vollständig",
+          "body": "Die Daten zu diesem Festival sind möglicherweise nicht aktuell und werden nur sporadisch aktualisiert, bis der Veranstalter das Lineup komplettiert hat. Bitte prüft die offiziellen Festival-Kanäle für die aktuellsten Informationen."
+        }
+      ],
       "artists": [
         {
           "id": "a1",
