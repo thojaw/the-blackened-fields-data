@@ -308,7 +308,7 @@ never overwriting, each festival's own local `Artist.id` values.
   Never copied to or from a festival's own `Artist`/`links[]` entries by
   `scripts/sync-artist-registry.py` — a festival's `Artist` object has no
   `links` field of its own, so there's nothing to sync. Populate/refresh it
-  by running `scripts/enrich-artists.mjs artists.json --write` (auto-detects
+  by running `scripts/enrich-artists.py artists.json --write` (auto-detects
   registry mode from the bare-array shape) or by editing it by hand.
 - **Slug collisions** (rare — this dataset stays within genre boundaries
   where duplicate act names are practically nonexistent): if a computed slug
@@ -365,7 +365,7 @@ underlying artist rather than three unrelated hits.
    linking (or add as new if you can confirm by other means, as this
    dataset's genre-scoped act names make real collisions very unlikely).
 4. **No match** → create the artist first: look up genres/country (e.g. via
-   `scripts/enrich-artists.mjs` against the festival file, or manually),
+   `scripts/enrich-artists.py` against the festival file, or manually),
    write a short `description`, then let `sync-artist-registry.py --apply`
    slugify the name and append a new `artists.json` entry, setting
    `globalId` on the festival artist accordingly.
