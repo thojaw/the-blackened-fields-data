@@ -2806,5 +2806,367 @@
         "type": "spotify"
       }
     ]
+  },
+  {
+    "id": "carpathian-forest",
+    "name": "Carpathian Forest",
+    "description": "Carpathian Forest are a Norwegian black metal band formed in the early 1990s by Nattefrost and Nordavind under the name Enthrone. Known for a raw, nihilistic take on old-school Scandinavian black metal steeped in Satanism, misanthropy and dark humor, they built cult status through early demos before signing to Avantgarde and later Season of Mist.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no",
+    "links": [
+      {
+        "url": "https://carpathianforest.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/0sFntmE9T1tiF6G6O6Lm3H",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/4023",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/carpathianforest",
+        "type": "facebook"
+      },
+      {
+        "url": "https://soundcloud.com/carpathianforest",
+        "type": "soundcloud"
+      },
+      {
+        "url": "https://music.apple.com/no/artist/72865924",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "reil-of-violence",
+    "name": "Reil Of Violence",
+    "description": "Reil of Violence is a German speed/thrash metal project formed in December 2023 by Kreator drummer Jürgen \"Ventor\" Reil together with his son Jerome and Tim Reil. The three-generation family project grew out of a Rock Hard magazine interview that first suggested the idea to father and son.",
+    "genres": [
+      "Speed Metal",
+      "Thrash Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "urgehal",
+    "name": "Urgehal",
+    "description": "Urgehal are a Norwegian black metal band formed in Hønefoss in 1992 by Trondr Nefas and Enzifer. Playing raw, Satanic black metal in the classic Norwegian tradition, they released their debut Arma Christi in 1997 and several further albums before splitting in 2016, occasionally reuniting for live shows since.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no",
+    "links": [
+      {
+        "url": "https://urgehal.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4rsH5QGFETyQgsmU17kbVS",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/197311",
+        "type": "deezer"
+      },
+      {
+        "url": "http://urgehal.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/303831840",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://music.apple.com/mx/artist/303831840",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "warhammer",
+    "name": "Warhammer",
+    "description": "Warhammer are a black/death metal band from Athens, Greece, formed in 2012 by George Tsavdaridis and Hercules Giotis. The band began as a thrash metal act before shifting toward a heavier black/death metal sound starting with 2021's Ashes and Cinders, an album that also introduced saxophone into their live and studio sound.",
+    "genres": [
+      "Black Metal",
+      "Death Metal"
+    ],
+    "country": "gr"
+  },
+  {
+    "id": "hexer",
+    "name": "Hexer",
+    "description": "Hexer are a blackened doom/sludge metal band from Germany, formed in 2014 with members also known from Imha Tarikat and Eyemaster. Their sound blends slow, heavy doom and sludge with black and death metal elements and occult themes, as heard on albums including Cosmic Doom Ritual (2017) and Abyssal (2023).",
+    "genres": [
+      "Doom Metal",
+      "Sludge Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/77LWQfycyAtBuKgn1kGPbm",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/395278",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/HeXerRap",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/hexer_official/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://www.tiktok.com/@hexerrap",
+        "type": "tiktok"
+      },
+      {
+        "url": "https://music.apple.com/de/artist/1438687317",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "tsatthoggua",
+    "name": "Tsatthoggua",
+    "description": "Tsatthoggua are a black/thrash metal band from Marl, Germany, formed in 1993 and named after a deity from H.P. Lovecraft's Cthulhu Mythos. Their 1996 debut Hosanna Bizarre, released on Osmose Productions, made them a cult act in the German extreme metal underground; the original lineup reunited in 2019 and released We Are God in 2024.",
+    "genres": [
+      "Black Metal",
+      "Thrash Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "http://home.snafu.de/tsatthoggua/",
+        "type": "web",
+        "label": "Website"
+      }
+    ]
+  },
+  {
+    "id": "antipeewee",
+    "name": "Antipeewee",
+    "description": "Antipeewee are a thrash metal band from Abensberg, Bavaria, Germany, formed in 2006 and drawing on the tradition of 1980s German underground thrash. Signed to Slash Zero Records, their releases include Human Grill Party, Madness Unleashed and Infected by Evil, with lyrical themes spanning Cthulhu mythos, politics and partying.",
+    "genres": [
+      "Thrash Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://antipeewee.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4q3APXmgWE7VJeOx6ymKkx",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/5311772",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.antipeewee.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/antipeewee",
+        "type": "facebook"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/733004339",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "paxtilence",
+    "name": "Paxtilence",
+    "description": "Paxtilence are a thrash metal band from Nuremberg, Germany, founded in 2011 to bring riff-driven, aggressive thrash inspired by Kreator and Megadeth to the local scene. They have released the Cyclotomic Warfare EP (2017) and the album Wildfire (2022), followed by a live release, Live in Höred (2026).",
+    "genres": [
+      "Thrash Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "destruction",
+    "name": "Destruction",
+    "description": "Destruction are a German thrash metal band formed in 1982 in Weil am Rhein, led since inception by bassist/vocalist Marcel \"Schmier\" Schirmer and guitarist Mike Sifringer. Alongside Kreator, Sodom and Tankard, they are considered one of the \"Big Four\" of Teutonic thrash metal, with genre-defining albums including 1985's Infernal Overkill and 1988's Release from Agony.",
+    "genres": [
+      "Thrash Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://destruction.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/5d6KI8frPEo3qGsIL8Sak2",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/66744",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.destruction.de/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/de/artist/7024320",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://music.apple.com/us/artist/7024320",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "exumer",
+    "name": "Exumer",
+    "description": "Exumer are a German thrash metal band formed in Wiesbaden in 1985 by singer/bassist Mem V. Stein and guitarist Ray Mensh. Their 1986 debut Possessed by Fire became an underground classic; after splitting in 1991 the band reactivated in 2008 and continues to release new material, including 2026's Death Mask Messiah on Metal Blade Records.",
+    "genres": [
+      "Thrash Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://exumerband.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://exumerofficial.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/03sDKsD3y34NBAjeRHucde",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/838573",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.exumer.de/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/de/artist/503593192",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "mortem",
+    "name": "Mortem",
+    "description": "Mortem are a Norwegian extreme metal band from Oslo, formed in 1987 by Marius Vold and Steinar Sverd Johnsen as one of the earliest black metal acts to emerge in Norway. Their influential Slow Death demo was produced by Mayhem's Euronymous, and after members went on to found Arcturus and Thorns, the band reactivated in 2018 and released the Peaceville Records album Ravnsvart in 2019, featuring Mayhem's Hellhammer on drums.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "no"
+  },
+  {
+    "id": "graven",
+    "name": "Graven",
+    "description": "Graven are a black metal band from Memmingen, Bavaria, Germany, formed in 1999 out of the earlier band Totenreich. Signed to Undercover Records, their lyrics center on hate, darkness, death and misanthropy across albums including Perished and Forgotten (2002) and The Shadows Eternal Call (2005).",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "chemicide",
+    "name": "Chemicide",
+    "description": "Chemicide are a thrash metal band from San José, Costa Rica, formed in 2008 (initially as Conqueror) and drawing comparisons to Kreator, Destruction and Demolition Hammer. Signed to Listenable Records, they released their latest full-length, Violence Prevails, in 2025.",
+    "genres": [
+      "Thrash Metal"
+    ],
+    "country": "cr",
+    "links": [
+      {
+        "url": "https://chemicide.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4ax8Q2ingc59UDymaYLqFn",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/9791922",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.facebook.com/pages/Chemicide/131563120210477",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/chemicide_official/",
+        "type": "instagram"
+      },
+      {
+        "url": "https://www.youtube.com/chemicide",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "sirens",
+    "name": "Sirens",
+    "description": "Sirens are a two-piece heavy/speed/power metal band from Ansbach, Bavaria, Germany, active since 1995. Independent and self-releasing, their lyrics span fantasy and social themes, with their most recent full-length, In Goat We Trust, released in April 2025.",
+    "genres": [
+      "Heavy Metal",
+      "Speed Metal",
+      "Power Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "desaster",
+    "name": "Desaster",
+    "description": "Desaster are a German black/thrash metal band from Koblenz, formed in 1988 and active since 1989, taking their name from Destruction's song \"Total Desaster.\" Blending black, death and thrash influences drawn from Venom, Hellhammer and Mayhem, they have released ten studio albums on Metal Blade Records, including 2025's Kill All Idols.",
+    "genres": [
+      "Black Metal",
+      "Thrash Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://desaster.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4yvynKuRFLSRMMhHYfGyMy",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/14608",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.total-desaster.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/666Desaster666",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/desaster_official/",
+        "type": "instagram"
+      }
+    ]
   }
 ]

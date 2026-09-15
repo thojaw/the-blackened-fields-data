@@ -83,7 +83,7 @@ const EXT_BY_CONTENT_TYPE = {
 };
 
 function pythonCmd() {
-  for (const cmd of ["python3", "python"]) {
+  for (const cmd of ["python3", "python", "py"]) {
     try {
       execFileSync(cmd, ["--version"], { stdio: "ignore" });
       return cmd;
@@ -91,7 +91,7 @@ function pythonCmd() {
       /* try next */
     }
   }
-  throw new Error("No working Python interpreter found (tried python3, python).");
+  throw new Error("No working Python interpreter found (tried python3, python, py).");
 }
 
 async function downloadTo(url, destNoExt, { convertToPng = false } = {}) {
@@ -110,7 +110,7 @@ async function downloadTo(url, destNoExt, { convertToPng = false } = {}) {
   if (convertToPng && ext !== "png") {
     const srcPath = `${destNoExt}.src.${ext}`;
     await writeFile(srcPath, buf);
-    execFileSync("npx", ["--yes", "sharp-cli", "-i", srcPath, "-o", `${destNoExt}.png`], { stdio: "inherit" });
+    execFileSync("npx", ["--yes", "sharp-cli", "-i", srcPath, "-o", `${destNoExt}.png`], { stdio: "inherit", shell: process.platform === "win32" });
     await unlink(srcPath);
     return `${path.basename(destNoExt)}.png`;
   }
@@ -206,6 +206,15 @@ function run(cmd, args, opts = {}) {
 // objects -- the python step writes globalId to the file, not back into our
 // in-memory spec, and for an existing/multi-show festival the local `id`
 // can legitimately differ from the resolved global identity.
+function slugify(name) {
+  return name
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 async function autoRegisterUnconfirmed(festivalArtists) {
   const registryPath = path.join(REPO_ROOT, "artists.json");
   const registry = JSON.parse(await readFile(registryPath, "utf8"));
@@ -217,16 +226,30 @@ async function autoRegisterUnconfirmed(festivalArtists) {
   for (const artist of festivalArtists) {
     // Resolution rule (AGENTS.md): globalId if present, else id itself if
     // it already looks like a registry slug, else no identity yet.
-    const globalId = artist.globalId || artist.id;
-    resolved.set(artist.id, globalId);
-    if (byId.has(globalId)) continue; // already registered (matched, or id already is the slug)
+    let globalId = artist.globalId || artist.id;
+    if (byId.has(globalId)) {
+      resolved.set(artist.id, globalId);
+      continue; // already registered (matched, or id already is the slug)
+    }
 
     const existing = registry.find((a) => a.id === globalId);
     if (existing && existing.name !== artist.name) {
       skipped.push({ id: globalId, festivalArtist: artist.name, registryEntry: existing.name });
-      resolved.delete(artist.id); // leave unresolved -- don't enrich against someone else's entry
-      continue;
+      continue; // leave unresolved -- don't enrich against someone else's entry
     }
+
+    // A brand-new entry needs a real slug id (AGENTS.md), not a bare
+    // festival-local id like "a1" -- that only happens when no globalId was
+    // given and the local id isn't already a registry-shaped slug.
+    if (!artist.globalId && !existing) {
+      let candidate = slugify(artist.name);
+      let suffix = 2;
+      while (byId.has(candidate) && byId.get(candidate).name !== artist.name) {
+        candidate = `${slugify(artist.name)}-${suffix++}`;
+      }
+      globalId = candidate;
+    }
+    resolved.set(artist.id, globalId);
 
     const entry = { id: globalId, name: artist.name, description: artist.description };
     if (artist.genres?.length) entry.genres = artist.genres;

@@ -1,0 +1,467 @@
+{
+  "id": "braincrusher-nuclear-winter-festival-2026",
+  "name": "Braincrusher Nuclear Winter Festival",
+  "version": 1,
+  "year": 2026,
+  "defaultLang": "en",
+  "visible": false,
+  "runningOrderExists": false,
+  "utcOffsetHours": 2,
+  "festivalDays": [
+    "2026-10-23",
+    "2026-10-24"
+  ],
+  "news": [],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://konzertn.de/events/hirschaid-2026-10-23-braincrusher-nuclear-winter-festival-2026"
+    },
+    {
+      "id": "l2",
+      "label": "Tickets",
+      "url": "https://www.bvd-ticket.de/produkt/braincrusher-nuclear-winter/"
+    },
+    {
+      "id": "l3",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/events/1179274453764516/",
+      "type": "facebook"
+    },
+    {
+      "id": "la1",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5d6KI8frPEo3qGsIL8Sak2",
+      "type": "spotify",
+      "artistId": "a1"
+    },
+    {
+      "id": "la2",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0sFntmE9T1tiF6G6O6Lm3H",
+      "type": "spotify",
+      "artistId": "a2"
+    },
+    {
+      "id": "la4",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/03sDKsD3y34NBAjeRHucde",
+      "type": "spotify",
+      "artistId": "a4"
+    },
+    {
+      "id": "la5",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4rsH5QGFETyQgsmU17kbVS",
+      "type": "spotify",
+      "artistId": "a5"
+    },
+    {
+      "id": "la6",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4w0Wi6JWwF6tmASvFGilcC",
+      "type": "spotify",
+      "artistId": "a6"
+    },
+    {
+      "id": "la7",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5ydXOnsJp8Lc33dX1sovpS",
+      "type": "spotify",
+      "artistId": "a7"
+    },
+    {
+      "id": "la9",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/34HkAxbpa90Btjkv8RA0wh",
+      "type": "spotify",
+      "artistId": "a9"
+    },
+    {
+      "id": "la10",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6kbMZCY8IYQHq8FUf3h58f",
+      "type": "spotify",
+      "artistId": "a10"
+    },
+    {
+      "id": "la11",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0FLAN1EcCmtfvqxP1KPEHk",
+      "type": "spotify",
+      "artistId": "a11"
+    },
+    {
+      "id": "la12",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4ax8Q2ingc59UDymaYLqFn",
+      "type": "spotify",
+      "artistId": "a12"
+    },
+    {
+      "id": "la14",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5xnG7vIS0B16kOabzczkg1",
+      "type": "spotify",
+      "artistId": "a14"
+    },
+    {
+      "id": "la17",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4yvynKuRFLSRMMhHYfGyMy",
+      "type": "spotify",
+      "artistId": "a17"
+    }
+  ],
+  "artists": [
+    {
+      "id": "a1",
+      "name": "Destruction",
+      "imageUrl": "a1.jpg",
+      "description": "Destruction are a German thrash metal band formed in 1982 in Weil am Rhein, led since inception by bassist/vocalist Marcel \"Schmier\" Schirmer and guitarist Mike Sifringer. Alongside Kreator, Sodom and Tankard, they are considered one of the \"Big Four\" of Teutonic thrash metal, with genre-defining albums including 1985's Infernal Overkill and 1988's Release from Agony.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "destruction"
+    },
+    {
+      "id": "a2",
+      "name": "Carpathian Forest",
+      "imageUrl": "a2.jpg",
+      "description": "Carpathian Forest are a Norwegian black metal band formed in the early 1990s by Nattefrost and Nordavind under the name Enthrone. Known for a raw, nihilistic take on old-school Scandinavian black metal steeped in Satanism, misanthropy and dark humor, they built cult status through early demos before signing to Avantgarde and later Season of Mist.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "carpathian-forest"
+    },
+    {
+      "id": "a3",
+      "name": "Reil Of Violence",
+      "imageUrl": "a3.jpg",
+      "description": "Reil of Violence is a German speed/thrash metal project formed in December 2023 by Kreator drummer Jürgen \"Ventor\" Reil together with his son Jerome and Tim Reil. The three-generation family project grew out of a Rock Hard magazine interview that first suggested the idea to father and son.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Speed Metal",
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "reil-of-violence"
+    },
+    {
+      "id": "a4",
+      "name": "Exumer",
+      "imageUrl": "a4.jpg",
+      "description": "Exumer are a German thrash metal band formed in Wiesbaden in 1985 by singer/bassist Mem V. Stein and guitarist Ray Mensh. Their 1986 debut Possessed by Fire became an underground classic; after splitting in 1991 the band reactivated in 2008 and continues to release new material, including 2026's Death Mask Messiah on Metal Blade Records.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "exumer"
+    },
+    {
+      "id": "a5",
+      "name": "Urgehal",
+      "imageUrl": "a5.jpg",
+      "description": "Urgehal are a Norwegian black metal band formed in Hønefoss in 1992 by Trondr Nefas and Enzifer. Playing raw, Satanic black metal in the classic Norwegian tradition, they released their debut Arma Christi in 1997 and several further albums before splitting in 2016, occasionally reuniting for live shows since.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "urgehal"
+    },
+    {
+      "id": "a6",
+      "name": "Mortem",
+      "imageUrl": "a6.jpg",
+      "description": "Mortem are a Norwegian extreme metal band from Oslo, formed in 1987 by Marius Vold and Steinar Sverd Johnsen as one of the earliest black metal acts to emerge in Norway. Their influential Slow Death demo was produced by Mayhem's Euronymous, and after members went on to found Arcturus and Thorns, the band reactivated in 2018 and released the Peaceville Records album Ravnsvart in 2019, featuring Mayhem's Hellhammer on drums.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "mortem"
+    },
+    {
+      "id": "a7",
+      "name": "Warhammer",
+      "imageUrl": "a7.jpg",
+      "description": "Warhammer are a black/death metal band from Athens, Greece, formed in 2012 by George Tsavdaridis and Hercules Giotis. The band began as a thrash metal act before shifting toward a heavier black/death metal sound starting with 2021's Ashes and Cinders, an album that also introduced saxophone into their live and studio sound.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Death Metal"
+      ],
+      "country": "gr",
+      "globalId": "warhammer"
+    },
+    {
+      "id": "a8",
+      "name": "Graven",
+      "imageUrl": "a8.png",
+      "description": "Graven are a black metal band from Memmingen, Bavaria, Germany, formed in 1999 out of the earlier band Totenreich. Signed to Undercover Records, their lyrics center on hate, darkness, death and misanthropy across albums including Perished and Forgotten (2002) and The Shadows Eternal Call (2005).",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "graven"
+    },
+    {
+      "id": "a9",
+      "name": "Svarttjern",
+      "imageUrl": "a9.jpg",
+      "description": "Norwegian black metal band from Oslo, formed in 2003 by musicians also tied to Carpathian Forest and Ragnarok. Their name, meaning \"black tarn,\" is taken from a 19th-century Norwegian painting, and the band records for Soulseller Records.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "svarttjern"
+    },
+    {
+      "id": "a10",
+      "name": "Hexer",
+      "imageUrl": "a10.jpg",
+      "description": "Hexer are a blackened doom/sludge metal band from Germany, formed in 2014 with members also known from Imha Tarikat and Eyemaster. Their sound blends slow, heavy doom and sludge with black and death metal elements and occult themes, as heard on albums including Cosmic Doom Ritual (2017) and Abyssal (2023).",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Doom Metal",
+        "Sludge Metal"
+      ],
+      "country": "de",
+      "globalId": "hexer"
+    },
+    {
+      "id": "a11",
+      "name": "Tsatthoggua",
+      "imageUrl": "a11.jpg",
+      "description": "Tsatthoggua are a black/thrash metal band from Marl, Germany, formed in 1993 and named after a deity from H.P. Lovecraft's Cthulhu Mythos. Their 1996 debut Hosanna Bizarre, released on Osmose Productions, made them a cult act in the German extreme metal underground; the original lineup reunited in 2019 and released We Are God in 2024.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "tsatthoggua"
+    },
+    {
+      "id": "a12",
+      "name": "Chemicide",
+      "imageUrl": "a12.jpg",
+      "description": "Chemicide are a thrash metal band from San José, Costa Rica, formed in 2008 (initially as Conqueror) and drawing comparisons to Kreator, Destruction and Demolition Hammer. Signed to Listenable Records, they released their latest full-length, Violence Prevails, in 2025.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "cr",
+      "globalId": "chemicide"
+    },
+    {
+      "id": "a13",
+      "name": "Antipeewee",
+      "imageUrl": "a13.jpg",
+      "description": "Antipeewee are a thrash metal band from Abensberg, Bavaria, Germany, formed in 2006 and drawing on the tradition of 1980s German underground thrash. Signed to Slash Zero Records, their releases include Human Grill Party, Madness Unleashed and Infected by Evil, with lyrical themes spanning Cthulhu mythos, politics and partying.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "antipeewee"
+    },
+    {
+      "id": "a14",
+      "name": "Warfield",
+      "imageUrl": "a14.jpg",
+      "description": "Warfield is a German thrash metal band from Kaiserslautern, founded in 2012. The group plays fast-paced, catchy old-school thrash metal, channeling the genre's classic 1980s energy into tight, aggressive songwriting and an uncompromising, riff-driven live approach.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "warfield"
+    },
+    {
+      "id": "a15",
+      "name": "Paxtilence",
+      "imageUrl": "a15.jpg",
+      "description": "Paxtilence are a thrash metal band from Nuremberg, Germany, founded in 2011 to bring riff-driven, aggressive thrash inspired by Kreator and Megadeth to the local scene. They have released the Cyclotomic Warfare EP (2017) and the album Wildfire (2022), followed by a live release, Live in Höred (2026).",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "paxtilence"
+    },
+    {
+      "id": "a16",
+      "name": "Sirens",
+      "imageUrl": "a16.jpg",
+      "description": "Sirens are a two-piece heavy/speed/power metal band from Ansbach, Bavaria, Germany, active since 1995. Independent and self-releasing, their lyrics span fantasy and social themes, with their most recent full-length, In Goat We Trust, released in April 2025.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Heavy Metal",
+        "Speed Metal",
+        "Power Metal"
+      ],
+      "country": "de",
+      "globalId": "sirens"
+    },
+    {
+      "id": "a17",
+      "name": "Desaster",
+      "imageUrl": "a17.jpg",
+      "description": "Desaster are a German black/thrash metal band from Koblenz, formed in 1988 and active since 1989, taking their name from Destruction's song \"Total Desaster.\" Blending black, death and thrash influences drawn from Venom, Hellhammer and Mayhem, they have released ten studio albums on Metal Blade Records, including 2025's Kill All Idols.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Cancelled.",
+      "genres": [
+        "Black Metal",
+        "Thrash Metal"
+      ],
+      "country": "de",
+      "globalId": "desaster"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "artists": [
+        {
+          "id": "a1",
+          "description": "Destruction sind eine 1982 in Weil am Rhein gegründete deutsche Thrash-Metal-Band, angeführt von Bassist/Sänger Marcel „Schmier“ Schirmer und Gitarrist Mike Sifringer. Zusammen mit Kreator, Sodom und Tankard gelten sie als eine der „Big Four“ des teutonischen Thrash Metal, mit stilprägenden Alben wie „Infernal Overkill“ (1985) und „Release from Agony“ (1988)."
+        },
+        {
+          "id": "a2",
+          "description": "Carpathian Forest sind eine norwegische Black-Metal-Band, die Anfang der 1990er von Nattefrost und Nordavind unter dem Namen Enthrone gegründet wurde. Bekannt für ihre rohe, nihilistische Variante des klassischen skandinavischen Black Metal voller Satanismus, Menschenverachtung und schwarzem Humor, erlangten sie durch frühe Demos Kultstatus, bevor sie bei Avantgarde und später Season of Mist unterschrieben."
+        },
+        {
+          "id": "a3",
+          "description": "Reil of Violence ist ein im Dezember 2023 gegründetes deutsches Speed-/Thrash-Metal-Projekt von Kreator-Schlagzeuger Jürgen „Ventor“ Reil zusammen mit seinem Sohn Jerome und Tim Reil. Das generationsübergreifende Familienprojekt entstand aus einem Interview des Magazins Rock Hard, das Vater und Sohn erstmals auf die Idee brachte."
+        },
+        {
+          "id": "a4",
+          "description": "Exumer sind eine 1985 in Wiesbaden von Sänger/Bassist Mem V. Stein und Gitarrist Ray Mensh gegründete deutsche Thrash-Metal-Band. Ihr Debüt „Possessed by Fire“ (1986) wurde zum Underground-Klassiker; nach der Auflösung 1991 reaktivierte sich die Band 2008 und veröffentlicht weiterhin neues Material, darunter 2026 „Death Mask Messiah“ bei Metal Blade Records."
+        },
+        {
+          "id": "a5",
+          "description": "Urgehal sind eine 1992 in Hønefoss von Trondr Nefas und Enzifer gegründete norwegische Black-Metal-Band. Mit rohem, satanischem Black Metal in klassisch norwegischer Tradition veröffentlichten sie 1997 ihr Debüt „Arma Christi“ und mehrere weitere Alben, bevor sie sich 2016 auflösten; seither finden sich die Mitglieder gelegentlich für Livekonzerte wieder zusammen."
+        },
+        {
+          "id": "a6",
+          "description": "Mortem sind eine 1987 in Oslo von Marius Vold und Steinar Sverd Johnsen gegründete norwegische Extreme-Metal-Band und eine der frühesten Black-Metal-Formationen Norwegens. Ihr einflussreiches Demo „Slow Death“ wurde von Mayhem-Mitglied Euronymous produziert; nachdem Bandmitglieder später Arcturus und Thorns gründeten, reaktivierte sich die Band 2018 und veröffentlichte 2019 mit „Ravnsvart“ ein Album bei Peaceville Records, auf dem Mayhem-Schlagzeuger Hellhammer zu hören ist."
+        },
+        {
+          "id": "a7",
+          "description": "Warhammer sind eine 2012 von George Tsavdaridis und Hercules Giotis gegründete Black-/Death-Metal-Band aus Athen, Griechenland. Die Band begann als Thrash-Metal-Act, bevor sie sich ab dem 2021 erschienenen Album „Ashes and Cinders“ zu einem schwereren Black-/Death-Metal-Sound wandelte – ein Album, das auch Saxophon in ihren Live- und Studiosound einführte."
+        },
+        {
+          "id": "a8",
+          "description": "Graven sind eine 1999 aus der vorherigen Band Totenreich entstandene Black-Metal-Band aus Memmingen, Bayern. Bei Undercover Records unter Vertrag, drehen sich ihre Texte um Hass, Dunkelheit, Tod und Menschenverachtung, zu hören auf Alben wie „Perished and Forgotten“ (2002) und „The Shadows Eternal Call“ (2005)."
+        },
+        {
+          "id": "a9",
+          "description": "Norwegische Black-Metal-Band aus Oslo, 2003 gegründet von Musikern, die auch mit Carpathian Forest und Ragnarok verbunden sind. Der Name, was „schwarzer Weiher“ bedeutet, stammt von einem norwegischen Gemälde aus dem 19. Jahrhundert; die Band steht bei Soulseller Records unter Vertrag."
+        },
+        {
+          "id": "a10",
+          "description": "Hexer sind eine 2014 gegründete deutsche Blackened-Doom-/Sludge-Metal-Band mit Mitgliedern, die auch von Imha Tarikat und Eyemaster bekannt sind. Ihr Sound verbindet langsamen, schweren Doom und Sludge mit Black- und Death-Metal-Elementen sowie okkulten Themen, zu hören auf Alben wie „Cosmic Doom Ritual“ (2017) und „Abyssal“ (2023)."
+        },
+        {
+          "id": "a11",
+          "description": "Tsatthoggua sind eine 1993 gegründete Black-/Thrash-Metal-Band aus Marl, benannt nach einer Gottheit aus H. P. Lovecrafts Cthulhu-Mythos. Ihr 1996 bei Osmose Productions erschienenes Debüt „Hosanna Bizarre“ machte sie zu einem Kult-Act im deutschen Extreme-Metal-Underground; die Originalbesetzung fand sich 2019 wieder zusammen und veröffentlichte 2024 „We Are God“."
+        },
+        {
+          "id": "a12",
+          "description": "Chemicide sind eine 2008 in San José, Costa Rica, gegründete Thrash-Metal-Band (zunächst unter dem Namen Conqueror), die oft mit Kreator, Destruction und Demolition Hammer verglichen wird. Bei Listenable Records unter Vertrag, veröffentlichten sie 2025 ihr aktuelles Album „Violence Prevails“."
+        },
+        {
+          "id": "a13",
+          "description": "Antipeewee sind eine 2006 gegründete Thrash-Metal-Band aus Abensberg, Bayern, die an die Tradition des deutschen Underground-Thrash der 1980er anknüpft. Bei Slash Zero Records unter Vertrag, zählen zu ihren Veröffentlichungen „Human Grill Party“, „Madness Unleashed“ und „Infected by Evil“, mit Texten zwischen Cthulhu-Mythos, Politik und Party."
+        },
+        {
+          "id": "a14",
+          "description": "Warfield ist eine 2012 gegründete deutsche Thrash-Metal-Band aus Kaiserslautern. Die Gruppe spielt schnellen, eingängigen Old-School-Thrash-Metal und überträgt die klassische Energie der 1980er in kompaktes, aggressives Songwriting und einen kompromisslosen, riffgetriebenen Live-Auftritt."
+        },
+        {
+          "id": "a15",
+          "description": "Paxtilence sind eine 2011 in Nürnberg gegründete Thrash-Metal-Band, die riffgetriebenen, aggressiven Thrash im Geiste von Kreator und Megadeth in die lokale Szene bringen wollte. Sie veröffentlichten die EP „Cyclotomic Warfare“ (2017) und das Album „Wildfire“ (2022), gefolgt von der Live-Veröffentlichung „Live in Höred“ (2026)."
+        },
+        {
+          "id": "a16",
+          "description": "Sirens sind ein seit 1995 aktives Heavy-/Speed-/Power-Metal-Duo aus Ansbach, Bayern. Unabhängig und im Eigenvertrieb behandeln ihre Texte Fantasy- und Gesellschaftsthemen; ihr aktuelles Album „In Goat We Trust“ erschien im April 2025."
+        },
+        {
+          "id": "a17",
+          "description": "Desaster sind eine 1988 gegründete und seit 1989 aktive deutsche Black-/Thrash-Metal-Band aus Koblenz, deren Name auf den Destruction-Song „Total Desaster“ zurückgeht. Mit Einflüssen von Venom, Hellhammer und Mayhem verbinden sie Black-, Death- und Thrash-Metal-Elemente und veröffentlichten zehn Studioalben bei Metal Blade Records, darunter 2025 „Kill All Idols“.",
+          "annotation": "Abgesagt."
+        }
+      ],
+      "links": [
+        {
+          "id": "l1",
+          "label": "Webseite"
+        },
+        {
+          "id": "l2",
+          "label": "Tickets"
+        }
+      ]
+    }
+  ]
+}
