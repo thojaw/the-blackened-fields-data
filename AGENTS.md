@@ -31,6 +31,18 @@ The full festival dataset for that year, matching the schema below.
 ### Optional: media files
 Images referenced by `imageUrl` may live alongside `festival.json` in the same `festival name/year` folder (referenced by relative filename) or point to an externally hosted URL.
 
+**Locally-hosted images and the `imageFocus` naming convention:** for a
+locally-hosted image, `imageUrl`/`imageFocus` don't need to be hand-edited —
+name the file `<id>.<ext>` (default, top-anchored crop), `<id>-c.<ext>`
+(center-anchored) or `<id>-b.<ext>` (bottom-anchored), and run
+`scripts/resolve-image-focus.py --write` (or let CI do it — see below) to
+fill in both fields from whichever variant exists on disk. This only
+applies to local files; an externally hosted `imageUrl` is left untouched
+and `imageFocus` must be set by hand for those. See `scripts/resolve-image-focus.py`'s
+docstring for the full rules (ambiguous/missing file detection, etc.) and
+`imageFocus` in the Artist shape below for what the field itself does
+client-side.
+
 ## Schema and further information
 
 ### Artist / Event data shape (conceptual)
@@ -44,6 +56,9 @@ Artist {
   country?  -- ISO 3166-1 alpha-2 code, lowercase, e.g. "us", "de"; resolved to a display name client-side
   replacedArtistId?  -- Artist.id of a cancelled artist whose slot this artist has taken over
   globalId?  -- artists.json id giving this show a cross-festival identity; see "Artist registry" below
+  imageFocus?  -- "top" (default) | "center" | "bottom"; vertical anchor client apps use when
+               -- cropping imageUrl into a wider box. For a locally-hosted image, set this via
+               -- the filename convention (see "Optional: media files" above) rather than by hand.
 }
 
 Event {

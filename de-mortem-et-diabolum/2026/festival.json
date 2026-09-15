@@ -184,7 +184,7 @@
     {
       "id": "a12",
       "name": "Schammasch",
-      "imageUrl": "a12.jpg",
+      "imageUrl": "a12-c.jpg",
       "description": "Avant-garde black metal band from Basel, Switzerland, formed in 2009 and named after the Mesopotamian sun god Šamaš. Schammasch combine black metal with doom and Hermetic mysticism across albums such as Triangle (2016) and Hearts of No Light (2019).",
       "dayDate": "2026-12-05",
       "startTime": null,
@@ -195,7 +195,8 @@
         "Doom Metal"
       ],
       "country": "ch",
-      "globalId": "schammasch"
+      "globalId": "schammasch",
+      "imageFocus": "center"
     },
     {
       "id": "a13",
