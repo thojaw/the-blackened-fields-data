@@ -77,6 +77,19 @@ Foo Fest 2028 lineup just dropped, add it."
    (`en`/`de`) is the default output of this skill, not an opt-in; only skip
    it if the user explicitly says English-only.
 
+   **Before moving on, verify coverage is actually complete, don't just
+   assume it from having written some translations:** count the artists in
+   your spec's `artists[]` against the `id`s present in
+   `translations[].find(t => t.lang === "de").artists[]` — every single
+   artist needs a German entry, including the cancelled one if there is one
+   (its `annotation` needs translating too, e.g. `"Cancelled."` →
+   `"Abgesagt."`). Do the same for any `news`/`events` items and for any
+   untyped (`type` absent) `links[]` entries, whose `label` is user-visible
+   text. This is a real gap to actively check for, not a formality — it is
+   easy to translate the artists you wrote bios for in one batch and forget
+   one added later (e.g. a cancelled act, or one resolved from
+   `needsManualReview`).
+
 6. **Always set `visible: false`** when creating a new festival, regardless
    of how complete the lineup looks. This is deliberate, not a fallback for
    incomplete lineups: it lets developers review the intake in-app before it
@@ -151,8 +164,13 @@ Foo Fest 2028 lineup just dropped, add it."
     added — artist list, translation coverage, Spotify link coverage (and
     any artist left without one), the `visible: false` review-pending state,
     what's still pending (e.g. unresolved images), any `needsManualReview`
-    items you handled or left open. Don't ask permission for the PR itself;
-    opening a PR (not merging) is the expected end state of this workflow.
+    items you handled or left open. Re-run the coverage check from step 5
+    one last time against the final written `festival.json` (not your
+    in-memory spec) before writing this summary — that's the version that
+    actually ships, and it may have gained artists (from
+    `needsManualReview` fixes) since you last checked. Don't ask permission
+    for the PR itself; opening a PR (not merging) is the expected end state
+    of this workflow.
 
 ## Mode 2: Update an already-added festival
 
