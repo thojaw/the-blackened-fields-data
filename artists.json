@@ -2629,5 +2629,182 @@
         "type": "spotify"
       }
     ]
+  },
+  {
+    "id": "a-forest-of-stars",
+    "name": "A Forest Of Stars",
+    "description": "English avant-garde black metal band from Leeds, formed in 2007. Their sound blends black metal with folk, art rock and psychedelic elements, and the band has released albums including The Corpse of Rebirth and Beware the Sword You Cannot See.",
+    "genres": [
+      "Avant-garde Black Metal",
+      "Progressive Black Metal"
+    ],
+    "country": "gb"
+  },
+  {
+    "id": "deathless-void",
+    "name": "Deathless Void",
+    "description": "Death/black metal band from Amsterdam, Netherlands, signed to Iron Bonehead Productions. The band debuted with a self-titled EP in 2022 and released the full-length The Voluptuous Fire of Sin in 2024.",
+    "genres": [
+      "Black Metal",
+      "Death Metal"
+    ],
+    "country": "nl"
+  },
+  {
+    "id": "merrimack",
+    "name": "Merrimack",
+    "description": "Black metal band from Paris, France, formed in 1994 by guitarist Amfortas. Merrimack were among the first black metal bands to perform in Paris and have released albums including Of Entropy and Life Denial (2006) and Of Grace and Gravity (2024).",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "fr"
+  },
+  {
+    "id": "nemorous",
+    "name": "Nemorous",
+    "description": "Atmospheric black metal band from North East England, formed in 2018 by former members of Wodensthrone. Signed to Bindrune Recordings, Nemorous released their self-titled debut in 2021 and What Remains When Hope Has Failed in 2025.",
+    "genres": [
+      "Atmospheric Black Metal"
+    ],
+    "country": "gb"
+  },
+  {
+    "id": "nexion",
+    "name": "Nexion",
+    "description": "Black/death metal band from Reykjavík, Iceland, formed in 2016 and signed to Avantgarde Music. Nexion's lineup includes musicians formerly of Svartidauði and Sólstafir, and their releases include Seven Oracles (2020) and Sundrung (2025).",
+    "genres": [
+      "Black Metal",
+      "Death Metal"
+    ],
+    "country": "is"
+  },
+  {
+    "id": "panzerfaust",
+    "name": "Panzerfaust",
+    "description": "Black metal band from Mississauga, Ontario, Canada, formed in 2005. Panzerfaust have released albums including Jehovah-Jireh: The Divine Anti-logos (2013) and The Suns of Perdition series, and toured with acts such as Marduk and Slayer.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "ca"
+  },
+  {
+    "id": "bolzer",
+    "name": "Bölzer",
+    "description": "Extreme metal duo from Zürich, Switzerland, formed in 2008 by Okoi Jones and Fabian Wyrsch. Bölzer's acclaimed early EPs and their 2016 debut album Hero blend black and death metal with unconventional song structures.",
+    "genres": [
+      "Black Metal",
+      "Death Metal"
+    ],
+    "country": "ch"
+  },
+  {
+    "id": "horn",
+    "name": "Horn",
+    "description": "One-man black metal project from Paderborn, Germany, active since 2002. Led by Nerrath (Niklas Thiele), Horn combines a classicist, nature-themed black metal style with pagan and folkloric lyrical themes across albums such as Turm am Hang.",
+    "genres": [
+      "Black Metal",
+      "Pagan Black Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "schammasch",
+    "name": "Schammasch",
+    "description": "Avant-garde black metal band from Basel, Switzerland, formed in 2009 and named after the Mesopotamian sun god Šamaš. Schammasch combine black metal with doom and Hermetic mysticism across albums such as Triangle (2016) and Hearts of No Light (2019).",
+    "genres": [
+      "Avant-garde Black Metal",
+      "Doom Metal"
+    ],
+    "country": "ch"
+  },
+  {
+    "id": "phosphorus",
+    "name": "Phosphorus",
+    "description": "Blackened post-metal band from Sankt Wendel in south-west Germany. The current line-up features Aaron Feller, Florian Schütz, Aline Emge and Lukas Scherer, and the band released its debut album Frail Grasp of Broken Hands in 2025.",
+    "genres": [
+      "Blackened Post Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "sumerian-tombs",
+    "name": "Sumerian Tombs",
+    "description": "Black metal band from Cologne, Germany, formed in 2020, playing what they describe as epic vampyric black metal drawing on Sumerian mythology. Signed to Ván Records, Sumerian Tombs released their self-titled debut in 2022 and Age of Eternal Night in 2025.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "the-spirit",
+    "name": "The Spirit",
+    "description": "Black/death metal band from Saarbrücken, Germany, formed in 2015 around Matthias Trautes and drummer Manuel Steitz (ex-Agathodaimon). The Spirit are signed to AOP Records and released Songs Against Humanity in 2024.",
+    "genres": [
+      "Black Metal",
+      "Death Metal"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "darvaza",
+    "name": "Darvaza",
+    "description": "International black metal project formed in 2015 by Italian multi-instrumentalist Omega and Norwegian vocalist Wraath (Tsjuder). Their raw, hypnotic sound has been released via Terratur Possessions, culminating in the 2022 album Ascending Into Perdition.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "it",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/3bLPyQrEBC1SClEcf6kZ3n",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "detresse",
+    "name": "Détresse",
+    "description": "Black metal band formed in 2023 as a collaboration between musicians from Austria and Québec, Canada. Détresse released their debut album Pessimismes in 2025 via Vendetta Records.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "at",
+    "links": [
+      {
+        "label": "Bandcamp",
+        "url": "https://detresse.bandcamp.com/",
+        "type": "bandcamp"
+      }
+    ]
+  },
+  {
+    "id": "helleruin",
+    "name": "Helleruin",
+    "description": "One-man black metal project from Groningen, Netherlands, active since 2015. Written and performed entirely by Niels Kuiper (Carchost), Helleruin's albums include War Upon Man (2021) and Devils, Death and Dark Arts (2023).",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "nl",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/4ONdkGpDaHJFwBRe7dQxMd",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "the-great-sea",
+    "name": "The Great Sea",
+    "description": "Black metal duo from North Rhine-Westphalia, Germany, formed in 2022 by J.R. (Long Distance Calling) and S.H. (Ordeal & Plight). The Great Sea released their debut album Noble Art of Desolation via AOP Records in 2025.",
+    "genres": [
+      "Black Metal",
+      "Post-Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/4SU4VdVYg9cDUbUUxTDH1z",
+        "type": "spotify"
+      }
+    ]
   }
 ]
