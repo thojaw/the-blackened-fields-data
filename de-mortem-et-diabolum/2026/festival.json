@@ -121,7 +121,7 @@
     {
       "id": "a8",
       "name": "Nexion",
-      "imageUrl": "a8.jpg",
+      "imageUrl": "a8-c.jpg",
       "description": "Black/death metal band from Reykjavík, Iceland, formed in 2016 and signed to Avantgarde Music. Nexion's lineup includes musicians formerly of Svartidauði and Sólstafir, and their releases include Seven Oracles (2020) and Sundrung (2025).",
       "dayDate": "2026-12-04",
       "startTime": null,
@@ -132,7 +132,8 @@
         "Death Metal"
       ],
       "country": "is",
-      "globalId": "nexion"
+      "globalId": "nexion",
+      "imageFocus": "center"
     },
     {
       "id": "a9",
