@@ -28,7 +28,7 @@ ARTISTS_JSON = os.path.join(REPO_ROOT, "artists.json")
 
 ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 COUNTRY_PATTERN = re.compile(r"^[a-z]{2}$")
-ALLOWED_FIELDS = {"id", "name", "description", "genres", "country", "links"}
+ALLOWED_FIELDS = {"id", "name", "description", "genres", "country", "links", "popularity"}
 LINK_TYPES = {
     "web", "facebook", "x", "youtube", "instagram", "spotify",
     "deezer", "bandcamp", "applemusic", "soundcloud", "tiktok",
@@ -91,6 +91,12 @@ def validate_registry():
         description = entry.get("description")
         if description is not None and not isinstance(description, str):
             errors.append(f"{where}: description must be a string")
+
+        popularity = entry.get("popularity")
+        if popularity is not None:
+            # isinstance(True, int) is True in Python, so exclude bool explicitly.
+            if isinstance(popularity, bool) or not isinstance(popularity, int) or not (1 <= popularity <= 10):
+                errors.append(f"{where}: popularity '{popularity}' must be an integer 1-10")
 
         links = entry.get("links")
         if links is not None:

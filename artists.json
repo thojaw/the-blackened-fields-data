@@ -8,13 +8,15 @@
       "Metal",
       "Hardcore Punk"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "die-habenichtse",
     "name": "Die Habenichtse",
     "description": "Die Habenichtse are a German folk-rock band from Hannover, formed in 2011 by musicians with roots in the LARP and medieval-music scene as well as hardcore and punk. Known for acoustic, party-driven \"vagabond folk\" with German lyrics, they mix boisterous celebration with melancholic depth, as heard on albums like Schmierentheater.",
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "motorjesus",
@@ -25,7 +27,8 @@
       "Heavy Metal",
       "Stoner Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "hackneyed",
@@ -34,7 +37,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "excrementory-grindfuckers",
@@ -44,7 +48,8 @@
       "Grindcore",
       "Parody"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "betontod",
@@ -53,7 +58,8 @@
     "genres": [
       "Punk Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "airbourne",
@@ -64,7 +70,8 @@
       "Rock",
       "Heavy Metal"
     ],
-    "country": "au"
+    "country": "au",
+    "popularity": 8
   },
   {
     "id": "in-flames",
@@ -74,7 +81,8 @@
       "Melodic Death Metal",
       "Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 9
   },
   {
     "id": "hatebreed",
@@ -85,7 +93,8 @@
       "Metalcore",
       "Beatdown Hardcore"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 8
   },
   {
     "id": "alcest",
@@ -96,19 +105,22 @@
       "Shoegaze",
       "Post-Metal"
     ],
-    "country": "fr"
+    "country": "fr",
+    "popularity": 7
   },
   {
     "id": "blasmusik-illenschwang",
     "name": "Blasmusik Illenschwang",
     "description": "Blasmusik Illenschwang is a traditional Bavarian brass band from Wittelshofen known for an unexpected twist: performing heavy metal and rock anthems in classic oompah brass-band arrangements. The novelty act has won over metal audiences with its tongue-in-cheek reinterpretations of genre staples on tuba, trumpet and clarinet.",
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "neckbreakker",
     "name": "Neckbreakker",
     "description": "Neckbreakker is a Danish death metal band formed in Silkeborg in 2020, quickly rising to prominence with a modern take on classic Scandinavian death metal fused with hardcore-influenced grooves. Signed to Nuclear Blast, their debut album Within the Viscera showcases their blistering, crushing sound.",
-    "country": "dk"
+    "country": "dk",
+    "popularity": 4
   },
   {
     "id": "the-narrator",
@@ -117,7 +129,8 @@
     "genres": [
       "Indie Rock"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 5
   },
   {
     "id": "green-lung",
@@ -128,7 +141,8 @@
       "Psychedelic Rock",
       "Occult Rock"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 6
   },
   {
     "id": "paradise-lost",
@@ -139,7 +153,8 @@
       "Doom Metal",
       "Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 8
   },
   {
     "id": "eivor",
@@ -149,25 +164,29 @@
       "Singer-Songwriter",
       "Jazz"
     ],
-    "country": "fo"
+    "country": "fo",
+    "popularity": 5
   },
   {
     "id": "miracle-of-sound",
     "name": "Miracle Of Sound",
     "description": "Miracle of Sound is a project led by Irish musician Gavin Dunne, known for atmospheric, melodic rock and folk-tinged songs inspired by video games, films and pop culture. Since the early 2010s, the solo artist has built a large online following through richly produced, narrative-driven original compositions.",
-    "country": "ie"
+    "country": "ie",
+    "popularity": 7
   },
   {
     "id": "persecutor",
     "name": "Persecutor",
     "description": "Persecutor is a Danish thrash metal band formed in 2018, known for fast, aggressive riffing paired with melodic hooks that define the modern neo-thrash sound. Albums including Rebirth, Vendetta and Casualties of Violence have established the band among Denmark's leading contemporary thrash acts.",
-    "country": "dk"
+    "country": "dk",
+    "popularity": 3
   },
   {
     "id": "king-nugget-gang",
     "name": "King Nugget Gang",
     "description": "King Nugget Gang is a German band from Gönnheim, active since 2016, known for an irreverent crossover style blending trap-influenced beats, heavy riffs and playful, food-obsessed lyrical themes. The group has built a devoted following through high-energy live shows and a distinctly offbeat identity.",
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "inhuman-nature",
@@ -177,7 +196,8 @@
       "Thrash Metal",
       "Crossover Thrash"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 4
   },
   {
     "id": "urne",
@@ -188,7 +208,8 @@
       "Metalcore",
       "Sludge Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 4
   },
   {
     "id": "castle-rat",
@@ -199,7 +220,8 @@
       "Metal",
       "Heavy Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "can-bardd",
@@ -210,19 +232,22 @@
       "Black Metal",
       "Folk Metal"
     ],
-    "country": "ch"
+    "country": "ch",
+    "popularity": 4
   },
   {
     "id": "802",
     "name": "802",
     "description": "802 is a Danish outfit blending heavy metal aesthetics with synthpop hooks, formed when producer Andreas Asingh joined forces with musicians from the Djursland metal underground. Since their 2023 debut single, the band has drawn attention for their genre-crossing mix of distortion, melody and electronic production.",
-    "country": "dk"
+    "country": "dk",
+    "popularity": 2
   },
   {
     "id": "born-hanged",
     "name": "Born Hanged",
     "description": "Born Hanged is a German band from Karlsruhe formed in 2018, blending death metal brutality with hardcore punk aggression into a mosh-ready, riff-heavy sound. Signed to Death Farm Records, the band explores dark themes of nihilism and violence across releases including the album Left to Rot.",
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "dethroned",
@@ -232,7 +257,8 @@
       "Death Metal",
       "Melodic Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "backstabbed",
@@ -241,19 +267,22 @@
     "genres": [
       "Hardcore Punk"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "ochmoneks",
     "name": "Ochmoneks",
     "description": "Ochmoneks is a German punk rock band from Düsseldorf, formed in 2015, known for energetic, German-language punk and rock anthems dealing with friendship, love and everyday life. The band has released multiple studio albums and earned recognition at the German Rock & Pop Prize for its melodic, stadium-ready sound.",
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "waves-like-walls",
     "name": "Waves Like Walls",
     "description": "Waves Like Walls is a five-piece hardcore and metal band formed in 2012 in Ingolstadt, Germany, known for raw, aggressive songwriting built on fast riffs and crushing breakdowns. The group blends confrontational hardcore punk intensity with melodic hooks, delivering an emotionally charged, high-energy sound.",
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "thormesis",
@@ -264,13 +293,15 @@
       "Rock",
       "Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "our-promise",
     "name": "Our Promise",
     "description": "Our Promise is a German metalcore sextet formed in Stuttgart in late 2020, known for a blistering twin-vocalist assault that fuses metalcore, hardcore and pop-punk melodies. Since their 2021 EP Unbreakable, the band has built a rapidly growing fanbase through anthemic, high-energy songwriting.",
-    "country": "de"
+    "country": "de",
+    "popularity": 6
   },
   {
     "id": "from-fall-to-spring",
@@ -281,7 +312,8 @@
       "Metalcore",
       "Nu Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "alien-ant-farm",
@@ -292,7 +324,8 @@
       "Rock",
       "Nu Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 9
   },
   {
     "id": "northlane",
@@ -303,7 +336,8 @@
       "Industrial Metal",
       "Djent"
     ],
-    "country": "au"
+    "country": "au",
+    "popularity": 7
   },
   {
     "id": "kim-dracula",
@@ -314,7 +348,8 @@
       "Metal",
       "Screamo"
     ],
-    "country": "au"
+    "country": "au",
+    "popularity": 7
   },
   {
     "id": "imminence",
@@ -324,7 +359,8 @@
       "Metalcore",
       "Post-Hardcore"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 7
   },
   {
     "id": "saxon",
@@ -334,7 +370,8 @@
       "Heavy Metal",
       "NWOBHM"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 8
   },
   {
     "id": "eisbrecher",
@@ -344,7 +381,8 @@
       "Neue Deutsche Härte",
       "Industrial Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 7
   },
   {
     "id": "amorphis",
@@ -355,7 +393,8 @@
       "Melodic Death Metal",
       "Death Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 8
   },
   {
     "id": "dartagnan",
@@ -364,7 +403,8 @@
     "genres": [
       "Folk Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "fulci",
@@ -374,13 +414,15 @@
       "Death Metal",
       "Brutal Death Metal"
     ],
-    "country": "it"
+    "country": "it",
+    "popularity": 6
   },
   {
     "id": "massive-wagons",
     "name": "Massive Wagons",
     "description": "Massive Wagons are an English rock band formed in Lancaster in 2009, blending hard rock energy with hooky, working-class songwriting reminiscent of the New Wave of Classic Rock. Fronted by Barry Mills, albums including Full Nelson, Triggered, and the chart-topping Earth to Grace built a devoted UK following.",
-    "country": "gb"
+    "country": "gb",
+    "popularity": 5
   },
   {
     "id": "grand-magus",
@@ -391,7 +433,8 @@
       "Doom Metal",
       "Stoner Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 6
   },
   {
     "id": "deserted-fear",
@@ -400,7 +443,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "trollfest",
@@ -409,12 +453,14 @@
     "genres": [
       "Folk Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 6
   },
   {
     "id": "surprise-show",
     "name": "Surprise Show",
-    "description": "This slot is reserved for a surprise guest act, to be revealed closer to the date. Details of the performer and their musical style remain under wraps for now, promising an element of mystery and anticipation for attendees looking forward to the unannounced performance."
+    "description": "This slot is reserved for a surprise guest act, to be revealed closer to the date. Details of the performer and their musical style remain under wraps for now, promising an element of mystery and anticipation for attendees looking forward to the unannounced performance.",
+    "popularity": 1
   },
   {
     "id": "fit-for-an-autopsy",
@@ -425,7 +471,8 @@
       "Deathgrind",
       "Brutal Death Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "mushroomhead",
@@ -436,7 +483,8 @@
       "Industrial Metal",
       "Industrial"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 8
   },
   {
     "id": "blackbraid",
@@ -447,7 +495,8 @@
       "Black Metal",
       "Melodic Black Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 5
   },
   {
     "id": "saor",
@@ -458,13 +507,15 @@
       "Black Metal",
       "Folk Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 5
   },
   {
     "id": "fireborn",
     "name": "Fireborn",
     "description": "Fireborn is a German hard rock band fronted by vocalist Jenny, blending the energy of modern American hard rock with the soul of classic rock. Formerly known as Dislike Silence, the group released its debut album Reflections in 2023, followed by Dreamcatcher in 2026.",
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "broken-by-the-scream",
@@ -475,7 +526,8 @@
       "Metalcore",
       "J-Pop"
     ],
-    "country": "jp"
+    "country": "jp",
+    "popularity": 5
   },
   {
     "id": "stam1na",
@@ -486,7 +538,8 @@
       "Progressive Metal",
       "Thrash Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 6
   },
   {
     "id": "rectal-smegma",
@@ -495,7 +548,8 @@
     "genres": [
       "Goregrind"
     ],
-    "country": "nl"
+    "country": "nl",
+    "popularity": 5
   },
   {
     "id": "filth",
@@ -504,7 +558,8 @@
     "genres": [
       "Deathcore"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "mittel-alta",
@@ -515,7 +570,8 @@
       "Hip Hop",
       "Comedy"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "cryptopsy",
@@ -526,7 +582,8 @@
       "Brutal Death Metal",
       "Death Metal"
     ],
-    "country": "ca"
+    "country": "ca",
+    "popularity": 7
   },
   {
     "id": "groza",
@@ -536,25 +593,29 @@
       "Black Metal",
       "Melodic Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "hindarfjall",
     "name": "Hindarfjäll",
     "description": "Hindarfjäll are a Swedish folk project founded in Gothenburg in 2015, blending ancient Nordic instrumentation and chant with contemporary heaviness to explore Norse mythology and nature. Their atmospheric, myth-steeped sound, heard on releases like Från Tidernas Begynnelse, channels Viking-era spirituality into a modern folk framework.",
-    "country": "se"
+    "country": "se",
+    "popularity": 4
   },
   {
     "id": "kllsignl",
     "name": "Kllsignl",
     "description": "Kllsignl is a dark electro-trap project from Munich, Germany, crafting unsettling, atmospheric music themed around sleep paralysis, intrusive thoughts, and nocturnal dread. Blending trap production with industrial and electronic textures, the project's eerie soundscapes occupy a dark, boundary-blurring space between electronic and heavy music.",
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "serpents",
     "name": "Serpents",
     "description": "Serpents is a Polish act specializing in electronically refined, modern metal, pairing programmed textures and synth elements with hard-hitting, danceable riffs. The project blends heavy guitar work with electronic production for an energetic, contemporary sound suited to both headbanging and dance-floor movement.",
-    "country": "pl"
+    "country": "pl",
+    "popularity": 4
   },
   {
     "id": "i-am-your-god",
@@ -563,7 +624,8 @@
     "genres": [
       "Melodic Death Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 4
   },
   {
     "id": "aesthetic-perfection",
@@ -574,19 +636,22 @@
       "EBM",
       "Industrial"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "warfield",
     "name": "Warfield",
     "description": "Warfield is a German thrash metal band from Kaiserslautern, founded in 2012. The group plays fast-paced, catchy old-school thrash metal, channeling the genre's classic 1980s energy into tight, aggressive songwriting and an uncompromising, riff-driven live approach.",
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "katerfahrt",
     "name": "Katerfahrt",
     "description": "Katerfahrt are a German pirate folk band known for blending sea shanties, folk melodies and humorous, tongue-in-cheek lyrics into an energetic live show. Taking their audience on a musical voyage to the high seas, they combine catchy songwriting with a playful, larger-than-life stage persona rooted in nautical themes.",
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "nanowar-of-steel",
@@ -597,7 +662,8 @@
       "Metal",
       "Power Metal"
     ],
-    "country": "it"
+    "country": "it",
+    "popularity": 6
   },
   {
     "id": "das-lumpenpack",
@@ -606,7 +672,8 @@
     "genres": [
       "Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "future-palace",
@@ -617,7 +684,8 @@
       "Alternative Rock",
       "Post-Hardcore"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 6
   },
   {
     "id": "brothers-of-metal",
@@ -626,7 +694,8 @@
     "genres": [
       "Power Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 6
   },
   {
     "id": "the-butcher-sisters",
@@ -636,7 +705,8 @@
       "Rap Metal",
       "Hip Hop"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "the-ghost-inside",
@@ -646,7 +716,8 @@
       "Metalcore",
       "Melodic Hardcore"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 7
   },
   {
     "id": "lamb-of-god",
@@ -657,7 +728,8 @@
       "Groove Metal",
       "Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 9
   },
   {
     "id": "arch-enemy",
@@ -668,7 +740,8 @@
       "Death Metal",
       "Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 8
   },
   {
     "id": "versengold",
@@ -679,7 +752,8 @@
       "Folk Rock",
       "Folk"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "skindred",
@@ -690,7 +764,8 @@
       "Rap Rock",
       "Rapcore"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 8
   },
   {
     "id": "setyoursails",
@@ -701,7 +776,8 @@
       "Metalcore",
       "Melodic Hardcore"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "brainstorm",
@@ -710,7 +786,8 @@
     "genres": [
       "Power Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 7
   },
   {
     "id": "misery-index",
@@ -721,7 +798,8 @@
       "Metal",
       "Grindcore"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "speed",
@@ -732,7 +810,8 @@
       "Girl Group",
       "Dance-Pop"
     ],
-    "country": "jp"
+    "country": "jp",
+    "popularity": 7
   },
   {
     "id": "unprocessed",
@@ -743,7 +822,8 @@
       "Metal",
       "Djent"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 6
   },
   {
     "id": "deicide",
@@ -752,7 +832,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 7
   },
   {
     "id": "terror",
@@ -763,7 +844,8 @@
       "Hardcore",
       "Beatdown Hardcore"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 7
   },
   {
     "id": "der-weg-einer-freiheit",
@@ -773,7 +855,8 @@
       "Black Metal",
       "Atmospheric Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "deafheaven",
@@ -784,7 +867,8 @@
       "Shoegaze",
       "Post-Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 8
   },
   {
     "id": "wolves-in-the-throne-room",
@@ -795,7 +879,8 @@
       "Black Metal",
       "Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 7
   },
   {
     "id": "zerre",
@@ -804,18 +889,21 @@
     "genres": [
       "Thrash Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "pridian",
     "name": "Pridian",
-    "description": "Pridian are a modern metal band from Tartu, Estonia, formed in 2018. Fusing fast, polyrhythmic grooves with massive, cinematic electronic elements, the band delivers an energetic and futuristic take on metalcore, drawing comparisons to genre-leading acts and building momentum through singles like \"Hive Mind\"."
+    "description": "Pridian are a modern metal band from Tartu, Estonia, formed in 2018. Fusing fast, polyrhythmic grooves with massive, cinematic electronic elements, the band delivers an energetic and futuristic take on metalcore, drawing comparisons to genre-leading acts and building momentum through singles like \"Hive Mind\".",
+    "popularity": 3
   },
   {
     "id": "luna-kills",
     "name": "Luna Kills",
     "description": "Luna Kills are a Finnish band formed in 2019, blending alternative and nu-metal influences with electronic textures inspired by video game soundtracks. Known for heavy riffs paired with catchy, emotionally resonant melodies, the band made their mark with their debut full-length album \"Deathmatch\".",
-    "country": "fi"
+    "country": "fi",
+    "popularity": 4
   },
   {
     "id": "brymir",
@@ -826,7 +914,8 @@
       "Folk Metal",
       "Melodic Death Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 5
   },
   {
     "id": "erdling",
@@ -835,7 +924,8 @@
     "genres": [
       "Neue Deutsche Härte"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "blood-command",
@@ -846,7 +936,8 @@
       "Punk",
       "Punk Rock"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 6
   },
   {
     "id": "illdisposed",
@@ -857,7 +948,8 @@
       "Melodic Death Metal",
       "Groove Metal"
     ],
-    "country": "dk"
+    "country": "dk",
+    "popularity": 6
   },
   {
     "id": "ten56",
@@ -868,7 +960,8 @@
       "Deathcore",
       "Metalcore"
     ],
-    "country": "fr"
+    "country": "fr",
+    "popularity": 6
   },
   {
     "id": "bizarrekult",
@@ -877,7 +970,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "ru"
+    "country": "ru",
+    "popularity": 4
   },
   {
     "id": "sun-eater",
@@ -887,19 +981,22 @@
       "Stoner Rock",
       "Psychedelic Rock"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 4
   },
   {
     "id": "avalanche-effect",
     "name": "Avalanche Effect",
     "description": "Avalanche Effect is a German metalcore band from Münster, known for exciting, modern metalcore that balances sing-along hooks with mosh-ready heaviness. The band's material, including the album Letters To My Future Self, showcases a contemporary, melodic take on the genre.",
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "heaven-exe",
     "name": "Heaven.exe",
     "description": "Heaven.exe is a Berlin-based act fusing raw, modern metal aggression with the cold, mechanical pulse of the city's techno and industrial electro underground. Drawing on Berlin's club culture, the project blends heaviness with hypnotic, machine-driven electronic textures.",
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "minus-youth",
@@ -908,7 +1005,8 @@
     "genres": [
       "Hardcore"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "perchta",
@@ -918,7 +1016,8 @@
       "Folk Metal",
       "Black Metal"
     ],
-    "country": "at"
+    "country": "at",
+    "popularity": 3
   },
   {
     "id": "vulvarine",
@@ -929,7 +1028,8 @@
       "Heavy Metal",
       "Punk Rock"
     ],
-    "country": "at"
+    "country": "at",
+    "popularity": 3
   },
   {
     "id": "heavysaurus",
@@ -939,7 +1039,8 @@
       "Children",
       "Heavy Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "parasite-inc",
@@ -949,13 +1050,15 @@
       "Melodic Death Metal",
       "Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "the-sons-of-huens",
     "name": "The Sons Of Huens",
     "description": "The Sons Of Huens are a German rock band from Mehnersmoos, known for a chaotic, irreverent approach that throws genre conventions aside in favor of irony and good-humored energy. The young act brings a circus-like unpredictability to its guitar-driven rock sound.",
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "kadavar",
@@ -966,7 +1069,8 @@
       "Stoner Rock",
       "Heavy Psych"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 6
   },
   {
     "id": "orbit-culture",
@@ -977,7 +1081,8 @@
       "Groove Metal",
       "Death Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 6
   },
   {
     "id": "testament",
@@ -988,7 +1093,8 @@
       "Metal",
       "Heavy Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 8
   },
   {
     "id": "alestorm",
@@ -999,7 +1105,8 @@
       "Power Metal",
       "Pirate Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 7
   },
   {
     "id": "helloween",
@@ -1010,7 +1117,8 @@
       "Heavy Metal",
       "Speed Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 8
   },
   {
     "id": "thy-art-is-murder",
@@ -1020,7 +1128,8 @@
       "Deathcore",
       "Hardcore"
     ],
-    "country": "au"
+    "country": "au",
+    "popularity": 7
   },
   {
     "id": "soulbound",
@@ -1031,7 +1140,8 @@
       "Gothic Metal",
       "Metalcore"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "sanguisugabogg",
@@ -1042,7 +1152,8 @@
       "Metal",
       "Brutal Death Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "bloodred-hourglass",
@@ -1053,7 +1164,8 @@
       "Thrash Metal",
       "Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 5
   },
   {
     "id": "municipal-waste",
@@ -1064,7 +1176,8 @@
       "Crossover Thrash",
       "Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 7
   },
   {
     "id": "thundermother",
@@ -1074,7 +1187,8 @@
       "Hard Rock",
       "Heavy Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 6
   },
   {
     "id": "decapitated",
@@ -1085,7 +1199,8 @@
       "Technical Death Metal",
       "Metal"
     ],
-    "country": "pl"
+    "country": "pl",
+    "popularity": 7
   },
   {
     "id": "soulfly",
@@ -1096,7 +1211,8 @@
       "Nu Metal",
       "Thrash Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 8
   },
   {
     "id": "paleface-swiss",
@@ -1107,7 +1223,8 @@
       "Hardcore",
       "Deathcore"
     ],
-    "country": "ch"
+    "country": "ch",
+    "popularity": 7
   },
   {
     "id": "soen",
@@ -1118,7 +1235,8 @@
       "Progressive Rock",
       "Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 7
   },
   {
     "id": "inner-space",
@@ -1127,7 +1245,8 @@
     "genres": [
       "Hardcore"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "skeleton-pit",
@@ -1136,7 +1255,8 @@
     "genres": [
       "Thrash Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "wucan",
@@ -1147,7 +1267,8 @@
       "Stoner Rock",
       "Psychedelic Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "haggefugg",
@@ -1156,7 +1277,8 @@
     "genres": [
       "Folk Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "cabal",
@@ -1167,7 +1289,8 @@
       "Deathcore",
       "Ambient"
     ],
-    "country": "dk"
+    "country": "dk",
+    "popularity": 6
   },
   {
     "id": "manntra",
@@ -1178,7 +1301,8 @@
       "Folk Metal",
       "Rock"
     ],
-    "country": "hr"
+    "country": "hr",
+    "popularity": 5
   },
   {
     "id": "200-stab-wounds",
@@ -1187,7 +1311,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "us"
+    "country": "us",
+    "popularity": 6
   },
   {
     "id": "slomosa",
@@ -1198,7 +1323,8 @@
       "Rock",
       "Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 6
   },
   {
     "id": "mol",
@@ -1235,12 +1361,14 @@
         "url": "https://www.facebook.com/moeldk",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "rodscha-a-kambodscha-u-tom-palme",
     "name": "Rodscha A. Kambodscha U. Tom Palme",
-    "description": "Rodscha A. Kambodscha und Tom Palme are a German musical duo known for lively, interactive songs blending folk, pop and playful rhythms. Active since the early 2000s, they have built a devoted following through energetic performances, audience participation and a warm, good-humored approach to their craft."
+    "description": "Rodscha A. Kambodscha und Tom Palme are a German musical duo known for lively, interactive songs blending folk, pop and playful rhythms. Active since the early 2000s, they have built a devoted following through energetic performances, audience participation and a warm, good-humored approach to their craft.",
+    "popularity": 1
   },
   {
     "id": "randale",
@@ -1249,13 +1377,15 @@
     "genres": [
       "Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "plume",
     "name": "Plume",
     "description": "Plume is a German electronic rock quartet from Munich, formed in 2020 and fronted by vocalist Pascal Pashaee. Fusing pop songwriting with electronic textures, distorted riffs and fractured rhythms, the band released its debut album SAFEROOMS & HEALING FREQUENCIES in 2026.",
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "blacktoothed",
@@ -1265,19 +1395,22 @@
       "Rock",
       "Hard Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "hopsydian",
     "name": "Hopsydian",
     "description": "Hopsydian is an Italian metalcore band from Milan formed in 2024, fronted by vocalist Myles Idolo. Fusing modern metalcore power with post-hardcore urgency, cinematic atmosphere and chant-ready choruses, the young act quickly gained momentum with their debut EP A Graceful Sin and festival appearances alongside established genre names.",
-    "country": "it"
+    "country": "it",
+    "popularity": 4
   },
   {
     "id": "lost-in-hollywood",
     "name": "Lost In Hollywood",
     "description": "Lost in Hollywood is a German metalcore band from Hamburg, formed in 2023. Combining powerful riffs, emotional clean vocals and haunting breakdowns, the quartet released their debut album The Beauty of Death within a year of forming, before signing to Arising Empire and building momentum with subsequent singles.",
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "phantom-corporation",
@@ -1287,12 +1420,14 @@
       "Death Metal",
       "Crust Punk"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "haeresis",
     "name": "Hæresis",
-    "description": "Hæresis is an atmospheric black and post-metal band from Berlin, Germany, formed in 2016. Balancing raw intensity with ethereal, immersive atmospheres, the band released their debut full-length Si Vis Pacem Para Bellum in 2025, known for intense live performances that fuse light and sound."
+    "description": "Hæresis is an atmospheric black and post-metal band from Berlin, Germany, formed in 2016. Balancing raw intensity with ethereal, immersive atmospheres, the band released their debut full-length Si Vis Pacem Para Bellum in 2025, known for intense live performances that fuse light and sound.",
+    "popularity": 3
   },
   {
     "id": "hangatyr",
@@ -1301,7 +1436,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "fleshless",
@@ -1310,7 +1446,8 @@
     "genres": [
       "Death Grind"
     ],
-    "country": "cz"
+    "country": "cz",
+    "popularity": 4
   },
   {
     "id": "cytotoxin",
@@ -1320,7 +1457,8 @@
       "Technical Death Metal",
       "Brutal Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "candlemass",
@@ -1329,7 +1467,8 @@
     "genres": [
       "Epic Doom Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 7
   },
   {
     "id": "seconddeath",
@@ -1338,7 +1477,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "brachlant",
@@ -1347,7 +1487,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "victim",
@@ -1356,7 +1497,8 @@
     "genres": [
       "Thrash Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "horresque",
@@ -1365,7 +1507,8 @@
     "genres": [
       "Blackened Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 2
   },
   {
     "id": "graceless",
@@ -1375,7 +1518,8 @@
       "Death Metal",
       "Doom Metal"
     ],
-    "country": "nl"
+    "country": "nl",
+    "popularity": 4
   },
   {
     "id": "bodyfarm",
@@ -1384,7 +1528,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "nl"
+    "country": "nl",
+    "popularity": 4
   },
   {
     "id": "maerer",
@@ -1396,7 +1541,8 @@
       "Doom Metal",
       "Post-Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "soul-grinder",
@@ -1405,7 +1551,8 @@
     "genres": [
       "Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "irem",
@@ -1414,7 +1561,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "agathodaimon",
@@ -1425,7 +1573,8 @@
       "Dark Metal",
       "Symphonic Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 6
   },
   {
     "id": "psychonaut-4",
@@ -1434,7 +1583,8 @@
     "genres": [
       "Depressive Suicidal Black Metal"
     ],
-    "country": "ge"
+    "country": "ge",
+    "popularity": 6
   },
   {
     "id": "melechesh",
@@ -1443,7 +1593,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "il"
+    "country": "il",
+    "popularity": 6
   },
   {
     "id": "berserkr",
@@ -1452,7 +1603,8 @@
     "genres": [
       "Folk Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 2
   },
   {
     "id": "bjornholm",
@@ -1461,7 +1613,8 @@
     "genres": [
       "Atmospheric Black Metal"
     ],
-    "country": "fo"
+    "country": "fo",
+    "popularity": 1
   },
   {
     "id": "drekka-sjor",
@@ -1470,7 +1623,8 @@
     "genres": [
       "Post-Rock"
     ],
-    "country": "is"
+    "country": "is",
+    "popularity": 1
   },
   {
     "id": "frost-giants",
@@ -1479,7 +1633,8 @@
     "genres": [
       "Pagan Folk"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 1
   },
   {
     "id": "mjolnir-mark",
@@ -1488,7 +1643,8 @@
     "genres": [
       "Stoner Rock"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 1
   },
   {
     "id": "ragnar-s-wrath",
@@ -1497,7 +1653,8 @@
     "genres": [
       "Crossover Thrash"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 1
   },
   {
     "id": "skalds-of-asgard",
@@ -1506,7 +1663,8 @@
     "genres": [
       "Folk"
     ],
-    "country": "is"
+    "country": "is",
+    "popularity": 1
   },
   {
     "id": "valkyrjar",
@@ -1515,7 +1673,8 @@
     "genres": [
       "Symphonic Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 1
   },
   {
     "id": "yggdrasil-s-roots",
@@ -1524,7 +1683,8 @@
     "genres": [
       "Doom Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "ironveil",
@@ -1533,7 +1693,8 @@
     "genres": [
       "Post-Black Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 1
   },
   {
     "id": "shieldwall",
@@ -1542,7 +1703,8 @@
     "genres": [
       "Crust Punk"
     ],
-    "country": "dk"
+    "country": "dk",
+    "popularity": 2
   },
   {
     "id": "tidecaller",
@@ -1551,7 +1713,8 @@
     "genres": [
       "Dark Wave"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 1
   },
   {
     "id": "skullberg",
@@ -1561,7 +1724,8 @@
       "Viking Metal",
       "Death Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 1
   },
   {
     "id": "nordheim",
@@ -1571,7 +1735,8 @@
       "Symphonic Metal",
       "Viking Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 4
   },
   {
     "id": "eitr-s-venom",
@@ -1581,7 +1746,8 @@
       "Sludge Metal",
       "Doom Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "galdrastafr",
@@ -1590,7 +1756,8 @@
     "genres": [
       "Dark Ambient"
     ],
-    "country": "is"
+    "country": "is",
+    "popularity": 1
   },
   {
     "id": "ashen-volva",
@@ -1599,7 +1766,8 @@
     "genres": [
       "Gothic"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 1
   },
   {
     "id": "grimnir-s-pyre",
@@ -1608,7 +1776,8 @@
     "genres": [
       "Melodic Death Metal"
     ],
-    "country": "dk"
+    "country": "dk",
+    "popularity": 1
   },
   {
     "id": "wyrdweavers",
@@ -1617,7 +1786,8 @@
     "genres": [
       "Medieval Folk"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 1
   },
   {
     "id": "embla-s-kin",
@@ -1626,7 +1796,8 @@
     "genres": [
       "Neofolk"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "odinn-s-eye",
@@ -1635,7 +1806,8 @@
     "genres": [
       "Progressive Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 1
   },
   {
     "id": "skaldenfang",
@@ -1644,7 +1816,8 @@
     "genres": [
       "Folk Punk"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 1
   },
   {
     "id": "draugar",
@@ -1653,7 +1826,8 @@
     "genres": [
       "Funeral Doom"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 3
   },
   {
     "id": "fimbulwolf",
@@ -1662,7 +1836,8 @@
     "genres": [
       "Blackened Death Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 1
   },
   {
     "id": "thronecult",
@@ -1671,7 +1846,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "borknagar",
@@ -1680,7 +1856,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 7
   },
   {
     "id": "senntus",
@@ -1689,7 +1866,8 @@
     "genres": [
       "Dark Metal"
     ],
-    "country": "at"
+    "country": "at",
+    "popularity": 2
   },
   {
     "id": "servant",
@@ -1698,7 +1876,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "black-sails",
@@ -1708,7 +1887,8 @@
       "Hardcore Punk",
       "Folk"
     ],
-    "country": "dk"
+    "country": "dk",
+    "popularity": 3
   },
   {
     "id": "runecaster",
@@ -1717,7 +1897,8 @@
     "genres": [
       "Folk Metal"
     ],
-    "country": "se"
+    "country": "se",
+    "popularity": 2
   },
   {
     "id": "stormwulf",
@@ -1726,7 +1907,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "fi"
+    "country": "fi",
+    "popularity": 1
   },
   {
     "id": "serpent-s-wake",
@@ -1735,7 +1917,8 @@
     "genres": [
       "Post-Metal"
     ],
-    "country": "nl"
+    "country": "nl",
+    "popularity": 1
   },
   {
     "id": "helbound",
@@ -1744,7 +1927,8 @@
     "genres": [
       "Doom Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 1
   },
   {
     "id": "blodorn",
@@ -1753,7 +1937,8 @@
     "genres": [
       "Extreme Metal"
     ],
-    "country": "is"
+    "country": "is",
+    "popularity": 1
   },
   {
     "id": "thunderhide",
@@ -1762,7 +1947,8 @@
     "genres": [
       "Stoner Rock"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "towards-the-sinister",
@@ -1787,7 +1973,8 @@
         "url": "https://www.instagram.com/towardsthesinister/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "dodsrit",
@@ -1822,7 +2009,8 @@
         "url": "https://soundcloud.com/dodsrit",
         "type": "soundcloud"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "asphagor",
@@ -1857,7 +2045,8 @@
         "url": "https://soundcloud.com/asphagor-music",
         "type": "soundcloud"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "bianca",
@@ -1880,7 +2069,8 @@
         "url": "https://www.instagram.com/bianca_officialmusic/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "emperor",
@@ -1912,7 +2102,8 @@
         "url": "https://music.apple.com/gb/artist/78923932",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "primordial",
@@ -1949,7 +2140,8 @@
         "url": "https://www.facebook.com/primordialofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "ellende",
@@ -1985,7 +2177,8 @@
         "url": "https://www.instagram.com/ellende.official/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "naglfar",
@@ -2021,7 +2214,8 @@
         "url": "https://www.instagram.com/naglfarofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "wind-rose",
@@ -2058,7 +2252,8 @@
         "url": "https://www.facebook.com/windroseofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "unviar",
@@ -2077,7 +2272,8 @@
         "url": "https://open.spotify.com/artist/5xf8dgl8phc3yqBo2Xkrni",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "svarttjern",
@@ -2112,7 +2308,8 @@
         "url": "https://soundcloud.com/svarttjern-1",
         "type": "soundcloud"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "nytt-land",
@@ -2148,7 +2345,8 @@
         "url": "https://www.youtube.com/channel/UC8YO4IYDxXZYIgTlg9MJgiQ",
         "type": "youtube"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "nordjevel",
@@ -2187,7 +2385,8 @@
         "url": "https://soundcloud.com/Nordjevelofficial",
         "type": "soundcloud"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "nocte-obducta",
@@ -2223,7 +2422,8 @@
         "url": "https://www.instagram.com/nocteobductaofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "miserere-luminis",
@@ -2259,7 +2459,8 @@
         "url": "https://www.facebook.com/luminis",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "malphas",
@@ -2290,7 +2491,8 @@
         "url": "https://www.youtube.com/channel/UCyZg8qsNBZO24IEJC2LqvbA",
         "type": "youtube"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "kalmah",
@@ -2327,7 +2529,8 @@
         "url": "https://www.facebook.com/kalmahofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "graveworm",
@@ -2365,7 +2568,8 @@
         "url": "https://www.instagram.com/gravewormofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "eldamar",
@@ -2401,7 +2605,8 @@
         "url": "https://music.apple.com/gb/artist/1080870365",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "battlelore",
@@ -2439,7 +2644,8 @@
         "url": "https://www.facebook.com/BattleloreOfficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "asenblut",
@@ -2476,7 +2682,8 @@
         "url": "https://www.tiktok.com/@asenblutofficial",
         "type": "tiktok"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "all-for-metal",
@@ -2492,7 +2699,8 @@
         "url": "https://open.spotify.com/artist/7pwIx2j4SX0cLAgPrIkv27",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "vintersorg",
@@ -2528,7 +2736,8 @@
         "url": "https://soundcloud.com/vintersorg-official",
         "type": "soundcloud"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "thron",
@@ -2543,7 +2752,8 @@
         "url": "https://open.spotify.com/artist/7hcvhYMlNsn2gTTVbECj6e",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "tabernis",
@@ -2578,7 +2788,8 @@
         "url": "https://www.facebook.com/people/Tabernis/61559926239521",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "fimbul-winter",
@@ -2593,7 +2804,8 @@
         "url": "https://open.spotify.com/artist/3EnoFDhhfqaRU2usjJXJEu",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "bloodbark",
@@ -2612,7 +2824,8 @@
         "url": "https://open.spotify.com/artist/6aBAWuuUtHtZUtH1OSl4wD",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "anomalie",
@@ -2628,7 +2841,8 @@
         "url": "https://open.spotify.com/artist/5VlDD7dvbVLLvOXp1e99cn",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "a-forest-of-stars",
@@ -2638,7 +2852,8 @@
       "Avant-garde Black Metal",
       "Progressive Black Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 6
   },
   {
     "id": "deathless-void",
@@ -2648,7 +2863,8 @@
       "Black Metal",
       "Death Metal"
     ],
-    "country": "nl"
+    "country": "nl",
+    "popularity": 3
   },
   {
     "id": "merrimack",
@@ -2657,7 +2873,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "fr"
+    "country": "fr",
+    "popularity": 5
   },
   {
     "id": "nemorous",
@@ -2666,7 +2883,8 @@
     "genres": [
       "Atmospheric Black Metal"
     ],
-    "country": "gb"
+    "country": "gb",
+    "popularity": 2
   },
   {
     "id": "nexion",
@@ -2676,7 +2894,8 @@
       "Black Metal",
       "Death Metal"
     ],
-    "country": "is"
+    "country": "is",
+    "popularity": 3
   },
   {
     "id": "panzerfaust",
@@ -2685,7 +2904,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "ca"
+    "country": "ca",
+    "popularity": 5
   },
   {
     "id": "bolzer",
@@ -2695,7 +2915,8 @@
       "Black Metal",
       "Death Metal"
     ],
-    "country": "ch"
+    "country": "ch",
+    "popularity": 5
   },
   {
     "id": "horn",
@@ -2705,7 +2926,8 @@
       "Black Metal",
       "Pagan Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "schammasch",
@@ -2715,7 +2937,8 @@
       "Avant-garde Black Metal",
       "Doom Metal"
     ],
-    "country": "ch"
+    "country": "ch",
+    "popularity": 5
   },
   {
     "id": "phosphorus",
@@ -2724,7 +2947,8 @@
     "genres": [
       "Blackened Post Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 4
   },
   {
     "id": "sumerian-tombs",
@@ -2733,7 +2957,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "the-spirit",
@@ -2743,7 +2968,8 @@
       "Black Metal",
       "Death Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "darvaza",
@@ -2758,7 +2984,8 @@
         "url": "https://open.spotify.com/artist/3bLPyQrEBC1SClEcf6kZ3n",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "detresse",
@@ -2774,7 +3001,8 @@
         "url": "https://detresse.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "helleruin",
@@ -2789,7 +3017,8 @@
         "url": "https://open.spotify.com/artist/4ONdkGpDaHJFwBRe7dQxMd",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "the-great-sea",
@@ -2805,7 +3034,8 @@
         "url": "https://open.spotify.com/artist/4SU4VdVYg9cDUbUUxTDH1z",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "carpathian-forest",
@@ -2840,7 +3070,8 @@
         "url": "https://music.apple.com/no/artist/72865924",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "reil-of-violence",
@@ -2850,7 +3081,8 @@
       "Speed Metal",
       "Thrash Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "urgehal",
@@ -2886,7 +3118,8 @@
         "url": "https://music.apple.com/mx/artist/303831840",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "warhammer",
@@ -2896,7 +3129,8 @@
       "Black Metal",
       "Death Metal"
     ],
-    "country": "gr"
+    "country": "gr",
+    "popularity": 4
   },
   {
     "id": "hexer",
@@ -2932,7 +3166,8 @@
         "url": "https://music.apple.com/de/artist/1438687317",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "tsatthoggua",
@@ -2949,7 +3184,8 @@
         "type": "web",
         "label": "Website"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "antipeewee",
@@ -2985,7 +3221,8 @@
         "url": "https://music.apple.com/gb/artist/733004339",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "paxtilence",
@@ -2994,7 +3231,8 @@
     "genres": [
       "Thrash Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "destruction",
@@ -3030,7 +3268,8 @@
         "url": "https://music.apple.com/us/artist/7024320",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "exumer",
@@ -3066,7 +3305,8 @@
         "url": "https://music.apple.com/de/artist/503593192",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "mortem",
@@ -3075,7 +3315,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "no"
+    "country": "no",
+    "popularity": 5
   },
   {
     "id": "graven",
@@ -3084,7 +3325,8 @@
     "genres": [
       "Black Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 3
   },
   {
     "id": "chemicide",
@@ -3119,7 +3361,8 @@
         "url": "https://www.youtube.com/chemicide",
         "type": "youtube"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "sirens",
@@ -3130,7 +3373,8 @@
       "Speed Metal",
       "Power Metal"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 5
   },
   {
     "id": "desaster",
@@ -3167,6 +3411,7 @@
         "url": "https://www.instagram.com/desaster_official/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   }
 ]
