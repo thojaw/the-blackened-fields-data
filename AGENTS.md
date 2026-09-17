@@ -373,18 +373,43 @@ metal's own biggest touring names.
   similarly massive scale.
 - **1** — local/regional act with little to no streaming footprint (very
   possibly not even on Spotify).
-- Everything else falls on a log scale between those anchors, not a linear
-  one — the gap in actual popularity between a 2 and a 3 is much smaller
-  in absolute terms than between an 8 and a 9.
+- Everything else falls between those anchors on a hand-set breakpoint
+  table, not a linear or single-formula scale — see Methodology.
 
 **Methodology:** `scripts/enrich-popularity.mjs` backfills this field from
 Last.fm's `artist.getinfo` `listeners` count (lifetime unique listeners —
 Last.fm doesn't expose a monthly figure, but it's a stable, comparable,
 free-to-query proxy across artists, and Spotify's public API doesn't expose
 monthly listener counts either, even to registered developers). The count
-is bucketed with `score = round(2.117 * log10(listeners) - 4.35)`, clamped
-to `[1, 10]` — fixed points roughly: 100 listeners → 1, 1,000 → 2, 10,000 →
-4, 100,000 → 6, 1,000,000 → 8, 6,000,000 (Metallica-tier) → 10. An artist
+is bucketed against `POPULARITY_THRESHOLDS`, a hand-set `[minListeners,
+score]` table in the script, currently:
+
+| listeners ≥ | score |
+| ----------- | ----- |
+| 3,000,000   | 10    |
+| 1,200,000   | 9     |
+| 500,000     | 8     |
+| 180,000     | 7     |
+| 60,000      | 6     |
+| 20,000      | 5     |
+| 6,000       | 4     |
+| 1,500       | 3     |
+| 300         | 2     |
+| 0           | 1     |
+
+A single continuous log formula was tried first and rejected: with a fixed
+step size per point, two artists within roughly the same factor of each
+other always land on the same integer no matter what tier boundary sits
+between them (e.g. Alestorm at 478k and Testament at 1.09M listeners both
+rounded to 8), while a much bigger, more meaningful gap could compress into
+just 2-3 points (e.g. Warfield at 17k listeners only landing 3 points below
+that same 8). A table fixes this by placing each boundary deliberately —
+more resolution across the thousands-to-low-hundred-thousands range where
+most of a metal festival's actual lineup sits, less resolution above ~1M
+where everyone left is already headliner-caliber and finer distinctions
+stop being meaningful. **Tune the table directly** if a run's output
+doesn't match scene judgment for a batch of artists — that's a sign the
+boundaries need adjusting, not that the artists are wrong. An artist
 Last.fm has no record of at all also gets `1` — no streaming footprint is
 itself the strongest available "least popular" signal, not something to
 leave unset.

@@ -19,15 +19,19 @@
 // Calibration:
 //   Last.fm's "listeners" count (lifetime unique listeners, not monthly --
 //   Last.fm doesn't expose a monthly figure -- but it's a stable, comparable
-//   proxy across artists) is mapped onto 1-10 with:
-//     score = round(2.117 * log10(listeners) - 4.35), clamped to [1, 10]
-//   Fixed points this line passes through/near:
-//     listeners <= 100        -> 1   (no meaningful footprint)
-//     listeners ~= 1,000      -> 2
-//     listeners ~= 10,000     -> 4
-//     listeners ~= 100,000    -> 6
-//     listeners ~= 1,000,000  -> 8
-//     listeners ~= 6,000,000  -> 10  (Metallica-tier)
+//   proxy across artists) is mapped onto 1-10 via the hand-set breakpoint
+//   table below (POPULARITY_THRESHOLDS), not a single continuous formula.
+//   A single log curve was tried first and rejected: with a fixed step size
+//   per point, any two artists within roughly the same factor of each other
+//   always land on the same integer regardless of what tier boundary sits
+//   between them, while a huge, meaningful gap (e.g. a genuinely unknown
+//   local act vs. an established touring act) can compress into just 2-3
+//   points of separation. A table lets each boundary be placed deliberately
+//   -- more resolution where most of a metal festival's actual lineup sits
+//   (thousands to low-hundred-thousands of listeners), less resolution
+//   above ~1M where everyone left is already headliner-caliber and finer
+//   distinctions stop being meaningful -- and it's directly editable if a
+//   run's results don't match scene judgment (which is expected; see below).
 //   An artist Last.fm has no record of at all (0 listeners / not found) gets
 //   popularity 1 rather than being left unset -- per the brief, no
 //   streaming footprint at all is itself the strongest signal of "least
@@ -58,10 +62,30 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// [minListeners, score], checked highest-first; the first threshold a
+// listener count meets or exceeds wins. See "Calibration" above for why
+// this is a table rather than a formula. Tune freely -- if a run's output
+// doesn't match scene judgment for a batch of artists, that's a sign these
+// boundaries need adjusting, not that the artists are wrong.
+const POPULARITY_THRESHOLDS = [
+  [3_000_000, 10], // Metallica/Slayer/Iron Maiden-tier global headliners
+  [1_200_000, 9],
+  [500_000, 8], // established festival headliners (e.g. Testament, Helloween-scale)
+  [180_000, 7],
+  [60_000, 6],
+  [20_000, 5],
+  [6_000, 4],
+  [1_500, 3],
+  [300, 2],
+  [0, 1], // no meaningful footprint / not found
+];
+
 function popularityFromListeners(listeners) {
-  if (!listeners || listeners <= 100) return 1;
-  const raw = Math.round(2.117 * Math.log10(listeners) - 4.35);
-  return Math.min(10, Math.max(1, raw));
+  const n = listeners ?? 0;
+  for (const [min, score] of POPULARITY_THRESHOLDS) {
+    if (n >= min) return score;
+  }
+  return 1;
 }
 
 async function lastfmArtistInfo(name, apiKey) {
