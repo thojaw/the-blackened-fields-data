@@ -373,34 +373,98 @@ metal's own biggest touring names.
   similarly massive scale.
 - **1** — local/regional act with little to no streaming footprint (very
   possibly not even on Spotify).
-- Everything else falls on a log scale between those anchors, not a linear
-  one — the gap in actual popularity between a 2 and a 3 is much smaller
-  in absolute terms than between an 8 and a 9.
+- Everything else falls between those anchors on a hand-set breakpoint
+  table, not a linear or single-formula scale — see Methodology.
 
-**Methodology:** `scripts/enrich-popularity.mjs` backfills this field from
-Last.fm's `artist.getinfo` `listeners` count (lifetime unique listeners —
-Last.fm doesn't expose a monthly figure, but it's a stable, comparable,
-free-to-query proxy across artists, and Spotify's public API doesn't expose
-monthly listener counts either, even to registered developers). The count
-is bucketed with `score = round(2.117 * log10(listeners) - 4.35)`, clamped
-to `[1, 10]` — fixed points roughly: 100 listeners → 1, 1,000 → 2, 10,000 →
-4, 100,000 → 6, 1,000,000 → 8, 6,000,000 (Metallica-tier) → 10. An artist
-Last.fm has no record of at all also gets `1` — no streaming footprint is
-itself the strongest available "least popular" signal, not something to
-leave unset.
+**Methodology:** `scripts/enrich-popularity.mjs` backfills this field by
+querying either Spotify (`--source=spotify`, the default) or Last.fm
+(`--source=lastfm`) and bucketing a raw signal from whichever was chosen
+against a hand-set `[minValue, score]` table in the script.
+
+- **Spotify (default)** uses each artist's `popularity` field (0-100,
+  fetched via the Client Credentials flow — app-only auth, no user login,
+  a free app at https://developer.spotify.com/dashboard). Preferred over
+  Last.fm because it's recency-weighted (recent play volume, not "ever
+  scrobbled") and reflects where most fans actually listen today, rather
+  than Last.fm's older, scrobbling-specific user base. Spotify's public
+  API doesn't expose the "monthly listeners" number shown on an artist's
+  own page (not even to registered developers) — `popularity` is the
+  closest available signal meant for exactly this kind of ranking.
+  Env: `SPOTIFY_CLIENT_ID`/`SPOTIFY_CLIENT_SECRET`, falling back to
+  `SPOTIFY_CLIENTID`/`SPOTIFY_SECRET` if unset (matching this repo's
+  GitHub Actions secret names, so a CI step can export those directly).
+  Bucketed against `SPOTIFY_POPULARITY_THRESHOLDS`:
+
+  | popularity ≥ | score |
+  | ------------- | ----- |
+  | 80            | 10    |
+  | 65            | 9     |
+  | 55            | 8     |
+  | 45            | 7     |
+  | 35            | 6     |
+  | 25            | 5     |
+  | 18            | 4     |
+  | 12            | 3     |
+  | 6             | 2     |
+  | 0             | 1     |
+
+  These thresholds are a first guess (Spotify's popularity scale is
+  famously compressed at the top — even global superstars rarely clear the
+  high 80s/90s), not yet validated against a real run the way the Last.fm
+  table below was. Sanity-check with `--preview` before trusting it.
+
+- **Last.fm** (`--source=lastfm`) uses `artist.getinfo`'s `listeners`
+  count (lifetime unique listeners — Last.fm doesn't expose a monthly
+  figure, but it's a stable, comparable, free-to-query proxy). Env:
+  `LASTFM_API_KEY` (free key: https://www.last.fm/api/account/create).
+  Bucketed against `LASTFM_LISTENER_THRESHOLDS`, validated against a real
+  run (see below):
+
+  | listeners ≥ | score |
+  | ----------- | ----- |
+  | 3,000,000   | 10    |
+  | 1,200,000   | 9     |
+  | 500,000     | 8     |
+  | 180,000     | 7     |
+  | 60,000      | 6     |
+  | 20,000      | 5     |
+  | 6,000       | 4     |
+  | 1,500       | 3     |
+  | 300         | 2     |
+  | 0           | 1     |
+
+Both tables exist because a single continuous log formula (the original
+approach, Last.fm-only) was tried and rejected: with a fixed step size per
+point, two artists within roughly the same factor of each other always
+land on the same integer no matter what tier boundary sits between them
+(e.g. Alestorm at 478k and Testament at 1.09M listeners both rounded to
+8), while a much bigger, more meaningful gap could compress into just 2-3
+points (e.g. Warfield at 17k listeners only landing 3 points below that
+same 8). A table fixes this by placing each boundary deliberately — more
+resolution across the range where most of a metal festival's actual
+lineup sits, less resolution at the top where everyone left is already
+headliner-caliber and finer distinctions stop being meaningful. **Tune
+either table directly** if a run's output doesn't match scene judgment for
+a batch of artists — that's a sign the boundaries need adjusting, not that
+the artists are wrong. An artist not found at all on the chosen source
+also gets `1` — no streaming footprint is itself the strongest available
+"least popular" signal, not something to leave unset.
 
 ```
-LASTFM_API_KEY=xxx node scripts/enrich-popularity.mjs artists.json --write
+node scripts/enrich-popularity.mjs artists.json --write
+node scripts/enrich-popularity.mjs artists.json --source=lastfm --write
 ```
 
-This is a blunt, single-source proxy, not a rigorous metric: Last.fm's
-global listener count isn't genre-scoped, so a metal-adjacent act with a
-single song that crossed over into wider listening can score higher than
-its actual standing in the metal scene, and a fast-rising act can be
-under-counted if Last.fm hasn't caught up yet. Treat low-confidence or
-surprising results (run without `--write` first to review the report) as a
-starting point for a manual sanity check, not a final answer — adjust by
-hand where scene knowledge clearly disagrees with the computed bucket.
+This is a blunt, single-source proxy either way, not a rigorous metric: a
+metal-adjacent act with a single song that crossed over into wider
+listening can score higher than its actual standing in the metal scene,
+name collisions with a same-named artist in another genre can pull in the
+wrong result, and a fast-rising act can be under-counted if the source
+hasn't caught up yet. Treat low-confidence or surprising results (run
+without `--write` first to review the report) as a starting point for a
+manual sanity check, not a final answer — adjust by hand where scene
+knowledge clearly disagrees with the computed bucket, or cross-check
+against the other source with `--source=`.
 
 ### Workflow: adding artists to a festival
 
