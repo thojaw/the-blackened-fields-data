@@ -38,7 +38,7 @@
       "Death Metal"
     ],
     "country": "de",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "excrementory-grindfuckers",
@@ -49,7 +49,7 @@
       "Parody"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "betontod",
@@ -59,7 +59,7 @@
       "Punk Rock"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "airbourne",
@@ -106,7 +106,7 @@
       "Post-Metal"
     ],
     "country": "fr",
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "blasmusik-illenschwang",
@@ -130,7 +130,7 @@
       "Indie Rock"
     ],
     "country": "us",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "green-lung",
@@ -209,7 +209,7 @@
       "Sludge Metal"
     ],
     "country": "gb",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "castle-rat",
@@ -233,7 +233,7 @@
       "Folk Metal"
     ],
     "country": "ch",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "802",
@@ -294,7 +294,7 @@
       "Metal"
     ],
     "country": "de",
-    "popularity": 4
+    "popularity": 3
   },
   {
     "id": "our-promise",
@@ -404,7 +404,7 @@
       "Folk Rock"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "fulci",
@@ -472,7 +472,7 @@
       "Brutal Death Metal"
     ],
     "country": "us",
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "mushroomhead",
@@ -496,7 +496,7 @@
       "Melodic Black Metal"
     ],
     "country": "us",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "saor",
@@ -508,7 +508,7 @@
       "Folk Metal"
     ],
     "country": "gb",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "fireborn",
@@ -539,7 +539,7 @@
       "Thrash Metal"
     ],
     "country": "fi",
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "rectal-smegma",
@@ -644,7 +644,7 @@
     "name": "Warfield",
     "description": "Warfield is a German thrash metal band from Kaiserslautern, founded in 2012. The group plays fast-paced, catchy old-school thrash metal, channeling the genre's classic 1980s energy into tight, aggressive songwriting and an uncompromising, riff-driven live approach.",
     "country": "de",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "katerfahrt",
@@ -673,7 +673,7 @@
       "Rock"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "future-palace",
@@ -695,7 +695,7 @@
       "Power Metal"
     ],
     "country": "se",
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "the-butcher-sisters",
@@ -777,7 +777,7 @@
       "Melodic Hardcore"
     ],
     "country": "de",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "brainstorm",
@@ -823,7 +823,7 @@
       "Djent"
     ],
     "country": "de",
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "deicide",
@@ -856,7 +856,7 @@
       "Atmospheric Black Metal"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "deafheaven",
@@ -903,7 +903,7 @@
     "name": "Luna Kills",
     "description": "Luna Kills are a Finnish band formed in 2019, blending alternative and nu-metal influences with electronic textures inspired by video game soundtracks. Known for heavy riffs paired with catchy, emotionally resonant melodies, the band made their mark with their debut full-length album \"Deathmatch\".",
     "country": "fi",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "brymir",
@@ -925,7 +925,7 @@
       "Neue Deutsche Härte"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "blood-command",
@@ -982,7 +982,7 @@
       "Psychedelic Rock"
     ],
     "country": "us",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "avalanche-effect",
@@ -1051,7 +1051,7 @@
       "Metal"
     ],
     "country": "de",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "the-sons-of-huens",
@@ -1070,7 +1070,7 @@
       "Heavy Psych"
     ],
     "country": "de",
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "orbit-culture",
@@ -1082,7 +1082,7 @@
       "Death Metal"
     ],
     "country": "se",
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "testament",
@@ -1106,7 +1106,7 @@
       "Pirate Metal"
     ],
     "country": "gb",
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "helloween",
@@ -1165,7 +1165,7 @@
       "Metal"
     ],
     "country": "fi",
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "municipal-waste",
@@ -1177,7 +1177,7 @@
       "Metal"
     ],
     "country": "us",
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "thundermother",
@@ -1385,7 +1385,7 @@
     "name": "Plume",
     "description": "Plume is a German electronic rock quartet from Munich, formed in 2020 and fronted by vocalist Pascal Pashaee. Fusing pop songwriting with electronic textures, distorted riffs and fractured rhythms, the band released its debut album SAFEROOMS & HEALING FREQUENCIES in 2026.",
     "country": "de",
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "blacktoothed",
@@ -1421,7 +1421,7 @@
       "Crust Punk"
     ],
     "country": "de",
-    "popularity": 2
+    "popularity": 3
   },
   {
     "id": "haeresis",
@@ -1704,7 +1704,7 @@
       "Crust Punk"
     ],
     "country": "dk",
-    "popularity": 1
+    "popularity": 2
   },
   {
     "id": "tidecaller",
@@ -1867,7 +1867,7 @@
       "Dark Metal"
     ],
     "country": "at",
-    "popularity": 1
+    "popularity": 2
   },
   {
     "id": "servant",
@@ -2070,7 +2070,7 @@
         "type": "instagram"
       }
     ],
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "emperor",
@@ -2103,7 +2103,7 @@
         "type": "applemusic"
       }
     ],
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "primordial",
@@ -2141,7 +2141,7 @@
         "type": "facebook"
       }
     ],
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "ellende",
@@ -2215,7 +2215,7 @@
         "type": "instagram"
       }
     ],
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "wind-rose",
@@ -2460,7 +2460,7 @@
         "type": "facebook"
       }
     ],
-    "popularity": 5
+    "popularity": 4
   },
   {
     "id": "malphas",
@@ -2645,7 +2645,7 @@
         "type": "facebook"
       }
     ],
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "asenblut",
@@ -2842,7 +2842,7 @@
         "type": "spotify"
       }
     ],
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "a-forest-of-stars",
@@ -3306,7 +3306,7 @@
         "type": "applemusic"
       }
     ],
-    "popularity": 6
+    "popularity": 5
   },
   {
     "id": "mortem",
@@ -3412,6 +3412,6 @@
         "type": "instagram"
       }
     ],
-    "popularity": 6
+    "popularity": 5
   }
 ]
