@@ -310,6 +310,15 @@ never overwriting, each festival's own local `Artist.id` values.
   `links` field of its own, so there's nothing to sync. Populate/refresh it
   by running `scripts/enrich-artists.mjs artists.json --write` (auto-detects
   registry mode from the bare-array shape) or by editing it by hand.
+- `popularity?` (integer, 1-10) — how popular the artist is *within the
+  metal scene specifically*, not general-audience popularity (a pop act
+  with the same streaming numbers would score far lower here than a metal
+  act would with those same numbers, since the scale is calibrated against
+  metal's own biggest names). 10 = absolute headliner tier (Metallica,
+  Slayer, and similarly huge acts); 1 = a local/unknown act with little to
+  no streaming footprint. See "Popularity" below for methodology. Like
+  `links`, this is registry-only and never synced to or from a festival's
+  own `Artist` object.
 - **Slug collisions** (rare — this dataset stays within genre boundaries
   where duplicate act names are practically nonexistent): if a computed slug
   already belongs to a different artist, disambiguate by appending a short
@@ -351,6 +360,47 @@ image, but the same `globalId`:
 
 Cross-festival tooling should treat entries sharing a `globalId` as the same
 underlying artist rather than three unrelated hits.
+
+### Popularity
+
+`artists.json` entries can carry a `popularity` integer (1-10), scoped to
+the metal scene rather than general-audience fame — a locally-huge metal
+headliner and a globally-huge pop act with identical streaming numbers
+should not land at the same score here; the scale's top end is anchored to
+metal's own biggest touring names.
+
+- **10** — absolute headliner tier: Metallica, Slayer, and acts of
+  similarly massive scale.
+- **1** — local/regional act with little to no streaming footprint (very
+  possibly not even on Spotify).
+- Everything else falls on a log scale between those anchors, not a linear
+  one — the gap in actual popularity between a 2 and a 3 is much smaller
+  in absolute terms than between an 8 and a 9.
+
+**Methodology:** `scripts/enrich-popularity.mjs` backfills this field from
+Last.fm's `artist.getinfo` `listeners` count (lifetime unique listeners —
+Last.fm doesn't expose a monthly figure, but it's a stable, comparable,
+free-to-query proxy across artists, and Spotify's public API doesn't expose
+monthly listener counts either, even to registered developers). The count
+is bucketed with `score = round(2.117 * log10(listeners) - 4.35)`, clamped
+to `[1, 10]` — fixed points roughly: 100 listeners → 1, 1,000 → 2, 10,000 →
+4, 100,000 → 6, 1,000,000 → 8, 6,000,000 (Metallica-tier) → 10. An artist
+Last.fm has no record of at all also gets `1` — no streaming footprint is
+itself the strongest available "least popular" signal, not something to
+leave unset.
+
+```
+LASTFM_API_KEY=xxx node scripts/enrich-popularity.mjs artists.json --write
+```
+
+This is a blunt, single-source proxy, not a rigorous metric: Last.fm's
+global listener count isn't genre-scoped, so a metal-adjacent act with a
+single song that crossed over into wider listening can score higher than
+its actual standing in the metal scene, and a fast-rising act can be
+under-counted if Last.fm hasn't caught up yet. Treat low-confidence or
+surprising results (run without `--write` first to review the report) as a
+starting point for a manual sanity check, not a final answer — adjust by
+hand where scene knowledge clearly disagrees with the computed bucket.
 
 ### Workflow: adding artists to a festival
 
@@ -496,4 +546,3 @@ FestivalIndex {
     }
   ]
 }
-```
