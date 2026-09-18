@@ -3448,7 +3448,8 @@
     "genres": [
       "Orchestral",
       "Metal"
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "electric-callboy",
@@ -3486,7 +3487,8 @@
         "type": "web",
         "label": "Website"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "edguy",
@@ -3522,7 +3524,8 @@
         "url": "https://www.instagram.com/edguyofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "saltatio-mortis",
@@ -3559,7 +3562,8 @@
         "url": "https://www.facebook.com/saltatiomortisofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "children-of-bodom",
@@ -3595,7 +3599,8 @@
         "url": "https://www.facebook.com/childrenofbodom",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 9
   },
   {
     "id": "lord-of-the-lost",
@@ -3632,7 +3637,8 @@
         "url": "https://www.facebook.com/lordofthelost",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "eluveitie",
@@ -3669,7 +3675,8 @@
         "url": "https://www.instagram.com/eluveitie_official/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 8
   },
   {
     "id": "h-blockx",
@@ -3707,7 +3714,8 @@
         "url": "https://www.instagram.com/hblockxofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "swiss-die-andern",
@@ -3745,7 +3753,8 @@
         "url": "https://www.instagram.com/swiss_666/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "clawfinger",
@@ -3782,7 +3791,8 @@
         "url": "https://www.instagram.com/clawfingerofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "kataklysm",
@@ -3818,7 +3828,8 @@
         "url": "https://www.instagram.com/kataklysmband/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "mono-inc",
@@ -3855,7 +3866,8 @@
         "url": "https://www.instagram.com/monoinc.official/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "warkings",
@@ -3891,7 +3903,8 @@
         "url": "https://www.instagram.com/warkings_metal/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "dark-funeral",
@@ -3927,7 +3940,8 @@
         "url": "https://www.instagram.com/darkfuneralofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "finntroll",
@@ -3964,7 +3978,8 @@
         "url": "https://www.instagram.com/trollballs/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "atreyu",
@@ -4001,7 +4016,8 @@
         "url": "https://twitter.com/atreyuofficial",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 9
   },
   {
     "id": "shadow-of-intent",
@@ -4038,7 +4054,8 @@
         "url": "https://twitter.com/of_intent",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "emil-bulls",
@@ -4077,7 +4094,8 @@
         "url": "https://www.facebook.com/EmilBullsOfficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "equilibrium",
@@ -4115,7 +4133,8 @@
         "url": "https://www.facebook.com/equilibrium",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "john-bush",
@@ -4131,7 +4150,8 @@
         "url": "https://open.spotify.com/artist/4bKtCAuiawng7u01bT0ElG",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "carnifex",
@@ -4167,7 +4187,8 @@
         "url": "https://www.instagram.com/Carnifex/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "the-browning",
@@ -4203,7 +4224,8 @@
         "url": "https://www.facebook.com/TheBrowningOfficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "long-distance-calling",
@@ -4240,7 +4262,8 @@
         "url": "https://www.facebook.com/longdistancecalling",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "make-them-suffer",
@@ -4278,7 +4301,8 @@
         "url": "https://www.facebook.com/makethemsufferau",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "any-given-day",
@@ -4314,7 +4338,8 @@
         "url": "https://www.facebook.com/AnyxGivenxDay",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "gutalax",
@@ -4349,7 +4374,8 @@
         "url": "https://www.facebook.com/gutalax.band",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "blue-medusa",
@@ -4387,7 +4413,8 @@
         "url": "https://www.instagram.com/bluemedusamusic/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "insomnium",
@@ -4423,7 +4450,8 @@
         "url": "https://www.facebook.com/insomniumofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "combichrist",
@@ -4460,7 +4488,8 @@
         "url": "https://www.facebook.com/combichrist",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "anaal-nathrakh",
@@ -4497,7 +4526,8 @@
         "url": "https://www.facebook.com/Anaalnathrakhofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "fleshgod-apocalypse",
@@ -4533,7 +4563,8 @@
         "url": "https://www.facebook.com/fleshgodapocalypse",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "primal-fear",
@@ -4570,7 +4601,8 @@
         "url": "https://www.instagram.com/primalfearofficial/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "burning-witches",
@@ -4607,7 +4639,8 @@
         "url": "https://www.facebook.com/burningwitches666",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "end-of-green",
@@ -4644,7 +4677,8 @@
         "url": "https://www.facebook.com/endofgreenofficial",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "wolfheart",
@@ -4680,7 +4714,8 @@
         "url": "https://www.facebook.com/WolfheartRealm",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "legion-of-the-damned",
@@ -4717,7 +4752,8 @@
         "url": "https://twitter.com/legionotdamned",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "angelus-apatrida",
@@ -4753,7 +4789,8 @@
         "url": "https://www.instagram.com/angelusapatrida/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "abbie-falls",
@@ -4789,7 +4826,8 @@
         "url": "https://www.tiktok.com/@abbiefalls_official",
         "type": "tiktok"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "samurai-pizza-cats",
@@ -4826,7 +4864,8 @@
         "url": "https://music.apple.com/nz/artist/633600923",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "left-to-suffer",
@@ -4863,7 +4902,8 @@
         "url": "https://twitter.com/LefttoSufferUS",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "evil-invaders",
@@ -4900,7 +4940,8 @@
         "url": "https://www.facebook.com/evilinvaders",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "lavina",
@@ -4936,7 +4977,8 @@
         "url": "https://music.apple.com/rs/artist/1649181126",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "accvsed",
@@ -4972,7 +5014,8 @@
         "url": "https://music.apple.com/gb/artist/1584198616",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "spitting-glass",
@@ -5000,7 +5043,8 @@
         "url": "https://music.apple.com/gb/artist/1889365883",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "ahab",
@@ -5037,7 +5081,8 @@
         "url": "https://twitter.com/AHAB_Official",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "sunborn",
@@ -5073,7 +5118,8 @@
         "url": "https://www.youtube.com/@SUNBORN",
         "type": "youtube"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "defiance-hc",
@@ -5104,7 +5150,8 @@
         "url": "https://www.tiktok.com/@defiancehc",
         "type": "tiktok"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "regarde-les-hommes-tomber",
@@ -5140,7 +5187,8 @@
         "url": "https://www.instagram.com/regardeleshommestomber/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "capacopter",
@@ -5172,7 +5220,8 @@
         "url": "https://open.spotify.com/artist/72SRvs1RAnSZxYtkk8CTZk",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "hammerfall",
@@ -5209,7 +5258,8 @@
         "url": "https://twitter.com/hammerfall",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 8
   },
   {
     "id": "gloryhammer",
@@ -5245,7 +5295,8 @@
         "url": "https://www.facebook.com/gloryhammer",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "gaerea",
@@ -5282,7 +5333,8 @@
         "url": "https://www.facebook.com/gaerea",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "peeling-flesh",
@@ -5298,7 +5350,8 @@
         "url": "https://open.spotify.com/artist/40DbKvYvADTiks7hZIUPHG",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "nasty",
@@ -5333,7 +5386,8 @@
         "url": "https://music.apple.com/de/artist/39934034",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "kupfergold",
@@ -5370,7 +5424,8 @@
         "url": "https://www.tiktok.com/@kupfergoldband",
         "type": "tiktok"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "necrotted",
@@ -5407,7 +5462,8 @@
         "url": "https://www.facebook.com/NECROTTED",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "hiraes",
@@ -5443,7 +5499,8 @@
         "url": "https://www.instagram.com/hiraes.official/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "the-night-eternal",
@@ -5479,7 +5536,8 @@
         "url": "https://www.instagram.com/thenighteternal_official/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "halestorm",
@@ -5516,7 +5574,8 @@
         "url": "https://www.facebook.com/halestormrocks",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 8
   },
   {
     "id": "alraunen",
@@ -5525,7 +5584,8 @@
     "genres": [
       "Ritual Folk"
     ],
-    "country": "de"
+    "country": "de",
+    "popularity": 1
   },
   {
     "id": "avertat",
@@ -5541,7 +5601,8 @@
         "url": "https://open.spotify.com/artist/3BPkSDu9dinQ5ddFeGkHJq",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "dordeduh",
@@ -5578,7 +5639,8 @@
         "url": "https://twitter.com/Dordeduh",
         "type": "x"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "harakiri-for-the-sky",
@@ -5614,7 +5676,8 @@
         "url": "https://www.facebook.com/HarakiriForTheSky",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "midnight-odyssey",
@@ -5652,7 +5715,8 @@
         "url": "https://music.apple.com/au/artist/949548959",
         "type": "applemusic"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "asagraum",
@@ -5687,7 +5751,8 @@
         "url": "https://www.instagram.com/asagraum/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "bedrangnis",
@@ -5722,7 +5787,8 @@
         "url": "https://www.instagram.com/bedraengnis_/",
         "type": "instagram"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "grimner",
@@ -5758,7 +5824,8 @@
         "url": "https://www.facebook.com/Grimnerswe",
         "type": "facebook"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "munarheim",
@@ -5795,6 +5862,7 @@
         "url": "https://www.youtube.com/channel/UCg7s628uwxpp2nUF6284RNA",
         "type": "youtube"
       }
-    ]
+    ],
+    "popularity": 3
   }
 ]
