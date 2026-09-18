@@ -1,0 +1,333 @@
+{
+  "id": "dark-troll-festival-2027",
+  "name": "Dark Troll Festival",
+  "version": 1,
+  "year": 2027,
+  "defaultLang": "en",
+  "visible": false,
+  "runningOrderExists": false,
+  "utcOffsetHours": 2,
+  "festivalDays": [
+    "2027-05-06",
+    "2027-05-07",
+    "2027-05-08"
+  ],
+  "news": [],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://www.darktroll-festival.de/de/start/start/init.html"
+    },
+    {
+      "id": "l2",
+      "label": "Tickets",
+      "url": "https://www.eventbrite.de/e/dark-troll-festival-2027-tickets-1992690450780"
+    },
+    {
+      "id": "l3",
+      "label": "Hard Ticket Shop",
+      "url": "https://in-fiction.shop/354/show.html"
+    },
+    {
+      "id": "l4",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/InFictionEntertainment",
+      "type": "facebook"
+    },
+    {
+      "id": "l5",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/darktrollfestival/",
+      "type": "instagram"
+    },
+    {
+      "id": "l6",
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@infictionentertainment5414",
+      "type": "youtube"
+    },
+    {
+      "id": "la2",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0vYB7kRlczfzsOnK49N7D2",
+      "type": "spotify",
+      "artistId": "asagraum"
+    },
+    {
+      "id": "la3",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3BPkSDu9dinQ5ddFeGkHJq",
+      "type": "spotify",
+      "artistId": "avertat"
+    },
+    {
+      "id": "la4",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4H3re4gc1xtibAEDxRLDA5",
+      "type": "spotify",
+      "artistId": "bedrangnis"
+    },
+    {
+      "id": "la5",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/052X0cOZM6KscHPcJwsPh0",
+      "type": "spotify",
+      "artistId": "dordeduh"
+    },
+    {
+      "id": "la6",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3EzUgwy78fPj2HFx8hSvKR",
+      "type": "spotify",
+      "artistId": "grimner"
+    },
+    {
+      "id": "la7",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/58KBq6qkQnfWYRqCjffQQq",
+      "type": "spotify",
+      "artistId": "harakiri-for-the-sky"
+    },
+    {
+      "id": "la8",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3rTyM1AkQ1ymEyP3DxhiqL",
+      "type": "spotify",
+      "artistId": "midnight-odyssey"
+    },
+    {
+      "id": "la9",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0sAHhJcw0yYxdcaPhJohwh",
+      "type": "spotify",
+      "artistId": "munarheim"
+    },
+    {
+      "id": "la10",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/051XBni6chcd9hYGQ30JfK",
+      "type": "spotify",
+      "artistId": "saor"
+    }
+  ],
+  "artists": [
+    {
+      "id": "alraunen",
+      "name": "Alraunen",
+      "imageUrl": "a1.jpg",
+      "description": "German ritual folk project founded in 2025, built around handcrafted instruments made entirely from natural materials. Their music draws on nature spirituality, seasonal cycles, and old rites, paired with rich, multi-layered vocals.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Ritual Folk"
+      ],
+      "country": "de",
+      "globalId": "alraunen"
+    },
+    {
+      "id": "asagraum",
+      "name": "Asagraum",
+      "imageUrl": "a2.jpg",
+      "description": "Dutch satanic black metal band formed in Zaanstad in 2015 by guitarist/vocalist Obscura. Their traditional, psychedelia-tinged sound has carried across three albums, most recently 2023's Veil of Death, Ruptured.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "nl",
+      "globalId": "asagraum"
+    },
+    {
+      "id": "avertat",
+      "name": "Avertat",
+      "imageUrl": "a3.jpg",
+      "description": "German melodic death/doom project launched in 2024 by multi-instrumentalist Sebastian Görlach after his departure from Décembre Noir. Debut album Dead End Life confronts trauma, guilt, and existential despair with weighty, melancholic riffing.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal",
+        "Doom Metal"
+      ],
+      "country": "de",
+      "globalId": "avertat"
+    },
+    {
+      "id": "bedrangnis",
+      "name": "Bedrängnis",
+      "imageUrl": "a4.jpg",
+      "description": "Swiss black metal duo formed in 2020, known for dense, oppressive atmospheres and intense live performances. Two albums and an EP in, most recently Stiller Abschied, they explore inner turmoil and existential weight.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "ch",
+      "globalId": "bedrangnis"
+    },
+    {
+      "id": "dordeduh",
+      "name": "Dordeduh",
+      "imageUrl": "a5.jpg",
+      "description": "Romanian folk/black metal band formed by former Negură Bunget members Hupogrammos and Sol Faur. Their genre-defying, progressive sound - most recently on the album Har - has made them figureheads of Romania's extreme metal scene.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Folk Metal"
+      ],
+      "country": "ro",
+      "globalId": "dordeduh"
+    },
+    {
+      "id": "grimner",
+      "name": "Grimner",
+      "imageUrl": "a6.jpg",
+      "description": "Swedish folk metal band founded in Motala in 2008, fusing Scandinavian folk melodies with Gothenburg-style death metal and classic heavy metal. Singing exclusively in Swedish about Norse gods and folklore, their catalogue includes 2026's Stormvingar.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk Metal"
+      ],
+      "country": "se",
+      "globalId": "grimner"
+    },
+    {
+      "id": "harakiri-for-the-sky",
+      "name": "Harakiri for the Sky",
+      "imageUrl": "a7.jpg",
+      "description": "Austrian atmospheric post-black metal duo founded in 2011 by multi-instrumentalist M.S. and vocalist J.J. Their emotionally charged sound fuses extreme metal with post-rock, grunge, and modern hardcore, most recently on 2025's Scorched Earth.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Post-Black Metal",
+        "Atmospheric Black Metal"
+      ],
+      "country": "at",
+      "globalId": "harakiri-for-the-sky"
+    },
+    {
+      "id": "midnight-odyssey",
+      "name": "Midnight Odyssey",
+      "imageUrl": "a8.jpg",
+      "description": "Australian one-man atmospheric black metal project from Brisbane, founded in 2007 by multi-instrumentalist Dis Pater. Over 15 releases - including the acclaimed Biolume trilogy - explore themes of death, space, and mythology.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Black Metal"
+      ],
+      "country": "au",
+      "globalId": "midnight-odyssey"
+    },
+    {
+      "id": "munarheim",
+      "name": "Munarheim",
+      "imageUrl": "a9.jpg",
+      "description": "German symphonic black/folk metal band from Coburg, founded in 2007. Across four albums they've paired modern black metal intensity with orchestral arrangements, folk accents, and high-pitched screams.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Symphonic Black Metal",
+        "Folk Metal"
+      ],
+      "country": "de",
+      "globalId": "munarheim"
+    },
+    {
+      "id": "saor",
+      "name": "Saor",
+      "imageUrl": "a10.jpg",
+      "description": "Saor is a Scottish atmospheric black metal project led by multi-instrumentalist Andy Marshall, blending sweeping black metal intensity with Celtic folk melodies, bagpipes, and fiddle. Active since 2012, albums such as Aura and Forgotten Paths have earned widespread praise for their emotive, landscape-inspired sound.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Black Metal",
+        "Folk Metal"
+      ],
+      "country": "gb"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "artists": [
+        {
+          "id": "alraunen",
+          "description": "Deutsches Ritual-Folk-Projekt, gegründet 2025, das ausschließlich mit selbst gefertigten Instrumenten aus Naturmaterialien musiziert. Die Musik dreht sich um Naturspiritualität, Jahreszyklen und alte Riten, getragen von vielschichtigem Gesang."
+        },
+        {
+          "id": "asagraum",
+          "description": "Niederländische Satanic-Black-Metal-Band, 2015 in Zaanstad von Sängerin/Gitarristin Obscura gegründet. Ihr traditioneller, von dunkler Psychedelik durchzogener Sound erstreckt sich über drei Alben, zuletzt „Veil of Death, Ruptured“ (2023)."
+        },
+        {
+          "id": "avertat",
+          "description": "Deutsches Melodic-Death/Doom-Projekt, 2024 von Multiinstrumentalist Sebastian Görlach nach seinem Ausstieg bei Décembre Noir gestartet. Das Debütalbum „Dead End Life“ behandelt Trauma, Schuld und existenzielle Ausweglosigkeit mit schwerem, melancholischem Riffing."
+        },
+        {
+          "id": "bedrangnis",
+          "description": "Schweizer Black-Metal-Duo, gegründet 2020, bekannt für dichte, bedrückende Atmosphären und intensive Live-Auftritte. Nach zwei Alben und einer EP, zuletzt „Stiller Abschied“, erkunden sie innere Abgründe und existenzielle Schwere."
+        },
+        {
+          "id": "dordeduh",
+          "description": "Rumänische Folk/Black-Metal-Band, gegründet von den ehemaligen Negură-Bunget-Mitgliedern Hupogrammos und Sol Faur. Ihr grenzüberschreitender, progressiver Sound – zuletzt auf dem Album „Har“ – macht sie zu Aushängeschildern der rumänischen Extreme-Metal-Szene."
+        },
+        {
+          "id": "grimner",
+          "description": "Schwedische Folk-Metal-Band, 2008 in Motala gegründet, die skandinavische Volksmusik mit Death Metal im Göteborg-Stil und klassischem Heavy Metal verschmilzt. Sie singen ausschließlich auf Schwedisch über nordische Götter und Folklore, zuletzt auf dem Album „Stormvingar“ (2026)."
+        },
+        {
+          "id": "harakiri-for-the-sky",
+          "description": "Österreichisches atmosphärisches Post-Black-Metal-Duo, 2011 von Multiinstrumentalist M.S. und Sänger J.J. gegründet. Ihr emotionsgeladener Sound verbindet Extreme Metal mit Post-Rock, Grunge und modernem Hardcore, zuletzt auf „Scorched Earth“ (2025)."
+        },
+        {
+          "id": "midnight-odyssey",
+          "description": "Australisches Ein-Mann-Projekt für atmosphärischen Black Metal aus Brisbane, 2007 von Multiinstrumentalist Dis Pater gegründet. Über 15 Veröffentlichungen – darunter die gefeierte „Biolume“-Trilogie – behandeln Tod, Weltraum und Mythologie."
+        },
+        {
+          "id": "munarheim",
+          "description": "Deutsche Symphonic-Black/Folk-Metal-Band aus Coburg, gegründet 2007. Auf vier Alben verbinden sie moderne Black-Metal-Intensität mit orchestralen Arrangements, folkigen Akzenten und hohen Screams."
+        },
+        {
+          "id": "saor",
+          "description": "Saor ist ein schottisches atmosphärisches Black-Metal-Projekt unter der Leitung von Multiinstrumentalist Andy Marshall, das mitreißende Black-Metal-Intensität mit keltischen Folk-Melodien, Dudelsack und Fiddle verbindet. Aktiv seit 2012, haben Alben wie „Aura“ und „Forgotten Paths“ große Anerkennung für ihren gefühlvollen, landschaftsinspirierten Sound erhalten."
+        }
+      ],
+      "links": [
+        {
+          "id": "l1",
+          "label": "Website"
+        },
+        {
+          "id": "l2",
+          "label": "Tickets"
+        },
+        {
+          "id": "l3",
+          "label": "Ticketshop"
+        }
+      ]
+    }
+  ]
+}

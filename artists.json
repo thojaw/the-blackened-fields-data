@@ -508,7 +508,34 @@
       "Folk Metal"
     ],
     "country": "gb",
-    "popularity": 5
+    "popularity": 5,
+    "links": [
+      {
+        "url": "https://saor.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/051XBni6chcd9hYGQ30JfK",
+        "type": "spotify"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4rHMzJ1RKUMtid1K2QEYbr",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/6310894",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.deezer.com/artist/6768301",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.saormusic.com/",
+        "type": "web",
+        "label": "Website"
+      }
+    ]
   },
   {
     "id": "fireborn",
@@ -3413,5 +3440,284 @@
       }
     ],
     "popularity": 5
+  },
+  {
+    "id": "alraunen",
+    "name": "Alraunen",
+    "description": "German ritual folk project founded in 2025, built around handcrafted instruments made entirely from natural materials. Their music draws on nature spirituality, seasonal cycles, and old rites, paired with rich, multi-layered vocals.",
+    "genres": [
+      "Ritual Folk"
+    ],
+    "country": "de"
+  },
+  {
+    "id": "avertat",
+    "name": "Avertat",
+    "description": "German melodic death/doom project launched in 2024 by multi-instrumentalist Sebastian Görlach after his departure from Décembre Noir. Debut album Dead End Life confronts trauma, guilt, and existential despair with weighty, melancholic riffing.",
+    "genres": [
+      "Melodic Death Metal",
+      "Doom Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/3BPkSDu9dinQ5ddFeGkHJq",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "dordeduh",
+    "name": "Dordeduh",
+    "description": "Romanian folk/black metal band formed by former Negură Bunget members Hupogrammos and Sol Faur. Their genre-defying, progressive sound - most recently on the album Har - has made them figureheads of Romania's extreme metal scene.",
+    "genres": [
+      "Black Metal",
+      "Folk Metal"
+    ],
+    "country": "ro",
+    "links": [
+      {
+        "url": "https://dordeduh.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/052X0cOZM6KscHPcJwsPh0",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/3226571",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.dordeduh.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/ro/artist/390451495",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://twitter.com/Dordeduh",
+        "type": "x"
+      }
+    ]
+  },
+  {
+    "id": "harakiri-for-the-sky",
+    "name": "Harakiri for the Sky",
+    "description": "Austrian atmospheric post-black metal duo founded in 2011 by multi-instrumentalist M.S. and vocalist J.J. Their emotionally charged sound fuses extreme metal with post-rock, grunge, and modern hardcore, most recently on 2025's Scorched Earth.",
+    "genres": [
+      "Post-Black Metal",
+      "Atmospheric Black Metal"
+    ],
+    "country": "at",
+    "links": [
+      {
+        "url": "https://harakirifortheskyofficial.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/58KBq6qkQnfWYRqCjffQQq",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/6518643",
+        "type": "deezer"
+      },
+      {
+        "url": "https://www.patreon.com/harakiriforthesky",
+        "type": "patreon"
+      },
+      {
+        "url": "https://music.apple.com/at/artist/871354011",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://www.facebook.com/HarakiriForTheSky",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "midnight-odyssey",
+    "name": "Midnight Odyssey",
+    "description": "Australian one-man atmospheric black metal project from Brisbane, founded in 2007 by multi-instrumentalist Dis Pater. Over 15 releases - including the acclaimed Biolume trilogy - explore themes of death, space, and mythology.",
+    "genres": [
+      "Atmospheric Black Metal",
+      "Black Metal"
+    ],
+    "country": "au",
+    "links": [
+      {
+        "url": "https://midnightodyssey.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/3rTyM1AkQ1ymEyP3DxhiqL",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/7421006",
+        "type": "deezer"
+      },
+      {
+        "url": "https://midnightodysseyofficial.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "http://www.midnight-odyssey.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://music.apple.com/au/artist/949548959",
+        "type": "applemusic"
+      }
+    ]
+  },
+  {
+    "id": "asagraum",
+    "name": "Asagraum",
+    "description": "Dutch satanic black metal band formed in Zaanstad in 2015 by guitarist/vocalist Obscura. Their traditional, psychedelia-tinged sound has carried across three albums, most recently 2023's Veil of Death, Ruptured.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "nl",
+    "links": [
+      {
+        "url": "https://asagraum.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/0vYB7kRlczfzsOnK49N7D2",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/13947213",
+        "type": "deezer"
+      },
+      {
+        "url": "https://twitter.com/asagraum",
+        "type": "x"
+      },
+      {
+        "url": "https://www.facebook.com/asagraum",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/asagraum/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "bedrangnis",
+    "name": "Bedrängnis",
+    "description": "Swiss black metal duo formed in 2020, known for dense, oppressive atmospheres and intense live performances. Two albums and an EP in, most recently Stiller Abschied, they explore inner turmoil and existential weight.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "ch",
+    "links": [
+      {
+        "url": "https://bedraengnis.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4H3re4gc1xtibAEDxRLDA5",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/99698272",
+        "type": "deezer"
+      },
+      {
+        "url": "https://music.apple.com/us/artist/1522051197",
+        "type": "applemusic"
+      },
+      {
+        "url": "https://www.facebook.com/Bedraengnis",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.instagram.com/bedraengnis_/",
+        "type": "instagram"
+      }
+    ]
+  },
+  {
+    "id": "grimner",
+    "name": "Grimner",
+    "description": "Swedish folk metal band founded in Motala in 2008, fusing Scandinavian folk melodies with Gothenburg-style death metal and classic heavy metal. Singing exclusively in Swedish about Norse gods and folklore, their catalogue includes 2026's Stormvingar.",
+    "genres": [
+      "Folk Metal"
+    ],
+    "country": "se",
+    "links": [
+      {
+        "url": "https://bandgrimner.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://grimner.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/3EzUgwy78fPj2HFx8hSvKR",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/1848081",
+        "type": "deezer"
+      },
+      {
+        "url": "http://grimnerband.com/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/Grimnerswe",
+        "type": "facebook"
+      }
+    ]
+  },
+  {
+    "id": "munarheim",
+    "name": "Munarheim",
+    "description": "German symphonic black/folk metal band from Coburg, founded in 2007. Across four albums they've paired modern black metal intensity with orchestral arrangements, folk accents, and high-pitched screams.",
+    "genres": [
+      "Symphonic Black Metal",
+      "Folk Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://munarheim.bandcamp.com/",
+        "type": "bandcamp"
+      },
+      {
+        "url": "https://open.spotify.com/artist/0sAHhJcw0yYxdcaPhJohwh",
+        "type": "spotify"
+      },
+      {
+        "url": "https://www.deezer.com/artist/4474249",
+        "type": "deezer"
+      },
+      {
+        "url": "http://www.munarheim.de/",
+        "type": "web",
+        "label": "Website"
+      },
+      {
+        "url": "https://www.facebook.com/Munarheim",
+        "type": "facebook"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCg7s628uwxpp2nUF6284RNA",
+        "type": "youtube"
+      }
+    ]
   }
 ]
