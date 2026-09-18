@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T15:23:28Z",
+  "generatedAt": "2026-09-18T17:16:01Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -390,6 +390,52 @@
         "discovery": 0.2,
         "scoredArtists": 20,
         "lowConfidence": false
+      }
+    },
+    {
+      "id": "dark-troll-festival-2027",
+      "slug": "dark-troll-festival",
+      "year": 2027,
+      "name": "Dark Troll Festival",
+      "path": "dark-troll-festival/2027/festival.json",
+      "defaultLang": "en",
+      "utcOffsetHours": 2,
+      "runningOrderExists": false,
+      "version": 1,
+      "visible": false,
+      "festivalDays": [
+        "2027-05-06",
+        "2027-05-07",
+        "2027-05-08"
+      ],
+      "isMultiStage": false,
+      "translationLangs": [
+        "de"
+      ],
+      "topGenres": {
+        "Black Metal": 5,
+        "Folk Metal": 4,
+        "Atmospheric Black Metal": 3,
+        "Doom Metal": 1,
+        "Melodic Death Metal": 1,
+        "Post-Black Metal": 1,
+        "Ritual Folk": 1,
+        "Symphonic Black Metal": 1
+      },
+      "completeness": {
+        "stars": 3,
+        "contentLevel": "complete",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 1.0,
+        "scheduleCoverage": 0.0
+      },
+      "counts": {
+        "artists": 10,
+        "stages": 0,
+        "news": 1,
+        "events": 0,
+        "links": 15,
+        "globalLinks": 6
       }
     }
   ]
