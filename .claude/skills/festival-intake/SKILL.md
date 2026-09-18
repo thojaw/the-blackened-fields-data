@@ -160,9 +160,28 @@ Foo Fest 2028 lineup just dropped, add it."
    your summary — most acts worth booking have a Spotify presence, so a
    silent gap here is more likely a missed search than a genuine absence.
 
-10. **Branch, commit, push, open a PR** (`gh pr create`) summarizing what was
+10. **Check popularity coverage.** Step 8's chained pipeline also runs
+    `enrich-popularity.mjs` against every artist it just registered, the same
+    "safely against only the touched ids" pattern as the Spotify/link
+    enrichment in step 9. It needs `LASTFM_API_KEY`, which most local/agent
+    dev environments won't have — that's expected, not a failure to fix: the
+    script fails soft and reports the still-`null` ids in the JSON summary's
+    `needsManualReview.unscoredPopularity`. **Never leave those artists at
+    `popularity: null` silently** — the app's tiering UI treats a missing
+    value as the *lowest possible* score, which visibly mis-tiers a
+    well-known act (this happened for real: HammerFall and Electric Callboy
+    both landed in the smallest-font tier after an intake that predated this
+    step — see `docs/history.md`, 2026-09-18). List every unscored id in your
+    PR summary, and after the PR is merged to `main`, trigger the repo's
+    "Enrich artist popularity" GitHub Actions workflow
+    (`.github/workflows/enrich-popularity.yml`, `workflow_dispatch`, runs
+    against the `LASTFM_API_KEY` repo secret) to backfill them — don't just
+    leave the gap for someone else to notice later.
+
+11. **Branch, commit, push, open a PR** (`gh pr create`) summarizing what was
     added — artist list, translation coverage, Spotify link coverage (and
-    any artist left without one), the `visible: false` review-pending state,
+    any artist left without one), popularity coverage (and any artist left
+    unscored, per step 10), the `visible: false` review-pending state,
     what's still pending (e.g. unresolved images), any `needsManualReview`
     items you handled or left open. Re-run the coverage check from step 5
     one last time against the final written `festival.json` (not your
@@ -170,7 +189,8 @@ Foo Fest 2028 lineup just dropped, add it."
     actually ships, and it may have gained artists (from
     `needsManualReview` fixes) since you last checked. Don't ask permission
     for the PR itself; opening a PR (not merging) is the expected end state
-    of this workflow.
+    of this workflow. Once the PR is merged, trigger the popularity-backfill
+    workflow per step 10 if any artist was left unscored.
 
 ## Mode 2: Update an already-added festival
 
@@ -205,11 +225,12 @@ pull in new artists."
    node scripts/scaffold-festival.mjs add-artists <festival.json> <spec.json>
    ```
 
-6. Same `needsManualReview` handling and Spotify-link-coverage check
-   (step 9 of Mode 1) as a fresh intake, then branch/commit/push/PR. Title
-   the PR/commit around what actually changed (e.g. "Add 6 newly-announced
-   artists to Foo Fest 2028") rather than reusing the original add-festival
-   title.
+6. Same `needsManualReview` handling, Spotify-link-coverage check (step 9 of
+   Mode 1), and popularity-coverage check (step 10 of Mode 1, including
+   triggering the backfill workflow post-merge for any unscored artist) as a
+   fresh intake, then branch/commit/push/PR. Title the PR/commit around what
+   actually changed (e.g. "Add 6 newly-announced artists to Foo Fest 2028")
+   rather than reusing the original add-festival title.
 
 ## Why the script won't do the research parts
 
