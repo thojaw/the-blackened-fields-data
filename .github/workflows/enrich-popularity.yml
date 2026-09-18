@@ -1,0 +1,47 @@
+name: Enrich artist popularity
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-lookup and overwrite artists that already have a popularity value"
+        type: boolean
+        default: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run popularity enrichment
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          ARGS="artists.json --write"
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          node scripts/enrich-popularity.mjs $ARGS
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then
+            echo "Nothing to enrich"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add artists.json
+          git commit -m "Backfill artist popularity scores"
+          git push origin HEAD:${{ github.ref_name }}
