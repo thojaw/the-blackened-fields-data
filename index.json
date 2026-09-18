@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-09-15T15:21:57Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-18T12:42:55Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -35,6 +35,13 @@
         "Thrash Metal": 8,
         "Folk Metal": 7,
         "Atmospheric Black Metal": 6
+      },
+      "completeness": {
+        "stars": 5,
+        "contentLevel": "complete",
+        "scheduleLevel": "full",
+        "artistInfoCoverage": 0.993,
+        "scheduleCoverage": 1.0
       },
       "counts": {
         "artists": 135,
@@ -74,6 +81,13 @@
         "Depressive Suicidal Black Metal": 1,
         "Epic Doom Metal": 1,
         "Experimental": 1
+      },
+      "completeness": {
+        "stars": 5,
+        "contentLevel": "complete",
+        "scheduleLevel": "full",
+        "artistInfoCoverage": 0.95,
+        "scheduleCoverage": 1.0
       },
       "counts": {
         "artists": 20,
@@ -116,6 +130,13 @@
         "Blackened Death Metal": 1,
         "Crossover Thrash": 1
       },
+      "completeness": {
+        "stars": 5,
+        "contentLevel": "complete",
+        "scheduleLevel": "full",
+        "artistInfoCoverage": 0.968,
+        "scheduleCoverage": 0.968
+      },
       "counts": {
         "artists": 31,
         "stages": 2,
@@ -153,6 +174,13 @@
         "Heavy Metal": 1,
         "Power Metal": 1,
         "Sludge Metal": 1
+      },
+      "completeness": {
+        "stars": 3,
+        "contentLevel": "complete",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 1.0,
+        "scheduleCoverage": 0.0
       },
       "counts": {
         "artists": 17,
@@ -193,6 +221,13 @@
         "Post-Metal": 1,
         "Progressive Black Metal": 1
       },
+      "completeness": {
+        "stars": 3,
+        "contentLevel": "complete",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 1.0,
+        "scheduleCoverage": 0.0
+      },
       "counts": {
         "artists": 16,
         "stages": 0,
@@ -229,6 +264,13 @@
         "Death Metal": 1,
         "Oneiric Black Metal": 1,
         "Pagan Black Metal": 1
+      },
+      "completeness": {
+        "stars": 3,
+        "contentLevel": "complete",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 1.0,
+        "scheduleCoverage": 0.0
       },
       "counts": {
         "artists": 8,
@@ -270,6 +312,13 @@
         "Black/Thrash Metal": 1,
         "Blackgaze": 1,
         "Dark Folk": 1
+      },
+      "completeness": {
+        "stars": 3,
+        "contentLevel": "complete",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 1.0,
+        "scheduleCoverage": 0.0
       },
       "counts": {
         "artists": 21,

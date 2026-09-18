@@ -9,7 +9,7 @@
   "properties": {
     "schemaVersion": {
       "type": "integer",
-      "const": 1,
+      "const": 2,
       "description": "Version of this index schema (not of any individual festival). Bump when the shape of an entry changes."
     },
     "generatedAt": {
@@ -30,7 +30,7 @@
       "required": [
         "id", "slug", "year", "name", "path", "defaultLang", "utcOffsetHours",
         "runningOrderExists", "version", "visible", "festivalDays", "isMultiStage",
-        "translationLangs", "counts", "topGenres"
+        "translationLangs", "counts", "topGenres", "completeness"
       ],
       "properties": {
         "id": {
@@ -100,6 +100,42 @@
           "type": "object",
           "additionalProperties": { "type": "integer", "minimum": 1 },
           "description": "Up to 10 most common artist genre tags, mapping genre name to number of artists with that genre. Ordered by count descending, then genre name ascending. Empty object if the festival has no artists with genres."
+        },
+        "completeness": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["stars", "contentLevel", "scheduleLevel", "artistInfoCoverage", "scheduleCoverage"],
+          "description": "Derived 'how much is there to see yet' signal for pickers, so users know what to expect before opening a freshly-added festival. Computed purely from existing festival.json fields -- no manual input. Content (lineup, pictures, descriptions, links) and schedule (running order, per-artist times) are scored on independent axes and combined, because in practice content fills in well before the schedule does; see AGENTS.md 'Completeness / stars'.",
+          "properties": {
+            "stars": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5,
+              "description": "1 (freshly announced stub) to 5 (lineup, pictures, descriptions, links and full running order all present). Derived from contentLevel x scheduleLevel -- see AGENTS.md for the combination table."
+            },
+            "contentLevel": {
+              "type": "string",
+              "enum": ["none", "partial", "complete"],
+              "description": "'none' = no artists announced yet. 'complete' = artistInfoCoverage >= 0.9. 'partial' = anything in between."
+            },
+            "scheduleLevel": {
+              "type": "string",
+              "enum": ["none", "partial", "full"],
+              "description": "'none' = runningOrderExists is false. 'full' = runningOrderExists is true and scheduleCoverage >= 0.9. 'partial' = runningOrderExists is true but coverage hasn't caught up yet (schedule being rolled out gradually)."
+            },
+            "artistInfoCoverage": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Fraction of artists[] with both imageUrl and description non-empty. 0 if there are no artists yet."
+            },
+            "scheduleCoverage": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Fraction of artists[] with startTime set. 0 if there are no artists yet."
+            }
+          }
         }
       }
     }

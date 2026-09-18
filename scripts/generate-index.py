@@ -26,8 +26,31 @@ import json
 import os
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 TOP_GENRES_LIMIT = 10
+
+# Thresholds for the completeness/stars heuristic -- see AGENTS.md
+# "Completeness / stars" for the reasoning behind these numbers and the
+# content/schedule combination table below.
+CONTENT_COMPLETE_THRESHOLD = 0.9  # >= this fraction of artists have imageUrl + description
+SCHEDULE_FULL_THRESHOLD = 0.9  # >= this fraction of artists have startTime
+
+# (contentLevel, scheduleLevel) -> stars. Content (lineup announced, pictures,
+# descriptions, links) fills in early and independently of the schedule
+# (running order, per-artist start times), which historically lands last --
+# so a fully-announced, fully-pictured festival with no schedule yet caps at
+# 3 stars rather than jumping straight to 5 once a single flag flips.
+STARS_TABLE = {
+    ("none", "none"): 1,
+    ("none", "partial"): 1,
+    ("none", "full"): 1,
+    ("partial", "none"): 2,
+    ("partial", "partial"): 3,
+    ("partial", "full"): 3,
+    ("complete", "none"): 3,
+    ("complete", "partial"): 4,
+    ("complete", "full"): 5,
+}
 
 
 def find_festival_files():
@@ -37,6 +60,42 @@ def find_festival_files():
         parts = path.split(os.sep)
         slug, folder_year = parts[-3], parts[-2]
         yield path, slug, folder_year
+
+
+def compute_completeness(data, artists):
+    running_order_exists = bool(data.get("runningOrderExists"))
+    n = len(artists)
+
+    if n == 0:
+        artist_info_coverage = 0.0
+        schedule_coverage = 0.0
+    else:
+        artist_info_coverage = sum(
+            1 for a in artists if a.get("imageUrl") and a.get("description")
+        ) / n
+        schedule_coverage = sum(1 for a in artists if a.get("startTime")) / n
+
+    if n == 0:
+        content_level = "none"
+    elif artist_info_coverage >= CONTENT_COMPLETE_THRESHOLD:
+        content_level = "complete"
+    else:
+        content_level = "partial"
+
+    if not running_order_exists:
+        schedule_level = "none"
+    elif schedule_coverage >= SCHEDULE_FULL_THRESHOLD:
+        schedule_level = "full"
+    else:
+        schedule_level = "partial"
+
+    return {
+        "stars": STARS_TABLE[(content_level, schedule_level)],
+        "contentLevel": content_level,
+        "scheduleLevel": schedule_level,
+        "artistInfoCoverage": round(artist_info_coverage, 3),
+        "scheduleCoverage": round(schedule_coverage, 3),
+    }
 
 
 def build_entry(path, slug):
@@ -71,6 +130,7 @@ def build_entry(path, slug):
         "isMultiStage": len(stages) > 1,
         "translationLangs": [t["lang"] for t in translations],
         "topGenres": top_genres,
+        "completeness": compute_completeness(data, artists),
         "counts": {
             "artists": len(artists),
             "stages": len(stages),

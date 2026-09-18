@@ -486,6 +486,48 @@ full `festival.json`.
   `festival.json`. If you edit a `festival.json` locally, re-run the script
   yourself to keep `index.json` in sync (CI will also catch it on the PR).
 
+### Completeness / stars
+
+Each `index.json` entry also carries a `completeness` block: a derived
+"how much is there to see yet" signal, purely computed from existing
+`festival.json` fields (no manual input, no new authoring step) --
+`scripts/generate-index.py`'s `compute_completeness()`.
+
+It's a 1-5 `stars` score meant for a picker UI, so users know what to expect
+before opening a freshly-added festival (e.g. "still mostly TBA" vs. "full
+lineup and running order"). It's scored on two independent axes rather than
+one ladder, because in practice **content** (lineup, pictures, descriptions,
+links) fills in well before the **schedule** (running order, per-artist
+start times) does -- a festival can be fully announced with pictures and
+links resolved for every artist weeks before a single start time exists. A
+single-axis score would jump straight from "barely started" to "done" the
+moment `runningOrderExists` flips; two axes combined avoid that:
+
+- `contentLevel`: `"none"` (no artists yet) / `"partial"` / `"complete"`
+  (>= 90% of `artists[]` have both `imageUrl` and `description` set --
+  `artistInfoCoverage`).
+- `scheduleLevel`: `"none"` (`runningOrderExists` is `false`) / `"partial"`
+  (`runningOrderExists` is `true` but `scheduleCoverage` -- the fraction of
+  artists with `startTime` set -- hasn't caught up yet, e.g. rolled out day
+  by day) / `"full"` (`runningOrderExists` is `true` and
+  `scheduleCoverage >= 0.9`).
+- `stars` = combination of the two:
+
+  | contentLevel \ scheduleLevel | none | partial | full |
+  |---|---|---|---|
+  | none (stub) | 1 | 1 | 1 |
+  | partial | 2 | 3 | 3 |
+  | complete | 3 | 4 | 5 |
+
+  So a fully-announced, fully-pictured festival with no running order yet
+  caps at **3**, not 5 -- it only climbs to 4-5 once schedule coverage
+  actually rises.
+
+This is fully automatic and recomputed on every `generate-index.py` run;
+there's nothing to fill in by hand. If the thresholds ever need retuning,
+they're the two constants `CONTENT_COMPLETE_THRESHOLD` and
+`SCHEDULE_FULL_THRESHOLD` at the top of the script.
+
 ## Version field
 
 - `version` (integer) must strictly increase whenever a `festival.json`
@@ -532,11 +574,14 @@ FestivalIndexEntry {
   translationLangs[],  -- BCP 47 langs with a translations[] entry, e.g. ["de"]
   topGenres,        -- up to 10 most common artist genres, { genre: artistCount },
                      -- ordered by count descending then genre name
+  completeness: { stars, contentLevel, scheduleLevel, artistInfoCoverage, scheduleCoverage },
+                     -- derived 1-5 "how much is there to see yet" score, see
+                     -- "Completeness / stars" above
   counts: { artists, stages, news, events, links, globalLinks }
 }
 
 FestivalIndex {
-  schemaVersion,  -- of this index shape, currently 1
+  schemaVersion,  -- of this index shape, currently 2
   generatedAt,    -- UTC timestamp of the generation run
   festivals[]     -- sorted by soonest festivalDays[0], then name
 }
@@ -546,7 +591,7 @@ FestivalIndex {
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-08-16T20:39:32Z",
   "festivals": [
     {
@@ -568,6 +613,13 @@ FestivalIndex {
       "topGenres": {
         "Melodic Death Metal": 14,
         "Black Metal": 11
+      },
+      "completeness": {
+        "stars": 5,
+        "contentLevel": "complete",
+        "scheduleLevel": "full",
+        "artistInfoCoverage": 0.993,
+        "scheduleCoverage": 1.0
       },
       "counts": {
         "artists": 135,
