@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T16:39:05Z",
+  "generatedAt": "2026-09-18T17:16:01Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -432,7 +432,7 @@
       "counts": {
         "artists": 10,
         "stages": 0,
-        "news": 0,
+        "news": 1,
         "events": 0,
         "links": 15,
         "globalLinks": 6
