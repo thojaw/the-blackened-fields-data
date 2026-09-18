@@ -1,0 +1,1773 @@
+{
+  "id": "summer-breeze-2027",
+  "name": "Summer Breeze",
+  "version": 1,
+  "year": 2027,
+  "defaultLang": "en",
+  "visible": false,
+  "runningOrderExists": false,
+  "utcOffsetHours": 2,
+  "festivalDays": [
+    "2027-08-18",
+    "2027-08-19",
+    "2027-08-20",
+    "2027-08-21"
+  ],
+  "stages": [
+    {
+      "id": "s1",
+      "name": "Main Stage"
+    },
+    {
+      "id": "s2",
+      "name": "T-Stage"
+    },
+    {
+      "id": "s3",
+      "name": "Tool Rebel Stage"
+    },
+    {
+      "id": "s4",
+      "name": "Campsite Circus Stage"
+    }
+  ],
+  "news": [],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://www.summer-breeze.de/en/",
+      "type": "web"
+    },
+    {
+      "id": "l2",
+      "label": "Tickets",
+      "url": "https://www.sbtix.de/tickets",
+      "type": "web"
+    },
+    {
+      "id": "l3",
+      "label": "Merchandise",
+      "url": "https://www.sbtix.de/products",
+      "type": "web"
+    },
+    {
+      "id": "l4",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/summerbreezeopenair/",
+      "type": "instagram"
+    },
+    {
+      "id": "l5",
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/summerbreeze",
+      "type": "youtube"
+    },
+    {
+      "id": "l6",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/summerbreeze1997",
+      "type": "facebook"
+    },
+    {
+      "id": "l7",
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@summerbreezeopenair",
+      "type": "tiktok"
+    },
+    {
+      "id": "l8",
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/summerbreeze.bsky.social"
+    },
+    {
+      "id": "l9",
+      "label": "Threads",
+      "url": "https://www.threads.net/@summerbreezeopenair"
+    },
+    {
+      "id": "l_sp_electric-callboy",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1WNoKxsp715jez1Td4vthc",
+      "type": "spotify",
+      "artistId": "electric-callboy"
+    },
+    {
+      "id": "l_sp_edguy",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3AGFqPP3gt5rMSvhR87Xxu",
+      "type": "spotify",
+      "artistId": "edguy"
+    },
+    {
+      "id": "l_sp_saltatio-mortis",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/09Z51O0q4AwHl7FjUUlFKw",
+      "type": "spotify",
+      "artistId": "saltatio-mortis"
+    },
+    {
+      "id": "l_sp_children-of-bodom",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1xUhNgw4eJDZfvumIpcz1B",
+      "type": "spotify",
+      "artistId": "children-of-bodom"
+    },
+    {
+      "id": "l_sp_hammerfall",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2o18h28enlHxj887tATc58",
+      "type": "spotify",
+      "artistId": "hammerfall"
+    },
+    {
+      "id": "l_sp_halestorm",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6om12Ev5ppgoMy3OYSoech",
+      "type": "spotify",
+      "artistId": "halestorm"
+    },
+    {
+      "id": "l_sp_wind-rose",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/67ps5pbKVO7V9Fcb4lTIXz",
+      "type": "spotify",
+      "artistId": "wind-rose"
+    },
+    {
+      "id": "l_sp_lord-of-the-lost",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/28eLrVsohdXynlnIzQ2VvI",
+      "type": "spotify",
+      "artistId": "lord-of-the-lost"
+    },
+    {
+      "id": "l_sp_eluveitie",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5X0N2k3qMnI8kSrGJT3kfT",
+      "type": "spotify",
+      "artistId": "eluveitie"
+    },
+    {
+      "id": "l_sp_h-blockx",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1V3Nl0Y3EZwqP38KHws6vB",
+      "type": "spotify",
+      "artistId": "h-blockx"
+    },
+    {
+      "id": "l_sp_swiss-die-andern",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3d8f0YBZivistZ4Ohauncb",
+      "type": "spotify",
+      "artistId": "swiss-die-andern"
+    },
+    {
+      "id": "l_sp_clawfinger",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1xE3snzm12GBK259IqEFlY",
+      "type": "spotify",
+      "artistId": "clawfinger"
+    },
+    {
+      "id": "l_sp_kataklysm",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7kozeGeawfP7IEEL6dddrM",
+      "type": "spotify",
+      "artistId": "kataklysm"
+    },
+    {
+      "id": "l_sp_mono-inc",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1189BemPY7h2lgaH1pkzGX",
+      "type": "spotify",
+      "artistId": "mono-inc"
+    },
+    {
+      "id": "l_sp_warkings",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7DXUeaMULtMVFmmaKFzH3E",
+      "type": "spotify",
+      "artistId": "warkings"
+    },
+    {
+      "id": "l_sp_dark-funeral",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/21ojeH5LNADIGzJKc3hIlE",
+      "type": "spotify",
+      "artistId": "dark-funeral"
+    },
+    {
+      "id": "l_sp_gloryhammer",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7dkEByOe0oHqc54qU4hwzV",
+      "type": "spotify",
+      "artistId": "gloryhammer"
+    },
+    {
+      "id": "l_sp_finntroll",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4ZgkHVHmGPXuRy8zd26ZJX",
+      "type": "spotify",
+      "artistId": "finntroll"
+    },
+    {
+      "id": "l_sp_atreyu",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3LkSiHbjqOHCKCqBfEZOTv",
+      "type": "spotify",
+      "artistId": "atreyu"
+    },
+    {
+      "id": "l_sp_shadow-of-intent",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/76xrrejizyQpKukBIhnf3D",
+      "type": "spotify",
+      "artistId": "shadow-of-intent"
+    },
+    {
+      "id": "l_sp_emil-bulls",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1scIUjz7Jbq1mOph50OLQO",
+      "type": "spotify",
+      "artistId": "emil-bulls"
+    },
+    {
+      "id": "l_sp_equilibrium",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5KvkOKroKLz202ioXfGWR2",
+      "type": "spotify",
+      "artistId": "equilibrium"
+    },
+    {
+      "id": "l_sp_john-bush",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4bKtCAuiawng7u01bT0ElG",
+      "type": "spotify",
+      "artistId": "john-bush"
+    },
+    {
+      "id": "l_sp_carnifex",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4nqY8hkQNkHaDq4fdVxdYr",
+      "type": "spotify",
+      "artistId": "carnifex"
+    },
+    {
+      "id": "l_sp_the-browning",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4DSNcg40nf6T3eNAObq1Lo",
+      "type": "spotify",
+      "artistId": "the-browning"
+    },
+    {
+      "id": "l_sp_gaerea",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1wXoI3Ajpv4WwQ3LmcrSBw",
+      "type": "spotify",
+      "artistId": "gaerea"
+    },
+    {
+      "id": "l_sp_long-distance-calling",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3SiCxhceGZgzusCLHd4Zz6",
+      "type": "spotify",
+      "artistId": "long-distance-calling"
+    },
+    {
+      "id": "l_sp_make-them-suffer",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0FZcPgWI3BsFQl4rOAGSHT",
+      "type": "spotify",
+      "artistId": "make-them-suffer"
+    },
+    {
+      "id": "l_sp_mittel-alta",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2QjjVXLHTBPbpM18ftwvYV",
+      "type": "spotify",
+      "artistId": "mittel-alta"
+    },
+    {
+      "id": "l_sp_any-given-day",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4p6RoajGbtqLSfYZpFxHyU",
+      "type": "spotify",
+      "artistId": "any-given-day"
+    },
+    {
+      "id": "l_sp_gutalax",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5CmgfDQq0YVKMP6zpjYhPR",
+      "type": "spotify",
+      "artistId": "gutalax"
+    },
+    {
+      "id": "l_sp_blue-medusa",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4BMOQ1GSXhTvuv6a05wk7z",
+      "type": "spotify",
+      "artistId": "blue-medusa"
+    },
+    {
+      "id": "l_sp_insomnium",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3uIgLG971oRM5fe6v8lvQS",
+      "type": "spotify",
+      "artistId": "insomnium"
+    },
+    {
+      "id": "l_sp_combichrist",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5556RAgwP70PnXbaUTGNbR",
+      "type": "spotify",
+      "artistId": "combichrist"
+    },
+    {
+      "id": "l_sp_peeling-flesh",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/40DbKvYvADTiks7hZIUPHG",
+      "type": "spotify",
+      "artistId": "peeling-flesh"
+    },
+    {
+      "id": "l_sp_anaal-nathrakh",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7vrrJ5YlL3I8XUrh1ktGJV",
+      "type": "spotify",
+      "artistId": "anaal-nathrakh"
+    },
+    {
+      "id": "l_sp_fleshgod-apocalypse",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5ctFffJBdJe8PZL7W7NeML",
+      "type": "spotify",
+      "artistId": "fleshgod-apocalypse"
+    },
+    {
+      "id": "l_sp_primal-fear",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1yfiDL3YUEJlQCgb5Pun6g",
+      "type": "spotify",
+      "artistId": "primal-fear"
+    },
+    {
+      "id": "l_sp_nasty",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7GnX7pGXdWtLObs16B1mFB",
+      "type": "spotify",
+      "artistId": "nasty"
+    },
+    {
+      "id": "l_sp_burning-witches",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0eNuNAhL4dW2nvKbSe2mS8",
+      "type": "spotify",
+      "artistId": "burning-witches"
+    },
+    {
+      "id": "l_sp_kupfergold",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5ziUNRAHfR28SgsINMc66V",
+      "type": "spotify",
+      "artistId": "kupfergold"
+    },
+    {
+      "id": "l_sp_end-of-green",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2sVaW0noYw5antHR3te8lQ",
+      "type": "spotify",
+      "artistId": "end-of-green"
+    },
+    {
+      "id": "l_sp_wolfheart",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/11EAP8MX0cfrW9lzkK424H",
+      "type": "spotify",
+      "artistId": "wolfheart"
+    },
+    {
+      "id": "l_sp_legion-of-the-damned",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3tS2n2PiBzG8Mr8nCfLIJy",
+      "type": "spotify",
+      "artistId": "legion-of-the-damned"
+    },
+    {
+      "id": "l_sp_ellende",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1iLdVM2KFAHUbpaC5wpMbO",
+      "type": "spotify",
+      "artistId": "ellende"
+    },
+    {
+      "id": "l_sp_angelus-apatrida",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3bnPBquC93vbHmamojAf59",
+      "type": "spotify",
+      "artistId": "angelus-apatrida"
+    },
+    {
+      "id": "l_sp_abbie-falls",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5nSlRGZqJVAORU3SsSD0YU",
+      "type": "spotify",
+      "artistId": "abbie-falls"
+    },
+    {
+      "id": "l_sp_samurai-pizza-cats",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6f0FWL5v2c3a5shWKRuiwq",
+      "type": "spotify",
+      "artistId": "samurai-pizza-cats"
+    },
+    {
+      "id": "l_sp_necrotted",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7khBSLZWST1HqSjWpEFlXl",
+      "type": "spotify",
+      "artistId": "necrotted"
+    },
+    {
+      "id": "l_sp_left-to-suffer",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/36d1uVy1ZuZWqfnsPxCUOk",
+      "type": "spotify",
+      "artistId": "left-to-suffer"
+    },
+    {
+      "id": "l_sp_evil-invaders",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4bMhBA9z2oB9MixiL9OXCx",
+      "type": "spotify",
+      "artistId": "evil-invaders"
+    },
+    {
+      "id": "l_sp_hiraes",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1Djkm24RzECe7M6KuxKZzt",
+      "type": "spotify",
+      "artistId": "hiraes"
+    },
+    {
+      "id": "l_sp_lavina",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2a1W5RyJCm4GugnlqckLw3",
+      "type": "spotify",
+      "artistId": "lavina"
+    },
+    {
+      "id": "l_sp_asenblut",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1iuwMlGW6i8UojhyL0rQZi",
+      "type": "spotify",
+      "artistId": "asenblut"
+    },
+    {
+      "id": "l_sp_accvsed",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4GeOwEvBs2fJYEIjWrxvZS",
+      "type": "spotify",
+      "artistId": "accvsed"
+    },
+    {
+      "id": "l_sp_spitting-glass",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0CXwaPUVaNtZyDoulC6cId",
+      "type": "spotify",
+      "artistId": "spitting-glass"
+    },
+    {
+      "id": "l_sp_ahab",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2N8XkSGgBeH1VrFHxbarbz",
+      "type": "spotify",
+      "artistId": "ahab"
+    },
+    {
+      "id": "l_sp_sunborn",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/39bLxLnMXWV7LMinf717gS",
+      "type": "spotify",
+      "artistId": "sunborn"
+    },
+    {
+      "id": "l_sp_the-night-eternal",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1psvDRjOvOPm4OthS5Fdwr",
+      "type": "spotify",
+      "artistId": "the-night-eternal"
+    },
+    {
+      "id": "l_sp_defiance-hc",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2qEVGA1XwIL1KZ87NlWzxw",
+      "type": "spotify",
+      "artistId": "defiance-hc"
+    },
+    {
+      "id": "l_sp_regarde-les-hommes-tomber",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4sAFcrI2hgMwNT9Sz2XTjv",
+      "type": "spotify",
+      "artistId": "regarde-les-hommes-tomber"
+    },
+    {
+      "id": "l_sp_capacopter",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/72SRvs1RAnSZxYtkk8CTZk",
+      "type": "spotify",
+      "artistId": "capacopter"
+    }
+  ],
+  "artists": [
+    {
+      "id": "summer-breeze-legends-orchestra",
+      "name": "Summer Breeze Legends & Orchestra",
+      "imageUrl": "a1.jpg",
+      "description": "A one-off 30th-anniversary special: an all-star ensemble backed by a 40-piece line-up of the Leipzig Philharmoniker performing career-defining metal anthems across a 2.5-hour show. Musically directed and arranged by Lord of the Lost frontman Chris Harms together with composer Corvin Bahn; the specific guest vocalists are set to be revealed in December 2026.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Orchestral",
+        "Metal"
+      ],
+      "globalId": "summer-breeze-legends-orchestra"
+    },
+    {
+      "id": "electric-callboy",
+      "name": "Electric Callboy",
+      "imageUrl": "a2.jpg",
+      "description": "German party-metal juggernaut from Castrop-Rauxel, founded in 2010 and known as Eskimo Callboy until 2022. Blending heavy breakdowns with euphoric electronic/trance production, the band became one of the genre's biggest international crossover successes of the 2020s.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore",
+        "Trancecore"
+      ],
+      "country": "de",
+      "globalId": "electric-callboy"
+    },
+    {
+      "id": "edguy",
+      "name": "Edguy",
+      "imageUrl": "a3.jpg",
+      "description": "German melodic power metal band formed in Fulda in 1992 by then-14-year-old Tobias Sammet, Jens Ludwig, Dominik Storch and Dirk Sauer. A mainstay of the European power metal scene for over three decades, Edguy is playing only a handful of 2027 farewell shows.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Power Metal"
+      ],
+      "country": "de",
+      "globalId": "edguy"
+    },
+    {
+      "id": "saltatio-mortis",
+      "name": "Saltatio Mortis",
+      "imageUrl": "a4.jpg",
+      "description": "German medieval folk-rock band from Karlsruhe, formed in 2000 as a street-music act before becoming one of the pioneers of the German \"Mittelalter\" movement that fuses lutes and bagpipes with big rock songs. The band has landed multiple number-one albums in Germany.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Medieval Rock",
+        "Folk Metal"
+      ],
+      "country": "de",
+      "globalId": "saltatio-mortis"
+    },
+    {
+      "id": "children-of-bodom",
+      "name": "Children of Bodom",
+      "imageUrl": "a5.jpg",
+      "description": "Finnish melodic death metal band from Espoo, formed in 1993 (as Inearthed until 1996) and one of Finland's best-selling metal exports. The band split in 2019 following frontman Alexi Laiho's death but reunited in 2026 for select memorial performances, including festival dates.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "country": "fi",
+      "globalId": "children-of-bodom"
+    },
+    {
+      "id": "hammerfall",
+      "name": "HammerFall",
+      "imageUrl": "a6.jpg",
+      "description": "Swedish power metal band from Gothenburg, formed in 1993 by guitarist Oscar Dronjak. Their 1997 debut Glory to the Brave helped define the modern European power metal sound, and the band still tours the album's material for anniversary shows.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Power Metal",
+        "Heavy Metal"
+      ],
+      "country": "se",
+      "globalId": "hammerfall"
+    },
+    {
+      "id": "halestorm",
+      "name": "Halestorm",
+      "imageUrl": "a7.jpg",
+      "description": "American hard rock band formed near York, Pennsylvania in 1997 by siblings Lzzy and Arejay Hale. Fronted by Lzzy Hale's wide vocal range, the band won a Grammy for Best Hard Rock/Metal Performance in 2013 and has scored multiple platinum albums and top-10 rock hits.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Hard Rock",
+        "Post-Grunge"
+      ],
+      "country": "us",
+      "globalId": "halestorm"
+    },
+    {
+      "id": "wind-rose",
+      "name": "Wind Rose",
+      "imageUrl": "a8.jpg",
+      "description": "Italian folk/power metal band from Pisa, Tuscany, formed in 2009 and celebrated for their Tolkien-inspired \"dwarven metal\" sound and the viral hit \"Diggy Diggy Hole.\" Their sixth studio album, Trollslayer, arrived in October 2024.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk Metal",
+        "Power Metal"
+      ],
+      "country": "it"
+    },
+    {
+      "id": "lord-of-the-lost",
+      "name": "Lord of the Lost",
+      "imageUrl": "a9.jpg",
+      "description": "German dark rock/goth-metal band from Hamburg, founded in 2007 as a solo project by singer Chris Harms before growing into a full band. Known for theatrical live shows and a sinister blend of goth metal and industrial rock, they represented Germany at Eurovision 2023.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Gothic Metal",
+        "Dark Rock"
+      ],
+      "country": "de",
+      "globalId": "lord-of-the-lost"
+    },
+    {
+      "id": "eluveitie",
+      "name": "Eluveitie",
+      "imageUrl": "a10.jpg",
+      "description": "Swiss folk metal band from Winterthur, founded in 2002 by Chrigel Glanzmann. Eluveitie weave hurdy-gurdy, flute and bagpipes into a melodic death metal base, with lyrics partly sung in the extinct Gaulish language, and broke through internationally with 2008's Slania.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk Metal",
+        "Melodic Death Metal"
+      ],
+      "country": "ch",
+      "globalId": "eluveitie"
+    },
+    {
+      "id": "h-blockx",
+      "name": "H-Blockx",
+      "imageUrl": "a11.jpg",
+      "description": "German crossover pioneers formed in Münster in 1991, mixing metal, alternative rock and rap. Their 1994 debut Time to Move produced several Top 40 hits and an MTV Europe Music Award nomination, and the band remains a fixture of the German rock/metal scene.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Crossover",
+        "Rap Metal",
+        "Alternative Rock"
+      ],
+      "country": "de",
+      "globalId": "h-blockx"
+    },
+    {
+      "id": "swiss-die-andern",
+      "name": "Swiss + Die Andern",
+      "imageUrl": "a12.jpg",
+      "description": "Hamburg-based German band led by rapper Swiss, fusing punk, crossover and hip-hop into leftist, socio-political lyrics delivered with nervy energy. Albums like Große Freiheit and the chart-topping Erstmal zu Penny have made them a fixture of the German punk/crossover scene.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Punk Rock",
+        "Rap Rock",
+        "Political Hip Hop"
+      ],
+      "country": "de",
+      "globalId": "swiss-die-andern"
+    },
+    {
+      "id": "clawfinger",
+      "name": "Clawfinger",
+      "imageUrl": "a13.jpg",
+      "description": "Swedish rap metal pioneers formed in Stockholm in 1989, breaking through internationally in 1993 with the debut album Deaf Dumb Blind. Regarded as one of the genre's earliest and most influential acts, Clawfinger have sold over 1.5 million records worldwide.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Rap Metal",
+        "Industrial Metal"
+      ],
+      "country": "se",
+      "globalId": "clawfinger"
+    },
+    {
+      "id": "kataklysm",
+      "name": "Kataklysm",
+      "imageUrl": "a14.jpg",
+      "description": "Canadian death metal band from Montreal, formed in 1991 and known for a fast, technical style dubbed \"Northern Hyperblast.\" With fifteen studio albums and a Juno Award for Best Heavy Metal Album, Kataklysm are festival regulars famed for their intense live shows.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "ca",
+      "globalId": "kataklysm"
+    },
+    {
+      "id": "mono-inc",
+      "name": "Mono Inc.",
+      "imageUrl": "a15.jpg",
+      "description": "German dark rock band formed in Hamburg in 2000 by Miky Mono, Carl Fornia and Martin Engler. Known for a danceable mix of catchy hooks and driving rock beats, the band has landed several number-one albums on the German charts.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Dark Rock",
+        "Gothic Rock"
+      ],
+      "country": "de",
+      "globalId": "mono-inc"
+    },
+    {
+      "id": "warkings",
+      "name": "Warkings",
+      "imageUrl": "a16.jpg",
+      "description": "Austrian/German power metal band formed in 2018 by Serenity vocalist Georg Neuhauser. Members perform masked under warrior pseudonyms across historical eras, and their concept albums like Armageddon (2025) turn European history into bombastic power metal storytelling.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Power Metal"
+      ],
+      "country": "at",
+      "globalId": "warkings"
+    },
+    {
+      "id": "dark-funeral",
+      "name": "Dark Funeral",
+      "imageUrl": "a17.jpg",
+      "description": "Swedish black metal band from Stockholm, founded in 1993 by guitarists Blackmoon and Lord Ahriman during the genre's second wave. Known for uncompromising Satanic/anti-Christian themes across seven full-length albums, Dark Funeral remain one of the scene's most prominent acts.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "se",
+      "globalId": "dark-funeral"
+    },
+    {
+      "id": "gloryhammer",
+      "name": "Gloryhammer",
+      "imageUrl": "a18.jpg",
+      "description": "Anglo-Swiss symphonic power metal band founded in 2009 by Alestorm's Christopher Bowes. Gloryhammer's absurdly theatrical fantasy concept, chronicling the battle for the Kingdom of Fife against sorcerer Zargothrax, affectionately exaggerates every trope of the power metal genre.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Symphonic Power Metal"
+      ],
+      "country": "gb",
+      "globalId": "gloryhammer"
+    },
+    {
+      "id": "finntroll",
+      "name": "Finntroll",
+      "imageUrl": "a19.jpg",
+      "description": "Finnish folk metal band from Helsinki, founded in 1997 and known for fusing black metal with the Finnish dance style humppa. Their lyrics are mostly sung in Swedish, and the band celebrates its 30th anniversary in 2027.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk Metal",
+        "Black Metal"
+      ],
+      "country": "fi",
+      "globalId": "finntroll"
+    },
+    {
+      "id": "atreyu",
+      "name": "Atreyu",
+      "imageUrl": "a20.jpg",
+      "description": "American metalcore band from Orange County, California, formed in 1998 and named after a character from The Neverending Story. Atreyu helped define mainstream 2000s metalcore with albums like Suicide Notes and Butterfly Kisses and continue touring behind 2023's The Beautiful Dark of Life.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore"
+      ],
+      "country": "us",
+      "globalId": "atreyu"
+    },
+    {
+      "id": "shadow-of-intent",
+      "name": "Shadow of Intent",
+      "imageUrl": "a21.jpg",
+      "description": "American deathcore band founded in 2013 in Hartford, Connecticut, by vocalist Ben Duerr and guitarist Chris Wiseman. Named after a starship from the Halo video game series, the band blends symphonic elements and black metal influences into brutal, technical deathcore.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Deathcore",
+        "Symphonic Death Metal"
+      ],
+      "country": "us",
+      "globalId": "shadow-of-intent"
+    },
+    {
+      "id": "emil-bulls",
+      "name": "Emil Bulls",
+      "imageUrl": "a22.jpg",
+      "description": "German rock band formed in Munich in 1995, blending hard rock, alternative metal, nu metal and post-hardcore. Fronted by Christoph von Freydorf, Emil Bulls have built a devoted following through relentless touring across Germany's rock and metal festival circuit.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Alternative Metal",
+        "Nu Metal",
+        "Post-Hardcore"
+      ],
+      "country": "de",
+      "globalId": "emil-bulls"
+    },
+    {
+      "id": "equilibrium",
+      "name": "Equilibrium",
+      "imageUrl": "a23.jpg",
+      "description": "German folk/pagan metal band from Bavaria, formed in 2001, blending Viking metal, symphonic black metal and traditional Germanic melodies, with a more modern metalcore edge on recent releases. Their anthemic sound and mythological lyrical themes have made them a long-running festival favorite.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk Metal",
+        "Melodic Death Metal"
+      ],
+      "country": "de",
+      "globalId": "equilibrium"
+    },
+    {
+      "id": "john-bush",
+      "name": "John Bush",
+      "imageUrl": "a24.jpg",
+      "description": "American vocalist, best known as frontman of Los Angeles heavy metal band Armored Saint and as Anthrax's singer from 1992 to 2005 (and briefly 2009-2010). This show revisits the Anthrax catalogue from his era — Sound of White Noise, Stomp 442, Volume 8: The Threat Is Real and We've Come for You All — with a dedicated backing band.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "country": "us",
+      "globalId": "john-bush"
+    },
+    {
+      "id": "carnifex",
+      "name": "Carnifex",
+      "imageUrl": "a25.jpg",
+      "description": "American deathcore band formed in 2005 near San Diego, California, regarded as one of the genre's most brutal and influential acts. Across nine studio albums for labels including Nuclear Blast and Sumerian, Carnifex have built a reputation for relentless, punishing live shows.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Deathcore"
+      ],
+      "country": "us",
+      "globalId": "carnifex"
+    },
+    {
+      "id": "the-browning",
+      "name": "The Browning",
+      "imageUrl": "a26.jpg",
+      "description": "American electronicore band from Kansas City, Missouri, formed in 2005 by Jonny McBee. The Browning blend deathcore and metalcore riffs with dubstep, hardstyle and trance influences into a self-described \"rave metal\" sound across six studio albums.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Electronicore",
+        "Deathcore"
+      ],
+      "country": "us",
+      "globalId": "the-browning"
+    },
+    {
+      "id": "gaerea",
+      "name": "Gaerea",
+      "imageUrl": "a27.jpg",
+      "description": "Masked Portuguese black metal band from Porto, formed in 2016, whose members perform under concealed, anonymous identities built around a ritualistic sigil. Signed to Season of Mist since 2020's Limbo, Gaerea have become one of extreme metal's most acclaimed acts of the past decade.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Post Metal"
+      ],
+      "country": "pt",
+      "globalId": "gaerea"
+    },
+    {
+      "id": "long-distance-calling",
+      "name": "Long Distance Calling",
+      "imageUrl": "a28.jpg",
+      "description": "German instrumental post-rock/post-metal band from Münster, formed in 2006 after an unsuccessful search for a vocalist led them to focus on extended, atmospheric instrumentals. Since their 2007 debut Satellite Bay, they've become one of Germany's flagship acts in the genre.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Post-Rock",
+        "Post-Metal"
+      ],
+      "country": "de",
+      "globalId": "long-distance-calling"
+    },
+    {
+      "id": "make-them-suffer",
+      "name": "Make Them Suffer",
+      "imageUrl": "a29.jpg",
+      "description": "Australian metalcore band from Perth, formed in 2008 and propelled to international festival stages by their 2012 debut Neverbloom. Make Them Suffer fuse death metal, metalcore and symphonic elements into dynamic shifts between brutal heaviness and melodic passages.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore",
+        "Deathcore",
+        "Symphonic Death Metal"
+      ],
+      "country": "au",
+      "globalId": "make-them-suffer"
+    },
+    {
+      "id": "mittel-alta",
+      "name": "Mittel Alta",
+      "imageUrl": "a30.jpg",
+      "description": "German duo blending medieval folk melodies with modern hip-hop beats, a self-created style dubbed \"Mittelalter-Rap.\" Known for crude, self-deprecating humor and a rowdy, drinking-song spirit, the project pairs metal and folk fans' sensibilities with rap delivery for a tongue-in-cheek take on medieval music.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk",
+        "Hip Hop",
+        "Comedy"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "any-given-day",
+      "name": "Any Given Day",
+      "imageUrl": "a31.jpg",
+      "description": "German metalcore band formed in Gelsenkirchen in 2012 by singer Dennis Diehl. Since their 2014 debut album My Longest Way Home, Any Given Day have become known for high-energy live shows and a consistently crowd-pleasing presence on the German metalcore circuit.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore"
+      ],
+      "country": "de",
+      "globalId": "any-given-day"
+    },
+    {
+      "id": "gutalax",
+      "name": "Gutalax",
+      "imageUrl": "a32.jpg",
+      "description": "Czech goregrind band from Křemže, formed in 2009 and named after the laxative Guttalax. Gutalax describe their sound as \"gore 'n' roll\" — a mix of goregrind, groove metal and pornogrind — and are infamous for toilet-themed live shows complete with flying toilet paper and crowd-surfed portable toilets.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Goregrind"
+      ],
+      "country": "cz",
+      "globalId": "gutalax"
+    },
+    {
+      "id": "blue-medusa",
+      "name": "Blue Medusa",
+      "imageUrl": "a33.jpg",
+      "description": "Los Angeles-based heavy metal band founded in 2026 by Canadian vocalist Alissa White-Gluz following her departure from Arch Enemy. Blue Medusa deliver dark, technically sophisticated metal built on devastating riffs, blazing guitar solos and crafted melodies.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal",
+        "Metalcore",
+        "Extreme Metal"
+      ],
+      "country": "us",
+      "globalId": "blue-medusa"
+    },
+    {
+      "id": "insomnium",
+      "name": "Insomnium",
+      "imageUrl": "a34.jpg",
+      "description": "Finnish melodic death metal band from Joensuu, formed in 1997. Insomnium's music is defined by dark, sorrowful atmospheres and nature-themed lyrics, incorporating progressive and doom metal elements across a discography that made them one of the genre's most respected acts.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "country": "fi",
+      "globalId": "insomnium"
+    },
+    {
+      "id": "combichrist",
+      "name": "Combichrist",
+      "imageUrl": "a35.jpg",
+      "description": "American industrial/aggrotech project founded in 2003 by Norwegian musician Andy LaPlegua, previously of futurepop band Icon of Coil. Combichrist fuse EBM, metal and industrial into an aggressive yet danceable sound that has made them a staple of the industrial and goth scenes.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Industrial Metal",
+        "Aggrotech"
+      ],
+      "country": "us",
+      "globalId": "combichrist"
+    },
+    {
+      "id": "peeling-flesh",
+      "name": "Peeling Flesh",
+      "imageUrl": "a36.jpg",
+      "description": "American slam death metal band from Oklahoma, formed in 2021 by former members of deathcore act Strangled. Peeling Flesh call their style \"Slamming Gangster Groove,\" fusing brutal slam death metal with hardcore roots, hip-hop samples and groove-laden rhythms.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Slam Death Metal",
+        "Deathcore"
+      ],
+      "country": "us",
+      "globalId": "peeling-flesh"
+    },
+    {
+      "id": "anaal-nathrakh",
+      "name": "Anaal Nathrakh",
+      "imageUrl": "a37.jpg",
+      "description": "British extreme metal duo from Birmingham, formed in 1999 by Mick Kenney and Dave Hunt. Their name comes from the Excalibur incantation \"serpent's breath,\" and their sound fuses black metal, grindcore, industrial and death metal into some of extreme metal's most uncompromising records.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Extreme Metal",
+        "Black Metal",
+        "Grindcore"
+      ],
+      "country": "gb",
+      "globalId": "anaal-nathrakh"
+    },
+    {
+      "id": "fleshgod-apocalypse",
+      "name": "Fleshgod Apocalypse",
+      "imageUrl": "a38.jpg",
+      "description": "Italian symphonic death metal band from Rome, formed in 2007 by Francesco Paoli, formerly of Hour of Penance. Fleshgod Apocalypse are known for bombastic orchestral arrangements layered over technical death metal, with live shows that push the intensity of their recorded material even further.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Symphonic Death Metal"
+      ],
+      "country": "it",
+      "globalId": "fleshgod-apocalypse"
+    },
+    {
+      "id": "primal-fear",
+      "name": "Primal Fear",
+      "imageUrl": "a39.jpg",
+      "description": "German power/speed metal band founded in 1997 by vocalist Ralf Scheepers and bassist Mat Sinner, after Scheepers narrowly missed out on fronting Judas Priest. Primal Fear celebrate \"30 Years of Metal\" in 2027, drawing on a discography of hard-hitting, Priest-influenced anthems.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Power Metal",
+        "Speed Metal"
+      ],
+      "country": "de",
+      "globalId": "primal-fear"
+    },
+    {
+      "id": "nasty",
+      "name": "Nasty",
+      "imageUrl": "a40.jpg",
+      "description": "Belgian beatdown hardcore band from Kelmis, formed in 2004 by former members of Van Damme. Nasty are known for aggressive, mosh-pit-driving live shows firmly rooted in the modern European beatdown hardcore scene.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Beatdown Hardcore"
+      ],
+      "country": "be",
+      "globalId": "nasty"
+    },
+    {
+      "id": "burning-witches",
+      "name": "Burning Witches",
+      "imageUrl": "a41.jpg",
+      "description": "Swiss all-female heavy/power metal band formed in Brugg in 2015 by guitarist Romana Kalkuhl. Since their acclaimed 2017 self-titled debut, Burning Witches have become one of the most prominent bands in the Swiss metal scene, blending traditional heavy metal with thrash-edged energy.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Heavy Metal",
+        "Power Metal"
+      ],
+      "country": "ch",
+      "globalId": "burning-witches"
+    },
+    {
+      "id": "kupfergold",
+      "name": "Kupfergold",
+      "imageUrl": "a42.jpg",
+      "description": "German folk-rock duo founded by Bonnie Banks and Eric Rhymes, performing together since 2010 and formally established as a band in 2018. Kupfergold mix medieval, maritime and folk-pop sounds into what they call \"Asi-Folk,\" built around party anthems, drinking songs and captivating ballads.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk",
+        "Medieval"
+      ],
+      "country": "de",
+      "globalId": "kupfergold"
+    },
+    {
+      "id": "end-of-green",
+      "name": "End of Green",
+      "imageUrl": "a43.jpg",
+      "description": "German goth/melodic rock band from Stuttgart, formed in 1992 and debuting in 1996 with Infinity on Nuclear Blast. Describing their style as \"Depressed Subcore,\" End of Green have become one of the most frequent performers in Summer Breeze's history.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Gothic Metal",
+        "Melodic Rock"
+      ],
+      "country": "de",
+      "globalId": "end-of-green"
+    },
+    {
+      "id": "wolfheart",
+      "name": "Wolfheart",
+      "imageUrl": "a44.jpg",
+      "description": "Finnish melodic death metal project from Lahti, launched in 2013 by prolific musician Tuomas Saukkonen after closing his previous bands. Wolfheart grew into a full band the following year and have released seven studio albums of highly melodic, wintry death metal.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "country": "fi",
+      "globalId": "wolfheart"
+    },
+    {
+      "id": "legion-of-the-damned",
+      "name": "Legion of the Damned",
+      "imageUrl": "a45.jpg",
+      "description": "Dutch thrash/death metal band from Limburg, evolving out of black metal act Occult before renaming to Legion of the Damned in 2006. Known for uncompromising, high-speed material and relentless touring alongside acts like Cannibal Corpse and Kataklysm.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal",
+        "Death Metal"
+      ],
+      "country": "nl",
+      "globalId": "legion-of-the-damned"
+    },
+    {
+      "id": "ellende",
+      "name": "Ellende",
+      "imageUrl": "a46.jpg",
+      "description": "Ellende is an Austrian atmospheric black metal project founded in Graz in 2011 by multi-instrumentalist L.G. as a solo studio project, later expanded into a live act. The project's melancholic, introspective sound incorporates classical instrumentation such as strings and piano alongside its post-black metal atmosphere.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Post Black Metal"
+      ],
+      "country": "at"
+    },
+    {
+      "id": "angelus-apatrida",
+      "name": "Angelus Apatrida",
+      "imageUrl": "a47.jpg",
+      "description": "Spanish thrash metal band from Albacete, formed in 2000 and settling into thrash by 2002 under guitarist Guillermo Izquierdo. Angelus Apatrida broke through with Century Media Records in 2009 and have since topped the Spanish album charts, ahead of acts like Foo Fighters.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Thrash Metal"
+      ],
+      "country": "es",
+      "globalId": "angelus-apatrida"
+    },
+    {
+      "id": "abbie-falls",
+      "name": "Abbie Falls",
+      "imageUrl": "a48.jpg",
+      "description": "Czech metalcore band from Prague, formed in September 2015. Known for heavy riffs and intense breakdowns, Abbie Falls built a growing fanbase through EPs like No One's Above, No One's Below and Hell is Other People.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore",
+        "Deathcore"
+      ],
+      "country": "cz",
+      "globalId": "abbie-falls"
+    },
+    {
+      "id": "samurai-pizza-cats",
+      "name": "Samurai Pizza Cats",
+      "imageUrl": "a49.jpg",
+      "description": "German metalcore band from Castrop-Rauxel, formed in 2021 by Electric Callboy's Daniel Haniß together with Sebastian Fischer and Stefan Buchwald (both ex-Fall of Gaia). The band call their trance-infused metalcore sound \"Catcore from Castrop.\"",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore",
+        "Trancecore"
+      ],
+      "country": "de",
+      "globalId": "samurai-pizza-cats"
+    },
+    {
+      "id": "necrotted",
+      "name": "Necrotted",
+      "imageUrl": "a50.jpg",
+      "description": "German death metal/deathcore band from Abtsgmünd, formed in 2008. Necrotted have built a reputation for brutal, high-energy stage shows across European stages alongside consistent studio output, including the album We Are the Gods That Tear Ourselves Apart.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Death Metal",
+        "Deathcore"
+      ],
+      "country": "de",
+      "globalId": "necrotted"
+    },
+    {
+      "id": "left-to-suffer",
+      "name": "Left to Suffer",
+      "imageUrl": "a51.jpg",
+      "description": "American deathcore band from Atlanta, Georgia, formed in 2019. Often described as nu-deathcore, Left to Suffer combine the genre's brutality with catchy hooks and atmospheric electronic elements across albums including A Year of Suffering and Leap of Death.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Deathcore",
+        "Metalcore"
+      ],
+      "country": "us",
+      "globalId": "left-to-suffer"
+    },
+    {
+      "id": "evil-invaders",
+      "name": "Evil Invaders",
+      "imageUrl": "a52.jpg",
+      "description": "Belgian speed/thrash metal band from Leopoldsburg, formed in 2007 by Johannes \"Joe\" Van Audenhove and named after a Razor song. Since their 2015 debut Pulses of Pleasure on Napalm Records, Evil Invaders have gained a strong reputation on the European thrash circuit.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Speed Metal",
+        "Thrash Metal"
+      ],
+      "country": "be",
+      "globalId": "evil-invaders"
+    },
+    {
+      "id": "hiraes",
+      "name": "Hiraes",
+      "imageUrl": "a53.jpg",
+      "description": "German melodic death metal band from Osnabrück, formed in 2020 by former members of Dawn of Disease together with vocalist Britta Görtz (ex-Critical Mess). The band's name comes from the Welsh word \"hiraeth,\" meaning longing for a place or time that never was.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal"
+      ],
+      "country": "de",
+      "globalId": "hiraes"
+    },
+    {
+      "id": "lavina",
+      "name": "Lavina",
+      "imageUrl": "a54.jpg",
+      "description": "Serbian progressive/alternative metal band from Niš, formed in 2020 and known for balancing heaviness with emotional, melodic passages. Lavina were announced as Serbia's entry for the 2026 Eurovision Song Contest, raising their international profile considerably.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Progressive Metal",
+        "Alternative Metal"
+      ],
+      "country": "rs",
+      "globalId": "lavina"
+    },
+    {
+      "id": "asenblut",
+      "name": "Asenblut",
+      "imageUrl": "a55.jpg",
+      "description": "German pagan black/thrash metal band from Göttingen, formed in 2006 and regarded as an early force in the German folk/pagan metal scene. Their name combines \"Asen\" (Aesir) and \"Blut\" (blood), reflecting the Norse-mythology themes that run through their work.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black/Thrash Metal",
+        "Pagan Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "accvsed",
+      "name": "Accvsed",
+      "imageUrl": "a56.jpg",
+      "description": "German metalcore band from Wiesbaden, founded in 2021. Accvsed gained rapid traction in the European metalcore scene following their 2023 debut EP House of Doubt and 2024 signing to Arising Empire, releasing their debut album Dealers of Doom in 2025.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Metalcore"
+      ],
+      "country": "de",
+      "globalId": "accvsed"
+    },
+    {
+      "id": "spitting-glass",
+      "name": "Spitting Glass",
+      "imageUrl": "a57.jpg",
+      "description": "British deathcore/metalcore band featuring experienced musicians from established acts, including guitarist David Ball of Sleep Token's live line-up. Spitting Glass made a high-profile early appearance on the 2026 Download Festival bill and deliver a modern take on classic deathcore.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Deathcore",
+        "Metalcore"
+      ],
+      "country": "gb",
+      "globalId": "spitting-glass"
+    },
+    {
+      "id": "ahab",
+      "name": "Ahab",
+      "imageUrl": "a58.jpg",
+      "description": "German doom/sludge metal band founded in 2004 by members of Midnattsol and Penetralia, named after Captain Ahab of Moby-Dick. Ahab coined the term \"Nautik Funeral Doom\" for their crushingly slow, nautically-themed sound, with lyrics that often quote Melville's novel directly.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Funeral Doom Metal",
+        "Doom Metal"
+      ],
+      "country": "de",
+      "globalId": "ahab"
+    },
+    {
+      "id": "sunborn",
+      "name": "Sunborn",
+      "imageUrl": "a59.jpg",
+      "description": "French alternative/nu metal band from Montpellier, combining modern metal elements with alternative rock, electronic soundscapes and hooks that border on pop. Summer Breeze 2027 marks the band's debut at the festival.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Alternative Metal",
+        "Nu Metal"
+      ],
+      "country": "fr",
+      "globalId": "sunborn"
+    },
+    {
+      "id": "the-night-eternal",
+      "name": "The Night Eternal",
+      "imageUrl": "a60.jpg",
+      "description": "German heavy metal band from Essen, formed in 2018 and playing a dark, old-school heavy metal style comparable to acts like Tribulation and In Solitude. Their most recent album, Cold Velvet, continued the band's occult-tinged, atmospheric approach.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Heavy Metal"
+      ],
+      "country": "de",
+      "globalId": "the-night-eternal"
+    },
+    {
+      "id": "defiance-hc",
+      "name": "Defiance HC",
+      "imageUrl": "a61.jpg",
+      "description": "German hardcore punk band from Stuttgart, active since July 2024 and started by friends Robin Khorrami, Sabrina Chaparro and Marlene Feller before drummer Daniel Knöpfler completed the line-up. Defiance HC are known for direct, aggressive messaging and high-energy shows.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Hardcore Punk"
+      ],
+      "country": "de",
+      "globalId": "defiance-hc"
+    },
+    {
+      "id": "regarde-les-hommes-tomber",
+      "name": "Regarde Les Hommes Tomber",
+      "imageUrl": "a62.jpg",
+      "description": "French black metal band from Nantes, formed in 2011 and named after a 1994 Jacques Audiard film. Regarde Les Hommes Tomber emerged with a self-titled 2013 album through Les Acteurs de l'Ombre Productions, blending atmospheric black metal with sludge and death metal into a dark, scripture-inspired universe.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Sludge Metal"
+      ],
+      "country": "fr",
+      "globalId": "regarde-les-hommes-tomber"
+    },
+    {
+      "id": "capacopter",
+      "name": "Capacopter",
+      "imageUrl": "a63.jpg",
+      "description": "German stoner rock band from Mannheim/Frankfurt, formed in 2021 and delivering heavy riffs, fuzz and hard-hitting grooves rooted in 1970s rock. Their self-titled debut album reached number two on the Doom Charts after its January 2026 release.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Stoner Rock"
+      ],
+      "country": "de",
+      "globalId": "capacopter"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "artists": [
+        {
+          "id": "summer-breeze-legends-orchestra",
+          "description": "Ein einmaliges Special zum 30-jährigen Jubiläum: Ein All-Star-Ensemble, begleitet von einer 40-köpfigen Besetzung der Leipziger Philharmoniker, spielt in einer zweieinhalbstündigen Show prägende Metal-Hymnen. Musikalische Leitung und Arrangement liegen bei Lord-of-the-Lost-Frontmann Chris Harms gemeinsam mit Komponist Corvin Bahn; die konkreten Gastsänger:innen werden im Dezember 2026 bekanntgegeben."
+        },
+        {
+          "id": "electric-callboy",
+          "description": "Deutsches Party-Metal-Aushängeschild aus Castrop-Rauxel, gegründet 2010 und bis 2022 unter dem Namen Eskimo Callboy bekannt. Die Band verbindet harte Breakdowns mit euphorischer Elektro-/Trance-Produktion und wurde zu einem der größten internationalen Crossover-Erfolge des Genres in den 2020er-Jahren."
+        },
+        {
+          "id": "edguy",
+          "description": "Deutsche Melodic-Power-Metal-Band, 1992 in Fulda vom damals 14-jährigen Tobias Sammet zusammen mit Jens Ludwig, Dominik Storch und Dirk Sauer gegründet. Seit über drei Jahrzehnten eine feste Größe der europäischen Power-Metal-Szene, spielt Edguy 2027 nur eine Handvoll Abschiedskonzerte."
+        },
+        {
+          "id": "saltatio-mortis",
+          "description": "Deutsche Mittelalter-Folk-Rock-Band aus Karlsruhe, gegründet im Jahr 2000 zunächst als Straßenmusik-Act, bevor sie zu einem der Vorreiter der deutschen Mittelalterrock-Bewegung wurde, die Laute und Dudelsack mit großen Rocksongs verbindet. Die Band landete bereits mehrere Nummer-eins-Alben in Deutschland."
+        },
+        {
+          "id": "children-of-bodom",
+          "description": "Finnische Melodic-Death-Metal-Band aus Espoo, gegründet 1993 (bis 1996 als Inearthed) und einer der meistverkauften Metal-Exporte Finnlands. Die Band löste sich 2019 nach dem Tod von Frontmann Alexi Laiho auf, fand sich aber 2026 für ausgewählte Gedenkkonzerte, darunter Festivalauftritte, wieder zusammen."
+        },
+        {
+          "id": "hammerfall",
+          "description": "Schwedische Power-Metal-Band aus Göteborg, 1993 von Gitarrist Oscar Dronjak gegründet. Ihr Debütalbum \"Glory to the Brave\" von 1997 prägte den modernen europäischen Power-Metal-Sound entscheidend mit, und die Band spielt das Material bis heute bei Jubiläumsshows."
+        },
+        {
+          "id": "halestorm",
+          "description": "US-amerikanische Hard-Rock-Band, 1997 in der Nähe von York, Pennsylvania, von den Geschwistern Lzzy und Arejay Hale gegründet. Angeführt von Lzzy Hales stimmgewaltigem Gesang, gewann die Band 2013 einen Grammy für die beste Hard-Rock/Metal-Performance und landete mehrere Platin-Alben sowie Top-10-Rockhits."
+        },
+        {
+          "id": "wind-rose",
+          "description": "Italienische Folk-/Power-Metal-Band aus Pisa in der Toskana, gegründet 2009 und bekannt für ihren von Tolkien inspirierten \"Dwarven Metal\"-Sound sowie den viralen Hit \"Diggy Diggy Hole\". Ihr sechstes Studioalbum \"Trollslayer\" erschien im Oktober 2024."
+        },
+        {
+          "id": "lord-of-the-lost",
+          "description": "Deutsche Dark-Rock-/Gothic-Metal-Band aus Hamburg, 2007 von Sänger Chris Harms zunächst als Soloprojekt gegründet, bevor daraus eine vollständige Band wurde. Bekannt für theatralische Liveshows und eine düstere Mischung aus Gothic Metal und Industrial Rock, vertraten sie Deutschland 2023 beim Eurovision Song Contest."
+        },
+        {
+          "id": "eluveitie",
+          "description": "Schweizer Folk-Metal-Band aus Winterthur, 2002 von Chrigel Glanzmann gegründet. Eluveitie verweben Drehleier, Flöte und Dudelsack mit einem Melodic-Death-Metal-Fundament, teils mit Texten in der ausgestorbenen gallischen Sprache, und gelang mit dem Album \"Slania\" 2008 der internationale Durchbruch."
+        },
+        {
+          "id": "h-blockx",
+          "description": "Deutsche Crossover-Pioniere, 1991 in Münster gegründet, die Metal, Alternative Rock und Rap verbinden. Ihr Debütalbum \"Time to Move\" von 1994 brachte mehrere Top-40-Hits und eine Nominierung für den MTV Europe Music Award, und die Band ist bis heute eine feste Größe der deutschen Rock-/Metal-Szene."
+        },
+        {
+          "id": "swiss-die-andern",
+          "description": "Hamburger Band um Rapper Swiss, die Punk, Crossover und Hip-Hop mit linkspolitischen Texten und nervöser Energie verbindet. Alben wie \"Große Freiheit\" und das chart-stürmende \"Erstmal zu Penny\" machten sie zu einer festen Größe der deutschen Punk-/Crossover-Szene."
+        },
+        {
+          "id": "clawfinger",
+          "description": "Schwedische Rap-Metal-Pioniere, 1989 in Stockholm gegründet, denen 1993 mit dem Debütalbum \"Deaf Dumb Blind\" der internationale Durchbruch gelang. Als eine der frühesten und einflussreichsten Bands des Genres haben Clawfinger weltweit über 1,5 Millionen Tonträger verkauft."
+        },
+        {
+          "id": "kataklysm",
+          "description": "Kanadische Death-Metal-Band aus Montreal, gegründet 1991 und bekannt für einen schnellen, technischen Stil, den sie selbst \"Northern Hyperblast\" nennen. Mit fünfzehn Studioalben und einem Juno Award für das beste Heavy-Metal-Album sind Kataklysm für ihre intensiven Liveshows berühmte Festival-Stammgäste."
+        },
+        {
+          "id": "mono-inc",
+          "description": "Deutsche Dark-Rock-Band, 2000 in Hamburg von Miky Mono, Carl Fornia und Martin Engler gegründet. Bekannt für eine tanzbare Mischung aus eingängigen Hooks und treibenden Rock-Beats, landete die Band bereits mehrere Nummer-eins-Alben in den deutschen Charts."
+        },
+        {
+          "id": "warkings",
+          "description": "Österreichisch-deutsche Power-Metal-Band, 2018 von Serenity-Sänger Georg Neuhauser gegründet. Die Mitglieder treten maskiert unter Krieger-Pseudonymen verschiedener historischer Epochen auf, und Konzeptalben wie \"Armageddon\" (2025) verwandeln europäische Geschichte in bombastisches Power-Metal-Storytelling."
+        },
+        {
+          "id": "dark-funeral",
+          "description": "Schwedische Black-Metal-Band aus Stockholm, 1993 von den Gitarristen Blackmoon und Lord Ahriman während der zweiten Welle des Genres gegründet. Bekannt für kompromisslose satanische/antichristliche Themen über sieben Studioalben hinweg, gehören Dark Funeral bis heute zu den prominentesten Bands der Szene."
+        },
+        {
+          "id": "gloryhammer",
+          "description": "Britisch-schweizerische Symphonic-Power-Metal-Band, 2009 von Alestorm-Musiker Christopher Bowes gegründet. Gloryhammers absurd-theatralisches Fantasy-Konzept um den Kampf für das Königreich Fife gegen den Zauberer Zargothrax übertreibt liebevoll jedes Klischee des Power-Metal-Genres."
+        },
+        {
+          "id": "finntroll",
+          "description": "Finnische Folk-Metal-Band aus Helsinki, gegründet 1997 und bekannt für die Verschmelzung von Black Metal mit dem finnischen Tanzstil Humppa. Ihre Texte sind größtenteils auf Schwedisch, und die Band feiert 2027 ihr 30-jähriges Bestehen."
+        },
+        {
+          "id": "atreyu",
+          "description": "US-amerikanische Metalcore-Band aus Orange County, Kalifornien, gegründet 1998 und benannt nach einer Figur aus \"Die unendliche Geschichte\". Atreyu prägten mit Alben wie \"Suicide Notes and Butterfly Kisses\" den Mainstream-Metalcore der 2000er-Jahre und touren weiterhin mit Material ihrer neueren Alben."
+        },
+        {
+          "id": "shadow-of-intent",
+          "description": "US-amerikanische Deathcore-Band, 2013 in Hartford, Connecticut, von Sänger Ben Duerr und Gitarrist Chris Wiseman gegründet. Benannt nach einem Raumschiff aus der Videospielreihe Halo, verbindet die Band symphonische Elemente und Black-Metal-Einflüsse zu brutalem, technischem Deathcore."
+        },
+        {
+          "id": "emil-bulls",
+          "description": "Deutsche Rockband, 1995 in München gegründet, die Hard Rock, Alternative Metal, Nu Metal und Post-Hardcore vereint. Angeführt von Christoph von Freydorf, haben sich Emil Bulls durch unermüdliches Touren über die deutsche Rock- und Metal-Festivallandschaft eine treue Fangemeinde erspielt."
+        },
+        {
+          "id": "equilibrium",
+          "description": "Deutsche Folk-/Pagan-Metal-Band aus Bayern, gegründet 2001, die Viking Metal, Symphonic Black Metal und traditionelle germanische Melodien verbindet, auf neueren Veröffentlichungen mit modernerer Metalcore-Schlagseite. Ihr hymnischer Sound und mythologische Texte machen sie seit Jahren zum Festivalliebling."
+        },
+        {
+          "id": "john-bush",
+          "description": "US-amerikanischer Sänger, bekannt als Frontmann der Los-Angeles-Heavy-Metal-Band Armored Saint sowie als Anthrax-Sänger von 1992 bis 2005 (und kurzzeitig 2009-2010). Diese Show würdigt mit einer eigenen Begleitband das Anthrax-Repertoire seiner Ära — \"Sound of White Noise\", \"Stomp 442\", \"Volume 8: The Threat Is Real\" und \"We've Come for You All\"."
+        },
+        {
+          "id": "carnifex",
+          "description": "US-amerikanische Deathcore-Band, 2005 in der Nähe von San Diego, Kalifornien, gegründet und als eine der brutalsten und einflussreichsten Bands des Genres angesehen. Über neun Studioalben bei Labels wie Nuclear Blast und Sumerian haben sich Carnifex den Ruf gnadenloser, wuchtiger Liveshows erspielt."
+        },
+        {
+          "id": "the-browning",
+          "description": "US-amerikanische Electronicore-Band aus Kansas City, Missouri, 2005 von Jonny McBee gegründet. The Browning verbinden Deathcore- und Metalcore-Riffs mit Dubstep-, Hardstyle- und Trance-Einflüssen zu einem selbst als \"Rave Metal\" bezeichneten Sound über sechs Studioalben hinweg."
+        },
+        {
+          "id": "gaerea",
+          "description": "Maskierte portugiesische Black-Metal-Band aus Porto, gegründet 2016, deren Mitglieder unter verborgenen, anonymen Identitäten rund um ein rituelles Sigill auftreten. Seit dem Album \"Limbo\" (2020) bei Season of Mist unter Vertrag, gehören Gaerea zu den gefeiertsten Bands des Extreme Metal der letzten zehn Jahre."
+        },
+        {
+          "id": "long-distance-calling",
+          "description": "Deutsche instrumentale Post-Rock-/Post-Metal-Band aus Münster, gegründet 2006, nachdem eine erfolglose Sängersuche die Band dazu brachte, sich auf ausgedehnte, atmosphärische Instrumentalstücke zu konzentrieren. Seit ihrem Debüt \"Satellite Bay\" (2007) zählen sie zu Deutschlands führenden Bands des Genres."
+        },
+        {
+          "id": "make-them-suffer",
+          "description": "Australische Metalcore-Band aus Perth, gegründet 2008 und durch ihr Debütalbum \"Neverbloom\" (2012) auf internationale Festivalbühnen katapultiert. Make Them Suffer verbinden Death Metal, Metalcore und symphonische Elemente zu dynamischen Wechseln zwischen brutaler Härte und melodischen Passagen."
+        },
+        {
+          "id": "mittel-alta",
+          "description": "Deutsches Duo, das mittelalterliche Folk-Melodien mit modernen Hip-Hop-Beats verbindet — ein selbst erfundener Stil namens \"Mittelalter-Rap\". Bekannt für derben Selbstironie-Humor und einen ausgelassenen Trinklied-Geist, verbindet das Projekt die Sensibilitäten von Metal- und Folk-Fans mit Rap-Vortrag zu einer augenzwinkernden Sicht auf Mittelaltermusik."
+        },
+        {
+          "id": "any-given-day",
+          "description": "Deutsche Metalcore-Band, 2012 in Gelsenkirchen von Sänger Dennis Diehl gegründet. Seit ihrem Debütalbum \"My Longest Way Home\" (2014) sind Any Given Day für energiegeladene Liveshows und eine verlässlich publikumswirksame Präsenz in der deutschen Metalcore-Szene bekannt."
+        },
+        {
+          "id": "gutalax",
+          "description": "Tschechische Goregrind-Band aus Křemže, gegründet 2009 und benannt nach dem Abführmittel Guttalax. Gutalax bezeichnen ihren Sound als \"Gore 'n' Roll\" — eine Mischung aus Goregrind, Groove Metal und Pornogrind — und sind berüchtigt für Klo-thematisierte Liveshows mit fliegendem Toilettenpapier und crowdsurfenden Dixi-Klos."
+        },
+        {
+          "id": "blue-medusa",
+          "description": "In Los Angeles ansässige Heavy-Metal-Band, 2026 von der kanadischen Sängerin Alissa White-Gluz nach ihrem Ausstieg bei Arch Enemy gegründet. Blue Medusa liefern düsteren, technisch anspruchsvollen Metal auf Basis wuchtiger Riffs, mitreißender Gitarrensoli und durchdachter Melodien."
+        },
+        {
+          "id": "insomnium",
+          "description": "Finnische Melodic-Death-Metal-Band aus Joensuu, gegründet 1997. Insomniums Musik ist geprägt von dunklen, melancholischen Klangwelten und naturbezogenen Texten, mit Elementen aus Progressive und Doom Metal, was sie zu einer der angesehensten Bands des Genres machte."
+        },
+        {
+          "id": "combichrist",
+          "description": "US-amerikanisches Industrial-/Aggrotech-Projekt, 2003 vom norwegischen Musiker Andy LaPlegua gegründet, der zuvor bei der Futurepop-Band Icon of Coil aktiv war. Combichrist verschmelzen EBM, Metal und Industrial zu einem aggressiven, aber tanzbaren Sound, der sie zu einer Konstante der Industrial- und Gothic-Szene machte."
+        },
+        {
+          "id": "peeling-flesh",
+          "description": "US-amerikanische Slam-Death-Metal-Band aus Oklahoma, 2021 von ehemaligen Mitgliedern der Deathcore-Band Strangled gegründet. Peeling Flesh nennen ihren Stil \"Slamming Gangster Groove\" und verbinden brutalen Slam Death Metal mit Hardcore-Wurzeln, Hip-Hop-Samples und groovelastigen Rhythmen."
+        },
+        {
+          "id": "anaal-nathrakh",
+          "description": "Britisches Extreme-Metal-Duo aus Birmingham, 1999 von Mick Kenney und Dave Hunt gegründet. Ihr Name stammt aus der Excalibur-Zauberformel \"Schlangenatem\", und ihr Sound verschmilzt Black Metal, Grindcore, Industrial und Death Metal zu einigen der kompromisslosesten Platten des Extreme Metal."
+        },
+        {
+          "id": "fleshgod-apocalypse",
+          "description": "Italienische Symphonic-Death-Metal-Band aus Rom, 2007 von Francesco Paoli gegründet, zuvor bei Hour of Penance aktiv. Fleshgod Apocalypse sind bekannt für bombastische Orchesterarrangements über technischem Death Metal, mit Liveshows, die die Intensität ihrer Studioaufnahmen noch übertreffen."
+        },
+        {
+          "id": "primal-fear",
+          "description": "Deutsche Power-/Speed-Metal-Band, 1997 von Sänger Ralf Scheepers und Bassist Mat Sinner gegründet, nachdem Scheepers knapp nicht Judas-Priest-Sänger wurde. Primal Fear feiern 2027 \"30 Years of Metal\" und schöpfen dabei aus einem Katalog wuchtiger, von Judas Priest beeinflusster Hymnen."
+        },
+        {
+          "id": "nasty",
+          "description": "Belgische Beatdown-Hardcore-Band aus Kelmis, gegründet 2004 von ehemaligen Mitgliedern von Van Damme. Nasty sind bekannt für aggressive, moshpit-treibende Liveshows und fest in der modernen europäischen Beatdown-Hardcore-Szene verwurzelt."
+        },
+        {
+          "id": "burning-witches",
+          "description": "Schweizer Heavy-/Power-Metal-Band mit reiner Frauenbesetzung, 2015 in Brugg von Gitarristin Romana Kalkuhl gegründet. Seit ihrem gefeierten selbstbetitelten Debüt 2017 gehören Burning Witches zu den prominentesten Bands der Schweizer Metal-Szene und verbinden traditionellen Heavy Metal mit thrashiger Energie."
+        },
+        {
+          "id": "kupfergold",
+          "description": "Deutsches Folk-Rock-Duo, gegründet von Bonnie Banks und Eric Rhymes, die seit 2010 gemeinsam auftreten und sich 2018 offiziell als Band formierten. Kupfergold mischen mittelalterliche, maritime und Folk-Pop-Klänge zu dem, was sie selbst \"Asi-Folk\" nennen — mit Partyhymnen, Trinkliedern und mitreißenden Balladen."
+        },
+        {
+          "id": "end-of-green",
+          "description": "Deutsche Gothic-/Melodic-Rock-Band aus Stuttgart, gegründet 1992 und 1996 mit \"Infinity\" bei Nuclear Blast debütiert. Mit ihrem selbst bezeichneten Stil \"Depressed Subcore\" gehören End of Green zu den häufigsten Auftrittsacts in der Geschichte von Summer Breeze."
+        },
+        {
+          "id": "wolfheart",
+          "description": "Finnisches Melodic-Death-Metal-Projekt aus Lahti, 2013 vom vielseitigen Musiker Tuomas Saukkonen ins Leben gerufen, nachdem er seine vorherigen Bands beendet hatte. Wolfheart wuchs im Folgejahr zu einer vollständigen Band heran und veröffentlichte sieben Studioalben stark melodischen, winterlichen Death Metals."
+        },
+        {
+          "id": "legion-of-the-damned",
+          "description": "Niederländische Thrash-/Death-Metal-Band aus Limburg, die sich aus der Black-Metal-Band Occult entwickelte, bevor sie sich 2006 in Legion of the Damned umbenannte. Bekannt für kompromissloses Hochgeschwindigkeitsmaterial und unermüdliches Touren, unter anderem mit Cannibal Corpse und Kataklysm."
+        },
+        {
+          "id": "ellende",
+          "description": "Ellende ist ein österreichisches Atmospheric-Black-Metal-Projekt, das 2011 in Graz vom Multiinstrumentalisten L.G. zunächst als Solo-Studioprojekt gegründet und später zu einer Liveband erweitert wurde. Der melancholische, introspektive Sound des Projekts verbindet klassische Instrumentierung wie Streicher und Klavier mit einer Post-Black-Metal-Atmosphäre."
+        },
+        {
+          "id": "angelus-apatrida",
+          "description": "Spanische Thrash-Metal-Band aus Albacete, gegründet im Jahr 2000 und ab 2002 unter Gitarrist Guillermo Izquierdo auf Thrash Metal festgelegt. Angelus Apatrida gelang 2009 mit Century Media Records der Durchbruch, seither erreichten sie sogar Platz eins der spanischen Albumcharts, vor Bands wie Foo Fighters."
+        },
+        {
+          "id": "abbie-falls",
+          "description": "Tschechische Metalcore-Band aus Prag, gegründet im September 2015. Bekannt für harte Riffs und intensive Breakdowns, baute sich Abbie Falls mit EPs wie \"No One's Above, No One's Below\" und \"Hell is Other People\" eine stetig wachsende Fangemeinde auf."
+        },
+        {
+          "id": "samurai-pizza-cats",
+          "description": "Deutsche Metalcore-Band aus Castrop-Rauxel, 2021 von Electric-Callboy-Mitglied Daniel Haniß zusammen mit Sebastian Fischer und Stefan Buchwald (beide ex-Fall of Gaia) gegründet. Ihren trancelastigen Metalcore-Sound nennt die Band selbst \"Catcore from Castrop\"."
+        },
+        {
+          "id": "necrotted",
+          "description": "Deutsche Death-Metal-/Deathcore-Band aus Abtsgmünd, gegründet 2008. Necrotted haben sich mit brutalen, energiegeladenen Bühnenshows auf europäischen Bühnen ebenso wie mit konstanter Studioarbeit einen Namen gemacht, unter anderem mit dem Album \"We Are the Gods That Tear Ourselves Apart\"."
+        },
+        {
+          "id": "left-to-suffer",
+          "description": "US-amerikanische Deathcore-Band aus Atlanta, Georgia, gegründet 2019. Oft als Nu-Deathcore beschrieben, verbinden Left to Suffer die Brutalität des Genres mit eingängigen Hooks und atmosphärischen elektronischen Elementen, unter anderem auf den Alben \"A Year of Suffering\" und \"Leap of Death\"."
+        },
+        {
+          "id": "evil-invaders",
+          "description": "Belgische Speed-/Thrash-Metal-Band aus Leopoldsburg, 2007 von Johannes \"Joe\" Van Audenhove gegründet und benannt nach einem Song von Razor. Seit ihrem Debütalbum \"Pulses of Pleasure\" (2015, Napalm Records) haben sich Evil Invaders einen starken Ruf in der europäischen Thrash-Szene erspielt."
+        },
+        {
+          "id": "hiraes",
+          "description": "Deutsche Melodic-Death-Metal-Band aus Osnabrück, 2020 von ehemaligen Mitgliedern von Dawn of Disease zusammen mit Sängerin Britta Görtz (ex-Critical Mess) gegründet. Der Bandname stammt vom walisischen Wort \"hiraeth\", das die Sehnsucht nach einem Ort oder einer Zeit beschreibt, die es nie gab."
+        },
+        {
+          "id": "lavina",
+          "description": "Serbische Progressive-/Alternative-Metal-Band aus Niš, gegründet 2020 und bekannt dafür, Härte mit emotionalen, melodischen Passagen auszubalancieren. Lavina wurden als serbischer Beitrag für den Eurovision Song Contest 2026 nominiert, was ihre internationale Bekanntheit erheblich steigerte."
+        },
+        {
+          "id": "asenblut",
+          "description": "Deutsche Pagan-Black-/Thrash-Metal-Band aus Göttingen, gegründet 2006 und als frühe Kraft der deutschen Folk-/Pagan-Metal-Szene angesehen. Ihr Name verbindet \"Asen\" und \"Blut\" und spiegelt die nordisch-mythologischen Themen wider, die sich durch ihr Werk ziehen."
+        },
+        {
+          "id": "accvsed",
+          "description": "Deutsche Metalcore-Band aus Wiesbaden, gegründet 2021. Accvsed gewannen mit ihrer Debüt-EP \"House of Doubt\" (2023) und der Signing bei Arising Empire (2024) schnell an Bedeutung in der europäischen Metalcore-Szene und veröffentlichten 2025 ihr Debütalbum \"Dealers of Doom\"."
+        },
+        {
+          "id": "spitting-glass",
+          "description": "Britische Deathcore-/Metalcore-Band mit erfahrenen Musikern aus etablierten Acts, darunter Gitarrist David Ball aus der Live-Besetzung von Sleep Token. Spitting Glass sorgten mit einem prominenten frühen Auftritt beim Download Festival 2026 für Aufsehen und liefern eine moderne Interpretation von klassischem Deathcore."
+        },
+        {
+          "id": "ahab",
+          "description": "Deutsche Doom-/Sludge-Metal-Band, 2004 von Mitgliedern von Midnattsol und Penetralia gegründet und nach Kapitän Ahab aus \"Moby-Dick\" benannt. Ahab prägten den Begriff \"Nautik Funeral Doom\" für ihren erdrückend langsamen, maritim thematisierten Sound, dessen Texte oft direkt aus Melvilles Roman zitieren."
+        },
+        {
+          "id": "sunborn",
+          "description": "Französische Alternative-/Nu-Metal-Band aus Montpellier, die moderne Metal-Elemente mit Alternative Rock, elektronischen Klanglandschaften und poppigen Hooks verbindet. Summer Breeze 2027 markiert das Festivaldebüt der Band."
+        },
+        {
+          "id": "the-night-eternal",
+          "description": "Deutsche Heavy-Metal-Band aus Essen, gegründet 2018 und musikalisch einem düsteren, old-school-geprägten Heavy Metal verpflichtet, vergleichbar mit Bands wie Tribulation und In Solitude. Ihr jüngstes Album \"Cold Velvet\" führt den okkult angehauchten, atmosphärischen Ansatz der Band fort."
+        },
+        {
+          "id": "defiance-hc",
+          "description": "Deutsche Hardcore-Punk-Band aus Stuttgart, aktiv seit Juli 2024 und gestartet von den Freunden Robin Khorrami, Sabrina Chaparro und Marlene Feller, bevor Schlagzeuger Daniel Knöpfler die Besetzung komplettierte. Defiance HC stehen für direkte, aggressive Botschaften und energiegeladene Shows."
+        },
+        {
+          "id": "regarde-les-hommes-tomber",
+          "description": "Französische Black-Metal-Band aus Nantes, gegründet 2011 und benannt nach einem Film von Jacques Audiard aus dem Jahr 1994. Regarde Les Hommes Tomber traten 2013 mit ihrem selbstbetitelten Debütalbum bei Les Acteurs de l'Ombre Productions hervor und verbinden atmosphärischen Black Metal mit Sludge und Death Metal zu einem düsteren, von religiösen Schriften inspirierten Universum."
+        },
+        {
+          "id": "capacopter",
+          "description": "Deutsche Stoner-Rock-Band aus Mannheim/Frankfurt, gegründet 2021 und mit schweren Riffs, Fuzz und wuchtigen Grooves in den 1970er-Rock-Wurzeln verankert. Ihr selbstbetiteltes Debütalbum erreichte nach der Veröffentlichung im Januar 2026 Platz zwei der Doom Charts."
+        }
+      ]
+    }
+  ]
+}
