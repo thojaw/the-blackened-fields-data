@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T17:16:01Z",
+  "generatedAt": "2026-09-18T18:06:00Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -436,6 +436,55 @@
         "events": 0,
         "links": 15,
         "globalLinks": 6
+      }
+    },
+    {
+      "id": "summer-breeze-2027",
+      "slug": "summer-breeze",
+      "year": 2027,
+      "name": "Summer Breeze",
+      "path": "summer-breeze/2027/festival.json",
+      "defaultLang": "en",
+      "utcOffsetHours": 2,
+      "runningOrderExists": false,
+      "version": 1,
+      "visible": false,
+      "festivalDays": [
+        "2027-08-18",
+        "2027-08-19",
+        "2027-08-20",
+        "2027-08-21"
+      ],
+      "isMultiStage": true,
+      "translationLangs": [
+        "de"
+      ],
+      "topGenres": {
+        "Metalcore": 10,
+        "Deathcore": 9,
+        "Melodic Death Metal": 7,
+        "Power Metal": 6,
+        "Black Metal": 5,
+        "Folk Metal": 5,
+        "Heavy Metal": 4,
+        "Thrash Metal": 4,
+        "Alternative Metal": 3,
+        "Death Metal": 3
+      },
+      "completeness": {
+        "stars": 3,
+        "contentLevel": "complete",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 1.0,
+        "scheduleCoverage": 0.0
+      },
+      "counts": {
+        "artists": 63,
+        "stages": 4,
+        "news": 0,
+        "events": 0,
+        "links": 71,
+        "globalLinks": 9
       }
     }
   ]
