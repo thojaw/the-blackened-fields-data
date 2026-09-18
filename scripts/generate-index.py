@@ -26,6 +26,7 @@ import json
 import os
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+ARTISTS_REGISTRY_PATH = os.path.join(REPO_ROOT, "artists.json")
 SCHEMA_VERSION = 2
 TOP_GENRES_LIMIT = 10
 
@@ -51,6 +52,33 @@ STARS_TABLE = {
     ("complete", "partial"): 4,
     ("complete", "full"): 5,
 }
+
+# Thresholds for the lineup profile -- see AGENTS.md "Lineup profile". Artist
+# popularity is the registry's 1 (local/niche) to 10 (world class) score.
+LINEUP_TOP_N = 3  # "top" = mean popularity of the N most popular artists
+LINEUP_TOP_STARS = 8.5  # top >= this -> "stars"
+LINEUP_TOP_STRONG = 6.5  # top >= this -> "strong", else "modest"
+LINEUP_CORE_MIN_POPULARITY = 5  # "core" = share of artists with popularity >= this
+LINEUP_DISCOVERY_MAX_POPULARITY = 3  # "discovery" = share of artists with popularity <= this
+LINEUP_DEPTH_UNDERGROUND = 0.8  # discovery share >= this -> "underground"
+LINEUP_DEPTH_DEEP = 0.6  # core share >= this -> "deep"
+LINEUP_DEPTH_SOLID = 0.45  # core share >= this -> "solid"
+LINEUP_DEPTH_DISCOVERY = 0.4  # discovery share >= this -> "discovery", else "mixed"
+LINEUP_LOW_CONFIDENCE_BELOW = 10  # fewer scored artists than this -> lowConfidence
+
+
+def load_popularity_by_id():
+    """Registry artist id -> popularity (only entries that have one)."""
+    try:
+        with open(ARTISTS_REGISTRY_PATH, "r", encoding="utf-8") as f:
+            registry = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {
+        a["id"]: a["popularity"]
+        for a in registry
+        if isinstance(a.get("popularity"), int)
+    }
 
 
 def find_festival_files():
@@ -98,7 +126,55 @@ def compute_completeness(data, artists):
     }
 
 
-def build_entry(path, slug):
+def compute_lineup(artists, popularity_by_id):
+    """Popularity profile of the lineup, or None if no artist has a score."""
+    scores = sorted(
+        (
+            popularity_by_id[a["globalId"]]
+            for a in artists
+            if a.get("globalId") in popularity_by_id
+        ),
+        reverse=True,
+    )
+    n = len(scores)
+    if n == 0:
+        return None
+
+    top_scores = scores[:LINEUP_TOP_N]
+    headliners = sum(top_scores) / len(top_scores)
+    core = sum(1 for p in scores if p >= LINEUP_CORE_MIN_POPULARITY) / n
+    discovery = sum(1 for p in scores if p <= LINEUP_DISCOVERY_MAX_POPULARITY) / n
+
+    if headliners >= LINEUP_TOP_STARS:
+        top = "stars"
+    elif headliners >= LINEUP_TOP_STRONG:
+        top = "strong"
+    else:
+        top = "modest"
+
+    if discovery >= LINEUP_DEPTH_UNDERGROUND:
+        depth = "underground"
+    elif core >= LINEUP_DEPTH_DEEP:
+        depth = "deep"
+    elif core >= LINEUP_DEPTH_SOLID:
+        depth = "solid"
+    elif discovery >= LINEUP_DEPTH_DISCOVERY:
+        depth = "discovery"
+    else:
+        depth = "mixed"
+
+    return {
+        "top": top,
+        "depth": depth,
+        "headliners": round(headliners, 1),
+        "core": round(core, 3),
+        "discovery": round(discovery, 3),
+        "scoredArtists": n,
+        "lowConfidence": n < LINEUP_LOW_CONFIDENCE_BELOW,
+    }
+
+
+def build_entry(path, slug, popularity_by_id):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -115,7 +191,7 @@ def build_entry(path, slug):
         sorted(genre_counts.items(), key=lambda item: (-item[1], item[0]))[:TOP_GENRES_LIMIT]
     )
 
-    return {
+    entry = {
         "id": data["id"],
         "slug": slug,
         "year": data["year"],
@@ -140,10 +216,15 @@ def build_entry(path, slug):
             "globalLinks": sum(1 for link in links if not link.get("artistId")),
         },
     }
+    lineup = compute_lineup(artists, popularity_by_id)
+    if lineup is not None:
+        entry["lineup"] = lineup
+    return entry
 
 
 def build_index():
-    entries = [build_entry(path, slug) for path, slug, _ in find_festival_files()]
+    popularity_by_id = load_popularity_by_id()
+    entries = [build_entry(path, slug, popularity_by_id) for path, slug, _ in find_festival_files()]
     entries.sort(key=lambda e: (e["festivalDays"][0] if e["festivalDays"] else "", e["name"]))
     return {
         "schemaVersion": SCHEMA_VERSION,

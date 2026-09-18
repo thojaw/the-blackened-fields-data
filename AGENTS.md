@@ -560,6 +560,35 @@ they're the two constants `CONTENT_COMPLETE_THRESHOLD` and
 - Exception: CI can't push to PRs from forks (no write access), so those
   need `version` bumped by hand before merging.
 
+
+### Lineup profile
+
+Each `index.json` entry carries an optional `lineup` block describing what
+kind of bill the festival has, computed by `scripts/generate-index.py`'s
+`compute_lineup()` from the artist registry's `popularity` (1 = local/niche
+... 10 = world class), matched through each festival artist's `globalId`.
+Nothing is authored per festival.
+
+It is deliberately **not** a single score. An average would let a headliner
+supported by a few weak bands look mediocre, and the lineup alone can't say
+how big a festival is (a 300-visitor festival can book strong names), so the
+profile answers "how strong is the poster?" and "what is behind it?"
+separately, as two enums the client localizes and combines (e.g. `strong` +
+`discovery` -> "Discovery-heavy, with big names on top"):
+
+- `top` -- from `headliners`, the mean popularity of the 3 most popular
+  artists: `stars` (>= 8.5), `strong` (>= 6.5), `modest`.
+- `depth` -- from `core` (share of artists with popularity >= 5) and
+  `discovery` (share with popularity <= 3), first match wins:
+  `underground` (discovery >= 0.8), `deep` (core >= 0.6), `solid`
+  (core >= 0.45), `discovery` (discovery >= 0.4), `mixed`.
+- `lowConfidence` is true when fewer than 10 artists are scored.
+
+The thresholds are constants at the top of the script; changing them changes
+the keys on the next index regeneration without touching any festival file.
+Note that popularity says an act is *unknown*, not that it is *good*, so
+"discovery" means many lesser-known acts, not a quality statement.
+
 ### `FestivalIndexEntry` shape (conceptual)
 
 ```
@@ -577,6 +606,9 @@ FestivalIndexEntry {
   completeness: { stars, contentLevel, scheduleLevel, artistInfoCoverage, scheduleCoverage },
                      -- derived 1-5 "how much is there to see yet" score, see
                      -- "Completeness / stars" above
+  lineup?: { top, depth, headliners, core, discovery, scoredArtists, lowConfidence },
+                     -- derived popularity profile of the lineup, omitted if no
+                     -- artist has a popularity score, see "Lineup profile" below
   counts: { artists, stages, news, events, links, globalLinks }
 }
 

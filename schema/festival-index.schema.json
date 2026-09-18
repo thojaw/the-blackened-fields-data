@@ -136,6 +136,51 @@
               "description": "Fraction of artists[] with startTime set. 0 if there are no artists yet."
             }
           }
+        },
+        "lineup": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["top", "depth", "headliners", "core", "discovery", "scoredArtists", "lowConfidence"],
+          "description": "Derived popularity profile of the lineup, computed from the artist registry's 1-10 'popularity' scores (matched via artists[].globalId). Omitted when no artist of the festival has a score yet. 'top' and 'depth' are stable enum keys the client maps to localized display text and combines (e.g. strong + discovery -> 'discovery-heavy, with big names on top'); see AGENTS.md 'Lineup profile'.",
+          "properties": {
+            "top": {
+              "type": "string",
+              "enum": ["stars", "strong", "modest"],
+              "description": "Poster strength from 'headliners': 'stars' >= 8.5, 'strong' >= 6.5, otherwise 'modest'."
+            },
+            "depth": {
+              "type": "string",
+              "enum": ["underground", "deep", "solid", "discovery", "mixed"],
+              "description": "What is behind the top, first match wins: 'underground' = discovery >= 0.8; 'deep' = core >= 0.6; 'solid' = core >= 0.45; 'discovery' = discovery >= 0.4; otherwise 'mixed'."
+            },
+            "headliners": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "Mean popularity of the (up to) 3 most popular scored artists, rounded to 1 decimal."
+            },
+            "core": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Share of scored artists with popularity >= 5 (proven acts)."
+            },
+            "discovery": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Share of scored artists with popularity <= 3 (lesser-known acts)."
+            },
+            "scoredArtists": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Number of artists[] that resolved to a registry entry with a popularity score; the denominator of core and discovery."
+            },
+            "lowConfidence": {
+              "type": "boolean",
+              "description": "True when scoredArtists < 10 -- with so few acts a single band moves the shares a lot, so clients may want to soften the label."
+            }
+          }
         }
       }
     }
