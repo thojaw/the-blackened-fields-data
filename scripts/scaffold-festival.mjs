@@ -3,9 +3,14 @@
 // JSON "spec" file: downloads every artist image + the festival logo locally
 // (this repo never references external image URLs -- see AGENTS.md), writes
 // the festival.json, then chains the existing Python pipeline
-// (sync-artist-registry.py --apply, validate-artists.py --check-festivals,
-// generate-index.py) so the whole thing lands in one already-consistent
-// commit instead of a dozen manual steps.
+// (sync-artist-registry.py --apply, enrich-artists.mjs for Spotify/social
+// links, enrich-popularity.mjs for the popularity registry field,
+// validate-artists.py --check-festivals, generate-index.py) so the whole
+// thing lands in one already-consistent commit instead of a dozen manual
+// steps. Popularity enrichment needs LASTFM_API_KEY, which most local dev
+// environments won't have -- it fails soft and reports any still-unscored
+// artist ids in needsManualReview.unscoredPopularity instead of erroring;
+// see .claude/skills/festival-intake/SKILL.md for the follow-up.
 //
 // This script does NOT write descriptions, pick images, verify facts, or
 // resolve genuine artist-identity collisions -- that's still a research/
@@ -310,6 +315,51 @@ async function enrichLinksSafely(globalIds) {
   return { linked, mismatched };
 }
 
+// Runs enrich-popularity.mjs (registry mode) against ONLY the ids we just
+// touched, so newly scaffolded artists don't silently sit at
+// popularity: null forever -- the app's tiering UI treats a missing value
+// as the *lowest* possible score, which mis-tiers well-known acts (see
+// docs/history.md, 2026-09-18). Needs LASTFM_API_KEY, which most local dev
+// environments won't have -- that's expected, not an error: this fails soft
+// and the caller (cmdCreate/cmdAddArtists) reports which ids are still
+// unscored so the intake PR can call it out and a follow-up run of the
+// "Enrich artist popularity" GitHub Actions workflow (workflow_dispatch on
+// main, uses the repo's LASTFM_API_KEY secret) can backfill them later.
+async function enrichPopularitySafely(globalIds) {
+  const registryPath = path.join(REPO_ROOT, "artists.json");
+  const registry = JSON.parse(await readFile(registryPath, "utf8"));
+  const targets = registry.filter((a) => globalIds.includes(a.id) && typeof a.popularity !== "number");
+  if (!targets.length) return { scored: [], unscored: [] };
+
+  const tmpPath = path.join(REPO_ROOT, ".scaffold-popularity-tmp.json");
+  await writeJson(tmpPath, targets);
+
+  try {
+    run("node", ["scripts/enrich-popularity.mjs", tmpPath, "--write"]);
+  } catch (err) {
+    console.warn(`  enrich-popularity.mjs failed/unavailable, leaving popularity unset: ${err.message}`);
+    await unlink(tmpPath).catch(() => {});
+    return { scored: [], unscored: targets.map((a) => a.id) };
+  }
+
+  const enriched = JSON.parse(await readFile(tmpPath, "utf8"));
+  await unlink(tmpPath);
+
+  const scored = [];
+  const unscored = [];
+  for (const e of enriched) {
+    if (typeof e.popularity === "number") {
+      const target = registry.find((a) => a.id === e.id);
+      target.popularity = e.popularity;
+      scored.push(e.id);
+    } else {
+      unscored.push(e.id);
+    }
+  }
+  await writeJson(registryPath, registry);
+  return { scored, unscored };
+}
+
 async function runPipeline(festivalRelPath, touchedIds) {
   const py = pythonCmd();
   console.log("Syncing artist registry...");
@@ -345,13 +395,21 @@ async function runPipeline(festivalRelPath, touchedIds) {
     for (const m of mismatched) console.warn(`    ${m.id}: expected country "${m.expected}", MusicBrainz said "${m.got}"`);
   }
 
+  console.log("Enriching popularity (Last.fm)...");
+  const { scored, unscored } = await enrichPopularitySafely(globalIds);
+  if (scored.length) console.log(`  scored: ${scored.join(", ")}`);
+  if (unscored.length) {
+    console.warn("  UNSCORED -- LASTFM_API_KEY missing/failed locally, popularity left null:");
+    for (const id of unscored) console.warn(`    ${id}`);
+  }
+
   console.log("Validating...");
   run(py, ["scripts/validate-artists.py", "--check-festivals"]);
 
   console.log("Regenerating index.json...");
   run(py, ["scripts/generate-index.py"]);
 
-  return { skipped, mismatched };
+  return { skipped, mismatched, unscored };
 }
 
 async function cmdCreate(specPath) {
@@ -396,10 +454,10 @@ async function cmdCreate(specPath) {
   await writeJson(path.join(REPO_ROOT, festivalRelPath), festival);
   console.log(`Wrote ${festivalRelPath}`);
 
-  const { skipped, mismatched } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
+  const { skipped, mismatched, unscored } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
 
   console.log("\nDone.");
-  console.log(JSON.stringify({ festivalRelPath, artists: spec.artists.map((a) => a.id), needsManualReview: { registryIdCollisions: skipped, linkMismatches: mismatched } }, null, 2));
+  console.log(JSON.stringify({ festivalRelPath, artists: spec.artists.map((a) => a.id), needsManualReview: { registryIdCollisions: skipped, linkMismatches: mismatched, unscoredPopularity: unscored } }, null, 2));
 }
 
 async function cmdAddArtists(festivalArgPath, specPath) {
@@ -428,10 +486,10 @@ async function cmdAddArtists(festivalArgPath, specPath) {
   await writeJson(festivalPath, festival);
   console.log(`Updated ${festivalRelPath}`);
 
-  const { skipped, mismatched } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
+  const { skipped, mismatched, unscored } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
 
   console.log("\nDone.");
-  console.log(JSON.stringify({ festivalRelPath, newArtists: spec.artists.map((a) => a.id), needsManualReview: { registryIdCollisions: skipped, linkMismatches: mismatched } }, null, 2));
+  console.log(JSON.stringify({ festivalRelPath, newArtists: spec.artists.map((a) => a.id), needsManualReview: { registryIdCollisions: skipped, linkMismatches: mismatched, unscoredPopularity: unscored } }, null, 2));
 }
 
 async function main() {
