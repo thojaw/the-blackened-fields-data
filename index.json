@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T12:42:55Z",
+  "generatedAt": "2026-09-18T15:23:28Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -50,6 +50,15 @@
         "events": 14,
         "links": 619,
         "globalLinks": 0
+      },
+      "lineup": {
+        "top": "stars",
+        "depth": "deep",
+        "headliners": 9.0,
+        "core": 0.637,
+        "discovery": 0.215,
+        "scoredArtists": 135,
+        "lowConfidence": false
       }
     },
     {
@@ -96,6 +105,15 @@
         "events": 0,
         "links": 43,
         "globalLinks": 3
+      },
+      "lineup": {
+        "top": "strong",
+        "depth": "discovery",
+        "headliners": 6.7,
+        "core": 0.35,
+        "discovery": 0.4,
+        "scoredArtists": 20,
+        "lowConfidence": false
       }
     },
     {
@@ -144,6 +162,15 @@
         "events": 0,
         "links": 29,
         "globalLinks": 6
+      },
+      "lineup": {
+        "top": "modest",
+        "depth": "underground",
+        "headliners": 3.3,
+        "core": 0.0,
+        "discovery": 0.968,
+        "scoredArtists": 31,
+        "lowConfidence": false
       }
     },
     {
@@ -189,6 +216,15 @@
         "events": 0,
         "links": 15,
         "globalLinks": 3
+      },
+      "lineup": {
+        "top": "strong",
+        "depth": "solid",
+        "headliners": 6.7,
+        "core": 0.529,
+        "discovery": 0.294,
+        "scoredArtists": 17,
+        "lowConfidence": false
       }
     },
     {
@@ -235,6 +271,15 @@
         "events": 0,
         "links": 20,
         "globalLinks": 4
+      },
+      "lineup": {
+        "top": "modest",
+        "depth": "solid",
+        "headliners": 5.3,
+        "core": 0.5,
+        "discovery": 0.375,
+        "scoredArtists": 16,
+        "lowConfidence": false
       }
     },
     {
@@ -279,6 +324,15 @@
         "events": 0,
         "links": 7,
         "globalLinks": 7
+      },
+      "lineup": {
+        "top": "modest",
+        "depth": "deep",
+        "headliners": 6.3,
+        "core": 0.75,
+        "discovery": 0.25,
+        "scoredArtists": 8,
+        "lowConfidence": true
       }
     },
     {
@@ -327,6 +381,15 @@
         "events": 0,
         "links": 27,
         "globalLinks": 6
+      },
+      "lineup": {
+        "top": "strong",
+        "depth": "solid",
+        "headliners": 7.0,
+        "core": 0.55,
+        "discovery": 0.2,
+        "scoredArtists": 20,
+        "lowConfidence": false
       }
     }
   ]
