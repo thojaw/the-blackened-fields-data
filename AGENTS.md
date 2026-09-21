@@ -308,7 +308,7 @@ never overwriting, each festival's own local `Artist.id` values.
   Never copied to or from a festival's own `Artist`/`links[]` entries by
   `scripts/sync-artist-registry.py` — a festival's `Artist` object has no
   `links` field of its own, so there's nothing to sync. Populate/refresh it
-  by running `scripts/enrich-artists.mjs artists.json --write` (auto-detects
+  by running `scripts/enrich-artists.py artists.json --write` (auto-detects
   registry mode from the bare-array shape) or by editing it by hand.
 - `popularity?` (integer, 1-10) — how popular the artist is *within the
   metal scene specifically*, not general-audience popularity (a pop act
@@ -376,7 +376,7 @@ metal's own biggest touring names.
 - Everything else falls between those anchors on a hand-set breakpoint
   table, not a linear or single-formula scale — see Methodology.
 
-**Methodology:** `scripts/enrich-popularity.mjs` backfills this field from
+**Methodology:** `scripts/enrich-popularity.py` backfills this field from
 Last.fm's `artist.getinfo` `listeners` count (lifetime unique listeners —
 Last.fm doesn't expose a monthly figure, but it's a stable, comparable,
 free-to-query proxy across artists). The count is bucketed against
@@ -424,7 +424,7 @@ response for "Metallica" came back with `name`/`id`/`images`/`uri` but no
 `popularity` key at all. Last.fm remains the only viable automated source.
 
 ```
-LASTFM_API_KEY=xxx node scripts/enrich-popularity.mjs artists.json --write
+LASTFM_API_KEY=xxx python3 scripts/enrich-popularity.py artists.json --write
 ```
 
 This is a blunt, single-source proxy, not a rigorous metric: Last.fm's
@@ -449,7 +449,7 @@ hand where scene knowledge clearly disagrees with the computed bucket.
    linking (or add as new if you can confirm by other means, as this
    dataset's genre-scoped act names make real collisions very unlikely).
 4. **No match** → create the artist first: look up genres/country (e.g. via
-   `scripts/enrich-artists.mjs` against the festival file, or manually),
+   `scripts/enrich-artists.py` against the festival file, or manually),
    write a short `description`, then let `sync-artist-registry.py --apply`
    slugify the name and append a new `artists.json` entry, setting
    `globalId` on the festival artist accordingly.

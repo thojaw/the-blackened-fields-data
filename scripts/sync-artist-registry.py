@@ -5,7 +5,7 @@ registry, and (with --apply) merges registry data back into the festival and
 adds any genuinely new artists to the registry.
 
 No third-party dependencies (stdlib only), no network calls -- genre/country
-enrichment for brand-new artists is still done by scripts/enrich-artists.mjs;
+enrichment for brand-new artists is still done by scripts/enrich-artists.py;
 run that first if a new artist's festival entry has no genres/country yet.
 
 Usage:
@@ -26,7 +26,7 @@ A registry entry's `links` are never populated or copied here -- festival.json
 Artist entries have no `links` field of their own (a festival's links live in
 its top-level `links[]` array, keyed by `artistId`), so there is nothing to
 sync in either direction. Add/edit `links` on a registry entry directly, or
-via `scripts/enrich-artists.mjs` run against `artists.json`.
+via `scripts/enrich-artists.py` run against `artists.json`.
 """
 import argparse
 import json
