@@ -497,7 +497,33 @@
           "id": "l2",
           "label": "Tickets"
         }
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "title": "Frühschoppen"
+        },
+        {
+          "id": "e2",
+          "title": "Einlass Halle"
+        }
       ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Frühschoppen",
+      "dayDate": "2026-10-24",
+      "startTime": "10:30",
+      "endTime": "13:30"
+    },
+    {
+      "id": "e2",
+      "title": "Doors Open (Hall)",
+      "dayDate": "2026-10-24",
+      "startTime": "13:00",
+      "endTime": "13:30"
     }
   ]
 }
