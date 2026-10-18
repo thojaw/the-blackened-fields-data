@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T18:06:00Z",
+  "generatedAt": "2026-10-18T09:58:20Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -181,7 +181,7 @@
       "path": "braincrusher-nuclear-winter-festival/2026/festival.json",
       "defaultLang": "en",
       "utcOffsetHours": 2,
-      "runningOrderExists": false,
+      "runningOrderExists": true,
       "version": 2,
       "visible": true,
       "festivalDays": [
@@ -203,11 +203,11 @@
         "Sludge Metal": 1
       },
       "completeness": {
-        "stars": 3,
+        "stars": 5,
         "contentLevel": "complete",
-        "scheduleLevel": "none",
+        "scheduleLevel": "full",
         "artistInfoCoverage": 1.0,
-        "scheduleCoverage": 0.0
+        "scheduleCoverage": 0.941
       },
       "counts": {
         "artists": 17,
@@ -436,6 +436,15 @@
         "events": 0,
         "links": 15,
         "globalLinks": 6
+      },
+      "lineup": {
+        "top": "modest",
+        "depth": "discovery",
+        "headliners": 5.3,
+        "core": 0.444,
+        "discovery": 0.444,
+        "scoredArtists": 9,
+        "lowConfidence": true
       }
     },
     {
@@ -485,6 +494,15 @@
         "events": 0,
         "links": 71,
         "globalLinks": 9
+      },
+      "lineup": {
+        "top": "stars",
+        "depth": "deep",
+        "headliners": 8.7,
+        "core": 0.78,
+        "discovery": 0.119,
+        "scoredArtists": 59,
+        "lowConfidence": false
       }
     }
   ]
