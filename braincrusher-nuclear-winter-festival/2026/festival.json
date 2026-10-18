@@ -4,7 +4,7 @@
   "version": 2,
   "year": 2026,
   "defaultLang": "en",
-  "runningOrderExists": false,
+  "runningOrderExists": true,
   "utcOffsetHours": 2,
   "festivalDays": [
     "2026-10-23",
@@ -126,9 +126,9 @@
       "name": "Destruction",
       "imageUrl": "a1.jpg",
       "description": "Destruction are a German thrash metal band formed in 1982 in Weil am Rhein, led since inception by bassist/vocalist Marcel \"Schmier\" Schirmer and guitarist Mike Sifringer. Alongside Kreator, Sodom and Tankard, they are considered one of the \"Big Four\" of Teutonic thrash metal, with genre-defining albums including 1985's Infernal Overkill and 1988's Release from Agony.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "22:15",
+      "endTime": "23:45",
       "annotation": null,
       "genres": [
         "Thrash Metal"
@@ -141,9 +141,9 @@
       "name": "Carpathian Forest",
       "imageUrl": "a2.jpg",
       "description": "Carpathian Forest are a Norwegian black metal band formed in the early 1990s by Nattefrost and Nordavind under the name Enthrone. Known for a raw, nihilistic take on old-school Scandinavian black metal steeped in Satanism, misanthropy and dark humor, they built cult status through early demos before signing to Avantgarde and later Season of Mist.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "22:35",
+      "endTime": "23:35",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -156,9 +156,9 @@
       "name": "Reil Of Violence",
       "imageUrl": "a3.jpg",
       "description": "Reil of Violence is a German speed/thrash metal project formed in December 2023 by Kreator drummer Jürgen \"Ventor\" Reil together with his son Jerome and Tim Reil. The three-generation family project grew out of a Rock Hard magazine interview that first suggested the idea to father and son.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "19:35",
+      "endTime": "20:45",
       "annotation": null,
       "genres": [
         "Speed Metal",
@@ -172,9 +172,9 @@
       "name": "Exumer",
       "imageUrl": "a4.jpg",
       "description": "Exumer are a German thrash metal band formed in Wiesbaden in 1985 by singer/bassist Mem V. Stein and guitarist Ray Mensh. Their 1986 debut Possessed by Fire became an underground classic; after splitting in 1991 the band reactivated in 2008 and continues to release new material, including 2026's Death Mask Messiah on Metal Blade Records.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "21:15",
+      "endTime": "22:15",
       "annotation": null,
       "genres": [
         "Thrash Metal"
@@ -187,9 +187,9 @@
       "name": "Urgehal",
       "imageUrl": "a5.jpg",
       "description": "Urgehal are a Norwegian black metal band formed in Hønefoss in 1992 by Trondr Nefas and Enzifer. Playing raw, Satanic black metal in the classic Norwegian tradition, they released their debut Arma Christi in 1997 and several further albums before splitting in 2016, occasionally reuniting for live shows since.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "21:05",
+      "endTime": "21:55",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -202,9 +202,9 @@
       "name": "Mortem",
       "imageUrl": "a6-c.jpg",
       "description": "Mortem are a Norwegian extreme metal band from Oslo, formed in 1987 by Marius Vold and Steinar Sverd Johnsen as one of the earliest black metal acts to emerge in Norway. Their influential Slow Death demo was produced by Mayhem's Euronymous, and after members went on to found Arcturus and Thorns, the band reactivated in 2018 and released the Peaceville Records album Ravnsvart in 2019, featuring Mayhem's Hellhammer on drums.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "20:05",
+      "endTime": "20:55",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -218,9 +218,9 @@
       "name": "Warhammer",
       "imageUrl": "a7-c.jpg",
       "description": "Warhammer are a black/death metal band from Athens, Greece, formed in 2012 by George Tsavdaridis and Hercules Giotis. The band began as a thrash metal act before shifting toward a heavier black/death metal sound starting with 2021's Ashes and Cinders, an album that also introduced saxophone into their live and studio sound.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "17:20",
+      "endTime": "18:05",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -235,9 +235,9 @@
       "name": "Graven",
       "imageUrl": "a8.png",
       "description": "Graven are a black metal band from Memmingen, Bavaria, Germany, formed in 1999 out of the earlier band Totenreich. Signed to Undercover Records, their lyrics center on hate, darkness, death and misanthropy across albums including Perished and Forgotten (2002) and The Shadows Eternal Call (2005).",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "18:25",
+      "endTime": "19:15",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -250,9 +250,9 @@
       "name": "Svarttjern",
       "imageUrl": "a9.jpg",
       "description": "Norwegian black metal band from Oslo, formed in 2003 by musicians also tied to Carpathian Forest and Ragnarok. Their name, meaning \"black tarn,\" is taken from a 19th-century Norwegian painting, and the band records for Soulseller Records.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "19:00",
+      "endTime": "19:45",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -265,9 +265,9 @@
       "name": "Hexer",
       "imageUrl": "a10.jpg",
       "description": "Hexer are a blackened doom/sludge metal band from Germany, formed in 2014 with members also known from Imha Tarikat and Eyemaster. Their sound blends slow, heavy doom and sludge with black and death metal elements and occult themes, as heard on albums including Cosmic Doom Ritual (2017) and Abyssal (2023).",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "16:20",
+      "endTime": "17:00",
       "annotation": null,
       "genres": [
         "Doom Metal",
@@ -281,9 +281,9 @@
       "name": "Tsatthoggua",
       "imageUrl": "a11.jpg",
       "description": "Tsatthoggua are a black/thrash metal band from Marl, Germany, formed in 1993 and named after a deity from H.P. Lovecraft's Cthulhu Mythos. Their 1996 debut Hosanna Bizarre, released on Osmose Productions, made them a cult act in the German extreme metal underground; the original lineup reunited in 2019 and released We Are God in 2024.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "23:55",
+      "endTime": "00:40",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -297,9 +297,9 @@
       "name": "Chemicide",
       "imageUrl": "a12.jpg",
       "description": "Chemicide are a thrash metal band from San José, Costa Rica, formed in 2008 (initially as Conqueror) and drawing comparisons to Kreator, Destruction and Demolition Hammer. Signed to Listenable Records, they released their latest full-length, Violence Prevails, in 2025.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "14:20",
+      "endTime": "15:00",
       "annotation": null,
       "genres": [
         "Thrash Metal"
@@ -312,9 +312,9 @@
       "name": "Antipeewee",
       "imageUrl": "a13.jpg",
       "description": "Antipeewee are a thrash metal band from Abensberg, Bavaria, Germany, formed in 2006 and drawing on the tradition of 1980s German underground thrash. Signed to Slash Zero Records, their releases include Human Grill Party, Madness Unleashed and Infected by Evil, with lyrical themes spanning Cthulhu mythos, politics and partying.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "17:55",
+      "endTime": "18:40",
       "annotation": null,
       "genres": [
         "Thrash Metal"
@@ -327,9 +327,9 @@
       "name": "Warfield",
       "imageUrl": "a14.jpg",
       "description": "Warfield is a German thrash metal band from Kaiserslautern, founded in 2012. The group plays fast-paced, catchy old-school thrash metal, channeling the genre's classic 1980s energy into tight, aggressive songwriting and an uncompromising, riff-driven live approach.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "15:20",
+      "endTime": "16:00",
       "annotation": null,
       "genres": [
         "Thrash Metal"
@@ -342,9 +342,9 @@
       "name": "Paxtilence",
       "imageUrl": "a15.jpg",
       "description": "Paxtilence are a thrash metal band from Nuremberg, Germany, founded in 2011 to bring riff-driven, aggressive thrash inspired by Kreator and Megadeth to the local scene. They have released the Cyclotomic Warfare EP (2017) and the album Wildfire (2022), followed by a live release, Live in Höred (2026).",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-23",
+      "startTime": "17:00",
+      "endTime": "17:35",
       "annotation": null,
       "genres": [
         "Thrash Metal"
@@ -357,9 +357,9 @@
       "name": "Sirens",
       "imageUrl": "a16-b.jpg",
       "description": "Sirens are a two-piece heavy/speed/power metal band from Ansbach, Bavaria, Germany, active since 1995. Independent and self-releasing, their lyrics span fantasy and social themes, with their most recent full-length, In Goat We Trust, released in April 2025.",
-      "dayDate": null,
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-10-24",
+      "startTime": "13:30",
+      "endTime": "14:00",
       "annotation": null,
       "genres": [
         "Heavy Metal",
@@ -385,6 +385,22 @@
       ],
       "country": "de",
       "globalId": "desaster"
+    },
+    {
+      "id": "a18",
+      "name": "Grave Dogger",
+      "imageUrl": "",
+      "description": "Grave Dogger are a local German heavy metal act playing in the style of Grave Digger, most likely as a tribute band.",
+      "dayDate": "2026-10-25",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "annotation": null,
+      "genres": [
+        "Heavy Metal",
+        "Power Metal"
+      ],
+      "country": "de",
+      "globalId": "grave-dogger"
     }
   ],
   "translations": [
@@ -466,6 +482,10 @@
           "id": "a17",
           "description": "Desaster sind eine 1988 gegründete und seit 1989 aktive deutsche Black-/Thrash-Metal-Band aus Koblenz, deren Name auf den Destruction-Song „Total Desaster“ zurückgeht. Mit Einflüssen von Venom, Hellhammer und Mayhem verbinden sie Black-, Death- und Thrash-Metal-Elemente und veröffentlichten zehn Studioalben bei Metal Blade Records, darunter 2025 „Kill All Idols“.",
           "annotation": "Abgesagt."
+        },
+        {
+          "id": "a18",
+          "description": "Grave Dogger sind eine lokale deutsche Heavy-Metal-Band im Stil von Grave Digger, höchstwahrscheinlich eine Tribute-Band."
         }
       ],
       "links": [
@@ -477,7 +497,33 @@
           "id": "l2",
           "label": "Tickets"
         }
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "title": "Frühschoppen"
+        },
+        {
+          "id": "e2",
+          "title": "Einlass Halle"
+        }
       ]
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Frühschoppen",
+      "dayDate": "2026-10-24",
+      "startTime": "10:30",
+      "endTime": "13:00"
+    },
+    {
+      "id": "e2",
+      "title": "Doors Open (Hall)",
+      "dayDate": "2026-10-24",
+      "startTime": "13:00",
+      "endTime": "13:30"
     }
   ]
 }

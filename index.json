@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T18:06:00Z",
+  "generatedAt": "2026-10-18T10:05:15Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -181,7 +181,7 @@
       "path": "braincrusher-nuclear-winter-festival/2026/festival.json",
       "defaultLang": "en",
       "utcOffsetHours": 2,
-      "runningOrderExists": false,
+      "runningOrderExists": true,
       "version": 2,
       "visible": true,
       "festivalDays": [
@@ -195,25 +195,25 @@
       "topGenres": {
         "Thrash Metal": 9,
         "Black Metal": 8,
+        "Heavy Metal": 2,
+        "Power Metal": 2,
         "Speed Metal": 2,
         "Death Metal": 1,
         "Doom Metal": 1,
-        "Heavy Metal": 1,
-        "Power Metal": 1,
         "Sludge Metal": 1
       },
       "completeness": {
-        "stars": 3,
+        "stars": 5,
         "contentLevel": "complete",
-        "scheduleLevel": "none",
-        "artistInfoCoverage": 1.0,
-        "scheduleCoverage": 0.0
+        "scheduleLevel": "full",
+        "artistInfoCoverage": 0.944,
+        "scheduleCoverage": 0.944
       },
       "counts": {
-        "artists": 17,
+        "artists": 18,
         "stages": 0,
         "news": 1,
-        "events": 0,
+        "events": 2,
         "links": 15,
         "globalLinks": 3
       },
@@ -221,9 +221,9 @@
         "top": "strong",
         "depth": "solid",
         "headliners": 6.7,
-        "core": 0.529,
-        "discovery": 0.294,
-        "scoredArtists": 17,
+        "core": 0.5,
+        "discovery": 0.333,
+        "scoredArtists": 18,
         "lowConfidence": false
       }
     },
@@ -436,6 +436,15 @@
         "events": 0,
         "links": 15,
         "globalLinks": 6
+      },
+      "lineup": {
+        "top": "modest",
+        "depth": "discovery",
+        "headliners": 5.3,
+        "core": 0.444,
+        "discovery": 0.444,
+        "scoredArtists": 9,
+        "lowConfidence": true
       }
     },
     {
@@ -485,6 +494,15 @@
         "events": 0,
         "links": 71,
         "globalLinks": 9
+      },
+      "lineup": {
+        "top": "stars",
+        "depth": "deep",
+        "headliners": 8.7,
+        "core": 0.78,
+        "discovery": 0.119,
+        "scoredArtists": 59,
+        "lowConfidence": false
       }
     }
   ]

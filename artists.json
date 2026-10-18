@@ -5864,5 +5864,16 @@
       }
     ],
     "popularity": 3
+  },
+  {
+    "id": "grave-dogger",
+    "name": "Grave Dogger",
+    "description": "Grave Dogger are a local German heavy metal act playing in the style of Grave Digger, most likely as a tribute band.",
+    "genres": [
+      "Heavy Metal",
+      "Power Metal"
+    ],
+    "country": "de",
+    "popularity": 1
   }
 ]
