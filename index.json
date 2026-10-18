@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T09:58:20Z",
+  "generatedAt": "2026-10-18T10:03:09Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -195,22 +195,22 @@
       "topGenres": {
         "Thrash Metal": 9,
         "Black Metal": 8,
+        "Heavy Metal": 2,
+        "Power Metal": 2,
         "Speed Metal": 2,
         "Death Metal": 1,
         "Doom Metal": 1,
-        "Heavy Metal": 1,
-        "Power Metal": 1,
         "Sludge Metal": 1
       },
       "completeness": {
         "stars": 5,
         "contentLevel": "complete",
         "scheduleLevel": "full",
-        "artistInfoCoverage": 1.0,
-        "scheduleCoverage": 0.941
+        "artistInfoCoverage": 0.944,
+        "scheduleCoverage": 0.944
       },
       "counts": {
-        "artists": 17,
+        "artists": 18,
         "stages": 0,
         "news": 1,
         "events": 0,
@@ -221,9 +221,9 @@
         "top": "strong",
         "depth": "solid",
         "headliners": 6.7,
-        "core": 0.529,
-        "discovery": 0.294,
-        "scoredArtists": 17,
+        "core": 0.5,
+        "discovery": 0.333,
+        "scoredArtists": 18,
         "lowConfidence": false
       }
     },

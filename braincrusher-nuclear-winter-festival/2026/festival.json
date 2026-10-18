@@ -385,6 +385,22 @@
       ],
       "country": "de",
       "globalId": "desaster"
+    },
+    {
+      "id": "a18",
+      "name": "Grave Dogger",
+      "imageUrl": "",
+      "description": "Grave Dogger are a local German heavy metal act playing in the style of Grave Digger, most likely as a tribute band.",
+      "dayDate": "2026-10-25",
+      "startTime": "00:00",
+      "endTime": "00:30",
+      "annotation": null,
+      "genres": [
+        "Heavy Metal",
+        "Power Metal"
+      ],
+      "country": "de",
+      "globalId": "grave-dogger"
     }
   ],
   "translations": [
@@ -466,6 +482,10 @@
           "id": "a17",
           "description": "Desaster sind eine 1988 gegründete und seit 1989 aktive deutsche Black-/Thrash-Metal-Band aus Koblenz, deren Name auf den Destruction-Song „Total Desaster“ zurückgeht. Mit Einflüssen von Venom, Hellhammer und Mayhem verbinden sie Black-, Death- und Thrash-Metal-Elemente und veröffentlichten zehn Studioalben bei Metal Blade Records, darunter 2025 „Kill All Idols“.",
           "annotation": "Abgesagt."
+        },
+        {
+          "id": "a18",
+          "description": "Grave Dogger sind eine lokale deutsche Heavy-Metal-Band im Stil von Grave Digger, höchstwahrscheinlich eine Tribute-Band."
         }
       ],
       "links": [
