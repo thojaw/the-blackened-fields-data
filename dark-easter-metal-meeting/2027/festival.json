@@ -1,7 +1,7 @@
 {
   "id": "dark-easter-metal-meeting-2027",
   "name": "Dark Easter Metal Meeting",
-  "version": 3,
+  "version": 4,
   "year": 2027,
   "defaultLang": "en",
   "visible": true,
@@ -68,6 +68,188 @@
       "id": "l7",
       "url": "https://www.instagram.com/darkeastermetalmeetingmunich/",
       "type": "instagram"
+    },
+    {
+      "id": "ls1",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6jPWrSmxOd9mj7Xaj4EP2Y",
+      "type": "spotify",
+      "artistId": "emperor"
+    },
+    {
+      "id": "ls2",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0BZr6WHaejNA63uhZZZZek",
+      "type": "spotify",
+      "artistId": "primordial"
+    },
+    {
+      "id": "ls3",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1iLdVM2KFAHUbpaC5wpMbO",
+      "type": "spotify",
+      "artistId": "ellende"
+    },
+    {
+      "id": "ls4",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1WV0pMUfO5UZ3MXfZrTohr",
+      "type": "spotify",
+      "artistId": "naglfar"
+    },
+    {
+      "id": "ls5",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1ZR1y4fCztcaoliwAIbEAb",
+      "type": "spotify",
+      "artistId": "dodsrit"
+    },
+    {
+      "id": "ls6",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1tgOXyYJvy1oyY3TTMszfO",
+      "type": "spotify",
+      "artistId": "asphagor"
+    },
+    {
+      "id": "ls7",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6dtw4fpRSBDtleKCbzBjvx",
+      "type": "spotify",
+      "artistId": "bianca"
+    },
+    {
+      "id": "ls8",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1bjUcmZxY4zJO1V5LaKzUY",
+      "type": "spotify",
+      "artistId": "melechesh"
+    },
+    {
+      "id": "ls9",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3Pfim1uupYVYG87GDtdw8r",
+      "type": "spotify",
+      "artistId": "nordjevel"
+    },
+    {
+      "id": "ls10",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1fevQX8HS898wns7GKH3pR",
+      "type": "spotify",
+      "artistId": "firtan"
+    },
+    {
+      "id": "ls11",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1KLoISkEyIEt9Q6xMB83Ah",
+      "type": "spotify",
+      "artistId": "the-spirit"
+    },
+    {
+      "id": "ls12",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/34HkAxbpa90Btjkv8RA0wh",
+      "type": "spotify",
+      "artistId": "svarttjern"
+    },
+    {
+      "id": "ls13",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4y0PziA2nR9lWxhF9T1Mm6",
+      "type": "spotify",
+      "artistId": "doodswens"
+    },
+    {
+      "id": "ls14",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4SU4VdVYg9cDUbUUxTDH1z",
+      "type": "spotify",
+      "artistId": "the-great-sea"
+    },
+    {
+      "id": "ls15",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4Kgo9Vm7t4xymn5zplHuoU",
+      "type": "spotify",
+      "artistId": "malphas"
+    },
+    {
+      "id": "ls16",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5xf8dgl8phc3yqBo2Xkrni",
+      "type": "spotify",
+      "artistId": "unviar"
+    },
+    {
+      "id": "ls17",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7zDtfSB0AOZWhpuAHZIOw5",
+      "type": "spotify",
+      "artistId": "candlemass"
+    },
+    {
+      "id": "ls18",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0BZr6WHaejNA63uhZZZZek",
+      "type": "spotify",
+      "artistId": "primordial-90s-special"
+    },
+    {
+      "id": "ls19",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2k4duorvZ5lTq33ljpT0sc",
+      "type": "spotify",
+      "artistId": "antimatter"
+    },
+    {
+      "id": "ls20",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3cJkyh6iM5N2AI07hNlu1j",
+      "type": "spotify",
+      "artistId": "thulcandra"
+    },
+    {
+      "id": "ls21",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3tcBc9lN5ncBG7KNTKB1o1",
+      "type": "spotify",
+      "artistId": "yoth-iria"
+    },
+    {
+      "id": "ls22",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/61PwJzYfSOG5zImuIuoEHT",
+      "type": "spotify",
+      "artistId": "dymna-lotva"
+    },
+    {
+      "id": "ls23",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0Cor5wxhCtEuSz85zFb9qY",
+      "type": "spotify",
+      "artistId": "imha-tarikat"
+    },
+    {
+      "id": "ls24",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4VeQnaE38lgZIDrYPUYOA8",
+      "type": "spotify",
+      "artistId": "vorga"
+    },
+    {
+      "id": "ls25",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5a4KQaWx8L5EFLqtWZeafP",
+      "type": "spotify",
+      "artistId": "duir"
+    },
+    {
+      "id": "ls26",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0ldxLPthEoeVvYvcg34Ije",
+      "type": "spotify",
+      "artistId": "winselmutter"
     }
   ],
   "artists": [
@@ -76,7 +258,7 @@
       "name": "Emperor",
       "imageUrl": "a1.jpg",
       "description": "Emperor are a Norwegian black metal band formed in 1991 in Notodden by Ihsahn and Samoth. Pioneers of a symphonic, orchestral approach to black metal, they became one of the genre's most influential acts with albums such as In the Nightside Eclipse and Anthems to the Welkin at Dusk.",
-      "dayDate": null,
+      "dayDate": "2027-03-27",
       "startTime": null,
       "endTime": null,
       "annotation": "Germany-exclusive club show in 2027.",
@@ -91,10 +273,10 @@
       "name": "Primordial",
       "imageUrl": "a2.jpg",
       "description": "Primordial are an Irish extreme metal band from County Dublin, fronted by vocalist Alan \"Nemtheanga\" Averill since the early 1990s. Their sound fuses black and doom metal with Celtic folk influences, exploring themes of Irish history and mythology across albums such as Imrama and The Gathering Wilderness.",
-      "dayDate": null,
+      "dayDate": "2027-03-27",
       "startTime": null,
       "endTime": null,
-      "annotation": "Best-of set and a Germany-exclusive special set featuring deep cuts from their '90s catalogue.",
+      "annotation": "Best-of set.",
       "genres": [
         "Pagan Black Metal",
         "Doom Metal"
@@ -107,7 +289,7 @@
       "name": "Towards the Sinister",
       "imageUrl": "a3.jpg",
       "description": "Towards the Sinister is a project formed in 2026 by founding My Dying Bride members Aaron Stainthorpe (vocals), Calvin Robertshaw (guitar), Ade Jackson (bass) and Rick Miah (drums), joined by additional musicians. The band performs material from My Dying Bride's earliest releases, including As the Flower Withers and Turn Loose the Swans.",
-      "dayDate": null,
+      "dayDate": "2027-03-28",
       "startTime": null,
       "endTime": null,
       "annotation": "Former original My Dying Bride members celebrating the band's 1990–1996 era.",
@@ -123,7 +305,7 @@
       "name": "Ellende",
       "imageUrl": "a4.jpg",
       "description": "Ellende is an Austrian atmospheric black metal project founded in Graz in 2011 by multi-instrumentalist L.G. as a solo studio project, later expanded into a live act. The project's melancholic, introspective sound incorporates classical instrumentation such as strings and piano alongside its post-black metal atmosphere.",
-      "dayDate": null,
+      "dayDate": "2027-03-27",
       "startTime": null,
       "endTime": null,
       "annotation": null,
@@ -138,7 +320,7 @@
       "name": "Naglfar",
       "imageUrl": "a5.jpg",
       "description": "Naglfar are a Swedish black metal band from Umeå, formed in 1992 by Jens Rydén and Kristoffer Olivius. The band combines aggressive black metal with melodic and symphonic elements and takes its name from the ship of the dead in Norse mythology.",
-      "dayDate": null,
+      "dayDate": "2027-03-27",
       "startTime": null,
       "endTime": null,
       "annotation": null,
@@ -153,7 +335,7 @@
       "name": "Dödsrit",
       "imageUrl": "a6.jpeg",
       "description": "Dödsrit are a black metal and crust band formed in 2017 by Christoffer Öster, based between Borlänge, Sweden and Amsterdam, Netherlands. The band blends atmospheric black metal with the rawness of d-beat crust punk, with lyrics addressing social and political themes.",
-      "dayDate": null,
+      "dayDate": "2027-03-27",
       "startTime": null,
       "endTime": null,
       "annotation": null,
@@ -168,7 +350,7 @@
       "name": "Asphagor",
       "imageUrl": "a7.jpg",
       "description": "Asphagor are an Austrian extreme metal band from Angerberg, Tyrol, formed in 2007. The band blends black, death and progressive metal elements across albums including Havoc, Anti, The Cleansing and Pyrogenesis.",
-      "dayDate": null,
+      "dayDate": "2027-03-27",
       "startTime": null,
       "endTime": null,
       "annotation": "20th anniversary show.",
@@ -183,7 +365,7 @@
       "name": "Bianca",
       "imageUrl": "a8.jpg",
       "description": "Bianca are an Italian black metal band from Rome, formed in 2024 and featuring members of Hideous Divinity and Nocturnal Depression. Self-described as \"oneiric black metal,\" the band explores themes of dreams and the unconscious, and released their self-titled debut album via Avantgarde Music.",
-      "dayDate": null,
+      "dayDate": "2027-03-28",
       "startTime": null,
       "endTime": null,
       "annotation": "First show in Germany.",
@@ -192,6 +374,288 @@
       ],
       "country": "it",
       "globalId": "bianca"
+    },
+    {
+      "id": "melechesh",
+      "name": "Melechesh",
+      "imageUrl": "a10.webp",
+      "description": "Melechesh is a black metal band originally formed in Jerusalem in 1993, now based internationally. Renowned for pioneering a Mesopotamian and Middle Eastern-themed strand of black metal, the band fuses occult and ancient Near Eastern imagery with aggressive riffing across acclaimed albums including Emissaries and The Epigenesis.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Death Metal",
+        "Thrash Metal"
+      ],
+      "country": "il"
+    },
+    {
+      "id": "nordjevel",
+      "name": "Nordjevel",
+      "imageUrl": "a15.jpg",
+      "description": "Norwegian black metal band founded in 2015 by Doedsadmiral, whose members are also known from Ragnarok, Myrkskog and Dark Funeral. Signed to Season of Mist, the band has released three full-length albums, most recently Gnavhòl in 2022.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no"
+    },
+    {
+      "id": "firtan",
+      "name": "Firtan",
+      "imageUrl": "",
+      "description": "Firtan are a German black metal band formed in 2010 in Lörrach, Baden-Württemberg. Their atmospheric, progressive take on the genre weaves in violin, acoustic instruments and chants, heard on albums such as Okeanos, Ethos and their fifth full-length Helios, released via AOP Records in 2026.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Progressive Atmospheric Black Metal"
+      ],
+      "country": "de",
+      "globalId": "firtan"
+    },
+    {
+      "id": "the-spirit",
+      "name": "The Spirit",
+      "imageUrl": "a12.jpg",
+      "description": "Black/death metal band from Saarbrücken, Germany, formed in 2015 around Matthias Trautes and drummer Manuel Steitz (ex-Agathodaimon). The Spirit are signed to AOP Records and released Songs Against Humanity in 2024.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Celebrating the 10th anniversary of Sounds from the Vortex.",
+      "genres": [
+        "Black Metal",
+        "Death Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "svarttjern",
+      "name": "Svarttjern",
+      "imageUrl": "a13.jpg",
+      "description": "Norwegian black metal band from Oslo, formed in 2003 by musicians also tied to Carpathian Forest and Ragnarok. Their name, meaning \"black tarn,\" is taken from a 19th-century Norwegian painting, and the band records for Soulseller Records.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no"
+    },
+    {
+      "id": "doodswens",
+      "name": "Doodswens",
+      "imageUrl": "",
+      "description": "Doodswens are a Dutch black metal band from Eindhoven, founded in 2017 by vocalist and guitarist Fraukje van Burg and drummer Inge van der Zon. Signed to Svart Records, they released their debut album Lichtvrees in 2021 and a self-titled second album in 2026.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "nl",
+      "globalId": "doodswens"
+    },
+    {
+      "id": "the-great-sea",
+      "name": "The Great Sea",
+      "imageUrl": "a11.jpg",
+      "description": "Black metal duo from North Rhine-Westphalia, Germany, formed in 2022 by J.R. (Long Distance Calling) and S.H. (Ordeal & Plight). The Great Sea released their debut album Noble Art of Desolation via AOP Records in 2025.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Post Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "malphas",
+      "name": "Malphas",
+      "imageUrl": "a16.jpg",
+      "description": "Malphas are a Swiss occult black metal band from Lausanne, formed in 2014.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "ch"
+    },
+    {
+      "id": "unviar",
+      "name": "Unviâr",
+      "imageUrl": "a14-c.jpg",
+      "description": "Atmospheric black metal act from Italy's Friuli-Venezia Giulia region, whose name means \"winter\" in the Friulian language. Their music draws on the region's overlapping Celtic, Germanic, Slavic and Latin heritage, most recently on the 2025 debut full-length Disglaç.",
+      "dayDate": "2027-03-27",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Black Metal"
+      ],
+      "country": "it",
+      "imageFocus": "center"
+    },
+    {
+      "id": "candlemass",
+      "name": "Candlemass",
+      "imageUrl": "a9.webp",
+      "description": "Candlemass is a Swedish epic doom metal band from Stockholm, formed in 1984 and widely regarded as pioneers of the epic doom subgenre. Known for the landmark album Epicus Doomicus Metallicus and decades of lineup changes, the band remains one of doom metal's most influential acts.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": "40 years of doom.",
+      "genres": [
+        "Doom Metal"
+      ],
+      "country": "se"
+    },
+    {
+      "id": "primordial-90s-special",
+      "name": "Primordial - '90s Special Set",
+      "imageUrl": "a2.jpg",
+      "description": "Primordial are an Irish extreme metal band from County Dublin, fronted by vocalist Alan \"Nemtheanga\" Averill since the early 1990s. Their sound fuses black and doom metal with Celtic folk influences, exploring themes of Irish history and mythology across albums such as Imrama and The Gathering Wilderness.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Germany-exclusive special set featuring deep cuts from their '90s catalogue.",
+      "genres": [
+        "Pagan Black Metal",
+        "Doom Metal"
+      ],
+      "country": "ie",
+      "globalId": "primordial"
+    },
+    {
+      "id": "antimatter",
+      "name": "Antimatter",
+      "imageUrl": "",
+      "description": "Antimatter are an English band from Liverpool, founded in 1998 by Mick Moss and former Anathema bassist Duncan Patterson; Moss has led the project since Patterson's departure in 2005. Their melancholic dark rock blends gothic, progressive and atmospheric elements across albums such as Planetary Confinement, Leaving Eden (2007) and Black Market Enlightenment.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": "20th anniversary set for Leaving Eden.",
+      "genres": [
+        "Dark Rock",
+        "Alternative Rock"
+      ],
+      "country": "gb",
+      "globalId": "antimatter"
+    },
+    {
+      "id": "thulcandra",
+      "name": "Thulcandra",
+      "imageUrl": "",
+      "description": "Thulcandra are a German black/death metal band founded in Landshut in 2003 by Steffen Kummerer, Jürgen Zintz and Jonas Baumgartl, and now based in Munich. Strongly influenced by Dissection, the Napalm Records act has released five albums, from Fallen Angel's Dominion (2010) to Hail the Abyss (2023).",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Death Metal"
+      ],
+      "country": "de",
+      "globalId": "thulcandra"
+    },
+    {
+      "id": "yoth-iria",
+      "name": "Yoth Iria",
+      "imageUrl": "",
+      "description": "Yoth Iria are a Greek black metal band from Attica featuring bassist Jim Mutilator, a co-founder of Rotting Christ and Varathron. Rooted in the classic Hellenic black metal sound, they debuted with As the Flame Withers in 2021, followed by Blazing Inferno (2024) and Gone with the Devil (2026) on Metal Blade Records.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Hellenic Black Metal"
+      ],
+      "country": "gr"
+    },
+    {
+      "id": "dymna-lotva",
+      "name": "Dymna Lotva",
+      "imageUrl": "",
+      "description": "Dymna Lotva are a Belarusian band founded in 2015 by vocalist Katsiaryna \"Nokt Aeon\" Mankevich and multi-instrumentalist Jauhien Charkasau, who later left Belarus for Poland. Their atmospheric post-black and depressive doom metal draws on Belarusian folklore and history, most recently on their fourth album Vyraj (2026) via Prophecy Productions.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Post Black Metal",
+        "Depressive Doom Metal"
+      ],
+      "country": "by",
+      "globalId": "dymna-lotva"
+    },
+    {
+      "id": "imha-tarikat",
+      "name": "Imha Tarikat",
+      "imageUrl": "",
+      "description": "Imha Tarikat is a German black metal project founded by Kerem Yilmaz, who draws on his Turkish heritage in an intensely emotional take on the genre. After the 2017 EP Kenoboros and the debut album Kara Ihlas (2019), Sternenberster followed in 2020 via Prophecy Productions, later joined by Hearts Unchained – At War with a Passionless World and Confessing Darkness (2025).",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "imha-tarikat"
+    },
+    {
+      "id": "vorga",
+      "name": "Vorga",
+      "imageUrl": "",
+      "description": "Vorga are a German black metal band from Karlsruhe whose melodic, cosmic sound pairs science-fiction imagery with themes of death and misanthropy. After their 2022 debut Striving Toward Oblivion, they released Beyond the Palest Star via Transcending Obscurity Records in 2024.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Cosmic Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "duir",
+      "name": "Duir",
+      "imageUrl": "",
+      "description": "Duir are an Italian atmospheric folk black metal band from Verona, formed in 2013 by guitarist MK. Flute, bagpipe and hurdy-gurdy are part of their sound; after the 2022 debut T.S.N.R.I. – Impermanenza they released the First World War concept album Catarsi via AOP Records in 2026.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Folk Black Metal"
+      ],
+      "country": "it"
+    },
+    {
+      "id": "winselmutter",
+      "name": "Winselmutter",
+      "imageUrl": "",
+      "description": "Winselmutter are a German old-school black metal band from Osnabrück, formed in 2024. After a rehearsal demo they released their debut album Schattentod in der Leibeswelt in 2025, followed by the Ketzergeyst EP in 2026.",
+      "dayDate": "2027-03-28",
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "winselmutter"
     }
   ],
   "translations": [
@@ -213,7 +677,7 @@
         {
           "id": "primordial",
           "description": "Primordial sind eine irische Extreme-Metal-Band aus County Dublin, seit Anfang der 1990er-Jahre angeführt von Sänger Alan \"Nemtheanga\" Averill. Ihr Sound verbindet Black und Doom Metal mit keltischen Folk-Einflüssen und behandelt auf Alben wie Imrama und The Gathering Wilderness Themen der irischen Geschichte und Mythologie.",
-          "annotation": "Best-of-Set sowie ein exklusives Sonderset in Deutschland mit raren Stücken aus ihrem Katalog der 90er-Jahre."
+          "annotation": "Best-of-Set."
         },
         {
           "id": "towards-the-sinister",
@@ -241,11 +705,97 @@
           "id": "bianca",
           "description": "Bianca sind eine italienische Black-Metal-Band aus Rom, gegründet 2024 mit Mitgliedern von Hideous Divinity und Nocturnal Depression. Die Band bezeichnet ihren eigenen Stil als \"oneiric black metal\" und behandelt Themen rund um Träume und das Unbewusste; ihr selbstbetiteltes Debütalbum erschien über Avantgarde Music.",
           "annotation": "Erste Show in Deutschland."
+        },
+        {
+          "id": "melechesh",
+          "description": "Melechesh ist eine 1993 in Jerusalem gegründete Black-Metal-Band, die heute international aufgestellt ist. Als Pioniere eines mesopotamisch und nahöstlich geprägten Black Metal verbinden sie okkulte und altorientalische Bildwelten mit aggressivem Riffing, etwa auf den gefeierten Alben Emissaries und The Epigenesis."
+        },
+        {
+          "id": "nordjevel",
+          "description": "Norwegische Black-Metal-Band, 2015 von Doedsadmiral gegründet, dessen Mitglieder auch durch Ragnarok, Myrkskog und Dark Funeral bekannt sind. Bei Season of Mist unter Vertrag, veröffentlichte die Band bislang drei Alben, zuletzt 2022 Gnavhòl."
+        },
+        {
+          "id": "firtan",
+          "description": "Firtan sind eine deutsche Black-Metal-Band, 2010 in Lörrach (Baden-Württemberg) gegründet. Ihr atmosphärischer, progressiver Ansatz bindet Violine, akustische Instrumente und Gesänge ein – zu hören auf Alben wie Okeanos, Ethos und ihrem fünften Album Helios, das 2026 über AOP Records erschien."
+        },
+        {
+          "id": "the-spirit",
+          "description": "Black-/Death-Metal-Band aus Saarbrücken, Deutschland, gegründet 2015 um Matthias Trautes und Schlagzeuger Manuel Steitz (ex-Agathodaimon). The Spirit sind bei AOP Records unter Vertrag und veröffentlichten 2024 das Album Songs Against Humanity.",
+          "annotation": "Zum 10-jährigen Jubiläum von Sounds from the Vortex."
+        },
+        {
+          "id": "svarttjern",
+          "description": "Norwegische Black-Metal-Band aus Oslo, 2003 von Musikern gegründet, die auch mit Carpathian Forest und Ragnarok in Verbindung stehen. Ihr Name, „schwarzer Bergsee“, stammt von einem norwegischen Gemälde aus dem 19. Jahrhundert; die Band veröffentlicht bei Soulseller Records."
+        },
+        {
+          "id": "doodswens",
+          "description": "Doodswens sind eine niederländische Black-Metal-Band aus Eindhoven, 2017 gegründet von Sängerin und Gitarristin Fraukje van Burg und Schlagzeugerin Inge van der Zon. Bei Svart Records unter Vertrag, erschienen 2021 ihr Debütalbum Lichtvrees und 2026 ein selbstbetiteltes zweites Album."
+        },
+        {
+          "id": "the-great-sea",
+          "description": "Black-Metal-Duo aus Nordrhein-Westfalen, Deutschland, 2022 gegründet von J.R. (Long Distance Calling) und S.H. (Ordeal & Plight). The Great Sea veröffentlichten 2025 ihr Debütalbum Noble Art of Desolation über AOP Records."
+        },
+        {
+          "id": "malphas",
+          "description": "Malphas sind eine Schweizer Occult-Black-Metal-Band aus Lausanne, gegründet 2014."
+        },
+        {
+          "id": "unviar",
+          "description": "Atmospheric-Black-Metal-Act aus der italienischen Region Friaul-Julisch Venetien, dessen Name im Friaulischen „Winter“ bedeutet. Die Musik schöpft aus dem keltischen, germanischen, slawischen und lateinischen Erbe der Region, zuletzt auf dem 2025 erschienenen Debütalbum Disglaç."
+        },
+        {
+          "id": "candlemass",
+          "description": "Candlemass sind eine schwedische Epic-Doom-Metal-Band aus Stockholm, 1984 gegründet und weithin als Pioniere des Epic Doom angesehen. Bekannt für das wegweisende Album Epicus Doomicus Metallicus und zahlreiche Besetzungswechsel, zählt die Band bis heute zu den einflussreichsten Acts des Doom Metal.",
+          "annotation": "40 Jahre Doom."
+        },
+        {
+          "id": "primordial-90s-special",
+          "description": "Primordial sind eine irische Extreme-Metal-Band aus County Dublin, seit Anfang der 1990er-Jahre angeführt von Sänger Alan \"Nemtheanga\" Averill. Ihr Sound verbindet Black und Doom Metal mit keltischen Folk-Einflüssen und behandelt auf Alben wie Imrama und The Gathering Wilderness Themen der irischen Geschichte und Mythologie.",
+          "annotation": "Exklusives Sonderset in Deutschland mit raren Stücken aus ihrem Katalog der 90er-Jahre."
+        },
+        {
+          "id": "antimatter",
+          "description": "Antimatter sind eine englische Band aus Liverpool, 1998 von Mick Moss und dem ehemaligen Anathema-Bassisten Duncan Patterson gegründet; seit Pattersons Ausstieg 2005 führt Moss das Projekt weiter. Ihr melancholischer Dark Rock verbindet Gothic-, Progressive- und Atmosphären-Elemente auf Alben wie Planetary Confinement, Leaving Eden (2007) und Black Market Enlightenment.",
+          "annotation": "Set zum 20-jährigen Jubiläum von Leaving Eden."
+        },
+        {
+          "id": "thulcandra",
+          "description": "Thulcandra sind eine deutsche Black-/Death-Metal-Band, 2003 in Landshut von Steffen Kummerer, Jürgen Zintz und Jonas Baumgartl gegründet und heute in München ansässig. Stark von Dissection beeinflusst, hat die Band bei Napalm Records fünf Alben veröffentlicht, von Fallen Angel's Dominion (2010) bis Hail the Abyss (2023)."
+        },
+        {
+          "id": "yoth-iria",
+          "description": "Yoth Iria sind eine griechische Black-Metal-Band aus Attika mit Bassist Jim Mutilator, Mitbegründer von Rotting Christ und Varathron. Verwurzelt im klassischen hellenischen Black Metal, debütierten sie 2021 mit As the Flame Withers, gefolgt von Blazing Inferno (2024) und Gone with the Devil (2026) bei Metal Blade Records."
+        },
+        {
+          "id": "dymna-lotva",
+          "description": "Dymna Lotva sind eine belarussische Band, 2015 von Sängerin Katsiaryna „Nokt Aeon“ Mankevich und Multiinstrumentalist Jauhien Charkasau gegründet, die Belarus später in Richtung Polen verließen. Ihr atmosphärischer Post-Black- und Depressive-Doom-Metal schöpft aus belarussischer Folklore und Geschichte, zuletzt auf ihrem vierten Album Vyraj (2026) bei Prophecy Productions."
+        },
+        {
+          "id": "imha-tarikat",
+          "description": "Imha Tarikat ist ein deutsches Black-Metal-Projekt von Kerem Yilmaz, der sein türkisches Erbe in eine äußerst emotionale Spielart des Genres einfließen lässt. Nach der EP Kenoboros (2017) und dem Debütalbum Kara Ihlas (2019) folgte 2020 Sternenberster über Prophecy Productions, später Hearts Unchained – At War with a Passionless World und Confessing Darkness (2025)."
+        },
+        {
+          "id": "vorga",
+          "description": "Vorga sind eine deutsche Black-Metal-Band aus Karlsruhe, deren melodischer, kosmischer Sound Science-Fiction-Bilder mit Themen wie Tod und Misanthropie verbindet. Nach dem Debüt Striving Toward Oblivion (2022) erschien 2024 Beyond the Palest Star über Transcending Obscurity Records."
+        },
+        {
+          "id": "duir",
+          "description": "Duir sind eine italienische Atmospheric-Folk-Black-Metal-Band aus Verona, 2013 von Gitarrist MK gegründet. Flöte, Dudelsack und Drehleier gehören fest zu ihrem Sound; nach dem Debüt T.S.N.R.I. – Impermanenza (2022) erschien 2026 über AOP Records das Konzeptalbum Catarsi über den Ersten Weltkrieg."
+        },
+        {
+          "id": "winselmutter",
+          "description": "Winselmutter sind eine deutsche Old-School-Black-Metal-Band aus Osnabrück, gegründet 2024. Nach einem Proberaum-Demo erschien 2025 ihr Debütalbum Schattentod in der Leibeswelt, 2026 gefolgt von der EP Ketzergeyst."
         }
       ],
       "links": [
-        { "id": "l1", "label": "Webseite" },
-        { "id": "l5", "label": "Facebook-Veranstaltung" }
+        {
+          "id": "l1",
+          "label": "Webseite"
+        },
+        {
+          "id": "l5",
+          "label": "Facebook-Veranstaltung"
+        }
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-18T10:05:15Z",
+  "generatedAt": "2026-11-07T14:18:11Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -291,7 +291,7 @@
       "defaultLang": "en",
       "utcOffsetHours": 1,
       "runningOrderExists": false,
-      "version": 3,
+      "version": 4,
       "visible": true,
       "festivalDays": [
         "2027-03-27",
@@ -302,36 +302,39 @@
         "de"
       ],
       "topGenres": {
-        "Black Metal": 3,
-        "Doom Metal": 2,
-        "Atmospheric Post Black Metal": 1,
+        "Black Metal": 12,
+        "Death Metal": 4,
+        "Doom Metal": 4,
+        "Atmospheric Post Black Metal": 3,
+        "Pagan Black Metal": 2,
+        "Alternative Rock": 1,
+        "Atmospheric Black Metal": 1,
+        "Atmospheric Folk Black Metal": 1,
         "Black Crust": 1,
-        "Death Metal": 1,
-        "Oneiric Black Metal": 1,
-        "Pagan Black Metal": 1
+        "Cosmic Black Metal": 1
       },
       "completeness": {
-        "stars": 3,
-        "contentLevel": "complete",
+        "stars": 2,
+        "contentLevel": "partial",
         "scheduleLevel": "none",
-        "artistInfoCoverage": 1.0,
+        "artistInfoCoverage": 0.63,
         "scheduleCoverage": 0.0
       },
       "counts": {
-        "artists": 8,
+        "artists": 27,
         "stages": 3,
         "news": 1,
         "events": 0,
-        "links": 7,
+        "links": 33,
         "globalLinks": 7
       },
       "lineup": {
         "top": "modest",
         "depth": "deep",
         "headliners": 6.3,
-        "core": 0.75,
-        "discovery": 0.25,
-        "scoredArtists": 8,
+        "core": 0.778,
+        "discovery": 0.222,
+        "scoredArtists": 9,
         "lowConfidence": true
       }
     },
