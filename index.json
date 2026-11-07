@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-07T14:18:11Z",
+  "generatedAt": "2026-11-07T14:33:55Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -283,6 +283,58 @@
       }
     },
     {
+      "id": "braincrusher-festival-2027",
+      "slug": "braincrusher-festival",
+      "year": 2027,
+      "name": "Braincrusher Festival",
+      "path": "braincrusher-festival/2027/festival.json",
+      "defaultLang": "en",
+      "utcOffsetHours": 1,
+      "runningOrderExists": false,
+      "version": 1,
+      "visible": false,
+      "festivalDays": [
+        "2027-03-12",
+        "2027-03-13"
+      ],
+      "isMultiStage": false,
+      "translationLangs": [
+        "de"
+      ],
+      "topGenres": {
+        "Black Metal": 11,
+        "Death Metal": 7,
+        "Avant-garde Metal": 1,
+        "Dark Folk": 1,
+        "Post-Metal": 1,
+        "War Metal": 1
+      },
+      "completeness": {
+        "stars": 2,
+        "contentLevel": "partial",
+        "scheduleLevel": "none",
+        "artistInfoCoverage": 0.176,
+        "scheduleCoverage": 0.0
+      },
+      "counts": {
+        "artists": 17,
+        "stages": 0,
+        "news": 1,
+        "events": 1,
+        "links": 22,
+        "globalLinks": 3
+      },
+      "lineup": {
+        "top": "modest",
+        "depth": "underground",
+        "headliners": 3.0,
+        "core": 0.0,
+        "discovery": 1.0,
+        "scoredArtists": 3,
+        "lowConfidence": true
+      }
+    },
+    {
       "id": "dark-easter-metal-meeting-2027",
       "slug": "dark-easter-metal-meeting",
       "year": 2027,
@@ -329,13 +381,13 @@
         "globalLinks": 7
       },
       "lineup": {
-        "top": "modest",
-        "depth": "deep",
-        "headliners": 6.3,
-        "core": 0.778,
-        "discovery": 0.222,
-        "scoredArtists": 9,
-        "lowConfidence": true
+        "top": "strong",
+        "depth": "solid",
+        "headliners": 6.7,
+        "core": 0.562,
+        "discovery": 0.25,
+        "scoredArtists": 16,
+        "lowConfidence": false
       }
     },
     {
