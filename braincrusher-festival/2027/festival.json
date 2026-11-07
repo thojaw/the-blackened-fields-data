@@ -1,0 +1,526 @@
+{
+  "id": "braincrusher-festival-2027",
+  "name": "Braincrusher Festival",
+  "version": 1,
+  "year": 2027,
+  "defaultLang": "en",
+  "visible": false,
+  "runningOrderExists": false,
+  "utcOffsetHours": 1,
+  "festivalDays": [
+    "2027-03-12",
+    "2027-03-13"
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Lineup still being finalized",
+      "body": "This festival's data may not be up to date and will only be updated sporadically until the organizer has completed the lineup. Please check the official festival channels for the latest information.",
+      "date": "2026-11-07"
+    }
+  ],
+  "links": [
+    {
+      "id": "l1",
+      "label": "Website",
+      "url": "https://konzertn.de/events/hirschaid-2027-03-12-braincrusher-festival-2027"
+    },
+    {
+      "id": "l2",
+      "label": "Ticket presale (email)",
+      "url": "mailto:vorverkauf@braincrusher-in-hell.de"
+    },
+    {
+      "id": "l3",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/events/970598848852686/",
+      "type": "facebook"
+    },
+    {
+      "id": "la1",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0UGvFl1tJ49Co99gaXZH9Z",
+      "type": "spotify",
+      "artistId": "a1"
+    },
+    {
+      "id": "la2",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6LjCtCPlOe8GkYz09XeQH5",
+      "type": "spotify",
+      "artistId": "a2"
+    },
+    {
+      "id": "la3",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/08pfvfaswGFhlXz4j50eOP",
+      "type": "spotify",
+      "artistId": "a3"
+    },
+    {
+      "id": "la4",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6iuACyGPyhtixKHUiJ8mNu",
+      "type": "spotify",
+      "artistId": "a4"
+    },
+    {
+      "id": "la5",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3YIfnAdb1VsyR6wCSmQen7",
+      "type": "spotify",
+      "artistId": "a5"
+    },
+    {
+      "id": "la6",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0jExlv9m6XI5j0MSHqrgD4",
+      "type": "spotify",
+      "artistId": "a6"
+    },
+    {
+      "id": "la7",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1EszviKv0UfmagwqzhMAxD",
+      "type": "spotify",
+      "artistId": "a7"
+    },
+    {
+      "id": "la8-bc",
+      "label": "Bandcamp",
+      "url": "https://drowned.bandcamp.com/",
+      "type": "bandcamp",
+      "artistId": "a8"
+    },
+    {
+      "id": "la9",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7swiuMho0UMNYbZqcO0dho",
+      "type": "spotify",
+      "artistId": "a9"
+    },
+    {
+      "id": "la9-bc",
+      "label": "Bandcamp",
+      "url": "https://akhlys.bandcamp.com/",
+      "type": "bandcamp",
+      "artistId": "a9"
+    },
+    {
+      "id": "la10",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7FTO3muxoharaaL1YhRt8H",
+      "type": "spotify",
+      "artistId": "a10"
+    },
+    {
+      "id": "la11-bc",
+      "label": "Bandcamp",
+      "url": "https://modfaelld.bandcamp.com/",
+      "type": "bandcamp",
+      "artistId": "a11"
+    },
+    {
+      "id": "la12",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3vlBN48wnCAjH9YxOYJtdf",
+      "type": "spotify",
+      "artistId": "a12"
+    },
+    {
+      "id": "la13",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0L0SuL6wmNvvODy468M1FU",
+      "type": "spotify",
+      "artistId": "a13"
+    },
+    {
+      "id": "la13-bc",
+      "label": "Bandcamp",
+      "url": "https://tormentofsouls.bandcamp.com/",
+      "type": "bandcamp",
+      "artistId": "a13"
+    },
+    {
+      "id": "la14",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1WsJriCXwubpF7yznQFvyP",
+      "type": "spotify",
+      "artistId": "a14"
+    },
+    {
+      "id": "la15",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1MF0TYJKowF2LZfqqm7PbQ",
+      "type": "spotify",
+      "artistId": "a15"
+    },
+    {
+      "id": "la16",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4wGklvMuBYyM9CtXKsLEFt",
+      "type": "spotify",
+      "artistId": "a16"
+    },
+    {
+      "id": "la17-bc",
+      "label": "Bandcamp",
+      "url": "https://niht666.bandcamp.com/",
+      "type": "bandcamp",
+      "artistId": "a17"
+    }
+  ],
+  "artists": [
+    {
+      "id": "a1",
+      "name": "Arcturus",
+      "imageUrl": "",
+      "description": "Arcturus are a Norwegian avant-garde metal band formed in 1991 by keyboardist Steinar \"Sverd\" Johnsen and drummer Hellhammer. Starting out in symphonic black metal, they became one of the genre's most experimental acts with albums such as Aspera Hiems Symfonia and La Masquerade Infernale, and returned in 2015 with Arcturian.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Avant-garde Metal",
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "arcturus"
+    },
+    {
+      "id": "a2",
+      "name": "Blasphemy",
+      "imageUrl": "",
+      "description": "Blasphemy are a black/death metal band formed in Vancouver, Canada, in 1984. Their debut Fallen Angel of Doom (1990) and follow-up Gods of War (1993) laid the foundation of what became known as war metal, influencing countless bestial black metal acts.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "War Metal"
+      ],
+      "country": "ca",
+      "globalId": "blasphemy"
+    },
+    {
+      "id": "a3",
+      "name": "Aeternus",
+      "imageUrl": "",
+      "description": "Aeternus are a blackened death metal band from Bergen, Norway, founded in 1993 by guitarist and vocalist Ares. Moving from early atmospheric black metal toward a darker, death-metal-driven sound, they have released albums such as HeXaeon (2006), Heathen (2018) and Philosopher (2023).",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Death Metal"
+      ],
+      "country": "no",
+      "globalId": "aeternus"
+    },
+    {
+      "id": "a4",
+      "name": "Firespawn",
+      "imageUrl": "",
+      "description": "Firespawn are a Swedish death metal band formed in Stockholm in 2012, originally fronted by the late L-G Petrov. Featuring scene veterans such as Fredrik Folkare and Victor Brandt, they released Shadow Realms (2015), The Reprobate (2017) and Abominate (2019) on Century Media, and returned in 2025 with Jörgen Sandström on vocals.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "se",
+      "globalId": "firespawn"
+    },
+    {
+      "id": "a5",
+      "name": "Tulus",
+      "imageUrl": "",
+      "description": "Tulus are a Norwegian black metal band from Oslo, formed in the early 1990s by Blodstrup and Sarke, who later went on to form Khold. Revived in 2006, the band plays raw, rock-tinged black metal with lyrics written by Hildr, and released Fandens kall in 2023.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "no",
+      "globalId": "tulus"
+    },
+    {
+      "id": "a6",
+      "name": "In Aeternum",
+      "imageUrl": "",
+      "description": "In Aeternum are a black/death metal band from Sandviken, Sweden, formed in 1992. Known for albums such as Nuclear Armageddon (2003) and Dawn of a New Aeon (2005), they returned in 2026 with ...Of Death and Fire.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal",
+        "Death Metal"
+      ],
+      "country": "se",
+      "globalId": "in-aeternum"
+    },
+    {
+      "id": "a7",
+      "name": "Ensanguinate",
+      "imageUrl": "",
+      "description": "Ensanguinate are a Slovenian death metal band blending occult black/death atmosphere with doom-laden heaviness. After their debut Eldritch Anatomy (2022), they released their second full-length Death Saturnalia (With Temples Below) via Soulseller Records in 2026.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "si",
+      "globalId": "ensanguinate"
+    },
+    {
+      "id": "a8",
+      "name": "Drowned",
+      "imageUrl": "",
+      "description": "Drowned are a death metal band from Berlin, Germany, active since 1992. Playing dark, cavernous old-school death metal, they released their full-lengths Idola Specus (2014) and Procul His (2024) after decades in the underground.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "de",
+      "globalId": "drowned"
+    },
+    {
+      "id": "a9",
+      "name": "Akhlys",
+      "imageUrl": "",
+      "description": "Akhlys are an American black metal band formed in 2009 around Naas Alcameth of Nightbringer. Evolving from dark ambient roots into hypnotic, nightmare-themed black metal, they released Melinoë (2020) and House of the Black Geminus (2024) on Debemur Morti Productions.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "us",
+      "globalId": "akhlys"
+    },
+    {
+      "id": "a10",
+      "name": "Hæresis",
+      "imageUrl": "a10.jpg",
+      "description": "Hæresis is an atmospheric black and post-metal band from Berlin, Germany, formed in 2016. Balancing raw intensity with ethereal, immersive atmospheres, the band released their debut full-length Si Vis Pacem Para Bellum in 2025, known for intense live performances that fuse light and sound.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "globalId": "haeresis",
+      "genres": [
+        "Black Metal",
+        "Post-Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a11",
+      "name": "Modfälld",
+      "imageUrl": "",
+      "description": "Modfälld are an atmospheric black metal band from Bavaria, Germany, mixing depressive black metal with crust and doom influences and Swedish-language song titles. Their album Ättestupa was released in 2024.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "modfalld"
+    },
+    {
+      "id": "a12",
+      "name": "Soul Grinder",
+      "imageUrl": "a12.webp",
+      "description": "Soul Grinder is a German death metal band from Bremen, formed in 2018. Influenced by Vomitory, Bolt Thrower and Suffocation, the trio delivers old-school death metal with Swedish-style riffing and modern production, having released multiple EPs and full-lengths including Chronicles of Decay and Frozen Halls.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "globalId": "soul-grinder",
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a13",
+      "name": "Torment of Souls",
+      "imageUrl": "",
+      "description": "Torment of Souls are a German old-school death metal band active since 1994. Their releases include the albums Beneath a Dark Mind (2007) and Zombie Barbecue (2013) and the 2024 EP Mortuus Est I.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Death Metal"
+      ],
+      "country": "de",
+      "globalId": "torment-of-souls"
+    },
+    {
+      "id": "a14",
+      "name": "Sumerian Tombs",
+      "imageUrl": "a14.jpg",
+      "description": "Black metal band from Cologne, Germany, formed in 2020, playing what they describe as epic vampyric black metal drawing on Sumerian mythology. Signed to Ván Records, Sumerian Tombs released their self-titled debut in 2022 and Age of Eternal Night in 2025.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "globalId": "sumerian-tombs",
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de"
+    },
+    {
+      "id": "a15",
+      "name": "Marschland",
+      "imageUrl": "",
+      "description": "Marschland is the dark folk solo project of Ernie Fleetenkieker, voice of the German black metal act Fäulnis. Trading distortion for sparse acoustic songs full of gallows humor, his debut Traurige Trinkerlieder, a set of sardonic drinking songs set in a run-down pub, was released via Edgar the Cat.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Dark Folk"
+      ],
+      "country": "de",
+      "globalId": "marschland"
+    },
+    {
+      "id": "a16",
+      "name": "Night Shall Drape Us",
+      "imageUrl": "",
+      "description": "Night Shall Drape Us are a Finnish black metal band founded by drummer and multi-instrumentalist LRH, with vocals by Horna and Behexen veterans Spellgoth, Wraath and Infection. Their fast, melodic debut Lunatic Choir was released in 2024 via Season of Mist Underground Activists.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "fi",
+      "globalId": "night-shall-drape-us"
+    },
+    {
+      "id": "a17",
+      "name": "Niht",
+      "imageUrl": "",
+      "description": "Niht are an old-school black metal band from Memmingen in southern Germany. They debuted with Vanum (2017) and followed it with Arcanum (2021) on Ván Records.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "niht"
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Doors Open",
+      "dayDate": "2027-03-12",
+      "startTime": "16:00",
+      "endTime": "17:00"
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "news": [
+        {
+          "id": "n1",
+          "title": "Lineup noch nicht vollständig",
+          "body": "Die Daten zu diesem Festival sind möglicherweise nicht aktuell und werden nur sporadisch aktualisiert, bis der Veranstalter das Lineup komplettiert hat. Bitte prüft die offiziellen Festival-Kanäle für die aktuellsten Informationen."
+        }
+      ],
+      "links": [
+        {
+          "id": "l2",
+          "label": "Ticket-Vorverkauf (E-Mail)"
+        }
+      ],
+      "events": [
+        {
+          "id": "e1",
+          "title": "Einlass"
+        }
+      ],
+      "artists": [
+        {
+          "id": "a1",
+          "description": "Arcturus sind eine norwegische Avantgarde-Metal-Band, 1991 von Keyboarder Steinar „Sverd“ Johnsen und Schlagzeuger Hellhammer gegründet. Aus dem symphonischen Black Metal kommend, wurden sie mit Alben wie „Aspera Hiems Symfonia“ und „La Masquerade Infernale“ zu einer der experimentierfreudigsten Bands des Genres und meldeten sich 2015 mit „Arcturian“ zurück."
+        },
+        {
+          "id": "a2",
+          "description": "Blasphemy sind eine 1984 in Vancouver, Kanada, gegründete Black/Death-Metal-Band. Ihr Debüt „Fallen Angel of Doom“ (1990) und der Nachfolger „Gods of War“ (1993) legten den Grundstein für den sogenannten War Metal und beeinflussten unzählige Bestial-Black-Metal-Bands."
+        },
+        {
+          "id": "a3",
+          "description": "Aeternus sind eine Blackened-Death-Metal-Band aus Bergen, Norwegen, 1993 von Gitarrist und Sänger Ares gegründet. Vom frühen atmosphärischen Black Metal entwickelten sie sich zu einem düsteren, vom Death Metal geprägten Sound und veröffentlichten Alben wie „HeXaeon“ (2006), „Heathen“ (2018) und „Philosopher“ (2023)."
+        },
+        {
+          "id": "a4",
+          "description": "Firespawn sind eine 2012 in Stockholm gegründete schwedische Death-Metal-Band, ursprünglich mit dem verstorbenen L-G Petrov am Mikrofon. Mit Szene-Veteranen wie Fredrik Folkare und Victor Brandt veröffentlichten sie „Shadow Realms“ (2015), „The Reprobate“ (2017) und „Abominate“ (2019) bei Century Media und kehrten 2025 mit Jörgen Sandström als Sänger zurück."
+        },
+        {
+          "id": "a5",
+          "description": "Tulus sind eine norwegische Black-Metal-Band aus Oslo, Anfang der 1990er von Blodstrup und Sarke gegründet, die später Khold ins Leben riefen. Seit ihrer Wiederbelebung 2006 spielt die Band rohen, rockigen Black Metal mit Texten von Hildr und veröffentlichte 2023 „Fandens kall“."
+        },
+        {
+          "id": "a6",
+          "description": "In Aeternum sind eine 1992 gegründete Black/Death-Metal-Band aus Sandviken, Schweden. Bekannt für Alben wie „Nuclear Armageddon“ (2003) und „Dawn of a New Aeon“ (2005), meldeten sie sich 2026 mit „...Of Death and Fire“ zurück."
+        },
+        {
+          "id": "a7",
+          "description": "Ensanguinate sind eine slowenische Death-Metal-Band, die okkulte Black/Death-Atmosphäre mit doomiger Schwere verbindet. Nach ihrem Debüt „Eldritch Anatomy“ (2022) erschien 2026 ihr zweites Album „Death Saturnalia (With Temples Below)“ bei Soulseller Records."
+        },
+        {
+          "id": "a8",
+          "description": "Drowned sind eine seit 1992 aktive Death-Metal-Band aus Berlin. Mit düsterem, höhlenartigem Old-School-Death-Metal veröffentlichten sie nach Jahrzehnten im Underground die Alben „Idola Specus“ (2014) und „Procul His“ (2024)."
+        },
+        {
+          "id": "a9",
+          "description": "Akhlys sind eine 2009 um Naas Alcameth (Nightbringer) gegründete US-amerikanische Black-Metal-Band. Aus Dark-Ambient-Wurzeln entwickelten sie hypnotischen, von Albträumen handelnden Black Metal und veröffentlichten „Melinoë“ (2020) und „House of the Black Geminus“ (2024) bei Debemur Morti Productions."
+        },
+        {
+          "id": "a11",
+          "description": "Modfälld sind eine Atmospheric-Black-Metal-Band aus Bayern, die depressiven Black Metal mit Crust- und Doom-Einflüssen und schwedischsprachigen Songtiteln verbindet. Ihr Album „Ättestupa“ erschien 2024."
+        },
+        {
+          "id": "a13",
+          "description": "Torment of Souls sind eine deutsche Old-School-Death-Metal-Band, die seit 1994 aktiv ist. Zu ihren Veröffentlichungen gehören die Alben „Beneath a Dark Mind“ (2007) und „Zombie Barbecue“ (2013) sowie die EP „Mortuus Est I“ (2024)."
+        },
+        {
+          "id": "a15",
+          "description": "Marschland ist das Dark-Folk-Soloprojekt von Ernie Fleetenkieker, Stimme der deutschen Black-Metal-Band Fäulnis. Statt Verzerrung gibt es karge Akustiksongs voller Galgenhumor: Das Debüt „Traurige Trinkerlieder“, sarkastische Trinklieder aus einer heruntergekommenen Kneipe, erschien bei Edgar the Cat."
+        },
+        {
+          "id": "a16",
+          "description": "Night Shall Drape Us sind eine finnische Black-Metal-Band, gegründet von Schlagzeuger und Multiinstrumentalist LRH, mit den Horna- und Behexen-Veteranen Spellgoth, Wraath und Infection am Gesang. Ihr schnelles, melodisches Debüt „Lunatic Choir“ erschien 2024 bei Season of Mist Underground Activists."
+        },
+        {
+          "id": "a17",
+          "description": "Niht sind eine Old-School-Black-Metal-Band aus Memmingen in Süddeutschland. Nach dem Debüt „Vanum“ (2017) folgte 2021 „Arcanum“ bei Ván Records."
+        }
+      ]
+    }
+  ]
+}

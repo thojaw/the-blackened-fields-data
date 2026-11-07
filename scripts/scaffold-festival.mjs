@@ -198,74 +198,49 @@ function run(cmd, args, opts = {}) {
   return out;
 }
 
-// Registers any artist that sync-artist-registry.py left in its "needs
-// confirmation" bucket as a brand-new registry entry instead, mirroring
-// exactly what --apply does for a genuinely-new artist. This repo's own
-// genre-scoped naming makes real collisions rare (see AGENTS.md), and in
-// practice the "confirm" bucket is almost always a same-name-different-
-// band false positive from the fuzzy matcher, not a real duplicate -- but
-// as a real safety check, it still refuses to touch an id that's already
-// taken by a *different* artist name rather than silently overwriting it.
+// Resolves each touched festival artist to its registry identity after
+// sync-artist-registry.py --apply has run. Anything still without one is an
+// artist the sync script put in its "needs confirmation" bucket: since that
+// bucket only holds plausible spelling variants of an existing registry name
+// (see is_plausible_variant() there), it may be a real duplicate, so it is
+// NOT auto-registered -- it is left unlinked and reported in
+// needsManualReview.unconfirmedMatches with the suggested registry entry.
+// Resolve those by hand: set globalId to the suggested id if it's the same
+// act, or re-run sync-artist-registry.py after confirming it's a different
+// act (e.g. register it directly in artists.json).
 // `festivalArtists` here must be the CURRENT festival.json entries (read
 // after sync-artist-registry.py --apply already ran), not the original spec
 // objects -- the python step writes globalId to the file, not back into our
 // in-memory spec, and for an existing/multi-show festival the local `id`
 // can legitimately differ from the resolved global identity.
-function slugify(name) {
-  return name
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+function parseConfirmLines(syncOutput) {
+  // e.g.:  [confirm?]  Aeternvs (id=a3), best score 0.875 -- did you mean "Aeternus" (aeternus)?
+  const out = new Map();
+  const re = /\[confirm\?\]\s+(.+?) \(id=([^)]+)\), best score ([0-9.]+)(?: -- did you mean "(.*)" \(([^)]+)\)\?)?/g;
+  for (const m of (syncOutput || "").matchAll(re)) {
+    out.set(m[2], { id: m[2], festivalArtist: m[1], score: Number(m[3]), suggestedName: m[4] ?? null, suggestedId: m[5] ?? null });
+  }
+  return out;
 }
 
-async function autoRegisterUnconfirmed(festivalArtists) {
-  const registryPath = path.join(REPO_ROOT, "artists.json");
-  const registry = JSON.parse(await readFile(registryPath, "utf8"));
+async function resolveRegistryIds(festivalArtists, syncOutput) {
+  const registry = JSON.parse(await readFile(path.join(REPO_ROOT, "artists.json"), "utf8"));
   const byId = new Map(registry.map((a) => [a.id, a]));
+  const confirmLines = parseConfirmLines(syncOutput);
 
-  const added = [];
-  const skipped = [];
-  const resolved = new Map(); // local artist id -> final registry/global id
+  const resolved = new Map(); // local artist id -> registry/global id
+  const unconfirmed = [];
   for (const artist of festivalArtists) {
     // Resolution rule (AGENTS.md): globalId if present, else id itself if
     // it already looks like a registry slug, else no identity yet.
-    let globalId = artist.globalId || artist.id;
+    const globalId = artist.globalId || artist.id;
     if (byId.has(globalId)) {
       resolved.set(artist.id, globalId);
-      continue; // already registered (matched, or id already is the slug)
+      continue;
     }
-
-    const existing = registry.find((a) => a.id === globalId);
-    if (existing && existing.name !== artist.name) {
-      skipped.push({ id: globalId, festivalArtist: artist.name, registryEntry: existing.name });
-      continue; // leave unresolved -- don't enrich against someone else's entry
-    }
-
-    // A brand-new entry needs a real slug id (AGENTS.md), not a bare
-    // festival-local id like "a1" -- that only happens when no globalId was
-    // given and the local id isn't already a registry-shaped slug.
-    if (!artist.globalId && !existing) {
-      let candidate = slugify(artist.name);
-      let suffix = 2;
-      while (byId.has(candidate) && byId.get(candidate).name !== artist.name) {
-        candidate = `${slugify(artist.name)}-${suffix++}`;
-      }
-      globalId = candidate;
-    }
-    resolved.set(artist.id, globalId);
-
-    const entry = { id: globalId, name: artist.name, description: artist.description };
-    if (artist.genres?.length) entry.genres = artist.genres;
-    if (artist.country) entry.country = artist.country;
-    registry.push(entry);
-    byId.set(globalId, entry);
-    added.push(globalId);
+    unconfirmed.push(confirmLines.get(artist.id) || { id: artist.id, festivalArtist: artist.name, score: null, suggestedName: null, suggestedId: null });
   }
-
-  if (added.length) await writeJson(registryPath, registry);
-  return { added, skipped, resolved };
+  return { resolved, unconfirmed };
 }
 
 // Runs enrich-artists.mjs (registry mode) against ONLY the ids we just
@@ -363,28 +338,20 @@ async function enrichPopularitySafely(globalIds) {
 async function runPipeline(festivalRelPath, touchedIds) {
   const py = pythonCmd();
   console.log("Syncing artist registry...");
-  run(py, ["scripts/sync-artist-registry.py", festivalRelPath, "--apply"]);
+  const syncOutput = run(py, ["scripts/sync-artist-registry.py", festivalRelPath, "--apply"]);
 
   const festivalPath = path.join(REPO_ROOT, festivalRelPath);
-  let festival = JSON.parse(await readFile(festivalPath, "utf8"));
+  const festival = JSON.parse(await readFile(festivalPath, "utf8"));
   const touchedFestivalArtists = festival.artists.filter((a) => touchedIds.includes(a.id));
 
-  const { added: autoAdded, skipped, resolved } = await autoRegisterUnconfirmed(touchedFestivalArtists);
-  if (autoAdded.length) console.log(`  auto-registered (was 'needs confirmation'): ${autoAdded.join(", ")}`);
-  if (skipped.length) {
-    console.warn("  SKIPPED -- id collision with a DIFFERENT existing artist, needs manual review:");
-    for (const s of skipped) console.warn(`    ${s.id}: festival has "${s.festivalArtist}", registry already has "${s.registryEntry}"`);
-  }
-
-  // Backfill globalId on the file for anything we just auto-registered
-  // (already-matched artists were handled by sync-artist-registry.py itself).
-  festival = JSON.parse(await readFile(festivalPath, "utf8"));
-  for (const a of festival.artists) {
-    if (!a.globalId && resolved.has(a.id) && autoAdded.includes(resolved.get(a.id))) {
-      a.globalId = resolved.get(a.id);
+  const { resolved, unconfirmed } = await resolveRegistryIds(touchedFestivalArtists, syncOutput);
+  if (unconfirmed.length) {
+    console.warn("  UNCONFIRMED -- possible duplicate of an existing registry entry, left unlinked (needs manual review):");
+    for (const u of unconfirmed) {
+      const hint = u.suggestedId ? ` -- did you mean "${u.suggestedName}" (${u.suggestedId})?` : "";
+      console.warn(`    ${u.id}: "${u.festivalArtist}"${hint}`);
     }
   }
-  await writeJson(festivalPath, festival);
 
   const globalIds = [...resolved.values()];
   console.log("Enriching links (Spotify/Bandcamp/etc.)...");
@@ -409,7 +376,7 @@ async function runPipeline(festivalRelPath, touchedIds) {
   console.log("Regenerating index.json...");
   run(py, ["scripts/generate-index.py"]);
 
-  return { skipped, mismatched, unscored };
+  return { unconfirmed, mismatched, unscored };
 }
 
 async function cmdCreate(specPath) {
@@ -454,10 +421,10 @@ async function cmdCreate(specPath) {
   await writeJson(path.join(REPO_ROOT, festivalRelPath), festival);
   console.log(`Wrote ${festivalRelPath}`);
 
-  const { skipped, mismatched, unscored } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
+  const { unconfirmed, mismatched, unscored } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
 
   console.log("\nDone.");
-  console.log(JSON.stringify({ festivalRelPath, artists: spec.artists.map((a) => a.id), needsManualReview: { registryIdCollisions: skipped, linkMismatches: mismatched, unscoredPopularity: unscored } }, null, 2));
+  console.log(JSON.stringify({ festivalRelPath, artists: spec.artists.map((a) => a.id), needsManualReview: { unconfirmedMatches: unconfirmed, linkMismatches: mismatched, unscoredPopularity: unscored } }, null, 2));
 }
 
 async function cmdAddArtists(festivalArgPath, specPath) {
@@ -486,10 +453,10 @@ async function cmdAddArtists(festivalArgPath, specPath) {
   await writeJson(festivalPath, festival);
   console.log(`Updated ${festivalRelPath}`);
 
-  const { skipped, mismatched, unscored } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
+  const { unconfirmed, mismatched, unscored } = await runPipeline(festivalRelPath, spec.artists.map((a) => a.id));
 
   console.log("\nDone.");
-  console.log(JSON.stringify({ festivalRelPath, newArtists: spec.artists.map((a) => a.id), needsManualReview: { registryIdCollisions: skipped, linkMismatches: mismatched, unscoredPopularity: unscored } }, null, 2));
+  console.log(JSON.stringify({ festivalRelPath, newArtists: spec.artists.map((a) => a.id), needsManualReview: { unconfirmedMatches: unconfirmed, linkMismatches: mismatched, unscoredPopularity: unscored } }, null, 2));
 }
 
 async function main() {

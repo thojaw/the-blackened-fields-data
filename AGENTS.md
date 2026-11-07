@@ -448,6 +448,11 @@ hand where scene knowledge clearly disagrees with the computed bucket.
 3. **Fuzzy/ambiguous match** → don't guess; ask for confirmation before
    linking (or add as new if you can confirm by other means, as this
    dataset's genre-scoped act names make real collisions very unlikely).
+   The script only puts a name in this bucket when it is a plausible
+   spelling variant of a registry name: equal once spacing/"the"/"and" are
+   ignored, a typo-sized edit distance, or the registry name plus extra
+   whole words (e.g. "Drowned" vs. "Drowned in Sorrow"). Names that merely
+   share letters (Firespawn/Firtan) are treated as new.
 4. **No match** → create the artist first: look up genres/country (e.g. via
    `scripts/enrich-artists.mjs` against the festival file, or manually),
    write a short `description`, then let `sync-artist-registry.py --apply`

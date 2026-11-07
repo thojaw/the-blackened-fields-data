@@ -13,8 +13,11 @@ Usage:
 
 Options:
   --apply          Write changes. Default is a dry-run report only.
-  --min-score=N    Similarity (0-1) below which a match is "needs
-                    confirmation" instead of auto-accepted (default 0.92).
+  --min-score=N    Similarity (0-1) at or above which a match is
+                    auto-accepted (default 0.92). Below it, an artist is only
+                    flagged "needs confirmation" when its name is a plausible
+                    spelling variant of a registry name (see
+                    is_plausible_variant()); otherwise it is treated as new.
 
 This script never reads or writes an artist's `id` field. It only ever
 touches `globalId` (added when a confident match or a new registry entry is
@@ -94,7 +97,66 @@ def unique_slug(base_slug, country, taken):
     return f"{base_slug}-{n}"
 
 
+def compact_name(name):
+    """normalize_name() minus spacing, a leading "the" and "and"/"&" --
+    so "Soulgrinder"/"Soul Grinder" or "The Spirit"/"Spirit" compare equal."""
+    n = normalize_name(name)
+    n = re.sub(r"^the ", "", n)
+    n = re.sub(r" and ", " ", f" {n} ").strip()
+    return n.replace(" ", "")
+
+
+def edit_distance(a, b):
+    """Optimal-string-alignment distance: Levenshtein plus adjacent swaps,
+    so a typo like "Fuenral" vs "Funeral" counts as one edit, not two."""
+    prev2, prev = None, list(range(len(b) + 1))
+    for i in range(1, len(a) + 1):
+        cur = [i] + [0] * len(b)
+        for j in range(1, len(b) + 1):
+            cost = 0 if a[i - 1] == b[j - 1] else 1
+            cur[j] = min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost)
+            if (prev2 is not None and i > 1 and j > 1
+                    and a[i - 1] == b[j - 2] and a[i - 2] == b[j - 1]):
+                cur[j] = min(cur[j], prev2[j - 2] + 1)
+        prev2, prev = prev, cur
+    return prev[-1]
+
+
+def is_plausible_variant(name_a, name_b):
+    """True if two different names could realistically be the same act
+    spelled differently -- the only cases worth a manual "confirm?".
+
+    A fuzzy ratio alone (difflib) flags pairs that merely share letters
+    (Firespawn/Firtan, Drowned/Dethroned, Akhlys/Kataklysm), which drowns
+    real candidates in noise. Instead, only these count:
+      - equal after dropping spacing, a leading "the" and "and"
+        (Soul Grinder/Soulgrinder, The Spirit/Spirit);
+      - a small typo: at most 1 edit, or 1 per 8 characters for longer
+        names, on names of 4+ characters (Aeternus/Aeternvs);
+      - one name is the other plus extra whole words (Drowned /
+        Drowned in Sorrow, Firewolf / Firewolf - Acoustic Set).
+    """
+    a, b = compact_name(name_a), compact_name(name_b)
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    shorter = min(len(a), len(b))
+    allowed = max(1, max(len(a), len(b)) // 8)
+    if shorter >= 4 and edit_distance(a, b) <= allowed:
+        return True
+    ta, tb = normalize_name(name_a).split(), normalize_name(name_b).split()
+    small, big = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+    if len("".join(small)) >= 4 and len(small) < len(big):
+        for i in range(len(big) - len(small) + 1):
+            if big[i:i + len(small)] == small:
+                return True
+    return False
+
+
 def match_registry(artist_name, registry, min_score):
+    """Returns (entry, score, kind): kind is "matched" (auto-link), "confirm"
+    (plausible spelling variant, needs a human), or None (treat as new)."""
     query = normalize_name(artist_name)
     best = None
     best_score = 0.0
@@ -102,13 +164,13 @@ def match_registry(artist_name, registry, min_score):
         score = similarity(query, normalize_name(entry["name"]))
         if score > best_score:
             best, best_score = entry, score
-    if best is None:
-        return None, 0.0
-    if best_score >= 0.999:
-        return best, best_score
-    if best_score >= min_score:
-        return best, best_score
-    return None, best_score if best_score >= 0.6 else 0.0
+    if best is not None and best_score >= min_score:
+        return best, best_score, "matched"
+    variants = [e for e in registry if is_plausible_variant(artist_name, e["name"])]
+    if variants:
+        near = max(variants, key=lambda e: similarity(query, normalize_name(e["name"])))
+        return near, similarity(query, normalize_name(near["name"])), "confirm"
+    return None, best_score, None
 
 
 def main():
@@ -133,12 +195,11 @@ def main():
         if artist.get("globalId") or artist["id"] in registry_by_id:
             continue  # already linked
 
-        exact, score = match_registry(artist["name"], registry, args.min_score)
-        if exact:
-            matched.append((artist, exact, score))
-        elif score >= 0.6:
-            near, _ = match_registry(artist["name"], registry, 0.0)
-            needs_confirmation.append((artist, near, score))
+        entry, score, kind = match_registry(artist["name"], registry, args.min_score)
+        if kind == "matched":
+            matched.append((artist, entry, score))
+        elif kind == "confirm":
+            needs_confirmation.append((artist, entry, score))
         else:
             slug = unique_slug(slugify(artist["name"]), artist.get("country"), taken_slugs)
             taken_slugs.add(slug)
