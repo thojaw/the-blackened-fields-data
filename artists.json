@@ -5907,7 +5907,8 @@
         "url": "https://open.spotify.com/artist/1fevQX8HS898wns7GKH3pR",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "doodswens",
@@ -5922,7 +5923,8 @@
         "url": "https://open.spotify.com/artist/4y0PziA2nR9lWxhF9T1Mm6",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "antimatter",
@@ -5938,7 +5940,8 @@
         "url": "https://open.spotify.com/artist/2k4duorvZ5lTq33ljpT0sc",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "thulcandra",
@@ -5954,7 +5957,8 @@
         "url": "https://open.spotify.com/artist/3cJkyh6iM5N2AI07hNlu1j",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "dymna-lotva",
@@ -5970,7 +5974,8 @@
         "url": "https://open.spotify.com/artist/61PwJzYfSOG5zImuIuoEHT",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "imha-tarikat",
@@ -5985,7 +5990,8 @@
         "url": "https://open.spotify.com/artist/0Cor5wxhCtEuSz85zFb9qY",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "winselmutter",
@@ -6000,7 +6006,8 @@
         "url": "https://open.spotify.com/artist/0ldxLPthEoeVvYvcg34Ije",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "yoth-iria",
@@ -6015,7 +6022,8 @@
         "url": "https://open.spotify.com/artist/3tcBc9lN5ncBG7KNTKB1o1",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "vorga",
@@ -6030,7 +6038,8 @@
         "url": "https://open.spotify.com/artist/4VeQnaE38lgZIDrYPUYOA8",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "duir",
@@ -6045,6 +6054,7 @@
         "url": "https://open.spotify.com/artist/5a4KQaWx8L5EFLqtWZeafP",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   }
 ]
