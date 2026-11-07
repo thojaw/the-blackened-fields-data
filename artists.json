@@ -6110,7 +6110,8 @@
         "url": "https://open.spotify.com/artist/6LjCtCPlOe8GkYz09XeQH5",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "tulus",
@@ -6125,7 +6126,8 @@
         "url": "https://open.spotify.com/artist/3YIfnAdb1VsyR6wCSmQen7",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "ensanguinate",
@@ -6140,7 +6142,8 @@
         "url": "https://open.spotify.com/artist/1EszviKv0UfmagwqzhMAxD",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "modfalld",
@@ -6155,7 +6158,8 @@
         "url": "https://modfaelld.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "night-shall-drape-us",
@@ -6170,7 +6174,8 @@
         "url": "https://open.spotify.com/artist/4wGklvMuBYyM9CtXKsLEFt",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "niht",
@@ -6185,7 +6190,8 @@
         "url": "https://niht666.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "aeternus",
@@ -6201,7 +6207,8 @@
         "url": "https://open.spotify.com/artist/08pfvfaswGFhlXz4j50eOP",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "firespawn",
@@ -6216,7 +6223,8 @@
         "url": "https://open.spotify.com/artist/6iuACyGPyhtixKHUiJ8mNu",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "in-aeternum",
@@ -6232,7 +6240,8 @@
         "url": "https://open.spotify.com/artist/0jExlv9m6XI5j0MSHqrgD4",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "drowned",
@@ -6247,7 +6256,8 @@
         "url": "https://drowned.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "akhlys",
@@ -6266,7 +6276,8 @@
         "url": "https://akhlys.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 5
   },
   {
     "id": "torment-of-souls",
