@@ -1495,7 +1495,13 @@
       "Epic Doom Metal"
     ],
     "country": "se",
-    "popularity": 7
+    "popularity": 7,
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/7zDtfSB0AOZWhpuAHZIOw5",
+        "type": "spotify"
+      }
+    ]
   },
   {
     "id": "seconddeath",
@@ -1621,7 +1627,13 @@
       "Black Metal"
     ],
     "country": "il",
-    "popularity": 6
+    "popularity": 6,
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/1bjUcmZxY4zJO1V5LaKzUY",
+        "type": "spotify"
+      }
+    ]
   },
   {
     "id": "berserkr",
@@ -2996,7 +3008,13 @@
       "Death Metal"
     ],
     "country": "de",
-    "popularity": 5
+    "popularity": 5,
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/1KLoISkEyIEt9Q6xMB83Ah",
+        "type": "spotify"
+      }
+    ]
   },
   {
     "id": "darvaza",
@@ -5875,5 +5893,158 @@
     ],
     "country": "de",
     "popularity": 1
+  },
+  {
+    "id": "firtan",
+    "name": "Firtan",
+    "description": "Firtan are a German black metal band formed in 2010 in Lörrach, Baden-Württemberg. Their atmospheric, progressive take on the genre weaves in violin, acoustic instruments and chants, heard on albums such as Okeanos, Ethos and their fifth full-length Helios, released via AOP Records in 2026.",
+    "genres": [
+      "Progressive Atmospheric Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/1fevQX8HS898wns7GKH3pR",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "doodswens",
+    "name": "Doodswens",
+    "description": "Doodswens are a Dutch black metal band from Eindhoven, founded in 2017 by vocalist and guitarist Fraukje van Burg and drummer Inge van der Zon. Signed to Svart Records, they released their debut album Lichtvrees in 2021 and a self-titled second album in 2026.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "nl",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/4y0PziA2nR9lWxhF9T1Mm6",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "antimatter",
+    "name": "Antimatter",
+    "description": "Antimatter are an English band from Liverpool, founded in 1998 by Mick Moss and former Anathema bassist Duncan Patterson; Moss has led the project since Patterson's departure in 2005. Their melancholic dark rock blends gothic, progressive and atmospheric elements across albums such as Planetary Confinement, Leaving Eden (2007) and Black Market Enlightenment.",
+    "genres": [
+      "Dark Rock",
+      "Alternative Rock"
+    ],
+    "country": "gb",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/2k4duorvZ5lTq33ljpT0sc",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "thulcandra",
+    "name": "Thulcandra",
+    "description": "Thulcandra are a German black/death metal band founded in Landshut in 2003 by Steffen Kummerer, Jürgen Zintz and Jonas Baumgartl, and now based in Munich. Strongly influenced by Dissection, the Napalm Records act has released five albums, from Fallen Angel's Dominion (2010) to Hail the Abyss (2023).",
+    "genres": [
+      "Black Metal",
+      "Death Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/3cJkyh6iM5N2AI07hNlu1j",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "dymna-lotva",
+    "name": "Dymna Lotva",
+    "description": "Dymna Lotva are a Belarusian band founded in 2015 by vocalist Katsiaryna \"Nokt Aeon\" Mankevich and multi-instrumentalist Jauhien Charkasau, who later left Belarus for Poland. Their atmospheric post-black and depressive doom metal draws on Belarusian folklore and history, most recently on their fourth album Vyraj (2026) via Prophecy Productions.",
+    "genres": [
+      "Atmospheric Post Black Metal",
+      "Depressive Doom Metal"
+    ],
+    "country": "by",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/61PwJzYfSOG5zImuIuoEHT",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "imha-tarikat",
+    "name": "Imha Tarikat",
+    "description": "Imha Tarikat is a German black metal project founded by Kerem Yilmaz, who draws on his Turkish heritage in an intensely emotional take on the genre. After the 2017 EP Kenoboros and the debut album Kara Ihlas (2019), Sternenberster followed in 2020 via Prophecy Productions, later joined by Hearts Unchained – At War with a Passionless World and Confessing Darkness (2025).",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/0Cor5wxhCtEuSz85zFb9qY",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "winselmutter",
+    "name": "Winselmutter",
+    "description": "Winselmutter are a German old-school black metal band from Osnabrück, formed in 2024. After a rehearsal demo they released their debut album Schattentod in der Leibeswelt in 2025, followed by the Ketzergeyst EP in 2026.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/0ldxLPthEoeVvYvcg34Ije",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "yoth-iria",
+    "name": "Yoth Iria",
+    "description": "Yoth Iria are a Greek black metal band from Attica featuring bassist Jim Mutilator, a co-founder of Rotting Christ and Varathron. Rooted in the classic Hellenic black metal sound, they debuted with As the Flame Withers in 2021, followed by Blazing Inferno (2024) and Gone with the Devil (2026) on Metal Blade Records.",
+    "genres": [
+      "Hellenic Black Metal"
+    ],
+    "country": "gr",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/3tcBc9lN5ncBG7KNTKB1o1",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "vorga",
+    "name": "Vorga",
+    "description": "Vorga are a German black metal band from Karlsruhe whose melodic, cosmic sound pairs science-fiction imagery with themes of death and misanthropy. After their 2022 debut Striving Toward Oblivion, they released Beyond the Palest Star via Transcending Obscurity Records in 2024.",
+    "genres": [
+      "Cosmic Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/4VeQnaE38lgZIDrYPUYOA8",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "duir",
+    "name": "Duir",
+    "description": "Duir are an Italian atmospheric folk black metal band from Verona, formed in 2013 by guitarist MK. Flute, bagpipe and hurdy-gurdy are part of their sound; after the 2022 debut T.S.N.R.I. – Impermanenza they released the First World War concept album Catarsi via AOP Records in 2026.",
+    "genres": [
+      "Atmospheric Folk Black Metal"
+    ],
+    "country": "it",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/5a4KQaWx8L5EFLqtWZeafP",
+        "type": "spotify"
+      }
+    ]
   }
 ]
