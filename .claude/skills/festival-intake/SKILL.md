@@ -111,8 +111,15 @@ Foo Fest 2028 lineup just dropped, add it."
    ```
    node scripts/scaffold-festival.mjs create <spec.json>
    ```
-   Read its JSON summary. If `needsManualReview.registryIdCollisions` or
-   `.linkMismatches` is non-empty, resolve those specific artists by hand:
+   Read its JSON summary. `needsManualReview.unconfirmedMatches` lists
+   artists whose name is a plausible spelling variant of an existing
+   `artists.json` entry (each with the suggested `suggestedId`); they are
+   left without `globalId` on purpose. For each, decide whether it's the
+   same act (set `globalId` to `suggestedId` and copy its
+   description/genres/country) or a different one (add a new registry entry
+   with a distinct slug and set `globalId` to it), then re-run
+   `validate-artists.py --check-festivals`. If `.linkMismatches` is
+   non-empty, resolve those specific artists by hand:
    disambiguate on MusicBrainz's own site search (`type:group`, filtered by
    country/genre) to find the correct entity, verify a candidate Spotify
    page's bio/tracklist against already-known facts before using it (this
