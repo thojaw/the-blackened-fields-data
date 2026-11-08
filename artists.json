@@ -6094,7 +6094,8 @@
         "url": "https://open.spotify.com/artist/0UGvFl1tJ49Co99gaXZH9Z",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 7
   },
   {
     "id": "blasphemy",
@@ -6296,7 +6297,8 @@
         "url": "https://tormentofsouls.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "marschland",
@@ -6311,7 +6313,8 @@
         "url": "https://open.spotify.com/artist/1MF0TYJKowF2LZfqqm7PbQ",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "wrang",
@@ -6326,7 +6329,8 @@
         "url": "https://open.spotify.com/artist/4uuweZmXWdKtG2xHSqUWk1",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "ensiferum",
@@ -6343,7 +6347,8 @@
         "url": "https://open.spotify.com/artist/0krXCIkthz13P8o0v2tksH",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 8
   },
   {
     "id": "mgla",
@@ -6358,7 +6363,8 @@
         "url": "https://open.spotify.com/artist/2hbkBlGBgvJkC3tpUn9w4C",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "thy-light",
@@ -6374,7 +6380,8 @@
         "url": "https://open.spotify.com/artist/2Wi7zzccDDPTfNZitmE2pH",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "robse",
@@ -6390,7 +6397,8 @@
         "url": "https://open.spotify.com/artist/0PAgqTEnNzA1taXdwTasKN",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "suotana",
@@ -6406,7 +6414,8 @@
         "url": "https://open.spotify.com/artist/3hGRvDW3UnwxI5OIsfwEGx",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "antrisch",
@@ -6421,7 +6430,8 @@
         "url": "https://open.spotify.com/artist/2FJo2QXOUDi8qzFIyVwYq5",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 4
   },
   {
     "id": "nornir",
@@ -6436,7 +6446,8 @@
         "url": "https://open.spotify.com/artist/5eQdTFqi7qKIq21nVEtGTs",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 2
   },
   {
     "id": "blodmarkt",
@@ -6452,7 +6463,8 @@
         "url": "https://blodmarkt.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 1
   },
   {
     "id": "carach-angren",
@@ -6467,7 +6479,8 @@
         "url": "https://open.spotify.com/artist/7sJC2WkTzn7gqUhVfP9sOm",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "ex-deo",
@@ -6483,7 +6496,8 @@
         "url": "https://open.spotify.com/artist/7jBfzxUkrHRmy6EezZuegA",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 6
   },
   {
     "id": "galibot",
@@ -6498,7 +6512,8 @@
         "url": "https://open.spotify.com/artist/6A9zwA6WD1GK3rpkzj3dCz",
         "type": "spotify"
       }
-    ]
+    ],
+    "popularity": 3
   },
   {
     "id": "traktates",
@@ -6513,6 +6528,7 @@
         "url": "https://traktates666.bandcamp.com/",
         "type": "bandcamp"
       }
-    ]
+    ],
+    "popularity": 1
   }
 ]
