@@ -116,6 +116,41 @@
       "url": "https://open.spotify.com/artist/051XBni6chcd9hYGQ30JfK",
       "type": "spotify",
       "artistId": "saor"
+    },
+    {
+      "id": "la11",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7sJC2WkTzn7gqUhVfP9sOm",
+      "type": "spotify",
+      "artistId": "carach-angren"
+    },
+    {
+      "id": "la12",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/1iLdVM2KFAHUbpaC5wpMbO",
+      "type": "spotify",
+      "artistId": "ellende"
+    },
+    {
+      "id": "la13",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/7jBfzxUkrHRmy6EezZuegA",
+      "type": "spotify",
+      "artistId": "ex-deo"
+    },
+    {
+      "id": "la14",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6A9zwA6WD1GK3rpkzj3dCz",
+      "type": "spotify",
+      "artistId": "galibot"
+    },
+    {
+      "id": "la15",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/10AROE3jG5grMdhlNyZiWo",
+      "type": "spotify",
+      "artistId": "mol"
     }
   ],
   "artists": [
@@ -181,6 +216,37 @@
       "globalId": "bedrangnis"
     },
     {
+      "id": "blodmarkt",
+      "name": "Blodmärkt",
+      "imageUrl": "",
+      "description": "Swedish blackened folk metal band from Varberg in Halland, formed in 2023. Their debut EP Väsen is a concept work about creatures from Swedish folklore, and the band won the Gothenburg Metal Championship in 2024.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Folk Metal",
+        "Black Metal"
+      ],
+      "country": "se",
+      "globalId": "blodmarkt"
+    },
+    {
+      "id": "carach-angren",
+      "name": "Carach Angren",
+      "imageUrl": "a11.jpg",
+      "description": "Dutch symphonic black metal band from Landgraaf, Limburg, formed in 2003. Their concept albums tell ghost and horror stories with orchestral arrangements, from Lammendam and Death Came Through a Phantom Ship to Franckensteina Strataemontanus, released via Season of Mist.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Symphonic Black Metal"
+      ],
+      "country": "nl",
+      "globalId": "carach-angren"
+    },
+    {
       "id": "dordeduh",
       "name": "Dordeduh",
       "imageUrl": "a5.jpg",
@@ -195,6 +261,52 @@
       ],
       "country": "ro",
       "globalId": "dordeduh"
+    },
+    {
+      "id": "ellende",
+      "name": "Ellende",
+      "imageUrl": "a12.jpg",
+      "description": "Ellende is an Austrian atmospheric black metal project founded in Graz in 2011 by multi-instrumentalist L.G. as a solo studio project, later expanded into a live act. The project's melancholic, introspective sound incorporates classical instrumentation such as strings and piano alongside its post-black metal atmosphere.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Post Black Metal"
+      ],
+      "country": "at",
+      "globalId": "ellende"
+    },
+    {
+      "id": "ex-deo",
+      "name": "Ex Deo",
+      "imageUrl": "a13.jpg",
+      "description": "Canadian symphonic death metal band from Montreal, founded in 2008 by Kataklysm frontman Maurizio Iacono. Performing in Roman legion armour, they set the history of the Roman Empire to music on albums such as Romulus, Caligvla and The Thirteen Years of Nero.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Symphonic Death Metal",
+        "Melodic Death Metal"
+      ],
+      "country": "ca",
+      "globalId": "ex-deo"
+    },
+    {
+      "id": "galibot",
+      "name": "Galibot",
+      "imageUrl": "a14.jpg",
+      "description": "French black metal band from Wallers-Arenberg in the former coal-mining region of Hauts-de-France, formed in 2023. Their songs deal with the mining history of northern France, on the albums Euch'mau noir (2024) and Catabase (2026) via Les Acteurs de l'Ombre Productions.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "fr",
+      "globalId": "galibot"
     },
     {
       "id": "grimner",
@@ -260,6 +372,24 @@
       "globalId": "munarheim"
     },
     {
+      "id": "mol",
+      "name": "Møl",
+      "imageUrl": "a15-c.jpg",
+      "description": "Møl is a Danish atmospheric black metal band from Aalborg, formed in 2013. Merging blast-beat intensity with shoegaze textures and post-metal dynamics, the quintet drew international acclaim with their 2018 debut Jord and follow-up Diorama, establishing themselves among Europe's leading acts in the blackgaze scene.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Black Metal",
+        "Post-Metal",
+        "Shoegaze"
+      ],
+      "country": "dk",
+      "globalId": "mol",
+      "imageFocus": "center"
+    },
+    {
       "id": "saor",
       "name": "Saor",
       "imageUrl": "a10.jpg",
@@ -274,6 +404,21 @@
         "Folk Metal"
       ],
       "country": "gb"
+    },
+    {
+      "id": "traktates",
+      "name": "Traktates",
+      "imageUrl": "a16.jpg",
+      "description": "German black metal band from Köthen (Anhalt), Saxony-Anhalt, formed in 2018 by musicians from several earlier bands. Their raw, atmospheric style is heard on the self-released 2025 debut album Koenig in Thule.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "traktates"
     }
   ],
   "translations": [
@@ -319,6 +464,34 @@
         {
           "id": "saor",
           "description": "Saor ist ein schottisches atmosphärisches Black-Metal-Projekt unter der Leitung von Multiinstrumentalist Andy Marshall, das mitreißende Black-Metal-Intensität mit keltischen Folk-Melodien, Dudelsack und Fiddle verbindet. Aktiv seit 2012, haben Alben wie „Aura“ und „Forgotten Paths“ große Anerkennung für ihren gefühlvollen, landschaftsinspirierten Sound erhalten."
+        },
+        {
+          "id": "blodmarkt",
+          "description": "Schwedische Blackened-Folk-Metal-Band aus Varberg in Halland, gegründet 2023. Ihre Debüt-EP Väsen ist ein Konzeptwerk über Wesen aus der schwedischen Volkssage; 2024 gewann die Band die Gothenburg Metal Championship."
+        },
+        {
+          "id": "carach-angren",
+          "description": "Niederländische Symphonic-Black-Metal-Band aus Landgraaf (Limburg), gegründet 2003. Ihre Konzeptalben erzählen Geister- und Horrorgeschichten mit orchestralen Arrangements, von Lammendam und Death Came Through a Phantom Ship bis Franckensteina Strataemontanus, erschienen über Season of Mist."
+        },
+        {
+          "id": "ellende",
+          "description": "Ellende ist ein österreichisches atmosphärisches Black-Metal-Projekt, das 2011 in Graz vom Multiinstrumentalisten L.G. als Solo-Studioprojekt gegründet und später zu einer Live-Band erweitert wurde. Der melancholische, introspektive Sound des Projekts verbindet klassische Instrumentierung wie Streicher und Klavier mit einer post-black-metal-artigen Atmosphäre."
+        },
+        {
+          "id": "ex-deo",
+          "description": "Kanadische Symphonic-Death-Metal-Band aus Montreal, 2008 von Kataklysm-Frontmann Maurizio Iacono gegründet. In römischen Legionärsrüstungen vertonen sie die Geschichte des Römischen Reichs auf Alben wie Romulus, Caligvla und The Thirteen Years of Nero."
+        },
+        {
+          "id": "galibot",
+          "description": "Französische Black-Metal-Band aus Wallers-Arenberg im ehemaligen Kohlerevier von Hauts-de-France, gegründet 2023. Ihre Songs handeln von der Bergbaugeschichte Nordfrankreichs, zu hören auf den Alben Euch'mau noir (2024) und Catabase (2026) über Les Acteurs de l'Ombre Productions."
+        },
+        {
+          "id": "mol",
+          "description": "Møl ist eine dänische Atmospheric-Black-Metal-Band aus Aalborg, gegründet 2013. Mit einer Mischung aus Blastbeat-Intensität, Shoegaze-Texturen und Post-Metal-Dynamik erlangte das Quintett mit dem 2018er-Debüt Jord und dem Nachfolger Diorama internationale Anerkennung und zählt heute zu den führenden Acts der europäischen Blackgaze-Szene."
+        },
+        {
+          "id": "traktates",
+          "description": "Deutsche Black-Metal-Band aus Köthen (Anhalt) in Sachsen-Anhalt, 2018 von Musikern verschiedener früherer Bands gegründet. Ihr roher, atmosphärischer Stil ist auf dem 2025 in Eigenregie veröffentlichten Debütalbum Koenig in Thule zu hören."
         }
       ],
       "news": [

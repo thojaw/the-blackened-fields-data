@@ -6312,5 +6312,207 @@
         "type": "spotify"
       }
     ]
+  },
+  {
+    "id": "wrang",
+    "name": "Wrang",
+    "description": "Dutch black metal band from Utrecht, active since 2013. Wrang sing in Dutch about the history of their homeland and the human condition, and have released the full-lengths Domstad swart metael, De vaendrig and Verwording.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "nl",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/4uuweZmXWdKtG2xHSqUWk1",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "ensiferum",
+    "name": "Ensiferum",
+    "description": "Finnish folk metal band from Helsinki, founded in 1995 by guitarist Markus Toivonen. Known for epic, battle-themed anthems on albums such as Iron, Victory Songs and From Afar, they are among the defining acts of the Nordic folk metal scene.",
+    "genres": [
+      "Folk Metal",
+      "Melodic Death Metal",
+      "Epic Metal"
+    ],
+    "country": "fi",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/0krXCIkthz13P8o0v2tksH",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "mgla",
+    "name": "Mgła",
+    "description": "Polish black metal band from Kraków, founded in 2000 by multi-instrumentalist M. (Mikołaj Żentara). Their bleak, hypnotic style on albums such as With Hearts Toward None, Exercises in Futility and Age of Excuse made them one of the most acclaimed black metal acts of their generation.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "pl",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/2hbkBlGBgvJkC3tpUn9w4C",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "thy-light",
+    "name": "Thy Light",
+    "description": "Depressive black metal project founded in 2005 in São Paulo state, Brazil, by multi-instrumentalist Paolo Bruno. Its melancholic, atmospheric 2013 album No Morrow Shall Dawn became a cult record of the genre.",
+    "genres": [
+      "Depressive Black Metal",
+      "Atmospheric Black Metal"
+    ],
+    "country": "br",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/2Wi7zzccDDPTfNZitmE2pH",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "robse",
+    "name": "Robse",
+    "description": "German pagan/melodic death metal band from Brandenburg, formed in 2022 around Robert \"Robse\" Dahn, longtime frontman of Equilibrium. Their debut album Harlekin und Krieger was released in 2024 via Reaper Entertainment.",
+    "genres": [
+      "Pagan Metal",
+      "Melodic Death Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/0PAgqTEnNzA1taXdwTasKN",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "suotana",
+    "name": "Suotana",
+    "description": "Finnish melodic death metal band from Rovaniemi in Lapland, founded in 2005. Blending Arctic themes of nature and winter with power metal melodies, they have released Land of the Ending Time and the two-part Ounas concept via Reaper Entertainment.",
+    "genres": [
+      "Melodic Death Metal",
+      "Power Metal"
+    ],
+    "country": "fi",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/3hGRvDW3UnwxI5OIsfwEGx",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "antrisch",
+    "name": "Antrisch",
+    "description": "German atmospheric black metal band from Würzburg, active since 2020. Their \"Expedition\" series of releases tells stories of historical exploration, most recently on Expedition III: Renitenzpfad (2026) via AOP Records.",
+    "genres": [
+      "Atmospheric Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/2FJo2QXOUDi8qzFIyVwYq5",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "nornir",
+    "name": "Nornír",
+    "description": "German black metal band founded in 2014 in Freiberg, Saxony. Drawing on Norse mythology, nature and spirituality, they have released the albums Verdandi (2019) and Skuld (2023) via Northern Silence Productions.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/5eQdTFqi7qKIq21nVEtGTs",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "blodmarkt",
+    "name": "Blodmärkt",
+    "description": "Swedish blackened folk metal band from Varberg in Halland, formed in 2023. Their debut EP Väsen is a concept work about creatures from Swedish folklore, and the band won the Gothenburg Metal Championship in 2024.",
+    "genres": [
+      "Folk Metal",
+      "Black Metal"
+    ],
+    "country": "se",
+    "links": [
+      {
+        "url": "https://blodmarkt.bandcamp.com/",
+        "type": "bandcamp"
+      }
+    ]
+  },
+  {
+    "id": "carach-angren",
+    "name": "Carach Angren",
+    "description": "Dutch symphonic black metal band from Landgraaf, Limburg, formed in 2003. Their concept albums tell ghost and horror stories with orchestral arrangements, from Lammendam and Death Came Through a Phantom Ship to Franckensteina Strataemontanus, released via Season of Mist.",
+    "genres": [
+      "Symphonic Black Metal"
+    ],
+    "country": "nl",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/7sJC2WkTzn7gqUhVfP9sOm",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "ex-deo",
+    "name": "Ex Deo",
+    "description": "Canadian symphonic death metal band from Montreal, founded in 2008 by Kataklysm frontman Maurizio Iacono. Performing in Roman legion armour, they set the history of the Roman Empire to music on albums such as Romulus, Caligvla and The Thirteen Years of Nero.",
+    "genres": [
+      "Symphonic Death Metal",
+      "Melodic Death Metal"
+    ],
+    "country": "ca",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/7jBfzxUkrHRmy6EezZuegA",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "galibot",
+    "name": "Galibot",
+    "description": "French black metal band from Wallers-Arenberg in the former coal-mining region of Hauts-de-France, formed in 2023. Their songs deal with the mining history of northern France, on the albums Euch'mau noir (2024) and Catabase (2026) via Les Acteurs de l'Ombre Productions.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "fr",
+    "links": [
+      {
+        "url": "https://open.spotify.com/artist/6A9zwA6WD1GK3rpkzj3dCz",
+        "type": "spotify"
+      }
+    ]
+  },
+  {
+    "id": "traktates",
+    "name": "Traktates",
+    "description": "German black metal band from Köthen (Anhalt), Saxony-Anhalt, formed in 2018 by musicians from several earlier bands. Their raw, atmospheric style is heard on the self-released 2025 debut album Koenig in Thule.",
+    "genres": [
+      "Black Metal"
+    ],
+    "country": "de",
+    "links": [
+      {
+        "url": "https://traktates666.bandcamp.com/",
+        "type": "bandcamp"
+      }
+    ]
   }
 ]
