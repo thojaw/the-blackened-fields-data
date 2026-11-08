@@ -1,10 +1,10 @@
 {
   "id": "de-mortem-et-diabolum-2026",
   "name": "De Mortem et Diabolum XII",
-  "version": 2,
+  "version": 3,
   "year": 2026,
   "defaultLang": "en",
-  "runningOrderExists": false,
+  "runningOrderExists": true,
   "utcOffsetHours": 1,
   "festivalDays": [
     "2026-12-04",
@@ -17,8 +17,8 @@
       "imageUrl": "a1.jpg",
       "description": "English avant-garde black metal band from Leeds, formed in 2007. Their sound blends black metal with folk, art rock and psychedelic elements, and the band has released albums including The Corpse of Rebirth and Beware the Sword You Cannot See.",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "19:20",
+      "endTime": "20:10",
       "annotation": null,
       "genres": [
         "Avant-garde Black Metal",
@@ -33,8 +33,8 @@
       "imageUrl": "a2.jpg",
       "description": "International black metal project formed in 2015 by Italian multi-instrumentalist Omega and Norwegian vocalist Wraath (Tsjuder). Their raw, hypnotic sound has been released via Terratur Possessions, culminating in the 2022 album Ascending Into Perdition.",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "23:30",
+      "endTime": "00:30",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -47,9 +47,9 @@
       "name": "Deathless Void",
       "imageUrl": "a3.jpg",
       "description": "Death/black metal band from Amsterdam, Netherlands, signed to Iron Bonehead Productions. The band debuted with a self-titled EP in 2022 and released the full-length The Voluptuous Fire of Sin in 2024.",
-      "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "dayDate": "2026-12-05",
+      "startTime": "01:00",
+      "endTime": "01:40",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -64,8 +64,8 @@
       "imageUrl": "a4.jpg",
       "description": "Black metal band formed in 2023 as a collaboration between musicians from Austria and Québec, Canada. Détresse released their debut album Pessimismes in 2025 via Vendetta Records.",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "15:40",
+      "endTime": "16:20",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -78,10 +78,10 @@
       "name": "Helleruin",
       "imageUrl": "a5.jpg",
       "description": "One-man black metal project from Groningen, Netherlands, active since 2015. Written and performed entirely by Niels Kuiper (Carchost), Helleruin's albums include War Upon Man (2021) and Devils, Death and Dark Arts (2023).",
-      "dayDate": "2026-12-04",
+      "dayDate": null,
       "startTime": null,
       "endTime": null,
-      "annotation": null,
+      "annotation": "Cancelled.",
       "genres": [
         "Black Metal"
       ],
@@ -94,8 +94,8 @@
       "imageUrl": "a6.jpg",
       "description": "Black metal band from Paris, France, formed in 1994 by guitarist Amfortas. Merrimack were among the first black metal bands to perform in Paris and have released albums including Of Entropy and Life Denial (2006) and Of Grace and Gravity (2024).",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "20:40",
+      "endTime": "21:30",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -109,8 +109,8 @@
       "imageUrl": "a7.png",
       "description": "Atmospheric black metal band from North East England, formed in 2018 by former members of Wodensthrone. Signed to Bindrune Recordings, Nemorous released their self-titled debut in 2021 and What Remains When Hope Has Failed in 2025.",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "14:30",
+      "endTime": "15:10",
       "annotation": null,
       "genres": [
         "Atmospheric Black Metal"
@@ -124,8 +124,8 @@
       "imageUrl": "a8-c.jpg",
       "description": "Black/death metal band from Reykjavík, Iceland, formed in 2016 and signed to Avantgarde Music. Nexion's lineup includes musicians formerly of Svartidauði and Sólstafir, and their releases include Seven Oracles (2020) and Sundrung (2025).",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "18:05",
+      "endTime": "18:50",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -141,8 +141,8 @@
       "imageUrl": "a9.jpg",
       "description": "Black metal band from Mississauga, Ontario, Canada, formed in 2005. Panzerfaust have released albums including Jehovah-Jireh: The Divine Anti-logos (2013) and The Suns of Perdition series, and toured with acts such as Marduk and Slayer.",
       "dayDate": "2026-12-04",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "22:00",
+      "endTime": "23:00",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -156,8 +156,8 @@
       "imageUrl": "a10.jpg",
       "description": "Extreme metal duo from Zürich, Switzerland, formed in 2008 by Okoi Jones and Fabian Wyrsch. Bölzer's acclaimed early EPs and their 2016 debut album Hero blend black and death metal with unconventional song structures.",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "23:15",
+      "endTime": "00:15",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -172,8 +172,8 @@
       "imageUrl": "a11.jpg",
       "description": "One-man black metal project from Paderborn, Germany, active since 2002. Led by Nerrath (Niklas Thiele), Horn combines a classicist, nature-themed black metal style with pagan and folkloric lyrical themes across albums such as Turm am Hang.",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "19:30",
+      "endTime": "20:20",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -188,9 +188,9 @@
       "imageUrl": "a12-c.jpg",
       "description": "Avant-garde black metal band from Basel, Switzerland, formed in 2009 and named after the Mesopotamian sun god Šamaš. Schammasch combine black metal with doom and Hermetic mysticism across albums such as Triangle (2016) and Hearts of No Light (2019).",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
-      "annotation": null,
+      "startTime": "21:00",
+      "endTime": "22:45",
+      "annotation": "Exclusive German \"Triangle\" show.",
       "genres": [
         "Avant-garde Black Metal",
         "Doom Metal"
@@ -205,8 +205,8 @@
       "imageUrl": "a13.jpg",
       "description": "Blackened post-metal band from Sankt Wendel in south-west Germany. The current line-up features Aaron Feller, Florian Schütz, Aline Emge and Lukas Scherer, and the band released its debut album Frail Grasp of Broken Hands in 2025.",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "14:30",
+      "endTime": "15:10",
       "annotation": null,
       "genres": [
         "Blackened Post Metal"
@@ -220,8 +220,8 @@
       "imageUrl": "a14.jpg",
       "description": "Black metal band from Cologne, Germany, formed in 2020, playing what they describe as epic vampyric black metal drawing on Sumerian mythology. Signed to Ván Records, Sumerian Tombs released their self-titled debut in 2022 and Age of Eternal Night in 2025.",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "16:50",
+      "endTime": "17:35",
       "annotation": null,
       "genres": [
         "Black Metal"
@@ -235,8 +235,8 @@
       "imageUrl": "a15.jpg",
       "description": "Black metal duo from North Rhine-Westphalia, Germany, formed in 2022 by J.R. (Long Distance Calling) and S.H. (Ordeal & Plight). The Great Sea released their debut album Noble Art of Desolation via AOP Records in 2025.",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "15:40",
+      "endTime": "16:20",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -251,8 +251,8 @@
       "imageUrl": "a16.jpg",
       "description": "Black/death metal band from Saarbrücken, Germany, formed in 2015 around Matthias Trautes and drummer Manuel Steitz (ex-Agathodaimon). The Spirit are signed to AOP Records and released Songs Against Humanity in 2024.",
       "dayDate": "2026-12-05",
-      "startTime": null,
-      "endTime": null,
+      "startTime": "18:05",
+      "endTime": "19:00",
       "annotation": null,
       "genres": [
         "Black Metal",
@@ -260,14 +260,30 @@
       ],
       "country": "de",
       "globalId": "the-spirit"
+    },
+    {
+      "id": "a17",
+      "name": "Wrang",
+      "imageUrl": "a17.jpg",
+      "description": "Dutch black metal band from Utrecht, active since 2013. Wrang sing in Dutch about the history of their homeland and the human condition, and have released the full-lengths Domstad swart metael, De vaendrig and Verwording.",
+      "dayDate": "2026-12-04",
+      "startTime": "16:50",
+      "endTime": "17:35",
+      "annotation": "Replaces the cancelled Helleruin.",
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "nl",
+      "replacedArtistId": "a5",
+      "globalId": "wrang"
     }
   ],
   "news": [
     {
-      "id": "n1",
-      "title": "Lineup still being finalized",
-      "body": "This festival's data may not be up to date and will only be updated sporadically until the organizer has completed the lineup. Please check the official festival channels for the latest information.",
-      "date": "2026-09-15"
+      "id": "n2",
+      "title": "Running order published",
+      "body": "The organizers have published the running order for both days. Helleruin had to cancel; Dutch black metal band Wrang takes over their Friday slot. Schammasch play an exclusive German \"Triangle\" show on Saturday, and Bölzer close the festival.",
+      "date": "2026-11-04"
     }
   ],
   "links": [
@@ -406,6 +422,13 @@
       "url": "https://open.spotify.com/artist/1KLoISkEyIEt9Q6xMB83Ah",
       "type": "spotify",
       "artistId": "a16"
+    },
+    {
+      "id": "ls_a17",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/4uuweZmXWdKtG2xHSqUWk1",
+      "type": "spotify",
+      "artistId": "a17"
     }
   ],
   "translations": [
@@ -413,9 +436,9 @@
       "lang": "de",
       "news": [
         {
-          "id": "n1",
-          "title": "Lineup noch nicht vollständig",
-          "body": "Die Daten zu diesem Festival sind möglicherweise nicht aktuell und werden nur sporadisch aktualisiert, bis der Veranstalter das Lineup komplettiert hat. Bitte prüft die offiziellen Festival-Kanäle für die aktuellsten Informationen."
+          "id": "n2",
+          "title": "Running Order veröffentlicht",
+          "body": "Die Veranstalter haben die Running Order für beide Tage veröffentlicht. Helleruin mussten absagen; die niederländische Black-Metal-Band Wrang übernimmt ihren Freitags-Slot. Schammasch spielen am Samstag eine exklusive deutsche „Triangle“-Show, Bölzer schließen das Festival ab."
         }
       ],
       "artists": [
@@ -437,7 +460,8 @@
         },
         {
           "id": "a5",
-          "description": "Ein-Mann-Black-Metal-Projekt aus Groningen, Niederlande, aktiv seit 2015. Komplett geschrieben und eingespielt von Niels Kuiper (Carchost); zu Helleruins Alben zählen War Upon Man (2021) und Devils, Death and Dark Arts (2023)."
+          "description": "Ein-Mann-Black-Metal-Projekt aus Groningen, Niederlande, aktiv seit 2015. Komplett geschrieben und eingespielt von Niels Kuiper (Carchost); zu Helleruins Alben zählen War Upon Man (2021) und Devils, Death and Dark Arts (2023).",
+          "annotation": "Abgesagt."
         },
         {
           "id": "a6",
@@ -465,7 +489,8 @@
         },
         {
           "id": "a12",
-          "description": "Avantgarde-Black-Metal-Band aus Basel, Schweiz, gegründet 2009 und benannt nach dem mesopotamischen Sonnengott Šamaš. Schammasch verbinden Black Metal mit Doom und hermetischer Mystik, etwa auf den Alben Triangle (2016) und Hearts of No Light (2019)."
+          "description": "Avantgarde-Black-Metal-Band aus Basel, Schweiz, gegründet 2009 und benannt nach dem mesopotamischen Sonnengott Šamaš. Schammasch verbinden Black Metal mit Doom und hermetischer Mystik, etwa auf den Alben Triangle (2016) und Hearts of No Light (2019).",
+          "annotation": "Exklusive deutsche „Triangle“-Show."
         },
         {
           "id": "a13",
@@ -482,6 +507,11 @@
         {
           "id": "a16",
           "description": "Black-/Death-Metal-Band aus Saarbrücken, Deutschland, gegründet 2015 um Matthias Trautes und Schlagzeuger Manuel Steitz (ex-Agathodaimon). The Spirit sind bei AOP Records unter Vertrag und veröffentlichten 2024 das Album Songs Against Humanity."
+        },
+        {
+          "id": "a17",
+          "description": "Niederländische Black-Metal-Band aus Utrecht, aktiv seit 2013. Wrang singen auf Niederländisch über die Geschichte ihrer Heimat und die menschliche Existenz und haben die Alben Domstad swart metael, De vaendrig und Verwording veröffentlicht.",
+          "annotation": "Ersetzt die abgesagten Helleruin."
         }
       ],
       "links": [

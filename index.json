@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-07T14:33:55Z",
+  "generatedAt": "2026-11-08T22:01:28Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -235,8 +235,8 @@
       "path": "de-mortem-et-diabolum/2026/festival.json",
       "defaultLang": "en",
       "utcOffsetHours": 1,
-      "runningOrderExists": false,
-      "version": 2,
+      "runningOrderExists": true,
+      "version": 3,
       "visible": true,
       "festivalDays": [
         "2026-12-04",
@@ -247,7 +247,7 @@
         "de"
       ],
       "topGenres": {
-        "Black Metal": 12,
+        "Black Metal": 13,
         "Death Metal": 4,
         "Avant-garde Black Metal": 2,
         "Atmospheric Black Metal": 1,
@@ -258,18 +258,18 @@
         "Progressive Black Metal": 1
       },
       "completeness": {
-        "stars": 3,
+        "stars": 5,
         "contentLevel": "complete",
-        "scheduleLevel": "none",
+        "scheduleLevel": "full",
         "artistInfoCoverage": 1.0,
-        "scheduleCoverage": 0.0
+        "scheduleCoverage": 0.941
       },
       "counts": {
-        "artists": 16,
+        "artists": 17,
         "stages": 0,
         "news": 1,
         "events": 0,
-        "links": 20,
+        "links": 21,
         "globalLinks": 4
       },
       "lineup": {
@@ -326,12 +326,12 @@
       },
       "lineup": {
         "top": "modest",
-        "depth": "underground",
-        "headliners": 3.0,
-        "core": 0.0,
-        "discovery": 1.0,
-        "scoredArtists": 3,
-        "lowConfidence": true
+        "depth": "discovery",
+        "headliners": 5.7,
+        "core": 0.286,
+        "discovery": 0.5,
+        "scoredArtists": 14,
+        "lowConfidence": false
       }
     },
     {
@@ -399,7 +399,7 @@
       "defaultLang": "en",
       "utcOffsetHours": 2,
       "runningOrderExists": false,
-      "version": 7,
+      "version": 8,
       "visible": true,
       "festivalDays": [
         "2027-04-01",
@@ -411,16 +411,16 @@
         "de"
       ],
       "topGenres": {
-        "Atmospheric Black Metal": 6,
-        "Power Metal": 4,
-        "Black Metal": 2,
-        "Folk Metal": 2,
-        "Melodic Death Metal": 2,
+        "Atmospheric Black Metal": 8,
+        "Melodic Death Metal": 5,
+        "Power Metal": 5,
+        "Black Metal": 4,
+        "Folk Metal": 3,
+        "Pagan Metal": 2,
         "Ambient": 1,
         "Avant-garde Black Metal": 1,
         "Black/Thrash Metal": 1,
-        "Blackgaze": 1,
-        "Dark Folk": 1
+        "Blackgaze": 1
       },
       "completeness": {
         "stars": 3,
@@ -430,11 +430,11 @@
         "scheduleCoverage": 0.0
       },
       "counts": {
-        "artists": 21,
+        "artists": 28,
         "stages": 0,
         "news": 1,
         "events": 0,
-        "links": 27,
+        "links": 34,
         "globalLinks": 6
       },
       "lineup": {
@@ -456,7 +456,7 @@
       "defaultLang": "en",
       "utcOffsetHours": 2,
       "runningOrderExists": false,
-      "version": 1,
+      "version": 2,
       "visible": false,
       "festivalDays": [
         "2027-05-06",
@@ -468,38 +468,40 @@
         "de"
       ],
       "topGenres": {
-        "Black Metal": 5,
-        "Folk Metal": 4,
-        "Atmospheric Black Metal": 3,
+        "Black Metal": 8,
+        "Folk Metal": 5,
+        "Atmospheric Black Metal": 4,
+        "Melodic Death Metal": 2,
+        "Symphonic Black Metal": 2,
+        "Atmospheric Post Black Metal": 1,
         "Doom Metal": 1,
-        "Melodic Death Metal": 1,
         "Post-Black Metal": 1,
-        "Ritual Folk": 1,
-        "Symphonic Black Metal": 1
+        "Post-Metal": 1,
+        "Ritual Folk": 1
       },
       "completeness": {
         "stars": 3,
         "contentLevel": "complete",
         "scheduleLevel": "none",
-        "artistInfoCoverage": 1.0,
+        "artistInfoCoverage": 0.941,
         "scheduleCoverage": 0.0
       },
       "counts": {
-        "artists": 10,
+        "artists": 17,
         "stages": 0,
         "news": 1,
         "events": 0,
-        "links": 15,
+        "links": 20,
         "globalLinks": 6
       },
       "lineup": {
         "top": "modest",
-        "depth": "discovery",
-        "headliners": 5.3,
-        "core": 0.444,
-        "discovery": 0.444,
-        "scoredArtists": 9,
-        "lowConfidence": true
+        "depth": "solid",
+        "headliners": 6.0,
+        "core": 0.545,
+        "discovery": 0.364,
+        "scoredArtists": 11,
+        "lowConfidence": false
       }
     },
     {

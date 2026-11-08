@@ -1,7 +1,7 @@
 {
   "id": "ragnaroek-festival-2027",
   "name": "Ragnarök Festival",
-  "version": 7,
+  "version": 8,
   "year": 2027,
   "defaultLang": "en",
   "runningOrderExists": false,
@@ -200,6 +200,55 @@
       "url": "https://open.spotify.com/artist/7pwIx2j4SX0cLAgPrIkv27",
       "type": "spotify",
       "artistId": "all-for-metal"
+    },
+    {
+      "id": "la_ensiferum",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0krXCIkthz13P8o0v2tksH",
+      "type": "spotify",
+      "artistId": "ensiferum"
+    },
+    {
+      "id": "la_mgla",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2hbkBlGBgvJkC3tpUn9w4C",
+      "type": "spotify",
+      "artistId": "mgla"
+    },
+    {
+      "id": "la_thy-light",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2Wi7zzccDDPTfNZitmE2pH",
+      "type": "spotify",
+      "artistId": "thy-light"
+    },
+    {
+      "id": "la_robse",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/0PAgqTEnNzA1taXdwTasKN",
+      "type": "spotify",
+      "artistId": "robse"
+    },
+    {
+      "id": "la_suotana",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/3hGRvDW3UnwxI5OIsfwEGx",
+      "type": "spotify",
+      "artistId": "suotana"
+    },
+    {
+      "id": "la_antrisch",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/2FJo2QXOUDi8qzFIyVwYq5",
+      "type": "spotify",
+      "artistId": "antrisch"
+    },
+    {
+      "id": "la_nornir",
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/5eQdTFqi7qKIq21nVEtGTs",
+      "type": "spotify",
+      "artistId": "nornir"
     }
   ],
   "artists": [
@@ -533,6 +582,116 @@
       ],
       "country": "de",
       "globalId": "all-for-metal"
+    },
+    {
+      "id": "ensiferum",
+      "name": "Ensiferum",
+      "imageUrl": "a22.jpg",
+      "description": "Finnish folk metal band from Helsinki, founded in 1995 by guitarist Markus Toivonen. Known for epic, battle-themed anthems on albums such as Iron, Victory Songs and From Afar, they are among the defining acts of the Nordic folk metal scene.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": "Special early years show featuring Jari Mäenpää.",
+      "genres": [
+        "Folk Metal",
+        "Melodic Death Metal",
+        "Epic Metal"
+      ],
+      "country": "fi",
+      "globalId": "ensiferum"
+    },
+    {
+      "id": "mgla",
+      "name": "Mgła",
+      "imageUrl": "a23.jpg",
+      "description": "Polish black metal band from Kraków, founded in 2000 by multi-instrumentalist M. (Mikołaj Żentara). Their bleak, hypnotic style on albums such as With Hearts Toward None, Exercises in Futility and Age of Excuse made them one of the most acclaimed black metal acts of their generation.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "pl",
+      "globalId": "mgla"
+    },
+    {
+      "id": "thy-light",
+      "name": "Thy Light",
+      "imageUrl": "a24.jpg",
+      "description": "Depressive black metal project founded in 2005 in São Paulo state, Brazil, by multi-instrumentalist Paolo Bruno. Its melancholic, atmospheric 2013 album No Morrow Shall Dawn became a cult record of the genre.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Depressive Black Metal",
+        "Atmospheric Black Metal"
+      ],
+      "country": "br",
+      "globalId": "thy-light"
+    },
+    {
+      "id": "robse",
+      "name": "Robse",
+      "imageUrl": "a25.jpg",
+      "description": "German pagan/melodic death metal band from Brandenburg, formed in 2022 around Robert \"Robse\" Dahn, longtime frontman of Equilibrium. Their debut album Harlekin und Krieger was released in 2024 via Reaper Entertainment.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Pagan Metal",
+        "Melodic Death Metal"
+      ],
+      "country": "de",
+      "globalId": "robse"
+    },
+    {
+      "id": "suotana",
+      "name": "Suotana",
+      "imageUrl": "a26.jpg",
+      "description": "Finnish melodic death metal band from Rovaniemi in Lapland, founded in 2005. Blending Arctic themes of nature and winter with power metal melodies, they have released Land of the Ending Time and the two-part Ounas concept via Reaper Entertainment.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Melodic Death Metal",
+        "Power Metal"
+      ],
+      "country": "fi",
+      "globalId": "suotana"
+    },
+    {
+      "id": "antrisch",
+      "name": "Antrisch",
+      "imageUrl": "a27.jpg",
+      "description": "German atmospheric black metal band from Würzburg, active since 2020. Their \"Expedition\" series of releases tells stories of historical exploration, most recently on Expedition III: Renitenzpfad (2026) via AOP Records.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Atmospheric Black Metal"
+      ],
+      "country": "de",
+      "globalId": "antrisch"
+    },
+    {
+      "id": "nornir",
+      "name": "Nornír",
+      "imageUrl": "a28.jpg",
+      "description": "German black metal band founded in 2014 in Freiberg, Saxony. Drawing on Norse mythology, nature and spirituality, they have released the albums Verdandi (2019) and Skuld (2023) via Northern Silence Productions.",
+      "dayDate": null,
+      "startTime": null,
+      "endTime": null,
+      "annotation": null,
+      "genres": [
+        "Black Metal"
+      ],
+      "country": "de",
+      "globalId": "nornir"
     }
   ],
   "translations": [
@@ -629,6 +788,35 @@
         {
           "id": "all-for-metal",
           "description": "Deutsch-italienische Power-/True-Metal-Band, 2022 von Tetzel (auch bei Asenblut) und Antonio „Amerigo“ Calanna gegründet. Bekannt für epische Hymnen rund um nordische Mythologie und Krieg, erschien ihr Debütalbum Legends 2023 über AFM Records."
+        },
+        {
+          "id": "ensiferum",
+          "description": "Finnische Folk-Metal-Band aus Helsinki, 1995 von Gitarrist Markus Toivonen gegründet. Mit epischen, kampfbetonten Hymnen auf Alben wie Iron, Victory Songs und From Afar zählen sie zu den prägenden Acts der nordischen Folk-Metal-Szene.",
+          "annotation": "Spezielle Early-Years-Show mit Jari Mäenpää."
+        },
+        {
+          "id": "mgla",
+          "description": "Polnische Black-Metal-Band aus Krakau, 2000 von Multiinstrumentalist M. (Mikołaj Żentara) gegründet. Ihr düsterer, hypnotischer Stil auf Alben wie With Hearts Toward None, Exercises in Futility und Age of Excuse machte sie zu einer der meistgefeierten Black-Metal-Bands ihrer Generation."
+        },
+        {
+          "id": "thy-light",
+          "description": "Depressive-Black-Metal-Projekt, 2005 im brasilianischen Bundesstaat São Paulo von Multiinstrumentalist Paolo Bruno gegründet. Das melancholische, atmosphärische Album No Morrow Shall Dawn (2013) wurde zu einem Kultwerk des Genres."
+        },
+        {
+          "id": "robse",
+          "description": "Deutsche Pagan-/Melodic-Death-Metal-Band aus Brandenburg, 2022 um Robert „Robse“ Dahn gegründet, den langjährigen Frontmann von Equilibrium. Ihr Debütalbum Harlekin und Krieger erschien 2024 über Reaper Entertainment."
+        },
+        {
+          "id": "suotana",
+          "description": "Finnische Melodic-Death-Metal-Band aus Rovaniemi in Lappland, gegründet 2005. Sie verbinden arktische Natur- und Winterthemen mit Power-Metal-Melodien und veröffentlichten Land of the Ending Time sowie das zweiteilige Ounas-Konzept über Reaper Entertainment."
+        },
+        {
+          "id": "antrisch",
+          "description": "Deutsche Atmospheric-Black-Metal-Band aus Würzburg, aktiv seit 2020. Ihre „Expedition“-Reihe erzählt Geschichten historischer Entdeckungsreisen, zuletzt auf Expedition III: Renitenzpfad (2026) über AOP Records."
+        },
+        {
+          "id": "nornir",
+          "description": "Deutsche Black-Metal-Band, 2014 im sächsischen Freiberg gegründet. Inspiriert von nordischer Mythologie, Natur und Spiritualität veröffentlichten sie die Alben Verdandi (2019) und Skuld (2023) über Northern Silence Productions."
         }
       ]
     }
