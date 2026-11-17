@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T22:01:28Z",
+  "generatedAt": "2026-11-17T11:26:42Z",
   "festivals": [
     {
       "id": "summer-breeze-2026",
@@ -276,9 +276,9 @@
         "top": "modest",
         "depth": "solid",
         "headliners": 5.3,
-        "core": 0.5,
-        "discovery": 0.375,
-        "scoredArtists": 16,
+        "core": 0.471,
+        "discovery": 0.412,
+        "scoredArtists": 17,
         "lowConfidence": false
       }
     },
@@ -286,12 +286,12 @@
       "id": "braincrusher-festival-2027",
       "slug": "braincrusher-festival",
       "year": 2027,
-      "name": "Braincrusher Festival",
+      "name": "Braincrusher in Hell",
       "path": "braincrusher-festival/2027/festival.json",
       "defaultLang": "en",
       "utcOffsetHours": 1,
       "runningOrderExists": false,
-      "version": 1,
+      "version": 2,
       "visible": false,
       "festivalDays": [
         "2027-03-12",
@@ -310,10 +310,10 @@
         "War Metal": 1
       },
       "completeness": {
-        "stars": 2,
-        "contentLevel": "partial",
+        "stars": 3,
+        "contentLevel": "complete",
         "scheduleLevel": "none",
-        "artistInfoCoverage": 0.176,
+        "artistInfoCoverage": 1.0,
         "scheduleCoverage": 0.0
       },
       "counts": {
@@ -327,10 +327,10 @@
       "lineup": {
         "top": "modest",
         "depth": "discovery",
-        "headliners": 5.7,
-        "core": 0.286,
-        "discovery": 0.5,
-        "scoredArtists": 14,
+        "headliners": 6.3,
+        "core": 0.294,
+        "discovery": 0.529,
+        "scoredArtists": 17,
         "lowConfidence": false
       }
     },
@@ -440,10 +440,10 @@
       "lineup": {
         "top": "strong",
         "depth": "solid",
-        "headliners": 7.0,
-        "core": 0.55,
-        "discovery": 0.2,
-        "scoredArtists": 20,
+        "headliners": 7.3,
+        "core": 0.519,
+        "discovery": 0.222,
+        "scoredArtists": 27,
         "lowConfidence": false
       }
     },
@@ -498,9 +498,9 @@
         "top": "modest",
         "depth": "solid",
         "headliners": 6.0,
-        "core": 0.545,
-        "discovery": 0.364,
-        "scoredArtists": 11,
+        "core": 0.5,
+        "discovery": 0.438,
+        "scoredArtists": 16,
         "lowConfidence": false
       }
     },
