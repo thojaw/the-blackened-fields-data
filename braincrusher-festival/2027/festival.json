@@ -1,6 +1,6 @@
 {
   "id": "braincrusher-festival-2027",
-  "name": "Braincrusher Festival",
+  "name": "Braincrusher in Hell",
   "version": 1,
   "year": 2027,
   "defaultLang": "en",
@@ -174,7 +174,7 @@
     {
       "id": "a1",
       "name": "Arcturus",
-      "imageUrl": "",
+      "imageUrl": "a1.jpg",
       "description": "Arcturus are a Norwegian avant-garde metal band formed in 1991 by keyboardist Steinar \"Sverd\" Johnsen and drummer Hellhammer. Starting out in symphonic black metal, they became one of the genre's most experimental acts with albums such as Aspera Hiems Symfonia and La Masquerade Infernale, and returned in 2015 with Arcturian.",
       "dayDate": null,
       "startTime": null,
@@ -190,7 +190,7 @@
     {
       "id": "a2",
       "name": "Blasphemy",
-      "imageUrl": "",
+      "imageUrl": "a2.jpg",
       "description": "Blasphemy are a black/death metal band formed in Vancouver, Canada, in 1984. Their debut Fallen Angel of Doom (1990) and follow-up Gods of War (1993) laid the foundation of what became known as war metal, influencing countless bestial black metal acts.",
       "dayDate": null,
       "startTime": null,
@@ -206,7 +206,7 @@
     {
       "id": "a3",
       "name": "Aeternus",
-      "imageUrl": "",
+      "imageUrl": "a3.jpg",
       "description": "Aeternus are a blackened death metal band from Bergen, Norway, founded in 1993 by guitarist and vocalist Ares. Moving from early atmospheric black metal toward a darker, death-metal-driven sound, they have released albums such as HeXaeon (2006), Heathen (2018) and Philosopher (2023).",
       "dayDate": null,
       "startTime": null,
@@ -222,7 +222,7 @@
     {
       "id": "a4",
       "name": "Firespawn",
-      "imageUrl": "",
+      "imageUrl": "a4.jpg",
       "description": "Firespawn are a Swedish death metal band formed in Stockholm in 2012, originally fronted by the late L-G Petrov. Featuring scene veterans such as Fredrik Folkare and Victor Brandt, they released Shadow Realms (2015), The Reprobate (2017) and Abominate (2019) on Century Media, and returned in 2025 with Jörgen Sandström on vocals.",
       "dayDate": null,
       "startTime": null,
@@ -237,7 +237,7 @@
     {
       "id": "a5",
       "name": "Tulus",
-      "imageUrl": "",
+      "imageUrl": "a5.jpg",
       "description": "Tulus are a Norwegian black metal band from Oslo, formed in the early 1990s by Blodstrup and Sarke, who later went on to form Khold. Revived in 2006, the band plays raw, rock-tinged black metal with lyrics written by Hildr, and released Fandens kall in 2023.",
       "dayDate": null,
       "startTime": null,
@@ -252,7 +252,7 @@
     {
       "id": "a6",
       "name": "In Aeternum",
-      "imageUrl": "",
+      "imageUrl": "a6.jpg",
       "description": "In Aeternum are a black/death metal band from Sandviken, Sweden, formed in 1992. Known for albums such as Nuclear Armageddon (2003) and Dawn of a New Aeon (2005), they returned in 2026 with ...Of Death and Fire.",
       "dayDate": null,
       "startTime": null,
@@ -268,7 +268,7 @@
     {
       "id": "a7",
       "name": "Ensanguinate",
-      "imageUrl": "",
+      "imageUrl": "a7.jpg",
       "description": "Ensanguinate are a Slovenian death metal band blending occult black/death atmosphere with doom-laden heaviness. After their debut Eldritch Anatomy (2022), they released their second full-length Death Saturnalia (With Temples Below) via Soulseller Records in 2026.",
       "dayDate": null,
       "startTime": null,
@@ -283,7 +283,7 @@
     {
       "id": "a8",
       "name": "Drowned",
-      "imageUrl": "",
+      "imageUrl": "a8.jpg",
       "description": "Drowned are a death metal band from Berlin, Germany, active since 1992. Playing dark, cavernous old-school death metal, they released their full-lengths Idola Specus (2014) and Procul His (2024) after decades in the underground.",
       "dayDate": null,
       "startTime": null,
@@ -298,7 +298,7 @@
     {
       "id": "a9",
       "name": "Akhlys",
-      "imageUrl": "",
+      "imageUrl": "a9.jpg",
       "description": "Akhlys are an American black metal band formed in 2009 around Naas Alcameth of Nightbringer. Evolving from dark ambient roots into hypnotic, nightmare-themed black metal, they released Melinoë (2020) and House of the Black Geminus (2024) on Debemur Morti Productions.",
       "dayDate": null,
       "startTime": null,
@@ -329,7 +329,7 @@
     {
       "id": "a11",
       "name": "Modfälld",
-      "imageUrl": "",
+      "imageUrl": "a11.jpg",
       "description": "Modfälld are an atmospheric black metal band from Bavaria, Germany, mixing depressive black metal with crust and doom influences and Swedish-language song titles. Their album Ättestupa was released in 2024.",
       "dayDate": null,
       "startTime": null,
@@ -359,7 +359,7 @@
     {
       "id": "a13",
       "name": "Torment of Souls",
-      "imageUrl": "",
+      "imageUrl": "a13.jpg",
       "description": "Torment of Souls are a German old-school death metal band active since 1994. Their releases include the albums Beneath a Dark Mind (2007) and Zombie Barbecue (2013) and the 2024 EP Mortuus Est I.",
       "dayDate": null,
       "startTime": null,
@@ -389,7 +389,7 @@
     {
       "id": "a15",
       "name": "Marschland",
-      "imageUrl": "",
+      "imageUrl": "a15.jpg",
       "description": "Marschland is the dark folk solo project of Ernie Fleetenkieker, voice of the German black metal act Fäulnis. Trading distortion for sparse acoustic songs full of gallows humor, his debut Traurige Trinkerlieder, a set of sardonic drinking songs set in a run-down pub, was released via Edgar the Cat.",
       "dayDate": null,
       "startTime": null,
@@ -404,7 +404,7 @@
     {
       "id": "a16",
       "name": "Night Shall Drape Us",
-      "imageUrl": "",
+      "imageUrl": "a16-c.png",
       "description": "Night Shall Drape Us are a Finnish black metal band founded by drummer and multi-instrumentalist LRH, with vocals by Horna and Behexen veterans Spellgoth, Wraath and Infection. Their fast, melodic debut Lunatic Choir was released in 2024 via Season of Mist Underground Activists.",
       "dayDate": null,
       "startTime": null,
@@ -414,12 +414,13 @@
         "Black Metal"
       ],
       "country": "fi",
-      "globalId": "night-shall-drape-us"
+      "globalId": "night-shall-drape-us",
+      "imageFocus": "center"
     },
     {
       "id": "a17",
       "name": "Niht",
-      "imageUrl": "",
+      "imageUrl": "a17.jpg",
       "description": "Niht are an old-school black metal band from Memmingen in southern Germany. They debuted with Vanum (2017) and followed it with Arcanum (2021) on Ván Records.",
       "dayDate": null,
       "startTime": null,
